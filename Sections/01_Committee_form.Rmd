@@ -29,11 +29,10 @@ in \noindent\underline{\makebox[5.8in][l]{Genome Sciences and Technology}}
 
 **Examining Committee:**
 
-\noindent\underline{\makebox[6in][l]{Dr. Wendy P. Robinson, Professor, Medical Genetics, UBC}}  
-Research Supervisor
+\noindent\underline{\makebox[6in][l]{Dr. Wendy P. Robinson, Professor, Medical Genetics, UBC}}  Research Supervisor
 
-\noindent\underline{\makebox[6in][l]{Dr. Alex G. Beristain, Associate Professor, Obstetrics & Gynaecology, UBC}}  
-Supervisory Committee Member 
+\noindent\underline{\makebox[6in][l]{Dr. Alex G. Beristain, Associate Professor, Obstetrics and Gynaecology, UBC}}  
+Supervisory Committee Member
 
 \noindent\underline{\makebox[6in][l]{Dr. Michael Kobor, Professor, Medical Genetics, UBC}}  
 Supervisory Committee Member
@@ -51,5 +50,5 @@ External Examiner
 
 **Additional Supervisory Committee Members:**
 
-\noindent\underline{\makebox[6in][l]{Dr. Sara Mostafavi, Associate Professor, Paul G. Allen School of Computer Science & Engineering, University of Washington}}  
+\noindent\underline{\makebox[6in][l]{Dr. Sara Mostafavi, Associate Professor, Paul G. Allen School of Computer Science and Engineering, University of Washington}}  
 Supervisory Committee Member

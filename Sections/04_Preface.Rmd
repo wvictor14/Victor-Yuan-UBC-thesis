@@ -8,10 +8,18 @@ output:
 
 <!-- This is mandatory! -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras id nulla malesuada, auctor arcu at, tempor nibh. Etiam ultricies dictum nisi eu vulputate. Suspendisse tempor aliquam efficitur. Curabitur eget orci ac purus hendrerit laoreet. Proin porta arcu nisl, a fermentum tellus suscipit et. Nulla mattis orci ac tortor facilisis venenatis. Phasellus a velit tristique, tincidunt purus id, aliquet tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed et turpis sed odio faucibus aliquam nec eget est.
+Parts of this dissertation have been published and include work performed by collabortors:
 
-Phasellus ligula lacus, euismod posuere pretium sit amet, ornare condimentum nisl. Integer eu aliquet lectus, sit amet sagittis turpis. Etiam tempus bibendum nibh, eu accumsan sapien. Suspendisse tincidunt sit amet nisi vel consectetur. Donec vitae odio elit. Quisque dignissim risus feugiat nunc tempor hendrerit. Fusce consequat lectus eget felis tempus, et lobortis ante ornare. Etiam euismod quam eu scelerisque mattis. Praesent nisi lectus, tincidunt nec sapien ac, fermentum pellentesque orci.
+**Chapter 1**
 
-Praesent semper faucibus mauris, in suscipit quam mattis et. Curabitur malesuada placerat magna. Morbi eget bibendum purus, sollicitudin faucibus enim. Donec condimentum arcu quis eros placerat sodales. Nunc non elit sodales, blandit risus vel, mattis odio. Nullam in aliquet ligula, ut viverra enim. Aliquam viverra justo non neque consequat dictum. Nunc tempor arcu sem, non blandit nisl dapibus eu. Donec vitae pretium magna. Nam risus augue, ultricies ac sollicitudin ut, rutrum eleifend purus. Donec lorem turpis, lacinia quis pretium non, sollicitudin eu enim. Curabitur eu eros congue, vehicula ante vitae, semper elit.
+**Chapter 2**
 
-Fusce feugiat consectetur erat, nec venenatis massa malesuada nec. Curabitur varius convallis sem eget efficitur. Morbi congue odio non turpis cursus efficitur. In hac habitasse platea dictumst. Cras porttitor porttitor nibh id tempor. Sed bibendum quam nisl, sed congue lectus condimentum et. Curabitur nec mauris sapien. Morbi dictum ex sodales turpis ornare mattis. Suspendisse potenti. Pellentesque commodo lorem purus, id mattis nibh efficitur et. Cras tempus rutrum interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris placerat ligula eu nisl sagittis consequat. Curabitur placerat, elit quis cursus tempor, mauris augue posuere metus, ut elementum orci diam maximus lectus. Proin sed sodales nulla. Maecenas non sapien nec mauris facilisis fringilla.
+Yuan, V., Price, E.M., Del Gobbo, G. et al. Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12, 51 (2019). https://doi.org/10.1186/s13072-019-0296-3
+
+The data, text, figures, and tables published in this article are included in Chapter 2. Placental DNA methylation array data was downloaded from GEO, an open-access data repository. Project and experimental design was done by Dr. Magda Price, Dr. Giulia Del Gobbo, and professor Wendy Robinson. I conducted data quality control and preprocessing, performed statistical analysis on ethnicity and DNA methylation, trained machine learning models on the data, and wrote the manuscript. Professor Sara Mostafavi provided feedback on statistical analyses. Professor Brian Cox, Dr. Alexandra M. Binder, professor Karin B. Michels, and professor Carmen Marsit provided additional placental data, and helped write the manuscript. All authors participated in manuscript revisions.
+
+**Chapter 3**
+
+**Chapter 4**
+
+**Chapter 5**

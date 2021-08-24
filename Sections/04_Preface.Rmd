@@ -20,6 +20,8 @@ The data, text, figures, and tables published in this article are included in Ch
 
 **Chapter 3**
 
-**Chapter 4**
+Yuan, V., Hui, D., Yin, Y. et al. Cell-specific characterization of the placental methylome. BMC Genomics 22, 6 (2021). https://doi.org/10.1186/s12864-020-07186-6
 
-**Chapter 5**
+The data, text, figures, and tables published in this article are included in Chapter 3. Placental samples were ascertained through the Robinson and Beristain labs. Professor Wendy Robinson, professor Alex Beristain, Dr. Maria Penaherrera design the project. I performed analysis of the data and wrote the manuscript. Desmond Hui helped refine the cell-sorting protocol and collected samples, with help of Dr. Maria Penaherrera and professor Alex Beristain. Yifan Yin and I created the interactive data exploration app. All authors helped revise the final manuscript.
+
+**Chapter 4**

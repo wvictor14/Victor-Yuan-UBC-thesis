@@ -14,7 +14,7 @@ output:
 
 \Huge
 
-\textbf{HERE GOES YOUR TITLE}
+\textbf{Major sources of variation in placental DNA methylation}
 
 \Large
 
@@ -26,15 +26,13 @@ by
 
 \huge
 
-Here Goes Your Name
+Victor Yuan
 
 \Large
 
 \vspace{8mm}
 
-Undergraduate degree
-
-Master degree
+B.Sc., Concordia University, 2021
 
 \vspace{10mm}
 
@@ -42,7 +40,7 @@ A DISSERTATION SUBMITTED IN PARTIAL FULFILLMENT OF THE REQUIREMENTS FOR THE DEGR
 
 \vspace{5mm}
 
-HERE GOES YOUR DEGREEE
+DOCTOR OF PHILOSOPHY
 
 \vspace{5mm}
 in
@@ -53,7 +51,7 @@ THE FACULTY OF GRADUATE AND POSTDOCTORAL STUDIES
 
 \vspace{5mm}
 
-(Program)
+(Genome Sciences and Technology)
 
 \vspace{5mm}
 
@@ -65,9 +63,9 @@ THE UNIVERSITY OF BRITISH COLUMBIA
 
 \vspace{6mm}
 
-Month YYYY
+December 2021
 
-© Here Goes Your Name, YYYY
+© Victor Yuan, 2021
 
 \end{center}
 \end{singlespace}

@@ -16,24 +16,27 @@ and Postdoctoral Studies for acceptance, the dissertation entitled:
 \vspace{5mm}
 
 
-\noindent\underline{\makebox[6in][l]{Insert your dissertation title here}}  
+\noindent\underline{\makebox[6in][l]{Major sources of variation in placental DNA methylation}}  
 \vspace{2mm}
 
-submitted by \underline{Insert Your Name Here} in partial fulfillment of the requirements for
+submitted by \underline{Victor Yuan} in partial fulfillment of the requirements for
 
-the degree of \noindent\underline{\makebox[5in][l]{Name of your Degree}}  
+the degree of \noindent\underline{\makebox[5in][l]{Doctor of Philosophy}}  
 
-in \noindent\underline{\makebox[5.8in][l]{Insert Program}}
+in \noindent\underline{\makebox[5.8in][l]{Genome Sciences and Technology}}
 
 \vspace{5mm}
 
 **Examining Committee:**
 
-\noindent\underline{\makebox[6in][l]{Name of your Supervisor}}  
+\noindent\underline{\makebox[6in][l]{Dr. Wendy P. Robinson, Professor, Medical Genetics, UBC}}  
 Research Supervisor
 
-\noindent\underline{\makebox[6in][l]{Name of your Committee Member}}  
+\noindent\underline{\makebox[6in][l]{Dr. Alex G. Beristain, Associate Professor, Obstetrics & Gynaecology, UBC}}  
 Supervisory Committee Member 
+
+\noindent\underline{\makebox[6in][l]{Dr. Michael Kobor, Professor, Medical Genetics, UBC}}  
+Supervisory Committee Member
 
 \noindent\underline{\makebox[6in][l]{Name of University Examiner}}  
 University Examiner
@@ -43,3 +46,10 @@ University Examiner
 
 \noindent\underline{\makebox[6in][l]{Name of External Examiner}}  
 External Examiner
+
+\vspace{5mm}
+
+**Additional Supervisory Committee Members:**
+
+\noindent\underline{\makebox[6in][l]{Dr. Sara Mostafavi, Associate Professor, Paul G. Allen School of Computer Science & Engineering, University of Washington}}  
+Supervisory Committee Member

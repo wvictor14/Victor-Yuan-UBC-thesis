@@ -1,0 +1,31 @@
+---
+output:
+  bookdown::pdf_book:
+    toc : no
+    keep_tex: no
+    number_sections: yes
+---
+<!-- This section is mandatory! -->
+
+Parts of this chapter have been previously published and accepted for publication (see Preface for contribution details):
+
+
+The account of the research should be presented in a manner suitable for the field and
+include the following:
+
+ coherent structure that flows logically and smoothly from chapter to chapter
+
+ brief synopsis at the beginning of each research chapter
+
+ description of methods used, in sufficient detail to enable a reader to understand
+how the data were gathered and to apply similar methods in another study
+
+ complete account of the research presented in a systematic manner typical of
+the field of study
+
+Students should consult with their supervisors for further guidance about how to
+structure their particular thesis
+
+## Introduction
+
+## Discussion

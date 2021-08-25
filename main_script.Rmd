@@ -179,7 +179,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{2.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_two, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_two, child = './Sections/09_Chapter_2.Rmd', eval = T}
 ```
 
 \clearpage
@@ -195,7 +195,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{3.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_three, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_three, child = './Sections/10_Chapter_3.Rmd', eval = T}
 ```
 
 \clearpage
@@ -211,22 +211,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \renewcommand{\theequation}{4.\arabic{equation}}
 \setcounter{equation}{0}
 
-```{r chapter_four, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
-```
-
-\clearpage
-
-<!-- Modify me! -->
-
-<!-- Set figure and table numbering according to the chapter -->
-\renewcommand{\thefigure}{5.\arabic{figure}}
-\setcounter{figure}{0}
-\renewcommand{\thetable}{5.\arabic{table}}
-\setcounter{table}{0}
-\renewcommand{\theequation}{5.\arabic{equation}}
-\setcounter{equation}{0}
-
-```{r chapter_five, child = 'insert_project_path_here/chapter_manuscript.Rmd', eval = F}
+```{r chapter_four, child = './Sections/11_Chapter_4.Rmd', eval = T}
 ```
 
 \clearpage
@@ -235,7 +220,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 # Discussion
 
-```{r Discussion, child = './Sections/09_Discussion.Rmd', eval = T}
+```{r Discussion, child = './Sections/12_Discussion.Rmd', eval = T}
 ```
 
 \clearpage

@@ -48,9 +48,9 @@ tibble(
             "EGF",
             "VEGF",
             "CBP",
-            "H3K27",
-            "me",
-            "ac"
+            "H3K27me(2/3)",
+            "H3K9me2",
+            "H3K4me3"
    ),
    # Acronim definition
    Meaning = c(
@@ -88,9 +88,9 @@ tibble(
       "Epidermal growth factor",
       "Vascular endothelial growth factor",
       "CREB-binding protein",
-      "Histone 3 lysine 27",
-      "methylation",
-      "acetylation"
+      "Di- or tri- methylation of lysine 27 on histone H3",
+      "Dimethylation of lysine 9 on histone H3",
+      "Trimethylation of lysine 4 on histone H3"
    )
 ) %>% 
    dplyr::arrange(Abr) %>%

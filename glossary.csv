@@ -1,6 +1,10 @@
 Abr,Meaning
+AFR,African
+ASI,Asian
 450k,Infinium HumanMethylation450 Beadchip
 AIMs,Ancestry Informative Markers
+BMIQ,Beta-mixture interquantile normalization
+CAU,Caucasian
 CBP,CREB-binding protein
 CpG,Cytosine-guanine dinucleotide
 CTB,Cytotrophoblast
@@ -16,6 +20,7 @@ EVT,Extra-villous trophoblast
 EWAS,Epigenome-wide association study
 FDR,False-discovery rate
 GA,Gestational age
+GLMNET,Generalized linear model with elastic net regularization
 H3K27me(2/3),Di- or tri- methylation of lysine 27 on histone H3
 H3K4me3,Trimethylation of lysine 4 on histone H3
 H3K9me2,Dimethylation of lysine 9 on histone H3
@@ -25,15 +30,21 @@ HDAC,Histone deacetylase complexes
 ICM,Inner cell mass
 ICR,Imprinting control region
 IUGR,Intrauterine growth restriction
+KNN,K-nearest neighbours
 LINE-1,Long interspersed nuclear element-1
+LODOCV,Leave-one-dataset-out cross validation
 LOPE,Late-onset preeclampsia
 mQTL,Methylation quantative trait loci
+noob,Normal exponential out-of-band normalization
 nRBC,Nucleated red blood cells
+NSC,Nearest shrunken centroids
+PCA,Principal component analysis
 PE,Preeclampsia
 PlaNET,Placental DNAme Elastic Net Ethnicity Tool
 PTB,Preterm birth
 SNP,Single nucleotide polymorphism
 STB,Syncytiotrophoblast
+SVM,Support vector machines
 TB,Trophoblast
 TE,Trophectoderm
 VEGF,Vascular endothelial growth factor

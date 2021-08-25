@@ -42,7 +42,15 @@ tibble(
             "eSTB",
             "PTB",
             "SNP",
-            "TE"
+            "TE",
+            "HDAC",
+            "HAT",
+            "EGF",
+            "VEGF",
+            "CBP",
+            "H3K27",
+            "me",
+            "ac"
    ),
    # Acronim definition
    Meaning = c(
@@ -74,7 +82,15 @@ tibble(
       "Enzymatically-separated syncytiotrophoblast",
       "Preterm birth",
       "Single nucleotide polymorphism",
-      "Trophectoderm"
+      "Trophectoderm",
+      "Histone deacetylase complexes",
+      "Histone acetyltransferases",
+      "Epidermal growth factor",
+      "Vascular endothelial growth factor",
+      "CREB-binding protein",
+      "Histone 3 lysine 27",
+      "methylation",
+      "acetylation"
    )
 ) %>% 
    dplyr::arrange(Abr) %>%

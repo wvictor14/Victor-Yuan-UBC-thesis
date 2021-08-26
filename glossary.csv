@@ -6,11 +6,16 @@ AIMs,Ancestry Informative Markers
 BMIQ,Beta-mixture interquantile normalization
 CAU,Caucasian
 CBP,CREB-binding protein
+CBS,CIBERSORT
+CP,Constrained projection
 CpG,Cytosine-guanine dinucleotide
 CTB,Cytotrophoblast
+CV,Chorionic villi
+DMC,Differentially methylated cytosine
 DMR,Differentially methylated region
 DNAm,DNA methylation
 DNMT,DNA methyltransferase
+EC,Endothelial cells
 EGF,Epidermal growth factor
 EOPE,Early-onset preeclampsia
 EPIC,Infinium HumanMethylation EPIC Beadchip
@@ -18,6 +23,7 @@ eQTL,Expression quantitative trait loci
 eSTB,Enzymatically-separated syncytiotrophoblast
 EVT,Extra-villous trophoblast
 EWAS,Epigenome-wide association study
+FACS,Fluorescence-activated cell-sorting
 FDR,False-discovery rate
 GA,Gestational age
 GLMNET,Generalized linear model with elastic net regularization
@@ -34,6 +40,7 @@ KNN,K-nearest neighbours
 LINE-1,Long interspersed nuclear element-1
 LODOCV,Leave-one-dataset-out cross validation
 LOPE,Late-onset preeclampsia
+MAE,Mean absolute error
 mQTL,Methylation quantative trait loci
 noob,Normal exponential out-of-band normalization
 nRBC,Nucleated red blood cells
@@ -41,7 +48,11 @@ NSC,Nearest shrunken centroids
 PCA,Principal component analysis
 PE,Preeclampsia
 PlaNET,Placental DNAme Elastic Net Ethnicity Tool
+PMD,Partially methylated domain
 PTB,Preterm birth
+RMSE,Root mean squared error
+RPC,Robust partial correlations
+SC,Stromal cells
 SNP,Single nucleotide polymorphism
 STB,Syncytiotrophoblast
 SVM,Support vector machines

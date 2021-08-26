@@ -4,28 +4,50 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
+bibliography: ../References/references.bib
 ---
+
 <!-- This section is mandatory! -->
 
 Parts of this chapter have been previously published and accepted for publication (see Preface for contribution details):
 
+Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP. Cell-specific characterization of the placental methylome.
+BMC Genomics.
+2021 Jan 6;22(1):6.
 
-The account of the research should be presented in a manner suitable for the field and
-include the following:
+The account of the research should be presented in a manner suitable for the field and include the following:
 
  coherent structure that flows logically and smoothly from chapter to chapter
 
  brief synopsis at the beginning of each research chapter
 
- description of methods used, in sufficient detail to enable a reader to understand
-how the data were gathered and to apply similar methods in another study
+ description of methods used, in sufficient detail to enable a reader to understand how the data were gathered and to apply similar methods in another study
 
- complete account of the research presented in a systematic manner typical of
-the field of study
+ complete account of the research presented in a systematic manner typical of the field of study
 
-Students should consult with their supervisors for further guidance about how to
-structure their particular thesis
+Students should consult with their supervisors for further guidance about how to structure their particular thesis
 
 ## Introduction
+
+A well- functioning placenta is critical for the healthy development of the fetus during pregnancy.
+DNA methylation (DNAm) profiling of the placenta has been increasingly used to characterize underlying processes associated with adverse perinatal outcomes (e.g. maternal preeclampsia, fetal growth restriction and preterm birth) as well as to study the influence of maternal exposures on epigenetic programming.
+DNAm is an epigenetic modification that can regulate or respond to changes in gene expression [@pacis2019; @razin1991]. However, because heterogeneous tissues, such as the placenta, are made up of several cell types, each with a distinct DNAm signature, whole-tissue measurements are ultimately an average of the DNAm signatures of the constituent cell types, weighted by their respective frequency in the bulk tissue sample. Therefore, changes in DNAm measured in complex tissues can often be attributed to variation in cell composition rather than DNAm changes that occur in the constituent cell populations [@holbrook2017].
+This makes interpretation of placental DNAm studies difficult until placental DNAm is characterized at a cell-specific resolution.
+
+During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by de novo DNAm in the inner cell mass [@smith2012]. Deriving from the inner cell mass are fetal tissues and the mesenchymal core component of the placental chorionic villi (CV). Within the mesenchymal core, stromal cells (SC) and fetal macrophages called Hofbauer cells (HB) can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells. HBs are distinct from decidual macrophages and fetal/maternal monocytes [@kim2012]; they display high phenotypic diversity, promoting angiogenesis early in gestation and later participating in the immune response to pathological processes and infection [@reyes2017; @reyes2018]. Placental vasculature is critically important for proper functioning of the placenta, and depends on the development of vessels beneath the trophoblast layer. These vessels are formed from endothelial cells (EC) that derive from the chorionic mesoderm [@charolidi2019]. Encompassing the mesenchymal core is a thick trophoblast (TB) epithelial cell layer, which displays a hypomethylated profile [@robinson2015]. TBs comprise a set of functionally distinct subtypes, each with their own unique function [@novakovic2017; @yuen2013]: Cytotrophoblasts (CTB) are stem-like cells that harbor regenerative abilities and give rise to the two major subtypes of TB, the extravillous trophoblast (EVT) and the syncytiotrophoblast (STB).
+EVT are motile cells that travel to maternal tissue and remodel maternal vasculature, while STB are a multi-nucleated epithelial layer lining the CV that perform critical roles in hormone production and nutrient transfer.
+
+As a consequence of its distinct developmental origin, dramatic differences in DNAm between placenta and somatic tissues have been observed [@robinson2015]. Globally, the placenta is hypomethylated compared to other tissues, which was originally attributed to reduced methylation of repetitive element DNAm [@cotton2009; @perrin2007], but was later resolved to be primarily due to placental-specific partially methylated domains (PMDs) [@schroeder2013]. PMDs are long regions of intermediate/low DNAm surrounded by regions of higher DNAm that exist in a highly cell-specific fashion [@salhab2018]. It is unclear if these PMDs have a distinct function or are footprints of earlier developmental events between embryonic and extraembryonic tissues. Parent-of origin specific DNAm, which is associated with genomic imprinting, is also more commonly found in the placenta than other tissues [@renfree2013]. Almost all known imprinted genes are imprinted in the placenta, and many are exclusively imprinted in the placenta [@hanna2016; @court2014; @hamada2016; @sanchez-delgado2016]. Interestingly, a number of placental-specific imprinted genes are polymorphically imprinted [@hanna2016]. It is possible that cellular and genetic heterogeneity can contribute to polymorphic imprinting, as well as variability in DNAm generally. Supporting this, a significant role for genetic control of placental DNAm variation was recently characterized [@delahaye2018].
+These studies have contributed to our understanding of the unique epigenetics of the placenta, but it remains unclear if these features are maintained in all constituent placental cell types or are confined to specific ones.
+
+Placental DNAm is often studied in the context of health in relation to disease and environmental exposures.
+A common study design is the epigenome-wide association study (EWAS) [@flanagan2015], where differentially methylated CpGs (DMCs) are identified in a high-throughput manner, usually with microarray or sequencing based approaches. However, placental DNAm studies are almost all carried out using whole CV and are therefore subject to challenges of interpretability due to potential cell composition variability [@teschendorff2017]. Unlike other tissues, such as adult blood and umbilical cord blood, addressing cell composition variability in placenta is difficult due to a lack of reference placental DNAm profiles, which enables bioinformatic estimation of cell composition from cellular deconvolution techniques [@teschendorff2017a]. These methods operate by modelling the whole tissue measurements as a weighted sum of cell type -specific DNAm signatures, where the weights correspond to the relative proportion of each constituent cell type in the whole tissue sample, and can be determined using least-squares or non-constrained regression approaches [@teschendorff2017a; @houseman2012; @newman2015].
+Without reference DNAm profiles for each cell population, researchers sometimes account for cell composition using reference-free deconvolution methods.
+However, the effectiveness of reference-free deconvolution in capturing cell composition variation has not yet been assessed in placenta.
+
+To address these challenges, in this study we have generated DNAm reference profiles for 4 major human placental cell populations using the 850 k Illumina EPIC DNA methylation microarray, which profiles more than 850,000 CpGs.
+Our study is the first to characterize the DNAm of major placental cell populations with a high-resolution approach, across first trimester and term placentas.
+We show that cell-specific DNAm occurs at thousands of CpG sites, of which a subset can be used to infer cell composition using cellular deconvolution.
+Our study underscores the importance of cell-specific approaches in placental studies, especially when measuring epigenetic features such as DNAm.
 
 ## Discussion

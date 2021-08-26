@@ -16,7 +16,7 @@ header-includes:
    - \floatplacement{figure}{H} 
    - \usepackage{wrapfig}
    - \usepackage{pdfpages}
-bibliography: ./References/reference_list.bib
+bibliography: ./Sections/references.bib
 csl: ./References/reference_format.csl
 link-citations: yes
 linkcolor: blue
@@ -24,10 +24,8 @@ linkcolor: blue
 
 
 ```{r setup, include=FALSE, eval = T}
-
 knitr::opts_chunk$set(echo = TRUE)
 options(knitr.duplicate.label = 'allow')
-
 
 # These libraries are only needed for examples in the introduction 
 library("png")
@@ -37,9 +35,6 @@ library("knitr")
 library("kableExtra")
 library("dplyr")
 library("tibble")
-
-
-
 ```
 
 <!-- Title page -->

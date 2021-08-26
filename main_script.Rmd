@@ -16,7 +16,7 @@ header-includes:
    - \floatplacement{figure}{H} 
    - \usepackage{wrapfig}
    - \usepackage{pdfpages}
-bibliography: ./Sections/references.bib
+bibliography: ./References/references.bib
 csl: ./References/reference_format.csl
 link-citations: yes
 linkcolor: blue

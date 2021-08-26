@@ -4,7 +4,7 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
-bibliography: references.bib
+bibliography: ../References/references.bib
 ---
 
 <!-- This section is mandatory! -->

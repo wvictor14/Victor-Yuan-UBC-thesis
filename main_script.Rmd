@@ -16,6 +16,7 @@ header-includes:
    - \floatplacement{figure}{H} 
    - \usepackage{wrapfig}
    - \usepackage{pdfpages}
+   - \usepackage{caption}
 bibliography: ./References/references.bib
 csl: ./References/reference_format.csl
 link-citations: yes
@@ -119,7 +120,6 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 ```
 
 \clearpage
-
 
 <!-- # Acknowledgements -->
 \section*{Acknowledgements}

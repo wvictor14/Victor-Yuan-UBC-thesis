@@ -38,9 +38,9 @@ However, it has not been investigated whether these methods perform well in popu
 
 \captionsetup{width=7in}
 
-```{r ch2tab1, eval = T, echo = T, echo=FALSE, warning = FALSE, out.extra=''}
+```{r ch2tab1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
-  readxl::read_xlsx(here::here('Tables', 'ch2table1.xlsx'), sheet = 1) %>%
+  readr::read_csv(here::here('Tables', 'ch2table1.csv')) %>%
     select(-`Name of method`) %>%
     mutate(method = c('(ref:ch2tab1m1)',
                       '(ref:ch2tab1m2)', 
@@ -80,9 +80,9 @@ We searched for placental HM450K data on the Gene Expression Omnibus [@edgar2002
 
 \captionsetup{width=7in}
 
-```{r ch2tab2, eval = T, echo = T, echo=FALSE, warning = FALSE, out.extra=''}
+```{r ch2tab2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE, out.extra=''}
 kableExtra::kbl(
-  readxl::read_xlsx(here::here('Tables', 'ch2table2.xlsx'), sheet = 1) %>%
+  readr::read_csv(here::here('Tables', 'ch2table2.csv')) %>%
     select(-Cohort) %>%
     mutate(Cohort = c('(ref:ch2tab2C1)',
                       '(ref:ch2tab2C2)',
@@ -161,9 +161,9 @@ PlaNET determined 342 samples were classified as Caucasian, and 1 sample had a h
 
 \captionsetup{width=7in}
 
-```{r ch2tab3, eval = T, echo = T, echo=FALSE, warning = FALSE, out.extra=''}
+```{r ch2tab3, eval = T, echo = T, echo=FALSE, warning = FALSE, out.extra='', message=FALSE}
 kableExtra::kbl(
-  readxl::read_xlsx(here::here('Tables', 'ch2table3.xlsx'), sheet = 1) %>%
+  readr::read_csv(here::here('Tables', 'ch2table3.csv')) %>%
     mutate(`GEO Accession` = ifelse(is.na(`GEO Accession`), '', `GEO Accession`)),
   booktabs = TRUE,
   caption = 'Distribution of PlaNET ethnicity predictions across previously published placental EWAS datasets.') %>%

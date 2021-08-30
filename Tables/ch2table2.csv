@@ -1,0 +1,6 @@
+﻿Cohort,n,GEO accession,Description,Location,AFR (n=57),ASI (n=53),CAU (n=389),Additional genetic data
+C1 [@binder2015],72,GSE70453,"36 controls, 36 gestational diabetes mellitus","Boston, MA, USA",13,13,46,
+C2 [@martin2015],24,GSE73375,"13 controls, 11 preeclampsia (PE)","Chapel Hill, NC, USA",13,1,10,
+C3 [@paquette2016],289,GSE75248,289 samples from infants with variable newborn neurobehaviour ,"RI, USA; MA, USA",23,9,257,
+C4 [@leavey2018],44,GSE100197,"17 controls, 27 PE","Toronto, CAN",7,12,25,50 AIMs
+C5 [@wilson2018],70,"GSE100197, GSE108567, GSE74738, Unpublished","35 controls, 35 fetal growth restriction, PE, and/or preterm birth","Vancouver, CAN",1,18,51,50 AIMs; Omni2.5

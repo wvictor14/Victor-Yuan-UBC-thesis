@@ -1,0 +1,5 @@
+﻿Name of method ,Statistical Approach,Input HM450K sites,Output,Tissue,Populations*,Cohort Location
+Barfield et al. 2014 [@barfield2014],PCA,7703 DNAme sites with a 1000 genomes project SNP at the CpG site,Genetic ancestry as PC scores ,Blood,"Caucasian-Americans, African-Americans", USA
+EPI-STRUCTURE [@rahmani2017],PCA,4913 DNAme sites associated with local genetic variation (mQTLs),Genetic ancestry as PC scores,Blood,"Europeans, Puerto Ricans, Mexicans",Southern Germany; USA 
+Zhou et al. 2017 [@zhou2017] ,Predictive-modeling ,59/65 SNP sites,Ethnicity,Multiple,"White, Black or African American, Asian",Many
+PlaNET [@yuan2019],Predictive-modeling ,15 SNPs; 1845 DNAme sites,Ethnicity and Genetic Ancestry,Placenta,"Caucasians, Asians, Africans","Canada, USA"

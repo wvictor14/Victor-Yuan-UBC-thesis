@@ -7,26 +7,6 @@ output:
 bibliography: ../References/references.bib
 ---
 
-<!-- This section is mandatory! -->
-
-Parts of this chapter have been previously published and accepted for publication (see Preface for contribution details):
-
-Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP. Cell-specific characterization of the placental methylome.
-BMC Genomics.
-2021 Jan 6;22(1):6.
-
-The account of the research should be presented in a manner suitable for the field and include the following:
-
- coherent structure that flows logically and smoothly from chapter to chapter
-
- brief synopsis at the beginning of each research chapter
-
- description of methods used, in sufficient detail to enable a reader to understand how the data were gathered and to apply similar methods in another study
-
- complete account of the research presented in a systematic manner typical of the field of study
-
-Students should consult with their supervisors for further guidance about how to structure their particular thesis
-
 ## Introduction
 
 A well- functioning placenta is critical for the healthy development of the fetus during pregnancy.

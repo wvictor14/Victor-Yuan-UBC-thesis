@@ -7,7 +7,7 @@ output:
 bibliography: ../References/references.bib
 ---
 
-<!-- This section is mandatory! -->
+<!--
 
 Parts of this chapter have been previously published and accepted for publication (see Preface for contribution details):
 
@@ -22,6 +22,8 @@ The account of the research should be presented in a manner suitable for the fie
  complete account of the research presented in a systematic manner typical of the field of study
 
 Students should consult with their supervisors for further guidance about how to structure their particular thesis
+
+-->
 
 ## Introduction
 

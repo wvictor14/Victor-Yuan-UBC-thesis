@@ -1,0 +1,25 @@
+---
+output:
+  bookdown::pdf_book:
+    toc : no
+    keep_tex: no
+    number_sections: yes
+bibliography: ../References/references.bib
+---
+
+(ref:FigB1-cap) Title. Caption.
+
+```{r FigB1, fig.cap="(ref:FigB1-cap)", eval=FALSE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S1.pdf'))
+```
+
+<!----- Tables---->
+
+\captionsetup{width=7in}
+
+```{r TabB1, eval = FALSE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readxl::read_csv(here::('Tables', 'appendix-b', 'Table S1.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Title. Caption.')
+```

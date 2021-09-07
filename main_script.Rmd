@@ -277,7 +277,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_b, child = './Sections/14_Appendix_B.Rmd', eval = F}
+```{r appendix_b, child = './Sections/14_Appendix_B.Rmd', eval = T}
 ```
 
 <!-- ## Appendix C -->
@@ -295,7 +295,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{equation}{0}
 
 
-```{r appendix_c, child = './Sections/15_Appendix_C.Rmd', eval = F}
+```{r appendix_c, child = './Sections/15_Appendix_C.Rmd', eval = T}
 ```
 
 

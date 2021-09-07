@@ -5,69 +5,149 @@ output:
     keep_tex: no
     number_sections: yes
 bibliography: ../References/references.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
-(ref:FigS1-cap) Dataset-specific effects. PC1 by PC2 scatterplot from PCA computed on scaled and centered DNAme beta values from 499 samples and 319233 sites. 
+(ref:figa1-cap) Dataset-specific effects. PC1 by PC2 scatterplot from PCA computed on scaled and centered DNAme beta values from 499 samples and 319233 sites. 
 
 
-```{r FigS1, fig.cap="(ref:FigS1-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa1, fig.cap="(ref:figa1-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S1.pdf'))
 ```
 
-(ref:FigS2-cap) Performance between machine learning algorithms in training. Resampling results for each machine learning algorithm. **a** performance (LogLoss) between machine learning algorithms in predicting ethnicity, and **b** class-specific accuracy.
+(ref:figa2-cap) Performance between machine learning algorithms in training. Resampling results for each machine learning algorithm. **a** performance (LogLoss) between machine learning algorithms in predicting ethnicity, and **b** class-specific accuracy.
 
 
-```{r FigS2, fig.cap="(ref:FigS2-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa2, fig.cap="(ref:figa2-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S2.pdf'))
 ```
 
-(ref:FigS3-cap) Threshold analysis for determining “ambiguous” samples. Various cutoffs for predicted membership probabilities were compared with respect to changes in predictive performance.
+(ref:figa3-cap) Threshold analysis for determining “ambiguous” samples. Various cutoffs for predicted membership probabilities were compared with respect to changes in predictive performance.
 
-```{r FigS3, fig.cap="(ref:FigS3-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa3, fig.cap="(ref:figa3-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S3.pdf'))
 ```
 
-(ref:FigS4-cap) Dataset-specific performance. PlaNET’s classification performance was calculated for each dataset using a model trained to all other datasets.
+(ref:figa4-cap) Dataset-specific performance. PlaNET’s classification performance was calculated for each dataset using a model trained to all other datasets.
 
-```{r FigS4, fig.cap="(ref:FigS4-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa4, fig.cap="(ref:figa4-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S4.pdf'))
 ```
 
-(ref:FigS5-cap) Enrichment analysis on ethnicity-predictive HM450K sites. PlaNET’s CpG sites used to predict ethnicity was tested for enrichment with respect to **a** chromosomal location, and **b** relation to CpG islands.
+(ref:figa5-cap) Enrichment analysis on ethnicity-predictive HM450K sites. PlaNET’s CpG sites used to predict ethnicity was tested for enrichment with respect to **a** chromosomal location, and **b** relation to CpG islands.
 
-```{r FigS5, fig.cap="(ref:FigS5-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa5, fig.cap="(ref:figa5-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S5.pdf'))
 ```
 
-(ref:FigS6-cap) Association of population structure PCs with technical and biological variables. PCs were computed on the following sets of HM450K sites: ethnicity-predictive sites, 59 SNPs, EPISTRUCTURE, and Barfield’s method. Each PC was tested for their association with various cohort-specific technical and biological variables. For a given cohort (e.g. C1), ethnicity predictive sites from a classifier trained on all other cohorts (e.g. C2-C5) was used to avoid bias.
+(ref:figa6-cap) Association of population structure PCs with technical and biological variables. PCs were computed on the following sets of HM450K sites: ethnicity-predictive sites, 59 SNPs, EPISTRUCTURE, and Barfield’s method. Each PC was tested for their association with various cohort-specific technical and biological variables. For a given cohort (e.g. C1), ethnicity predictive sites from a classifier trained on all other cohorts (e.g. C2-C5) was used to avoid bias.
 
-```{r FigS6, fig.cap="(ref:FigS6-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa6, fig.cap="(ref:figa6-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S6.pdf'))
 ```
 
-(ref:FigS7-cap) PlaNET vs Zhou et al. 2017 snp-based classifier. PlaNET‘s ethnicity classification performance was compared to Zhou et al. 2017 [@zhou2017] SNP-based ethnicity classifier in cohorts C3, C4, and C5.
+(ref:figa7-cap) PlaNET vs Zhou et al. 2017 snp-based classifier. PlaNET‘s ethnicity classification performance was compared to Zhou et al. 2017 [@zhou2017] SNP-based ethnicity classifier in cohorts C3, C4, and C5.
 
-```{r FigS7, fig.cap="(ref:FigS7-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa7, fig.cap="(ref:figa7-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S7.pdf'))
 ```
 
-(ref:FigS8-cap) Estimating k number of ancestral populations using in genetic admixture inference program LEA. The cross-entropy criterion was used to determine the number of ancestral populations for estimating genetic ancestry coefficients. The number of ancestral populations was chosen at the point k = 3, when the cross-entropy criterion decreases signficantly less with each integer-increase in k.
+(ref:figa8-cap) Estimating k number of ancestral populations using in genetic admixture inference program LEA. The cross-entropy criterion was used to determine the number of ancestral populations for estimating genetic ancestry coefficients. The number of ancestral populations was chosen at the point k = 3, when the cross-entropy criterion decreases signficantly less with each integer-increase in k.
 
-```{r FigS8, fig.cap="(ref:FigS8-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa8, fig.cap="(ref:figa8-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S8.pdf'))
 ```
 
-(ref:FigS9-cap) Application of PlaNET to placental EWAS. Samples from three independent cohorts are plotted along three axes by their probability of belonging to each ethnicity class and colored by their final ethnicity classification determined by PlaNET.
+(ref:figa9-cap) Application of PlaNET to placental EWAS. Samples from three independent cohorts are plotted along three axes by their probability of belonging to each ethnicity class and colored by their final ethnicity classification determined by PlaNET.
 
-```{r FigS9, fig.cap="(ref:FigS9-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa9, fig.cap="(ref:figa9-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S9.pdf'))
 ```
 
-(ref:FigS10-cap) Evaluation of Barfield’s alternative location-based filtering approaches. The signal associated with ethnicity and genetic ancestry was measured in relation to the distance of which a genetic variant lies to a CpG site (0, 1, 2, 5, 10, 50 bp). **a** Amount of variance explained in PCi (i = 1, 2, 3, ..., 10) by either ethnicity or genetic ancestry. **b** Whether there was difference in the amount of ethnicity or genetic ancestry -associated variation in PCi, depending on distance to a genetic variant. Direction of association is indicated, where the reference group is the 0 bp set.  
+(ref:figa10-cap) Evaluation of Barfield’s alternative location-based filtering approaches. The signal associated with ethnicity and genetic ancestry was measured in relation to the distance of which a genetic variant lies to a CpG site (0, 1, 2, 5, 10, 50 bp). **a** Amount of variance explained in PCi (i = 1, 2, 3, ..., 10) by either ethnicity or genetic ancestry. **b** Whether there was difference in the amount of ethnicity or genetic ancestry -associated variation in PCi, depending on distance to a genetic variant. Direction of association is indicated, where the reference group is the 0 bp set.  
 
-```{r FigS10, fig.cap="(ref:FigS10-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figa10, fig.cap="(ref:figa10-cap)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S10.pdf'))
 ```
 
-<!----- Tables
+<!----- Tables---->
 
+\captionsetup{width=7in}
+
+```{r taba1, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
+                 sheet = 1,
+                 range = "A1:U1861") %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'A list of all PlaNET’s 1860 automatically-selected ethnicity-predictive HM450K sites.',
+  longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```
+
+\captionsetup{width=7in}
+
+```{r taba2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix a', 'tables2.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'PlaNET’s cohort-specific ethnicity classification performance. PlaNET’s classification performance described across cohorts, assessed using LODOCV.',
+  longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```
+
+\captionsetup{width=7in}
+
+```{r taba3, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix a', 'tables3.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'PlaNET’s ethnicity classification performance described by class. PlaNET’s classification performance described across ethnicity groups, assessed using LODOCV.',
+  longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```
+
+\captionsetup{width=7in}
+
+```{r taba4, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
+                 sheet = 4,
+                 range = "A1:O509") %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Sample metadata. A table of sample-specific information. ')
+```
+
+\captionsetup{width=7in}
+
+```{r taba5, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix a', 'tables5.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'PE linear modeling results while adjusting for predicted ethnicity. Results containing 651 PE-associated sites from linear modeling while adjusting for predicted ethnicity.',
+  longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```
+
+\captionsetup{width=7in}
+
+```{r taba6, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
+                 sheet = 6,
+                 range = "A1:G22616") %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'PE linear modeling results in Caucasian cohort. Results containing 359 PE-associated sites from linear modeling in Caucasian-only samples.')
+```
+
+\captionsetup{width=7in}
+
+```{r taba7, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix a', 'tables7.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'GO enrichment analysis results. GO terms specifically enriched based on the 651 PE-associated sites obtained from linear modeling.',
+  longtable = TRUE) %>%
+  kableExtra::kable_styling(latex_options = "scale_down")
+```

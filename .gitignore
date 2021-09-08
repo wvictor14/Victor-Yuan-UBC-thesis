@@ -42,3 +42,8 @@ main_script.pdf
 
 # R Environment Variables
 .Renviron
+
+# don't track microsoft files
+*.pptx
+*.xlsx
+*.xls

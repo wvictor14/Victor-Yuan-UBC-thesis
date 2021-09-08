@@ -84,7 +84,7 @@ We searched for placental HM450K data on the Gene Expression Omnibus [@edgar2002
 
 (ref:ch2tab2C5) C5 [@wilson2018]
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r ch2tab2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE, out.extra=''}
 kableExtra::kbl(
@@ -182,7 +182,7 @@ Next, because adjustment for population stratification can not only be done via 
 PlaNET can be useful for checking for discrepancies in self-reported ethnicity information. We tested whether PlaNET could identify the ethnicity of samples from an all-Caucasian population. GSE71678 (n = 343), a cohort not used in the development of PlaNET, consisted of DNAm data from placental samples collected from a New Hampshire, USA birth cohort that investigated the effects of arsenic exposure on placental DNAm [@green2016].
 PlaNET determined 342 samples were classified as Caucasian, and 1 sample had a high probability of belonging to the Caucasian group (Probability = 0.73) but was below our confidence threshold and was therefore classified as 'ambiguous', confirming ethnic homogeneity was high in this cohort and adjustment for population stratification was not needed in this study.
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r ch2tab3, eval = T, echo = T, echo=FALSE, warning = FALSE, out.extra='', message=FALSE}
 kableExtra::kbl(

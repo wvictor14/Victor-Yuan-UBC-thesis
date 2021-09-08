@@ -73,7 +73,7 @@ knitr::include_graphics(here::here('Images', 'appendix-a', 'Figure S10.pdf'))
 
 <!----- Tables---->
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba1, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
@@ -86,29 +86,27 @@ readxl::read_xls(here::here('Tables', 'AppendixA.xls'),
   kableExtra::kable_styling(latex_options = "scale_down")
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix a', 'tables2.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'PlaNET’s cohort-specific ethnicity classification performance. PlaNET’s classification performance described across cohorts, assessed using LODOCV.',
-  longtable = TRUE) %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+  longtable = TRUE) 
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba3, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix a', 'tables3.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'PlaNET’s ethnicity classification performance described by class. PlaNET’s classification performance described across ethnicity groups, assessed using LODOCV.',
-  longtable = TRUE) %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+  longtable = TRUE)
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba4, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
@@ -119,18 +117,17 @@ readxl::read_xls(here::here('Tables', 'AppendixA.xls'),
   caption = 'Sample metadata. A table of sample-specific information. ')
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba5, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix a', 'tables5.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'PE linear modeling results while adjusting for predicted ethnicity. Results containing 651 PE-associated sites from linear modeling while adjusting for predicted ethnicity.',
-  longtable = TRUE) %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+  longtable = TRUE) 
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba6, eval = F, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readxl::read_xls(here::here('Tables', 'AppendixA.xls'), 
@@ -141,13 +138,12 @@ readxl::read_xls(here::here('Tables', 'AppendixA.xls'),
   caption = 'PE linear modeling results in Caucasian cohort. Results containing 359 PE-associated sites from linear modeling in Caucasian-only samples.')
 ```
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r taba7, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix a', 'tables7.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'GO enrichment analysis results. GO terms specifically enriched based on the 651 PE-associated sites obtained from linear modeling.',
-  longtable = TRUE) %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+  longtable = TRUE) 
 ```

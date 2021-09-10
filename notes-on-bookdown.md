@@ -1,3 +1,17 @@
+# Latex headaches
+
+- Some special characters need to be escaped by a double backslash `\\`, 
+
+```
+& % $ # _ { } ~ ^ \
+
+e.g.
+
+\\$
+\\%
+```
+
+
 # Figures
 
 - To use special characters, and citations, use text references described in (2.2.4)[https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#text-references], and alluded to in (2.4)[https://bookdown.org/yihui/bookdown/figures.html]. See figure 1 of chapter 2 for an example.

@@ -1,0 +1,9 @@
+﻿Each row is a differential methylation test between one cell type versus all the others (for a given trimester),
+,
+Celltype,Which cell type is being compared
+cpg,"cpg ID, provided by Illumina"
+chr,Chromosome
+start,"Genomic coordinate of the ""C"" in the CpG"
+mean_difference_bval,The difference in mean DNA methylation of the cell type compared to all others
+p_value,p value
+bonferroni,bonferroni-corrected p value

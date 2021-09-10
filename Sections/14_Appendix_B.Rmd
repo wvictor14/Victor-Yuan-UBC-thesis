@@ -5,6 +5,8 @@ output:
     keep_tex: no
     number_sections: yes
 bibliography: ../References/references.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 (ref:figb1-cap) Fluorescence-activated cell-sorting and immune fluorescence staining. **A)** Fluorescence-activated cell-sorting (FACS) workflow schematic. **B-E)** Immunofluorescence staining (IF) of term cell-sorted sample with known characteristic cell type markers that were not selected for in the FACS procedure. Nuclei are shown via DAPI staining (blue). Scale bars: 100µm. **B)** Trophoblasts (KRT7: green, VIM: red). **C)** Hofbauer cells (CD68: green). **D)** Endothelial cells (CD31: green). **E)** Stromal cells (VIM: red).
@@ -88,11 +90,129 @@ knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S13.pdf'))
 
 <!----- Tables---->
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
+\renewcommand{\arraystretch}{0.5}
 
-```{r tabb1, eval = FALSE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
-readxl::read_csv(here::('Tables', 'appendix-b', 'Table S1.csv')) %>%
+```{r tabb1, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s1.csv')) %>%
+  group_by(Celltype) %>%
+  slice_min(order_by = p_value, n = 100) %>%
   kableExtra::kbl(
   booktabs = TRUE,
-  caption = 'Title. Caption.')
+  caption = 'Linear modelling results for differentially methylated CpGs between first trimester cell types. Top 100 CpGs ranked by p value are shown.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb2, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s2.csv')) %>%
+  group_by(Celltype) %>%
+  slice_min(order_by = p_value, n = 100) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Linear modelling results for differentially methylated CpGs between term cell types. Top 100 CpGs ranked by p value are shown.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb3, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s3.csv')) %>%
+  group_by(Celltype) %>%
+  slice_max(order_by = width , n = 100) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Top 100 largest first trimester cell-specific DMRs.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb4, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s4.csv'))  %>%
+  group_by(Celltype) %>%
+  slice_max(order_by = width , n = 100) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Top 100 largest term cell-specific DMRs.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb5, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s5.csv')) %>%
+  group_by(Group, Celltype) %>%
+  slice_min(order_by = P.DE , n = 50) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Top 50 GO enrichment for cell DMCs.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb6, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s6.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'KEGG enrichment for cell DMCs.')
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb7, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s7.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'List of imprinted genes and regions from multiple studies.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb8, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s8.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Linear modelling results of repetitive element methylation and cell type.')
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb9, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s9.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = '600 reference probes for cell deconvolution for term/third trimester.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb10, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s10.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = '600 reference probes for cell deconvolution for first trimester.',
+  longtable = TRUE)
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb11, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s11.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Performance metrics for deconvolution algorithms on in-silico mixtures.')
+```
+
+\captionsetup{width=6.5in}
+
+```{r tabb12, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+readr::read_csv(here::here('Tables', 'appendix b', 'table s12.csv')) %>%
+  kableExtra::kbl(
+  booktabs = TRUE,
+  caption = 'Statistical testing results for cell composition versus sex, ethnicity, and gestational age. Each cell type proportion was tested against each sample variable.')
 ```

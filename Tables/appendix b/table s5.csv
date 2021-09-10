@@ -1,0 +1,969 @@
+﻿Group,Celltype,ONTOLOGY,TERM,N,DE,P.DE,FDR,ID,Generatio,neg_log_P,Order
+First,Endothelial,CC,cytoplasm,10837,2444.5,3.16E-05,0.005485573,GO:0005737,0.225569807,4.500469047,1
+First,Endothelial,BP,response to biotic stimulus,909,206.3333333,4.53E-04,0.040802844,GO:0009607,0.226989366,3.343740622,2
+First,Endothelial,CC,cytoplasmic part,9146,2076.666667,1.29E-04,0.015890208,GO:0044444,0.227057366,3.8910149,3
+First,Endothelial,BP,response to stimulus,8475,1938.666667,6.91E-08,3.14E-05,GO:0050896,0.228751229,7.160556888,4
+First,Endothelial,BP,defense response,1573,366.5,1.01E-06,2.84E-04,GO:0006952,0.232994278,5.995583771,5
+First,Endothelial,BP,response to external biotic stimulus,878,204.8333333,9.29E-05,0.012587306,GO:0043207,0.233295368,4.032126238,6
+First,Endothelial,BP,response to other organism,877,204.8333333,8.85E-05,0.012282261,GO:0051707,0.233561384,4.052840136,7
+First,Endothelial,BP,cellular response to stimulus,7030,1650.333333,3.82E-08,1.85E-05,GO:0051716,0.234755808,7.417828844,8
+First,Endothelial,BP,localization,6282,1478.424242,5.50E-04,0.045608389,GO:0051179,0.235342923,3.259795533,9
+First,Endothelial,BP,cell communication,6124,1461.333333,3.72E-06,9.73E-04,GO:0007154,0.238623993,5.429336594,10
+First,Endothelial,BP,signaling,6096,1456.833333,5.79E-06,0.001395846,GO:0023052,0.238981846,5.237477539,11
+First,Endothelial,BP,positive regulation of biological process,5803,1387,4.54E-04,0.040802844,GO:0048518,0.239014303,3.343151354,12
+First,Endothelial,BP,signal transduction,5647,1350.333333,1.32E-07,5.18E-05,GO:0007165,0.239124019,6.879178968,13
+First,Endothelial,BP,response to stress,3765,907,1.30E-08,7.79E-06,GO:0006950,0.240903054,7.88546065,14
+First,Endothelial,BP,regulation of defense response,798,192.5,2.33E-04,0.025763604,GO:0031347,0.24122807,3.632088471,15
+First,Endothelial,BP,response to external stimulus,2275,549.6666667,4.18E-04,0.03867602,GO:0009605,0.241611722,3.378585425,16
+First,Endothelial,CC,vesicle,3654,898.9242424,6.08E-07,1.87E-04,GO:0031982,0.246011013,6.216101216,17
+First,Endothelial,BP,response to bacterium,585,145.3333333,1.58E-05,0.003274726,GO:0009617,0.248433048,4.800394636,18
+First,Endothelial,CC,response to bacterium,4181,1041,1.20E-07,4.97E-05,GO:0012505,0.248983497,6.919921338,19
+First,Endothelial,BP,regulation of molecular function,2821,719.5,8.24E-05,0.011570827,GO:0065009,0.2550514,4.084082883,20
+First,Endothelial,BP,regulation of response to stimulus,4007,1023.5,2.41E-08,1.26E-05,GO:0048583,0.255428001,7.617905395,21
+First,Endothelial,BP,cell surface receptor signaling pathway,2796,716.8333333,4.63E-04,0.041302596,GO:0007166,0.256378159,3.334444777,22
+First,Endothelial,BP,regulation of signal transduction,3004,774,1.15E-04,0.014771529,GO:0009966,0.257656458,3.939563599,23
+First,Endothelial,BP,regulation of phosphorus metabolic process,1725,447,4.38E-04,0.039842246,GO:0051174,0.259130435,3.35867849,24
+First,Endothelial,BP,regulation of signaling,3411,884,1.00E-04,0.01331922,GO:0023051,0.259161536,3.999487419,25
+First,Endothelial,BP,positive regulation of response to stimulus,2276,590.1666667,1.60E-06,4.38E-04,GO:0048584,0.259299941,5.79673245,26
+First,Endothelial,BP,regulation of cell communication,3364,872.5,1.12E-04,0.014530918,GO:0010646,0.259363853,3.950141872,27
+First,Endothelial,BP,regulation of phosphate metabolic process,1723,447,3.86E-04,0.036933824,GO:0019220,0.259431225,3.412961081,28
+First,Endothelial,BP,regulation of phosphorylation,1531,397.8333333,5.54E-04,0.045608389,GO:0042325,0.259851949,3.256393565,29
+First,Endothelial,CC,bounding membrane of organelle,1961,510.1666667,1.35E-04,0.016584658,GO:0098588,0.260156383,3.870084061,30
+First,Endothelial,BP,regulation of localization,2718,707.5,5.96E-05,0.009200127,GO:0032879,0.260301692,4.225042655,31
+First,Endothelial,BP,regulation of inflammatory response,400,104.5,5.99E-05,0.009200127,GO:0050727,0.26125,4.222906792,32
+First,Endothelial,BP,positive regulation of cell communication,1763,462.1666667,3.73E-04,0.036214837,GO:0010647,0.262147854,3.428859918,33
+First,Endothelial,BP,positive regulation of signaling,1770,464.1666667,3.60E-04,0.0352568,GO:0023056,0.262241055,3.444231439,34
+First,Endothelial,MF,anion binding,2632,693.3333333,3.83E-04,0.036720324,GO:0043168,0.263424519,3.41730746,35
+First,Endothelial,MF,carbohydrate derivative binding,2108,557,4.91E-04,0.042542774,GO:0097367,0.264231499,3.308632119,36
+First,Endothelial,BP,positive regulation of signal transduction,1609,425.1666667,1.70E-04,0.020403054,GO:0009967,0.264242801,3.768513523,37
+First,Endothelial,CC,cytoplasmic vesicle lumen,323,85.5,4.75E-04,0.041894112,GO:0060205,0.264705882,3.323189611,38
+First,Endothelial,CC,secretory granule,802,212.5,9.86E-07,2.80E-04,GO:0030141,0.264962594,6.005997631,39
+First,Endothelial,BP,regulation of response to external stimulus,813,215.8333333,2.96E-05,0.005341251,GO:0032101,0.265477655,4.528948764,40
+First,Endothelial,MF,nucleotide binding,2010,534,5.81E-04,0.047035179,GO:0000166,0.265671642,3.235833186,41
+First,Endothelial,BP,immune system process,2762,734,2.13E-16,2.42E-12,GO:0002376,0.265749457,15.67238808,42
+First,Endothelial,BP,positive regulation of multicellular organismal process,1728,459.3333333,1.24E-04,0.015558547,GO:0051240,0.265817901,3.904921891,43
+First,Endothelial,BP,positive regulation of immune response,754,200.5,6.62E-05,0.009910841,GO:0050778,0.265915119,4.179008196,44
+First,Endothelial,MF,nucleoside phosphate binding,2011,535,5.04E-04,0.042767924,GO:1901265,0.266036798,3.297709346,45
+First,Endothelial,CC,secretory vesicle,950,252.8333333,4.55E-06,0.00116321,GO:0099503,0.266140351,5.341914166,46
+First,Endothelial,CC,vesicle lumen,324,86.5,3.75E-04,0.036318844,GO:0031983,0.266975309,3.425762435,47
+First,Endothelial,CC,cytoplasmic vesicle part,1428,381.3333333,1.07E-05,0.002336518,GO:0044433,0.267040149,4.971359924,48
+First,Endothelial,BP,inflammatory response,748,200,6.92E-09,5.25E-06,GO:0006954,0.267379679,8.159613174,49
+First,Endothelial,BP,regulation of immune system process,1472,394,7.37E-10,9.24E-07,GO:0002682,0.267663043,9.132519325,50
+First,Endothelial,BP,intracellular signal transduction,2794,750,2.43E-08,1.26E-05,GO:0035556,0.268432355,7.614839948,51
+First,Endothelial,BP,regulation of catalytic activity,2206,592.6666667,7.34E-07,2.14E-04,GO:0050790,0.268661227,6.134466243,52
+First,Endothelial,BP,hematopoietic or lymphoid organ development,893,241.3333333,4.96E-04,0.042722123,GO:0048534,0.270250093,3.304705554,53
+First,Endothelial,BP,positive regulation of immune system process,1020,276,1.26E-07,5.01E-05,GO:0002684,0.270588235,6.901068578,54
+First,Endothelial,BP,hemopoiesis,851,230.3333333,5.04E-04,0.042767924,GO:0030097,0.270661966,3.29774003,55
+First,Endothelial,MF,purine nucleotide binding,1790,484.5,6.02E-04,0.04810202,GO:0017076,0.270670391,3.220601516,56
+First,Endothelial,BP,movement of cell or subcellular component,2050,555.1666667,2.04E-04,0.022826893,GO:0006928,0.270813008,3.691019476,57
+First,Endothelial,CC,intracellular vesicle,2201,596.1666667,2.41E-09,2.11E-06,GO:0097708,0.27086173,8.617681217,58
+First,Endothelial,MF,purine ribonucleotide binding,1778,482,5.78E-04,0.046942203,GO:0032555,0.271091114,3.238240814,59
+First,Endothelial,CC,cytoplasmic vesicle,2198,596.1666667,2.04E-09,1.93E-06,GO:0031410,0.271231423,8.690666571,60
+First,Endothelial,CC,whole membrane,1581,429,5.18E-05,0.008234002,GO:0098805,0.271347249,4.286015282,61
+First,Endothelial,MF,ribonucleotide binding,1794,487,4.67E-04,0.041534407,GO:0032553,0.271460424,3.330314334,62
+First,Endothelial,BP,immune system development,944,256.3333333,1.72E-04,0.020435162,GO:0002520,0.271539548,3.765466184,63
+First,Endothelial,BP,immune response,1897,515.1666667,2.20E-17,5.01E-13,GO:0006955,0.271569144,16.65755307,64
+First,Endothelial,BP,regulation of intracellular signal transduction,1856,504.8333333,2.12E-07,7.73E-05,GO:1902531,0.272000718,6.673374666,65
+First,Endothelial,BP,positive regulation of intracellular signal transduction,1031,280.8333333,3.10E-05,0.005485573,GO:1902533,0.272389266,4.509213256,66
+First,Endothelial,BP,secretion,1585,433,9.36E-09,6.45E-06,GO:0046903,0.27318612,8.028876009,67
+First,Endothelial,BP,response to molecule of bacterial origin,331,90.5,3.24E-04,0.032373875,GO:0002237,0.273413897,3.489425915,68
+First,Endothelial,BP,response to lipopolysaccharide,320,87.5,4.63E-04,0.041302596,GO:0032496,0.2734375,3.334749833,69
+First,Endothelial,BP,regulation of immune response,957,262.1666667,1.73E-08,9.62E-06,GO:0050776,0.27394636,7.760967941,70
+First,Endothelial,BP,negative regulation of cytokine production,278,76.33333333,4.83E-04,0.04225734,GO:0001818,0.274580336,3.316086805,71
+First,Endothelial,CC,Golgi apparatus,1456,400,2.79E-04,0.029107614,GO:0005794,0.274725275,3.555144161,72
+First,Endothelial,CC,secretory granule lumen,306,84.5,1.98E-04,0.022316084,GO:0034774,0.276143791,3.702992957,73
+First,Endothelial,BP,positive regulation of response to external stimulus,309,85.5,2.39E-04,0.026130845,GO:0032103,0.276699029,3.62239754,74
+First,Endothelial,BP,regulation of cellular component organization,2393,662.6666667,7.27E-06,0.001670702,GO:0051128,0.276918791,5.13842809,75
+First,Endothelial,BP,activation of immune response,584,163,8.20E-05,0.011570827,GO:0002253,0.279109589,4.08605828,76
+First,Endothelial,BP,angiogenesis,563,157.5,5.77E-04,0.046942203,GO:0001525,0.279751332,3.238458797,77
+First,Endothelial,BP,peptide secretion,597,167.5,1.26E-04,0.015643273,GO:0002790,0.280569514,3.900183599,78
+First,Endothelial,BP,secretion by cell,1454,408.5,8.89E-10,9.63E-07,GO:0032940,0.280949106,9.0512821,79
+First,Endothelial,BP,regulation of immune effector process,379,106.5,3.45E-05,0.005819558,GO:0002697,0.281002639,4.46173856,80
+First,Endothelial,BP,vesicle-mediated transport,1909,536.5909091,2.22E-09,2.02E-06,GO:0016192,0.281084814,8.65275627,81
+First,Endothelial,BP,positive regulation of cytokine production,443,125,9.13E-06,0.002036769,GO:0001819,0.282167043,5.039420406,82
+First,Endothelial,BP,locomotion,1822,514.1666667,2.52E-07,8.81E-05,GO:0040011,0.282199049,6.598960609,83
+First,Endothelial,BP,exocytosis,857,242.5,3.52E-06,9.30E-04,GO:0006887,0.282963827,5.453941447,84
+First,Endothelial,BP,regulation of hydrolase activity,1219,345.1666667,4.67E-06,0.001179707,GO:0051336,0.283155592,5.330945547,85
+First,Endothelial,BP,regulation of peptide secretion,480,136,2.79E-04,0.029107614,GO:0002791,0.283333333,3.554499208,86
+First,Endothelial,BP,positive regulation of cellular component organization,1205,342.6666667,3.17E-04,0.032179286,GO:0051130,0.284370678,3.499137888,87
+First,Endothelial,BP,adaptive immune response,392,111.5,1.17E-05,0.002479863,GO:0002250,0.284438776,4.933150928,88
+First,Endothelial,BP,immune effector process,1113,317.5,8.42E-13,2.74E-09,GO:0002252,0.285265049,12.07472465,89
+First,Endothelial,BP,protein secretion,566,161.5,5.43E-05,0.008571587,GO:0009306,0.285335689,4.265538597,90
+First,Endothelial,BP,regulation of anatomical structure morphogenesis,1100,314.8333333,2.88E-04,0.029802371,GO:0022603,0.286212121,3.540288812,91
+First,Endothelial,BP,regulation of protein secretion,454,130,2.14E-04,0.023910144,GO:0050708,0.286343612,3.668749946,92
+First,Endothelial,BP,leukocyte mediated immunity,739,212,2.82E-10,4.75E-07,GO:0002443,0.286874154,9.549707297,93
+First,Endothelial,MF,enzyme binding,2112,607.5,2.44E-08,1.26E-05,GO:0019899,0.287642045,7.612708059,94
+First,Endothelial,BP,regulated exocytosis,755,217.5,4.21E-07,1.35E-04,GO:0045055,0.28807947,6.375976742,95
+First,Endothelial,BP,regulation of cytokine production,683,196.8333333,1.20E-08,7.39E-06,GO:0001817,0.288189361,7.920342144,96
+First,Endothelial,BP,cell motility,1600,461.6666667,1.05E-08,6.83E-06,GO:0048870,0.288541667,7.978285073,97
+First,Endothelial,BP,localization of cell,1600,461.6666667,1.05E-08,6.83E-06,GO:0051674,0.288541667,7.978285073,98
+First,Endothelial,BP,regulation of kinase activity,835,241.5,3.11E-04,0.031854788,GO:0043549,0.289221557,3.507434616,99
+First,Endothelial,BP,regulation of lymphocyte activation,399,115.5,1.08E-04,0.014316219,GO:0051249,0.289473684,3.965605532,100
+First,Endothelial,BP,positive regulation of molecular function,1671,484.6666667,3.69E-08,1.82E-05,GO:0044093,0.290045881,7.433346823,101
+First,Endothelial,MF,adenyl nucleotide binding,1468,426,7.46E-05,0.010816332,GO:0030554,0.290190736,4.126982637,102
+First,Endothelial,MF,adenyl ribonucleotide binding,1457,423.5,9.30E-05,0.012587306,GO:0032559,0.290665752,4.031720249,103
+First,Endothelial,MF,ATP binding,1402,408.5,1.18E-04,0.014906033,GO:0005524,0.291369472,3.929896287,104
+First,Endothelial,BP,cellular response to biotic stimulus,229,67,1.38E-04,0.016739702,GO:0071216,0.292576419,3.861372985,105
+First,Endothelial,CC,endosome,849,248.5,5.91E-05,0.009200127,GO:0005768,0.292697291,4.228660321,106
+First,Endothelial,BP,response to wounding,651,191,3.48E-04,0.034303054,GO:0009611,0.293394777,3.458017549,107
+First,Endothelial,BP,positive regulation of protein secretion,259,76,4.06E-04,0.038022831,GO:0050714,0.293436293,3.391311588,108
+First,Endothelial,BP,regulation of cellular component movement,1035,303.8333333,1.10E-05,0.002352411,GO:0051270,0.293558776,4.960143308,109
+First,Endothelial,BP,cell activation,1310,385.5,5.83E-14,3.31E-10,GO:0001775,0.294274809,13.23449963,110
+First,Endothelial,BP,positive regulation of catalytic activity,1343,396,1.48E-07,5.71E-05,GO:0043085,0.294862249,6.829624909,111
+First,Endothelial,BP,tumor necrosis factor production,158,46.83333333,6.17E-04,0.048592768,GO:0032640,0.296413502,3.209492832,112
+First,Endothelial,BP,immune response-regulating signaling pathway,540,160.5,2.03E-05,0.003921236,GO:0002764,0.297222222,4.691929131,113
+First,Endothelial,BP,regulation of locomotion,1023,304.3333333,2.96E-07,1.00E-04,GO:0040012,0.297491039,6.529040945,114
+First,Endothelial,BP,wound healing,540,161,4.13E-04,0.038499852,GO:0042060,0.298148148,3.383579905,115
+First,Endothelial,BP,regulation of cell activation,524,156.5,6.64E-07,1.99E-04,GO:0050865,0.298664122,6.177941685,116
+First,Endothelial,BP,cytokine production,751,224.3333333,6.38E-11,1.61E-07,GO:0001816,0.298712827,10.19506488,117
+First,Endothelial,CC,secretory granule membrane,286,85.5,4.82E-04,0.04225734,GO:0030667,0.298951049,3.317015781,118
+First,Endothelial,BP,lymphocyte activation,632,189,6.39E-08,3.03E-05,GO:0046649,0.299050633,7.19467055,119
+First,Endothelial,BP,cell adhesion,1357,405.8333333,3.10E-07,1.02E-04,GO:0007155,0.299066568,6.509284492,120
+First,Endothelial,BP,myeloid leukocyte migration,197,59,7.34E-05,0.010777075,GO:0097529,0.299492386,4.134093154,121
+First,Endothelial,BP,biological adhesion,1363,408.8333333,1.91E-07,7.12E-05,GO:0022610,0.299951088,6.71939614,122
+First,Endothelial,BP,leukocyte activation,1161,348.5,4.48E-15,3.39E-11,GO:0045321,0.300172265,14.34916794,123
+First,Endothelial,BP,immune response-activating signal transduction,508,152.5,1.75E-05,0.00345474,GO:0002757,0.30019685,4.757849159,124
+First,Endothelial,BP,cell migration,1450,435.6666667,2.92E-10,4.75E-07,GO:0016477,0.30045977,9.534052757,125
+First,Endothelial,BP,regulation of tumor necrosis factor production,155,46.83333333,4.27E-04,0.038976334,GO:0032680,0.302150538,3.369961971,126
+First,Endothelial,BP,lymphocyte differentiation,337,101.8333333,3.33E-04,0.032901856,GO:0030098,0.302176063,3.47801408,127
+First,Endothelial,BP,leukocyte differentiation,492,148.8333333,1.70E-05,0.003399311,GO:0002521,0.302506775,4.768666587,128
+First,Endothelial,BP,regulation of tumor necrosis factor superfamily cytokine production,158,47.83333333,3.78E-04,0.036468045,GO:1903555,0.302742616,3.42213782,129
+First,Endothelial,BP,regulation of cell motility,952,288.8333333,1.16E-07,4.92E-05,GO:2000145,0.303396359,6.936952046,130
+First,Endothelial,BP,cellular response to lipopolysaccharide,201,61,6.51E-05,0.009809678,GO:0071222,0.303482587,4.186330619,131
+First,Endothelial,BP,regulation of leukocyte activation,482,146.5,2.60E-07,8.97E-05,GO:0002694,0.303941909,6.584808663,132
+First,Endothelial,BP,regulation of T cell activation,301,91.5,1.80E-04,0.020963843,GO:0050863,0.303986711,3.745456797,133
+First,Endothelial,BP,taxis,616,187.3333333,5.55E-04,0.045608389,GO:0042330,0.304112554,3.25543781,134
+First,Endothelial,BP,cellular response to molecule of bacterial origin,207,63,3.58E-05,0.005949531,GO:0071219,0.304347826,4.445759006,135
+First,Endothelial,BP,import into cell,813,248,2.19E-05,0.004178722,GO:0098657,0.30504305,4.660371861,136
+First,Endothelial,BP,chemotaxis,614,187.3333333,5.01E-04,0.042767924,GO:0006935,0.305103149,3.300321954,137
+First,Endothelial,BP,cell chemotaxis,284,86.83333333,1.70E-05,0.003399311,GO:0060326,0.305751174,4.769501393,138
+First,Endothelial,MF,kinase binding,705,216,2.90E-04,0.029807167,GO:0019900,0.306382979,3.538249331,139
+First,Endothelial,CC,side of membrane,487,149.5,2.29E-05,0.004307659,GO:0098552,0.30698152,4.639935616,140
+First,Endothelial,BP,myeloid leukocyte mediated immunity,529,162.5,1.75E-09,1.81E-06,GO:0002444,0.307183365,8.756150293,141
+First,Endothelial,BP,cytoskeleton organization,1264,389.3333333,1.25E-07,5.01E-05,GO:0007010,0.308016878,6.902563703,142
+First,Endothelial,BP,neutrophil mediated immunity,480,148.5,3.80E-09,2.98E-06,GO:0002446,0.309375,8.420203202,143
+First,Endothelial,BP,positive regulation of lymphocyte activation,253,78.5,4.15E-04,0.038499852,GO:0051251,0.31027668,3.382337161,144
+First,Endothelial,MF,protein kinase binding,630,195.5,3.26E-04,0.032400713,GO:0019901,0.31031746,3.486572267,145
+First,Endothelial,BP,positive regulation of immune effector process,206,64,1.18E-04,0.014906033,GO:0002699,0.310679612,3.928327715,146
+First,Endothelial,BP,positive regulation of hydrolase activity,723,225,5.61E-06,0.001372952,GO:0051345,0.31120332,5.250824085,147
+First,Endothelial,BP,T cell activation,443,138,7.71E-07,2.22E-04,GO:0042110,0.311512415,6.113187682,148
+First,Endothelial,BP,positive regulation of vasculature development,223,69.5,1.23E-04,0.015443449,GO:1904018,0.311659193,3.910539433,149
+First,Endothelial,BP,leukocyte activation involved in immune response,675,211,4.95E-13,1.88E-09,GO:0002366,0.312592593,12.30553794,150
+First,Endothelial,BP,regulation of cell migration,895,279.8333333,1.45E-08,8.45E-06,GO:0030334,0.312662942,7.839239304,151
+First,Endothelial,BP,leukocyte degranulation,512,160.5,7.72E-10,9.24E-07,GO:0043299,0.313476563,9.112637111,152
+First,Endothelial,BP,neutrophil degranulation,466,146.5,2.01E-09,1.93E-06,GO:0043312,0.314377682,8.6967403,153
+First,Endothelial,BP,immune response-regulating cell surface receptor signaling pathway,380,119.5,6.71E-05,0.009978015,GO:0002768,0.314473684,4.173226741,154
+First,Endothelial,BP,myeloid cell activation involved in immune response,523,164.5,2.36E-10,4.47E-07,GO:0002275,0.314531549,9.627014434,155
+First,Endothelial,BP,endocytosis,693,218,2.25E-06,6.03E-04,GO:0006897,0.314574315,5.646937034,156
+First,Endothelial,BP,granulocyte activation,484,152.5,5.72E-10,8.13E-07,GO:0036230,0.315082645,9.242653741,157
+First,Endothelial,BP,cell activation involved in immune response,679,214,2.00E-13,9.10E-10,GO:0002263,0.315169367,12.69871665,158
+First,Endothelial,BP,granulocyte migration,130,41,3.43E-05,0.005819558,GO:0097530,0.315384615,4.465222247,159
+First,Endothelial,BP,myeloid leukocyte activation,625,197.5,5.05E-12,1.44E-08,GO:0002274,0.316,11.29640572,160
+First,Endothelial,BP,regulation of leukocyte differentiation,261,82.5,2.55E-04,0.027507633,GO:1902105,0.316091954,3.593226642,161
+First,Endothelial,BP,lymphocyte activation involved in immune response,169,53.5,1.76E-04,0.020607132,GO:0002285,0.316568047,3.755143038,162
+First,Endothelial,BP,immune response-activating cell surface receptor signaling pathway,349,110.5,8.83E-05,0.012282261,GO:0002429,0.316618911,4.054032108,163
+First,Endothelial,BP,neutrophil activation involved in immune response,469,148.5,8.16E-10,9.28E-07,GO:0002283,0.31663113,9.088550935,164
+First,Endothelial,MF,cytoskeletal protein binding,934,295.8333333,1.55E-04,0.01877944,GO:0008092,0.316738044,3.809121823,165
+First,Endothelial,BP,regulation of interleukin-6 production,142,45,3.58E-05,0.005949531,GO:0032675,0.316901408,4.446012752,166
+First,Endothelial,BP,neutrophil activation,478,151.5,5.52E-10,8.13E-07,GO:0042119,0.316945607,9.258037211,167
+First,Endothelial,BP,mononuclear cell migration,85,27,4.70E-04,0.041594327,GO:0071674,0.317647059,3.327995086,168
+First,Endothelial,BP,positive regulation of cell activation,310,98.5,7.65E-06,0.001739602,GO:0050867,0.317741935,5.116512379,169
+First,Endothelial,BP,interleukin-6 production,151,48,2.03E-05,0.003921236,GO:0032635,0.317880795,4.691657272,170
+First,Endothelial,BP,positive regulation of leukocyte activation,297,94.5,1.25E-05,0.002639468,GO:0002696,0.318181818,4.902022184,171
+First,Endothelial,BP,supramolecular fiber organization,639,204.6666667,4.70E-05,0.007684527,GO:0097435,0.320292123,4.32833039,172
+First,Endothelial,MF,kinase activity,721,231.5,1.75E-04,0.020607132,GO:0016301,0.321081831,3.756960687,173
+First,Endothelial,BP,positive regulation of locomotion,572,184,7.67E-08,3.42E-05,GO:0040017,0.321678322,7.115360283,174
+First,Endothelial,BP,positive regulation of angiogenesis,198,64,6.24E-05,0.009531845,GO:0045766,0.323232323,4.204599052,175
+First,Endothelial,BP,cytokine secretion,228,74,1.59E-07,6.04E-05,GO:0050663,0.324561404,6.797832746,176
+First,Endothelial,BP,leukocyte chemotaxis,212,68.83333333,1.32E-06,3.65E-04,GO:0030595,0.324685535,5.88035028,177
+First,Endothelial,BP,maintenance of location,316,102.6666667,2.86E-04,0.029747306,GO:0051235,0.324894515,3.543070559,178
+First,Endothelial,BP,positive regulation of leukocyte mediated immunity,126,41,5.99E-04,0.04810202,GO:0002705,0.325396825,3.222452893,179
+First,Endothelial,BP,regulation of leukocyte cell-cell adhesion,287,93.5,5.34E-06,0.001320458,GO:1903037,0.325783972,5.272449796,180
+First,Endothelial,CC,tertiary granule,158,51.5,4.94E-05,0.007966635,GO:0070820,0.325949367,4.306468304,181
+First,Endothelial,BP,positive regulation of T cell activation,193,63,4.21E-04,0.038785572,GO:0050870,0.32642487,3.375595158,182
+First,Endothelial,BP,positive regulation of cellular component movement,559,182.5,6.54E-08,3.04E-05,GO:0051272,0.32647585,7.184583611,183
+First,Endothelial,BP,regulation of calcium ion transport,244,79.66666667,3.23E-04,0.032373875,GO:0051924,0.326502732,3.490679857,184
+First,Endothelial,CC,cytoplasmic region,490,160,5.40E-04,0.045028746,GO:0099568,0.326530612,3.26730981,185
+First,Endothelial,BP,cytokine biosynthetic process,116,38,2.66E-04,0.028372404,GO:0042089,0.327586207,3.575686577,186
+First,Endothelial,BP,regulation of cytokine secretion,198,65,5.19E-07,1.64E-04,GO:0050707,0.328282828,6.284676381,187
+First,Endothelial,BP,leukocyte migration,419,137.8333333,6.66E-10,8.91E-07,GO:0050900,0.328957836,9.176635705,188
+First,Endothelial,MF,"phosphotransferase activity, alcohol group as acceptor",662,218,9.27E-05,0.012587306,GO:0016773,0.329305136,4.032830236,189
+First,Endothelial,BP,negative regulation of cell adhesion,273,90.5,1.72E-04,0.020435162,GO:0007162,0.331501832,3.763283005,190
+First,Endothelial,BP,regulation of actin filament-based process,371,123,5.20E-04,0.043847923,GO:0032970,0.331536388,3.283649519,191
+First,Endothelial,BP,positive regulation of cell motility,542,180.5,1.10E-08,6.94E-06,GO:2000147,0.33302583,7.959531194,192
+First,Endothelial,BP,cytokine metabolic process,117,39,1.36E-04,0.016587347,GO:0042107,0.333333333,3.867672442,193
+First,Endothelial,BP,regulation of cell-cell adhesion,385,128.5,6.04E-07,1.87E-04,GO:0022407,0.333766234,6.218956126,194
+First,Endothelial,CC,anchoring junction,541,181,5.60E-04,0.045856342,GO:0070161,0.334565619,3.251518105,195
+First,Endothelial,BP,neutrophil migration,107,36,1.69E-05,0.003399311,GO:1990266,0.336448598,4.770942223,196
+First,Endothelial,MF,protein kinase activity,564,190,9.65E-05,0.012994463,GO:0004672,0.336879433,4.015317259,197
+First,Endothelial,BP,granulocyte chemotaxis,115,39,7.27E-06,0.001670702,GO:0071621,0.339130435,5.138635552,198
+First,Endothelial,BP,positive regulation of leukocyte cell-cell adhesion,207,70.5,7.39E-05,0.010777075,GO:1903039,0.34057971,4.131336809,199
+First,Endothelial,BP,positive regulation of cell migration,520,177.5,3.17E-09,2.67E-06,GO:0030335,0.341346154,8.499146858,200
+First,Endothelial,CC,cell-substrate adherens junction,394,134.5,0.000485818,0.04234434,GO:0005924,0.341370558,3.31352644,201
+First,Endothelial,MF,protein serine/threonine kinase activity,415,142,3.16E-04,0.032179286,GO:0004674,0.342168675,3.500700928,202
+First,Endothelial,CC,focal adhesion,392,134.5,4.25E-04,0.038976334,GO:0005925,0.343112245,3.371597033,203
+First,Endothelial,BP,positive regulation of cytokine secretion,132,45.5,4.73E-06,0.001183384,GO:0050715,0.34469697,5.324795155,204
+First,Endothelial,BP,leukocyte cell-cell adhesion,319,110,8.96E-09,6.37E-06,GO:0007159,0.344827586,8.04791661,205
+First,Endothelial,BP,lymphocyte migration,100,34.5,5.46E-05,0.008571926,GO:0072676,0.345,4.262515876,206
+First,Endothelial,BP,regulation of actin cytoskeleton organization,327,113,1.12E-04,0.014530918,GO:0032956,0.345565749,3.949156584,207
+First,Endothelial,BP,small GTPase mediated signal transduction,532,184.3333333,3.14E-05,0.005485573,GO:0007264,0.346491228,4.502584055,208
+First,Endothelial,CC,actin cytoskeleton,492,170.5,3.19E-05,0.005505331,GO:0015629,0.346544715,4.495604907,209
+First,Endothelial,CC,extrinsic component of membrane,281,97.66666667,3.68E-04,0.035909001,GO:0019898,0.347568209,3.434403061,210
+First,Endothelial,MF,nucleoside-triphosphatase regulator activity,312,109,5.36E-04,0.044812591,GO:0060589,0.349358974,3.270993354,211
+First,Endothelial,MF,GTPase binding,498,174,5.09E-05,0.008150201,GO:0051020,0.34939759,4.293505626,212
+First,Endothelial,BP,positive regulation of cell-cell adhesion,244,85.5,9.94E-06,0.002194918,GO:0022409,0.350409836,5.002706835,213
+First,Endothelial,BP,macrophage activation,91,32,6.16E-04,0.048592768,GO:0042116,0.351648352,3.210654312,214
+First,Endothelial,BP,regulation of cell adhesion,659,231.8333333,1.85E-10,3.83E-07,GO:0030155,0.35179565,9.7318745,215
+First,Endothelial,BP,regulation of interleukin-1 production,98,34.5,6.54E-06,0.001533327,GO:0032652,0.352040816,5.184555697,216
+First,Endothelial,MF,small GTPase binding,404,142.5,5.29E-04,0.044370674,GO:0031267,0.352722772,3.276896991,217
+First,Endothelial,BP,calcium-mediated signaling,210,74.16666667,3.12E-05,0.005485573,GO:0019722,0.353174603,4.506520245,218
+First,Endothelial,BP,neutrophil chemotaxis,96,34,6.09E-06,0.001442681,GO:0030593,0.354166667,5.215520786,219
+First,Endothelial,BP,interleukin-1 production,110,39,6.50E-07,1.97E-04,GO:0032612,0.354545455,6.186895899,220
+First,Endothelial,BP,actin filament-based process,725,260.5,3.35E-09,2.72E-06,GO:0030029,0.359310345,8.475014171,221
+First,Endothelial,MF,Ras GTPase binding,390,140.5,1.95E-04,0.022123885,GO:0017016,0.36025641,3.711070932,222
+First,Endothelial,CC,specific granule,155,56,8.83E-06,0.001989671,GO:0042581,0.361290323,5.053859719,223
+First,Endothelial,BP,regulation of cell morphogenesis,459,166.8333333,6.45E-05,0.009785484,GO:0022604,0.363471314,4.190288737,224
+First,Endothelial,BP,regulation of calcium ion transmembrane transport,144,52.66666667,4.92E-04,0.042542774,GO:1903169,0.365740741,3.308180757,225
+First,Endothelial,BP,positive regulation of cell adhesion,388,142.8333333,1.71E-08,9.62E-06,GO:0045785,0.368127148,7.766771701,226
+First,Endothelial,BP,regulation of actin filament organization,247,91.5,8.10E-05,0.011510168,GO:0110053,0.370445344,4.091760666,227
+First,Endothelial,BP,regulation of actin polymerization or depolymerization,168,62.5,6.03E-04,0.04810202,GO:0008064,0.37202381,3.219954136,228
+First,Endothelial,BP,regulation of interleukin-1 beta production,87,32.5,4.47E-06,0.001156588,GO:0032651,0.373563218,5.349300773,229
+First,Endothelial,BP,interleukin-1 beta secretion,52,19.5,6.11E-04,0.048592768,GO:0050702,0.375,3.213936035,230
+First,Endothelial,BP,positive regulation of GTPase activity,366,137.5,1.93E-06,5.23E-04,GO:0043547,0.37568306,5.71377878,231
+First,Endothelial,BP,cell-substrate adhesion,338,127.3333333,1.35E-05,0.002812295,GO:0031589,0.376725838,4.870474883,232
+First,Endothelial,BP,interleukin-1 beta production,98,37,3.01E-07,1.01E-04,GO:0032611,0.37755102,6.521193594,233
+First,Endothelial,BP,phagocytosis,258,97.5,2.14E-07,7.73E-05,GO:0006909,0.377906977,6.669222067,234
+First,Endothelial,BP,actin cytoskeleton organization,635,240,1.66E-10,3.78E-07,GO:0030036,0.377952756,9.779496052,235
+First,Endothelial,CC,membrane region,316,119.5,2.27E-07,8.06E-05,GO:0098589,0.378164557,6.644241273,236
+First,Endothelial,MF,GTPase regulator activity,272,103,1.10E-04,0.014502271,GO:0030695,0.378676471,3.957480205,237
+First,Endothelial,BP,regulation of small GTPase mediated signal transduction,315,119.3333333,2.44E-04,0.026564998,GO:0051056,0.378835979,3.612506241,238
+First,Endothelial,CC,cytoplasmic side of membrane,173,65.66666667,2.39E-04,0.026130845,GO:0098562,0.379576108,3.62174552,239
+First,Endothelial,CC,phagocytic vesicle,121,46,3.24E-04,0.032373875,GO:0045335,0.380165289,3.488832774,240
+First,Endothelial,CC,cell cortex,298,113.5,3.44E-05,0.005819558,GO:0005938,0.380872483,4.46337914,241
+First,Endothelial,BP,regulation of GTPase activity,435,167,2.52E-08,1.28E-05,GO:0043087,0.383908046,7.59796513,242
+First,Endothelial,BP,regulation of cell-substrate adhesion,205,78.83333333,2.72E-04,0.028826643,GO:0010810,0.384552846,3.564729776,243
+First,Endothelial,BP,release of sequestered calcium ion into cytosol,120,46.16666667,5.07E-04,0.042849631,GO:0051209,0.384722222,3.295262942,244
+First,Endothelial,MF,actin binding,408,157,6.92E-07,2.04E-04,GO:0003779,0.384803922,6.159987675,245
+First,Endothelial,CC,cell leading edge,389,150,5.83E-06,0.001395846,GO:0031252,0.385604113,5.234401289,246
+First,Endothelial,BP,actin filament polymerization,171,66,1.12E-04,0.014530918,GO:0030041,0.385964912,3.952634866,247
+First,Endothelial,BP,positive regulation of interleukin-1 production,57,22,1.97E-04,0.022316084,GO:0032732,0.385964912,3.704654112,248
+First,Endothelial,CC,membrane raft,303,117,1.17E-07,4.92E-05,GO:0045121,0.386138614,6.932840118,249
+First,Endothelial,CC,membrane microdomain,304,118,8.55E-08,3.74E-05,GO:0098857,0.388157895,7.068187081,250
+First,Endothelial,BP,regulation of interleukin-1 beta secretion,45,17.5,6.01E-04,0.04810202,GO:0050706,0.388888889,3.221059613,251
+First,Endothelial,CC,specific granule membrane,88,34.5,1.94E-04,0.022123885,GO:0035579,0.392045455,3.711153763,252
+First,Endothelial,BP,regulation of phosphatidylinositol 3-kinase signaling,122,48,3.99E-04,0.03760776,GO:0014066,0.393442623,3.399229725,253
+First,Endothelial,BP,actin filament organization,378,149.5,8.86E-09,6.37E-06,GO:0007015,0.395502646,8.052329535,254
+First,Endothelial,BP,actin polymerization or depolymerization,197,78,1.61E-05,0.003301701,GO:0008154,0.395939086,4.79290164,255
+First,Endothelial,BP,inositol lipid-mediated signaling,178,71,2.92E-05,0.005341251,GO:0048017,0.398876404,4.534939989,256
+First,Endothelial,BP,phosphatidylinositol-mediated signaling,175,70,2.74E-05,0.005110971,GO:0048015,0.4,4.562099104,257
+First,Endothelial,BP,leukocyte adhesion to vascular endothelial cell,40,16,3.97E-04,0.03760776,GO:0061756,0.4,3.400729365,258
+First,Endothelial,MF,guanyl-nucleotide exchange factor activity,206,82.5,2.72E-04,0.028826643,GO:0005085,0.400485437,3.565850565,259
+First,Endothelial,BP,regulation of calcium-mediated signaling,94,37.66666667,4.00E-04,0.03760776,GO:0050848,0.40070922,3.397869473,260
+First,Endothelial,MF,GTPase activator activity,242,97,2.21E-05,0.004180919,GO:0005096,0.400826446,4.656509315,261
+First,Endothelial,BP,positive regulation of cell-substrate adhesion,119,49.33333333,2.62E-04,0.028148088,GO:0010811,0.414565826,3.581177544,262
+First,Endothelial,BP,actin filament bundle assembly,148,61.5,1.83E-04,0.021183657,GO:0051017,0.415540541,3.738705301,263
+First,Endothelial,CC,lamellipodium,187,78,8.91E-05,0.012287142,GO:0030027,0.417112299,4.050027497,264
+First,Endothelial,BP,actin filament bundle organization,151,63.5,9.96E-05,0.01331922,GO:0061572,0.420529801,4.001689129,265
+First,Endothelial,BP,positive regulation of phosphatidylinositol 3-kinase signaling,85,36,6.15E-04,0.048592768,GO:0014068,0.423529412,3.211147029,266
+First,Endothelial,MF,Rho GTPase binding,160,68,1.65E-04,0.019920114,GO:0017048,0.425,3.781208691,267
+First,Endothelial,BP,lipopolysaccharide-mediated signaling pathway,57,24.5,1.84E-04,0.02123239,GO:0031663,0.429824561,3.735497206,268
+First,Endothelial,BP,positive regulation of interleukin-1 beta production,51,22,3.87E-05,0.006384406,GO:0032731,0.431372549,4.411962737,269
+First,Endothelial,BP,regulation of myeloid leukocyte mediated immunity,51,22,5.54E-04,0.045608389,GO:0002886,0.431372549,3.256235049,270
+First,Endothelial,BP,substrate adhesion-dependent cell spreading,98,42.5,5.02E-04,0.042767924,GO:0034446,0.433673469,3.299027068,271
+First,Endothelial,CC,ruffle,167,73,1.09E-05,0.002350744,GO:0001726,0.437125749,4.964567741,272
+First,Endothelial,BP,integrin-mediated signaling pathway,100,44,2.47E-04,0.026724732,GO:0007229,0.44,3.607829652,273
+First,Endothelial,BP,regulation of interleukin-12 production,52,23,4.74E-05,0.007699361,GO:0032655,0.442307692,4.324379569,274
+First,Endothelial,BP,interleukin-12 production,54,24,3.08E-05,0.005485573,GO:0032615,0.444444444,4.51115478,275
+First,Endothelial,MF,protein tyrosine kinase activity,132,60,7.81E-05,0.011172281,GO:0004713,0.454545455,4.107423325,276
+First,Endothelial,BP,regulation of interleukin-2 production,50,23,3.23E-04,0.032373875,GO:0032663,0.46,3.490378374,277
+First,Endothelial,BP,actin cytoskeleton reorganization,98,45.5,1.18E-04,0.014906033,GO:0031532,0.464285714,3.929092554,278
+First,Endothelial,BP,interleukin-2 production,58,27,6.95E-05,0.010268664,GO:0032623,0.465517241,4.157927626,279
+First,Endothelial,BP,B cell receptor signaling pathway,58,27,3.91E-04,0.037210983,GO:0050853,0.465517241,3.407893272,280
+First,Endothelial,BP,regulation of cell shape,144,68.5,3.80E-07,1.23E-04,GO:0008360,0.475694444,6.420220696,281
+First,Endothelial,BP,Fc receptor mediated stimulatory signaling pathway,81,39,7.61E-05,0.010958612,GO:0002431,0.481481481,4.118549686,282
+First,Endothelial,BP,Fc-gamma receptor signaling pathway,78,39,1.85E-05,0.003622566,GO:0038094,0.5,4.733488038,283
+First,Endothelial,BP,immune response-regulating cell surface receptor signaling pathway involved in phagocytosis,75,38,2.94E-05,0.005341251,GO:0002433,0.506666667,4.532031728,284
+First,Endothelial,BP,Fc-gamma receptor signaling pathway involved in phagocytosis,75,38,2.94E-05,0.005341251,GO:0038096,0.506666667,4.532031728,285
+First,Endothelial,BP,interleukin-2 biosynthetic process,21,11,6.29E-04,0.04920862,GO:0042094,0.523809524,3.201028138,286
+First,Endothelial,MF,phosphotyrosine residue binding,40,22,4.44E-04,0.040238416,GO:0001784,0.55,3.352647713,287
+First,Endothelial,BP,positive regulation of interleukin-2 production,29,16,2.77E-04,0.029107614,GO:0032743,0.551724138,3.557374621,288
+First,Endothelial,BP,positive regulation of superoxide anion generation,19,11,6.23E-04,0.048895962,GO:0032930,0.578947368,3.205291315,289
+First,Endothelial,BP,leukocyte migration involved in inflammatory response,14,9,1.94E-04,0.022123885,GO:0002523,0.642857143,3.712870879,290
+First,Endothelial,BP,positive regulation of sodium ion transmembrane transporter activity,14,11,2.17E-04,0.024097638,GO:2000651,0.785714286,3.663233965,291
+First,Hofbauer,CC,cytoplasm,10837,2586.416667,3.33E-04,0.027631413,GO:0005737,0.238665375,3.477808655,292
+First,Hofbauer,BP,response to stimulus,8475,2028.083333,4.92E-05,0.005923206,GO:0050896,0.239301868,4.307943694,293
+First,Hofbauer,CC,membrane,8576,2066.416667,1.73E-06,3.62E-04,GO:0016020,0.240953436,5.761185606,294
+First,Hofbauer,CC,cytoplasmic part,9146,2226.416667,1.36E-05,0.001975077,GO:0044444,0.243430644,4.865478653,295
+First,Hofbauer,BP,signal transduction,5647,1401.666667,8.81E-05,0.009634205,GO:0007165,0.248214391,4.055083091,296
+First,Hofbauer,BP,cell communication,6124,1522,2.13E-04,0.019722524,GO:0007154,0.248530372,3.671923024,297
+First,Hofbauer,BP,response to stress,3765,936.25,1.54E-05,0.002208848,GO:0006950,0.248671979,4.811399405,298
+First,Hofbauer,BP,signaling,6096,1523,1.17E-04,0.012021951,GO:0023052,0.249835958,3.932452974,299
+First,Hofbauer,BP,defense response,1573,395,7.11E-08,2.02E-05,GO:0006952,0.251112524,7.148415807,300
+First,Hofbauer,BP,positive regulation of biological process,5803,1479.833333,1.59E-04,0.015555982,GO:0048518,0.255011776,3.799576888,301
+First,Hofbauer,CC,cytosol,4822,1237.083333,2.07E-04,0.019346805,GO:0005829,0.256549841,3.684746789,302
+First,Hofbauer,BP,positive regulation of cellular process,5118,1316.5,4.73E-04,0.035395142,GO:0048522,0.257229386,3.325145074,303
+First,Hofbauer,BP,regulation of defense response,798,206,1.17E-04,0.012021951,GO:0031347,0.258145363,3.93071589,304
+First,Hofbauer,BP,response to cytokine,1141,294.8333333,5.58E-04,0.040393925,GO:0034097,0.258399065,3.253716605,305
+First,Hofbauer,BP,innate immune response,858,222.1666667,1.62E-05,0.002282786,GO:0045087,0.258935509,4.791671143,306
+First,Hofbauer,CC,plasma membrane,4999,1298.666667,6.65E-08,1.91E-05,GO:0005886,0.25978529,7.177260665,307
+First,Hofbauer,CC,organelle membrane,2729,711.5,8.34E-05,0.009215158,GO:0031090,0.260718212,4.078592289,308
+First,Hofbauer,BP,cytokine-mediated signaling pathway,748,195.3333333,4.57E-04,0.034753133,GO:0019221,0.26114082,3.340297154,309
+First,Hofbauer,BP,localization,6282,1640.833333,6.06E-10,3.89E-07,GO:0051179,0.26119601,9.217554533,310
+First,Hofbauer,BP,establishment of localization,4944,1293.666667,5.10E-09,2.23E-06,GO:0051234,0.26166397,8.292181279,311
+First,Hofbauer,CC,cell periphery,5112,1339.166667,8.03E-09,3.29E-06,GO:0071944,0.26196531,8.095522097,312
+First,Hofbauer,BP,transport,4823,1265.166667,2.77E-09,1.28E-06,GO:0006810,0.262319442,8.557918123,313
+First,Hofbauer,BP,response to external stimulus,2275,597.1666667,1.66E-05,0.002336093,GO:0009605,0.262490842,4.778957174,314
+First,Hofbauer,CC,endomembrane system,4181,1107.166667,5.76E-08,1.68E-05,GO:0012505,0.264809057,7.239672749,315
+First,Hofbauer,CC,vesicle,3654,967.8333333,1.06E-08,3.94E-06,GO:0031982,0.264869549,7.976186746,316
+First,Hofbauer,BP,regulation of response to stimulus,4007,1066.916667,2.48E-06,4.82E-04,GO:0048583,0.266263206,5.605546501,317
+First,Hofbauer,BP,regulation of molecular function,2821,755.1666667,2.15E-04,0.019726785,GO:0065009,0.267694671,3.667454328,318
+First,Hofbauer,BP,regulation of response to stress,1509,404.25,2.76E-05,0.003603671,GO:0080134,0.267892644,4.559667987,319
+First,Hofbauer,BP,regulation of intracellular signal transduction,1856,503,6.90E-04,0.048400521,GO:1902531,0.271012931,3.161119719,320
+First,Hofbauer,BP,positive regulation of protein metabolic process,1612,437,5.63E-04,0.04061364,GO:0051247,0.271091811,3.249675651,321
+First,Hofbauer,BP,regulation of cytokine production,683,186,1.70E-04,0.016453831,GO:0001817,0.272327965,3.769589748,322
+First,Hofbauer,BP,inflammatory response,748,204.6666667,1.92E-07,5.02E-05,GO:0006954,0.273618538,6.716312329,323
+First,Hofbauer,BP,cell surface receptor signaling pathway,2796,768.1666667,6.09E-05,0.007062768,GO:0007166,0.274737721,4.215731277,324
+First,Hofbauer,BP,intracellular signal transduction,2794,772.3333333,8.54E-06,0.001398222,GO:0035556,0.276425674,5.068371307,325
+First,Hofbauer,CC,plasma membrane part,2658,734.8333333,2.09E-04,0.019493001,GO:0044459,0.276460998,3.679693771,326
+First,Hofbauer,BP,regulation of transport,1802,499.3333333,2.17E-04,0.019817403,GO:0051049,0.277099519,3.663716231,327
+First,Hofbauer,BP,positive regulation of intracellular signal transduction,1031,286,4.63E-04,0.035120375,GO:1902533,0.277400582,3.334281911,328
+First,Hofbauer,BP,positive regulation of signaling,1770,492.3333333,2.37E-04,0.021426255,GO:0023056,0.278154426,3.624615509,329
+First,Hofbauer,CC,cytoskeleton,2089,582,4.34E-04,0.033452037,GO:0005856,0.278602202,3.36271773,330
+First,Hofbauer,BP,positive regulation of cell communication,1763,491.3333333,1.94E-04,0.018277948,GO:0010647,0.278691624,3.711219502,331
+First,Hofbauer,BP,regulation of catalytic activity,2206,615.6666667,1.30E-05,0.001926665,GO:0050790,0.279087338,4.884484521,332
+First,Hofbauer,BP,positive regulation of response to stimulus,2276,636.1666667,2.45E-08,7.65E-06,GO:0048584,0.279510838,7.610081488,333
+First,Hofbauer,BP,positive regulation of signal transduction,1609,449.8333333,1.61E-04,0.01562961,GO:0009967,0.279573234,3.794359867,334
+First,Hofbauer,BP,regulation of localization,2718,761.5,2.09E-06,4.16E-04,GO:0032879,0.280169242,5.680500697,335
+First,Hofbauer,CC,vesicle lumen,324,91.5,3.93E-04,0.031540458,GO:0031983,0.282407407,3.405260239,336
+First,Hofbauer,CC,cytoplasmic vesicle lumen,323,91.5,3.08E-04,0.026226339,GO:0060205,0.283281734,3.511713375,337
+First,Hofbauer,BP,cytokine production,751,214,3.28E-06,6.28E-04,GO:0001816,0.284953395,5.483579517,338
+First,Hofbauer,BP,immune system process,2762,788.6666667,2.09E-18,1.59E-14,GO:0002376,0.285541878,17.67971543,339
+First,Hofbauer,BP,regulation of hydrolase activity,1219,348.6666667,3.46E-04,0.02863549,GO:0051336,0.286026798,3.460724994,340
+First,Hofbauer,BP,positive regulation of phosphorylation,1009,290,3.07E-04,0.026226339,GO:0042327,0.28741328,3.512481103,341
+First,Hofbauer,BP,regulation of response to external stimulus,813,234,1.28E-06,2.81E-04,GO:0032101,0.287822878,5.891544009,342
+First,Hofbauer,BP,regulation of cellular component organization,2393,689.3333333,4.98E-05,0.005960518,GO:0051128,0.288062404,4.302924695,343
+First,Hofbauer,BP,positive regulation of transport,943,272.3333333,2.49E-04,0.022298003,GO:0051050,0.288794627,3.603862617,344
+First,Hofbauer,BP,regulation of secretion,777,225.8333333,3.24E-04,0.027266382,GO:0051046,0.290647791,3.489971026,345
+First,Hofbauer,BP,positive regulation of phosphorus metabolic process,1076,313,6.92E-05,0.007753445,GO:0010562,0.290892193,4.159971551,346
+First,Hofbauer,BP,positive regulation of phosphate metabolic process,1076,313,6.92E-05,0.007753445,GO:0045937,0.290892193,4.159971551,347
+First,Hofbauer,CC,bounding membrane of organelle,1961,570.6666667,1.53E-08,5.26E-06,GO:0098588,0.291007989,7.816656875,348
+First,Hofbauer,BP,movement of cell or subcellular component,2050,598,1.01E-05,0.001596843,GO:0006928,0.291707317,4.995337718,349
+First,Hofbauer,BP,lymphocyte mediated immunity,235,69,4.20E-04,0.032802505,GO:0002449,0.293617021,3.376762707,350
+First,Hofbauer,BP,cytokine secretion,228,67,3.61E-04,0.029758569,GO:0050663,0.293859649,3.442441181,351
+First,Hofbauer,MF,protein-containing complex binding,1088,320.5,3.83E-04,0.031025789,GO:0044877,0.294577206,3.41653316,352
+First,Hofbauer,MF,enzyme binding,2112,623.1666667,5.34E-06,9.55E-04,GO:0019899,0.295059975,5.272131173,353
+First,Hofbauer,CC,secretory granule lumen,306,90.5,1.12E-04,0.011705144,GO:0034774,0.295751634,3.950129065,354
+First,Hofbauer,CC,intracellular vesicle,2201,651.3333333,2.61E-12,3.13E-09,GO:0097708,0.295926094,11.58277682,355
+First,Hofbauer,CC,cytoplasmic vesicle,2198,651.3333333,2.11E-12,2.82E-09,GO:0031410,0.296329997,11.67647427,356
+First,Hofbauer,BP,secretion,1585,473.1666667,3.62E-11,3.43E-08,GO:0046903,0.298527865,10.44166265,357
+First,Hofbauer,CC,cytoplasmic vesicle part,1428,426.3333333,1.97E-09,9.94E-07,GO:0044433,0.298552754,8.706417745,358
+First,Hofbauer,BP,immune response,1897,567.6666667,3.37E-22,7.68E-18,GO:0006955,0.299244421,21.47179059,359
+First,Hofbauer,CC,secretory vesicle,950,284.8333333,1.95E-09,9.94E-07,GO:0099503,0.299824561,8.709359059,360
+First,Hofbauer,BP,negative regulation of response to external stimulus,351,105.5,4.00E-04,0.03181509,GO:0032102,0.300569801,3.397963125,361
+First,Hofbauer,BP,regulation of immune system process,1472,442.6666667,2.24E-14,5.66E-11,GO:0002682,0.300724638,13.64965631,362
+First,Hofbauer,BP,locomotion,1822,548,3.12E-08,9.45E-06,GO:0040011,0.300768386,7.506519645,363
+First,Hofbauer,BP,hematopoietic or lymphoid organ development,893,268.6666667,6.60E-06,0.001138291,GO:0048534,0.300858529,5.180135209,364
+First,Hofbauer,BP,immune system development,944,284.6666667,1.09E-06,2.42E-04,GO:0002520,0.301553672,5.964408522,365
+First,Hofbauer,BP,regulation of cellular component movement,1035,312.1666667,6.62E-05,0.007533043,GO:0051270,0.301610306,4.178961865,366
+First,Hofbauer,BP,positive regulation of molecular function,1671,505.3333333,1.31E-07,3.54E-05,GO:0044093,0.302413724,6.883373239,367
+First,Hofbauer,CC,secretory granule,802,242.8333333,2.46E-10,1.80E-07,GO:0030141,0.302784705,9.609399686,368
+First,Hofbauer,BP,regulation of transferase activity,932,282.3333333,6.84E-05,0.007739832,GO:0051338,0.302932761,4.165034737,369
+First,Hofbauer,BP,cell motility,1600,485.1666667,8.54E-09,3.29E-06,GO:0048870,0.303229167,8.068586447,370
+First,Hofbauer,BP,localization of cell,1600,485.1666667,8.54E-09,3.29E-06,GO:0051674,0.303229167,8.068586447,371
+First,Hofbauer,BP,positive regulation of immune response,754,229.1666667,2.33E-08,7.35E-06,GO:0050778,0.303934571,7.633211748,372
+First,Hofbauer,BP,negative regulation of immune system process,443,134.8333333,7.67E-06,0.001282949,GO:0002683,0.304364184,5.115213967,373
+First,Hofbauer,BP,hemopoiesis,851,259.6666667,1.78E-06,3.68E-04,GO:0030097,0.305131218,5.749667496,374
+First,Hofbauer,BP,regulation of locomotion,1023,314,4.33E-06,7.95E-04,GO:0040012,0.306940371,5.363378462,375
+First,Hofbauer,BP,secretion by cell,1454,446.6666667,2.01E-12,2.82E-09,GO:0032940,0.307198533,11.69680324,376
+First,Hofbauer,BP,autophagy,476,146.5,2.52E-04,0.022433815,GO:0006914,0.307773109,3.597819218,377
+First,Hofbauer,BP,process utilizing autophagic mechanism,476,146.5,2.52E-04,0.022433815,GO:0061919,0.307773109,3.597819218,378
+First,Hofbauer,BP,regulation of cell motility,952,293.1666667,7.39E-06,0.001245733,GO:2000145,0.307948179,5.131203495,379
+First,Hofbauer,BP,immune effector process,1113,343.1666667,1.23E-14,3.49E-11,GO:0002252,0.308325846,13.91065399,380
+First,Hofbauer,BP,regulation of immune effector process,379,117,1.82E-06,3.74E-04,GO:0002697,0.308707124,5.739172621,381
+First,Hofbauer,BP,cytoskeleton organization,1264,390.3333333,9.28E-05,0.010056255,GO:0007010,0.308808017,4.032306726,382
+First,Hofbauer,BP,positive regulation of cellular component organization,1205,372.8333333,1.25E-05,0.001882562,GO:0051130,0.309405256,4.903236007,383
+First,Hofbauer,BP,myeloid leukocyte migration,197,61,1.54E-04,0.015183884,GO:0097529,0.30964467,3.811967458,384
+First,Hofbauer,BP,positive regulation of catalytic activity,1343,416.3333333,1.69E-07,4.51E-05,GO:0043085,0.310002482,6.773103391,385
+First,Hofbauer,BP,cell migration,1450,450.1666667,2.72E-09,1.28E-06,GO:0016477,0.31045977,8.566117084,386
+First,Hofbauer,BP,regulation of hemopoiesis,454,141,3.27E-05,0.004130007,GO:1903706,0.310572687,4.48573899,387
+First,Hofbauer,BP,regulation of immune response,957,297.6666667,1.84E-12,2.82E-09,GO:0050776,0.311041449,11.73427233,388
+First,Hofbauer,CC,whole membrane,1581,492.3333333,1.01E-10,8.20E-08,GO:0098805,0.311406283,9.996034619,389
+First,Hofbauer,BP,biological adhesion,1363,424.8333333,1.91E-06,3.87E-04,GO:0022610,0.3116899,5.718859646,390
+First,Hofbauer,BP,positive regulation of immune system process,1020,318.1666667,1.54E-12,2.82E-09,GO:0002684,0.311928105,11.81315718,391
+First,Hofbauer,BP,positive regulation of response to external stimulus,309,96.5,7.87E-06,0.001297054,GO:0032103,0.312297735,5.104125269,392
+First,Hofbauer,BP,cell-cell adhesion,799,249.8333333,4.54E-05,0.005553631,GO:0098609,0.31268252,4.342872317,393
+First,Hofbauer,BP,positive regulation of hydrolase activity,723,226.3333333,2.13E-04,0.019722524,GO:0051345,0.313047487,3.671064717,394
+First,Hofbauer,BP,cell adhesion,1357,424.8333333,1.05E-06,2.36E-04,GO:0007155,0.313068042,5.979096338,395
+First,Hofbauer,BP,regulation of cell migration,895,281.1666667,2.26E-06,4.47E-04,GO:0030334,0.3141527,5.646406127,396
+First,Hofbauer,BP,regulation of leukocyte proliferation,210,66,1.71E-04,0.016453831,GO:0070663,0.314285714,3.767783265,397
+First,Hofbauer,BP,interleukin-6 production,151,47.5,2.84E-04,0.024727789,GO:0032635,0.314569536,3.547136515,398
+First,Hofbauer,BP,regulation of mononuclear cell proliferation,197,62,3.64E-04,0.029933538,GO:0032944,0.314720812,3.438324494,399
+First,Hofbauer,BP,regulation of kinase activity,835,262.8333333,2.17E-05,0.002898698,GO:0043549,0.314770459,4.664310446,400
+First,Hofbauer,CC,cytoplasmic vesicle membrane,741,233.8333333,1.75E-05,0.00244791,GO:0030659,0.315564552,4.755979207,401
+First,Hofbauer,BP,mononuclear cell proliferation,255,80.5,2.42E-05,0.003202744,GO:0032943,0.315686275,4.61591168,402
+First,Hofbauer,BP,leukocyte mediated immunity,739,233.3333333,2.02E-12,2.82E-09,GO:0002443,0.315741994,11.69539973,403
+First,Hofbauer,BP,regulation of lymphocyte proliferation,196,62,3.19E-04,0.026964481,GO:0050670,0.316326531,3.496417959,404
+First,Hofbauer,BP,positive regulation of locomotion,572,181,3.14E-05,0.004023076,GO:0040017,0.316433566,4.502997119,405
+First,Hofbauer,BP,positive regulation of cellular component movement,559,177,5.86E-05,0.006875809,GO:0051272,0.316636852,4.231836807,406
+First,Hofbauer,BP,positive regulation of organelle organization,602,190.8333333,8.91E-05,0.009701877,GO:0010638,0.316998893,4.049960249,407
+First,Hofbauer,BP,adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,247,78.5,5.39E-05,0.006384134,GO:0002460,0.317813765,4.268559055,408
+First,Hofbauer,BP,regulation of leukocyte migration,183,58.16666667,5.64E-04,0.04061364,GO:0002685,0.317850638,3.248603315,409
+First,Hofbauer,BP,positive regulation of immune effector process,206,65.5,4.72E-04,0.035395142,GO:0002699,0.317961165,3.325795715,410
+First,Hofbauer,BP,lymphocyte proliferation,253,80.5,1.78E-05,0.002466206,GO:0046651,0.318181818,4.750089089,411
+First,Hofbauer,BP,B cell activation,226,72,3.72E-04,0.030360406,GO:0042113,0.318584071,3.429050533,412
+First,Hofbauer,BP,activation of immune response,584,186.3333333,7.64E-08,2.14E-05,GO:0002253,0.319063927,7.117141294,413
+First,Hofbauer,BP,vesicle-mediated transport,1909,611.5,7.91E-17,2.57E-13,GO:0016192,0.320324777,16.10181626,414
+First,Hofbauer,BP,regulation of interleukin-6 production,142,45.5,2.20E-04,0.020061417,GO:0032675,0.320422535,3.656660702,415
+First,Hofbauer,CC,vesicle membrane,760,243.8333333,4.44E-06,8.07E-04,GO:0012506,0.320833333,5.352999655,416
+First,Hofbauer,BP,cell chemotaxis,284,91.16666667,1.13E-05,0.00177363,GO:0060326,0.32100939,4.946731303,417
+First,Hofbauer,BP,positive regulation of cell motility,542,174,2.04E-05,0.002757739,GO:2000147,0.32103321,4.691099798,418
+First,Hofbauer,BP,leukocyte chemotaxis,212,68.66666667,1.86E-05,0.002547434,GO:0030595,0.323899371,4.730751205,419
+First,Hofbauer,BP,regulated exocytosis,755,244.6666667,4.68E-10,3.13E-07,GO:0045055,0.32406181,9.329707979,420
+First,Hofbauer,BP,cell activation,1310,424.8333333,5.23E-18,2.97E-14,GO:0001775,0.324300254,17.28179398,421
+First,Hofbauer,BP,regulation of cellular component biogenesis,906,294.5,1.73E-06,3.62E-04,GO:0044087,0.325055188,5.762333875,422
+First,Hofbauer,CC,lysosome,649,211,1.50E-08,5.24E-06,GO:0005764,0.325115562,7.824454165,423
+First,Hofbauer,BP,positive regulation of transferase activity,620,202,6.53E-05,0.007465931,GO:0051347,0.325806452,4.185025287,424
+First,Hofbauer,CC,lytic vacuole,650,212,1.18E-08,4.27E-06,GO:0000323,0.326153846,7.926961275,425
+First,Hofbauer,BP,positive regulation of protein kinase activity,508,166,5.11E-04,0.037607439,GO:0045860,0.326771654,3.291730071,426
+First,Hofbauer,BP,regulation of protein complex assembly,446,146.5,8.24E-05,0.009139052,GO:0043254,0.328475336,4.084307278,427
+First,Hofbauer,BP,exocytosis,857,281.6666667,2.30E-11,2.28E-08,GO:0006887,0.328665889,10.63769916,428
+First,Hofbauer,BP,neutrophil mediated immunity,480,157.8333333,1.95E-09,9.94E-07,GO:0002446,0.328819444,8.709795728,429
+First,Hofbauer,BP,regulation of vesicle-mediated transport,509,167.8333333,1.34E-04,0.013466978,GO:0060627,0.3297315,3.871666289,430
+First,Hofbauer,MF,enzyme activator activity,477,157.3333333,5.15E-04,0.03777786,GO:0008047,0.329839273,3.288363268,431
+First,Hofbauer,BP,adaptive immune response,392,129.5,6.12E-09,2.63E-06,GO:0002250,0.330357143,8.213333302,432
+First,Hofbauer,CC,late endosome,240,79.33333333,4.77E-04,0.035467829,GO:0005770,0.330555556,3.321406277,433
+First,Hofbauer,BP,positive regulation of cell migration,520,172,3.67E-06,6.84E-04,GO:0030335,0.330769231,5.435724049,434
+First,Hofbauer,CC,vacuole,740,245,1.61E-10,1.22E-07,GO:0005773,0.331081081,9.792795184,435
+First,Hofbauer,BP,leukocyte proliferation,279,92.5,3.21E-07,8.02E-05,GO:0070661,0.331541219,6.493819398,436
+First,Hofbauer,BP,neutrophil activation,478,158.8333333,9.42E-10,5.23E-07,GO:0042119,0.332287308,9.025805228,437
+First,Hofbauer,BP,leukocyte activation,1161,385.8333333,1.46E-19,1.66E-15,GO:0045321,0.332328452,18.83471061,438
+First,Hofbauer,BP,myeloid leukocyte mediated immunity,529,175.8333333,1.34E-10,1.05E-07,GO:0002444,0.332388154,9.873430979,439
+First,Hofbauer,BP,taxis,616,205.1666667,2.37E-05,0.003152274,GO:0042330,0.333062771,4.625342303,440
+First,Hofbauer,CC,endosome,849,282.8333333,8.29E-09,3.29E-06,GO:0005768,0.333137024,8.081574387,441
+First,Hofbauer,BP,regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains,138,46,3.95E-04,0.031540458,GO:0002822,0.333333333,3.403249453,442
+First,Hofbauer,BP,supramolecular fiber organization,639,213.5,6.25E-05,0.007212209,GO:0097435,0.334115806,4.204427779,443
+First,Hofbauer,BP,chemotaxis,614,205.1666667,2.06E-05,0.002777348,GO:0006935,0.334147666,4.685445343,444
+First,Hofbauer,BP,granulocyte activation,484,161.8333333,3.03E-10,2.15E-07,GO:0036230,0.334366391,9.519248422,445
+First,Hofbauer,BP,neutrophil activation involved in immune response,469,156.8333333,6.90E-10,4.24E-07,GO:0002283,0.334399431,9.161440264,446
+First,Hofbauer,BP,neutrophil degranulation,466,155.8333333,8.80E-10,5.01E-07,GO:0043312,0.334406295,9.055412005,447
+First,Hofbauer,BP,regulation of T cell proliferation,146,49,2.56E-04,0.022671878,GO:0042129,0.335616438,3.591541699,448
+First,Hofbauer,BP,immune response-regulating signaling pathway,540,182.8333333,1.37E-08,4.87E-06,GO:0002764,0.338580247,7.863316245,449
+First,Hofbauer,BP,import into cell,813,276.6666667,1.90E-08,6.27E-06,GO:0098657,0.340303403,7.72063878,450
+First,Hofbauer,BP,myeloid leukocyte activation,625,214.3333333,6.92E-14,1.57E-10,GO:0002274,0.342933333,13.15969439,451
+First,Hofbauer,BP,negative regulation of cell activation,189,64.83333333,1.61E-04,0.01562961,GO:0050866,0.34303351,3.7937983,452
+First,Hofbauer,BP,regulation of cytoskeleton organization,508,174.3333333,1.35E-05,0.001964171,GO:0051493,0.343175853,4.870658314,453
+First,Hofbauer,BP,leukocyte degranulation,512,175.8333333,1.24E-11,1.28E-08,GO:0043299,0.343424479,10.90787436,454
+First,Hofbauer,CC,vacuolar part,543,186.5,2.27E-09,1.12E-06,GO:0044437,0.343462247,8.643994322,455
+First,Hofbauer,BP,immune response-activating signal transduction,508,174.8333333,7.72E-09,3.25E-06,GO:0002757,0.344160105,8.112493653,456
+First,Hofbauer,BP,positive regulation of kinase activity,548,189,5.88E-06,0.001037364,GO:0033674,0.344890511,5.23044134,457
+First,Hofbauer,BP,lymphocyte activation,632,218,2.41E-12,3.05E-09,GO:0046649,0.344936709,11.61792811,458
+First,Hofbauer,BP,regulation of lymphocyte activation,399,137.8333333,1.17E-08,4.27E-06,GO:0051249,0.345446951,7.933338755,459
+First,Hofbauer,CC,lysosomal membrane,339,117.5,9.83E-06,0.001564114,GO:0005765,0.34660767,5.007357978,460
+First,Hofbauer,BP,endocytosis,693,240.6666667,8.09E-09,3.29E-06,GO:0006897,0.347282347,8.092229031,461
+First,Hofbauer,BP,activation of protein kinase activity,320,111.5,3.95E-04,0.031540458,GO:0032147,0.3484375,3.403454005,462
+First,Hofbauer,CC,lytic vacuole membrane,340,118.5,7.21E-06,0.001233164,GO:0098852,0.348529412,5.142089758,463
+First,Hofbauer,BP,myeloid cell activation involved in immune response,523,182.3333333,5.41E-13,1.12E-09,GO:0002275,0.3486297,12.26688918,464
+First,Hofbauer,BP,leukocyte differentiation,492,171.6666667,3.04E-09,1.38E-06,GO:0002521,0.348915989,8.517784573,465
+First,Hofbauer,BP,positive regulation of cellular component biogenesis,513,179,4.98E-06,8.99E-04,GO:0044089,0.348927875,5.302677353,466
+First,Hofbauer,BP,negative regulation of cell-cell adhesion,171,59.83333333,4.21E-04,0.032802505,GO:0022408,0.349902534,3.375206575,467
+First,Hofbauer,BP,Ras protein signal transduction,417,146.1666667,4.56E-04,0.034753133,GO:0007265,0.350519584,3.340804086,468
+First,Hofbauer,BP,leukocyte activation involved in immune response,675,236.8333333,4.46E-17,1.69E-13,GO:0002366,0.350864198,16.35031402,469
+First,Hofbauer,BP,negative regulation of immune effector process,114,40,6.91E-04,0.048400521,GO:0002698,0.350877193,3.16022891,470
+First,Hofbauer,BP,leukocyte migration,419,147.1666667,7.54E-11,6.36E-08,GO:0050900,0.351233095,10.1223463,471
+First,Hofbauer,BP,T cell proliferation,172,60.5,3.27E-05,0.004130007,GO:0042098,0.351744186,4.485775533,472
+First,Hofbauer,BP,regulation of adaptive immune response,152,53.5,7.37E-05,0.008215359,GO:0002819,0.351973684,4.132705583,473
+First,Hofbauer,BP,regulation of leukocyte differentiation,261,92,9.26E-06,0.001504134,GO:1902105,0.352490421,5.033547878,474
+First,Hofbauer,BP,cell activation involved in immune response,679,239.8333333,1.71E-17,7.80E-14,GO:0002263,0.353215513,16.76615121,475
+First,Hofbauer,BP,lymphocyte differentiation,337,119.1666667,1.76E-07,4.66E-05,GO:0030098,0.353610287,6.75396689,476
+First,Hofbauer,CC,tertiary granule,158,56,7.75E-06,0.001286749,GO:0070820,0.35443038,5.110748023,477
+First,Hofbauer,BP,myeloid leukocyte differentiation,196,69.5,4.07E-04,0.031945633,GO:0002573,0.354591837,3.39015281,478
+First,Hofbauer,BP,regulation of lymphocyte differentiation,162,57.5,6.51E-04,0.045935067,GO:0045619,0.354938272,3.186368486,479
+First,Hofbauer,BP,negative regulation of leukocyte activation,165,58.83333333,3.91E-05,0.004851314,GO:0002695,0.356565657,4.408334066,480
+First,Hofbauer,BP,regulation of cell activation,524,187.8333333,1.71E-12,2.82E-09,GO:0050865,0.35846056,11.76756961,481
+First,Hofbauer,BP,regulation of leukocyte activation,482,172.8333333,5.20E-12,5.91E-09,GO:0002694,0.35857538,11.28423064,482
+First,Hofbauer,BP,actin filament-based process,725,260.5,3.73E-07,9.12E-05,GO:0030029,0.359310345,6.428540602,483
+First,Hofbauer,CC,anchoring junction,541,194.5,1.07E-04,0.011236078,GO:0070161,0.359519409,3.969887834,484
+First,Hofbauer,CC,secretory granule membrane,286,102.8333333,1.99E-07,5.16E-05,GO:0030667,0.35955711,6.700245503,485
+First,Hofbauer,BP,immune response-regulating cell surface receptor signaling pathway,380,137.5,5.34E-08,1.58E-05,GO:0002768,0.361842105,7.272665495,486
+First,Hofbauer,CC,adherens junction,526,190.5,1.21E-04,0.012381689,GO:0005912,0.3621673,3.915877554,487
+First,Hofbauer,CC,vacuolar membrane,396,143.5,1.77E-08,5.97E-06,GO:0005774,0.362373737,7.752020612,488
+First,Hofbauer,CC,primary lysosome,149,54,1.20E-05,0.001841507,GO:0005766,0.362416107,4.921527235,489
+First,Hofbauer,CC,azurophil granule,149,54,1.20E-05,0.001841507,GO:0042582,0.362416107,4.921527235,490
+First,Hofbauer,CC,late endosome membrane,127,46.33333333,6.15E-04,0.04382786,GO:0031902,0.364829396,3.211421365,491
+First,Hofbauer,BP,positive regulation of lymphocyte activation,253,92.5,5.96E-07,1.38E-04,GO:0051251,0.365612648,6.224723636,492
+First,Hofbauer,BP,positive regulation of GTPase activity,366,133.8333333,2.70E-04,0.023715129,GO:0043547,0.365664845,3.568637051,493
+First,Hofbauer,BP,negative regulation of cell adhesion,273,99.83333333,1.23E-05,0.001864222,GO:0007162,0.365689866,4.910373525,494
+First,Hofbauer,CC,cell-substrate junction,397,145.5,1.04E-04,0.011037842,GO:0030055,0.366498741,3.983664364,495
+First,Hofbauer,BP,regulation of cellular component size,349,128,1.92E-04,0.018170284,GO:0032535,0.366762178,3.715583545,496
+First,Hofbauer,BP,protein polymerization,267,98,1.01E-04,0.010772285,GO:0051258,0.367041199,3.996274883,497
+First,Hofbauer,BP,immune response-activating cell surface receptor signaling pathway,349,128.5,4.42E-08,1.32E-05,GO:0002429,0.368194842,7.355000898,498
+First,Hofbauer,CC,cell-substrate adherens junction,394,145.5,6.43E-05,0.007390968,GO:0005924,0.36928934,4.191595794,499
+First,Hofbauer,BP,T cell differentiation,236,87.16666667,5.37E-06,9.55E-04,GO:0030217,0.369350282,5.269781534,500
+First,Hofbauer,BP,lymphocyte activation involved in immune response,169,62.5,1.63E-06,3.49E-04,GO:0002285,0.369822485,5.788252413,501
+First,Hofbauer,CC,focal adhesion,392,145,5.43E-05,0.006403038,GO:0005925,0.369897959,4.265018944,502
+First,Hofbauer,BP,antigen receptor-mediated signaling pathway,231,85.5,1.31E-05,0.001926665,GO:0050851,0.37012987,4.881824302,503
+First,Hofbauer,BP,T cell activation,443,164,9.35E-12,1.01E-08,GO:0042110,0.37020316,11.0292015,504
+First,Hofbauer,BP,positive regulation of hemopoiesis,174,64.5,1.45E-04,0.014391864,GO:1903708,0.370689655,3.839009786,505
+First,Hofbauer,BP,regulation of cell adhesion,659,244.8333333,4.42E-11,4.02E-08,GO:0030155,0.371522509,10.35475579,506
+First,Hofbauer,CC,actin cytoskeleton,492,183,2.36E-06,4.62E-04,GO:0015629,0.37195122,5.627885143,507
+First,Hofbauer,BP,regulation of GTPase activity,435,161.8333333,3.15E-05,0.004023076,GO:0043087,0.372030651,4.501984018,508
+First,Hofbauer,BP,positive regulation of leukocyte activation,297,110.5,4.69E-09,2.09E-06,GO:0002696,0.372053872,8.328635153,509
+First,Hofbauer,BP,small GTPase mediated signal transduction,532,198.1666667,1.67E-06,3.54E-04,GO:0007264,0.372493734,5.778416578,510
+First,Hofbauer,CC,membrane region,316,118,1.48E-05,0.00212838,GO:0098589,0.373417722,4.830256049,511
+First,Hofbauer,BP,regulation of cell-cell adhesion,385,144.3333333,1.79E-09,9.67E-07,GO:0022407,0.374891775,8.748068587,512
+First,Hofbauer,BP,regulation of T cell differentiation,136,51,2.96E-04,0.025452112,GO:0045580,0.375,3.527992618,513
+First,Hofbauer,BP,positive regulation of cell activation,310,116.5,8.36E-10,4.88E-07,GO:0050867,0.375806452,9.077687548,514
+First,Hofbauer,BP,regulation of T cell activation,301,113.3333333,2.39E-09,1.15E-06,GO:0050863,0.376522702,8.622341349,515
+First,Hofbauer,BP,actin cytoskeleton organization,635,240.5,2.17E-08,6.94E-06,GO:0030036,0.378740157,7.664533331,516
+First,Hofbauer,BP,T cell activation involved in immune response,99,37.5,9.88E-05,0.010650684,GO:0002286,0.378787879,4.005302353,517
+First,Hofbauer,BP,macrophage activation,91,34.5,4.22E-04,0.032802505,GO:0042116,0.379120879,3.374187683,518
+First,Hofbauer,BP,regulation of cell morphogenesis,459,174.5,4.26E-05,0.005240606,GO:0022604,0.380174292,4.370409108,519
+First,Hofbauer,BP,positive regulation of endocytosis,147,56,2.93E-04,0.025309773,GO:0045807,0.380952381,3.53371831,520
+First,Hofbauer,CC,membrane raft,303,115.5,1.30E-05,0.001926665,GO:0045121,0.381188119,4.887309569,521
+First,Hofbauer,BP,regulation of actin filament-based process,371,141.5,6.38E-07,1.47E-04,GO:0032970,0.381401617,6.194932383,522
+First,Hofbauer,MF,small GTPase binding,404,154.3333333,4.80E-05,0.005842177,GO:0031267,0.382013201,4.318546013,523
+First,Hofbauer,CC,cell leading edge,389,148.8333333,2.41E-04,0.021675328,GO:0031252,0.38260497,3.617876112,524
+First,Hofbauer,MF,Ras GTPase binding,390,149.3333333,5.28E-05,0.006293899,GO:0017016,0.382905983,4.277009186,525
+First,Hofbauer,CC,membrane microdomain,304,116.5,9.45E-06,0.00152489,GO:0098857,0.383223684,5.024504673,526
+First,Hofbauer,BP,leukocyte cell-cell adhesion,319,122.3333333,6.63E-11,5.80E-08,GO:0007159,0.383490073,10.1785769,527
+First,Hofbauer,CC,specific granule,155,59.5,6.09E-06,0.001065334,GO:0042581,0.383870968,5.215533336,528
+First,Hofbauer,BP,regulation of leukocyte cell-cell adhesion,287,110.3333333,6.15E-10,3.89E-07,GO:1903037,0.384436702,9.211206125,529
+First,Hofbauer,MF,GTPase binding,498,191.8333333,3.36E-07,8.32E-05,GO:0051020,0.385207497,6.473259612,530
+First,Hofbauer,MF,GTPase regulator activity,272,105.3333333,3.27E-04,0.027453189,GO:0030695,0.387254902,3.485400216,531
+First,Hofbauer,BP,inositol lipid-mediated signaling,178,69,5.58E-04,0.040393925,GO:0048017,0.387640449,3.253736804,532
+First,Hofbauer,BP,phagocytosis,258,100.6666667,4.61E-07,1.12E-04,GO:0006909,0.390180879,6.336217641,533
+First,Hofbauer,BP,regulation of cell-substrate adhesion,205,80,5.08E-04,0.037546283,GO:0010810,0.390243902,3.293844645,534
+First,Hofbauer,BP,positive regulation of leukocyte differentiation,137,53.5,1.17E-04,0.012021951,GO:1902107,0.390510949,3.930634389,535
+First,Hofbauer,CC,tertiary granule membrane,69,27,7.05E-04,0.049177102,GO:0070821,0.391304348,3.151981779,536
+First,Hofbauer,MF,molecular adaptor activity,222,87,1.13E-04,0.011756824,GO:0060090,0.391891892,3.946228181,537
+First,Hofbauer,BP,regulation of actin cytoskeleton organization,327,128.5,2.52E-07,6.44E-05,GO:0032956,0.392966361,6.598797796,538
+First,Hofbauer,BP,regulation of small GTPase mediated signal transduction,315,124.1666667,2.25E-04,0.020406546,GO:0051056,0.394179894,3.647519077,539
+First,Hofbauer,BP,regulation of supramolecular fiber organization,333,131.5,8.77E-08,2.43E-05,GO:1902903,0.394894895,7.056950164,540
+First,Hofbauer,CC,cell cortex,298,118,2.84E-05,0.003676786,GO:0005938,0.395973154,4.545981276,541
+First,Hofbauer,BP,positive regulation of cell adhesion,388,154,4.50E-10,3.10E-07,GO:0045785,0.396907216,9.347159412,542
+First,Hofbauer,BP,positive regulation of cell-cell adhesion,244,97.5,2.15E-08,6.94E-06,GO:0022409,0.399590164,7.667135926,543
+First,Hofbauer,BP,positive regulation of cytoskeleton organization,218,87.33333333,1.11E-06,2.45E-04,GO:0051495,0.400611621,5.955473753,544
+First,Hofbauer,MF,GTPase activator activity,242,97.33333333,1.80E-04,0.017140735,GO:0005096,0.402203857,3.744534965,545
+First,Hofbauer,MF,actin binding,408,164.5,4.98E-07,1.17E-04,GO:0003779,0.403186275,6.303168682,546
+First,Hofbauer,CC,specific granule membrane,88,35.5,2.94E-04,0.025316486,GO:0035579,0.403409091,3.531954955,547
+First,Hofbauer,BP,positive regulation of T cell activation,193,78,1.09E-07,2.98E-05,GO:0050870,0.404145078,6.963947072,548
+First,Hofbauer,BP,actin filament organization,378,153,2.94E-08,9.04E-06,GO:0007015,0.404761905,7.531519912,549
+First,Hofbauer,BP,regulation of protein polymerization,207,84,6.32E-06,0.001098097,GO:0032271,0.405797101,5.199050206,550
+First,Hofbauer,BP,ceramide metabolic process,91,37,1.51E-04,0.01497887,GO:0006672,0.406593407,3.819755428,551
+First,Hofbauer,BP,actin polymerization or depolymerization,197,80.5,3.42E-05,0.004302194,GO:0008154,0.408629442,4.465593788,552
+First,Hofbauer,BP,T cell differentiation involved in immune response,66,27,5.38E-04,0.03919869,GO:0002292,0.409090909,3.269536167,553
+First,Hofbauer,BP,positive regulation of protein polymerization,128,52.5,2.91E-04,0.025232067,GO:0032273,0.41015625,3.536708193,554
+First,Hofbauer,BP,positive regulation of leukocyte cell-cell adhesion,207,85.5,9.14E-09,3.46E-06,GO:1903039,0.413043478,8.039223987,555
+First,Hofbauer,MF,actin filament binding,190,78.5,4.32E-04,0.033452037,GO:0051015,0.413157895,3.364100207,556
+First,Hofbauer,MF,"protein binding, bridging",162,67,4.87E-05,0.005889186,GO:0030674,0.413580247,4.312749156,557
+First,Hofbauer,BP,regulation of actin filament length,169,70,2.79E-05,0.00363153,GO:0030832,0.414201183,4.553834663,558
+First,Hofbauer,BP,Fc receptor signaling pathway,171,71,9.57E-06,0.001532596,GO:0038093,0.415204678,5.019246233,559
+First,Hofbauer,BP,actin filament polymerization,171,71,2.52E-05,0.003312563,GO:0030041,0.415204678,4.598752096,560
+First,Hofbauer,BP,regulation of actin polymerization or depolymerization,168,70,2.02E-05,0.002751548,GO:0008064,0.416666667,4.694668678,561
+First,Hofbauer,BP,alpha-beta T cell differentiation,97,40.66666667,3.85E-04,0.031054856,GO:0046632,0.419243986,3.414583686,562
+First,Hofbauer,CC,lamellipodium,187,78.5,4.76E-04,0.035467829,GO:0030027,0.419786096,3.322016448,563
+First,Hofbauer,BP,lysosome localization,69,29,4.71E-04,0.035395142,GO:0032418,0.420289855,3.326743441,564
+First,Hofbauer,BP,"CD4-positive, alpha-beta T cell differentiation",71,30,4.45E-04,0.03416569,GO:0043367,0.422535211,3.352080398,565
+First,Hofbauer,BP,positive regulation of supramolecular fiber organization,197,83.5,8.80E-07,2.00E-04,GO:1902905,0.423857868,6.055577096,566
+First,Hofbauer,BP,regulation of actin filament polymerization,152,65,1.22E-05,0.001864222,GO:0030833,0.427631579,4.91222212,567
+First,Hofbauer,BP,positive regulation of actin filament polymerization,94,40.5,5.35E-04,0.039155555,GO:0030838,0.430851064,3.271408537,568
+First,Hofbauer,BP,actin filament bundle organization,151,65.5,1.29E-04,0.013099718,GO:0061572,0.433774834,3.889452346,569
+First,Hofbauer,BP,regulation of actin filament organization,247,107.5,1.79E-08,5.97E-06,GO:0110053,0.435222672,7.748201732,570
+First,Hofbauer,BP,alpha-beta T cell activation,129,56.5,1.56E-06,3.38E-04,GO:0046631,0.437984496,5.806425192,571
+First,Hofbauer,MF,guanyl-nucleotide exchange factor activity,206,90.5,1.61E-05,0.002282786,GO:0005085,0.439320388,4.793090556,572
+First,Hofbauer,BP,alpha-beta T cell activation involved in immune response,59,26,4.07E-04,0.031945633,GO:0002287,0.440677966,3.390174769,573
+First,Hofbauer,BP,alpha-beta T cell differentiation involved in immune response,59,26,4.07E-04,0.031945633,GO:0002293,0.440677966,3.390174769,574
+First,Hofbauer,BP,lymphocyte costimulation,52,23,6.17E-04,0.04383768,GO:0031294,0.442307692,3.209964769,575
+First,Hofbauer,BP,actin filament bundle assembly,148,65.5,5.97E-05,0.006964614,GO:0051017,0.442567568,4.224030624,576
+First,Hofbauer,BP,"CD4-positive, alpha-beta T cell differentiation involved in immune response",58,26,3.17E-04,0.026876848,GO:0002294,0.448275862,3.499449176,577
+First,Hofbauer,BP,T cell costimulation,51,23,4.70E-04,0.035395142,GO:0031295,0.450980392,3.327507276,578
+First,Hofbauer,BP,"CD4-positive, alpha-beta T cell activation",86,39,7.36E-06,0.001245733,GO:0035710,0.453488372,5.132952291,579
+First,Hofbauer,BP,contractile actin filament bundle assembly,95,43.5,3.30E-04,0.027519703,GO:0030038,0.457894737,3.481155928,580
+First,Hofbauer,BP,stress fiber assembly,95,43.5,3.30E-04,0.027519703,GO:0043149,0.457894737,3.481155928,581
+First,Hofbauer,MF,Ras guanyl-nucleotide exchange factor activity,132,60.5,6.08E-04,0.043524809,GO:0005088,0.458333333,3.215798321,582
+First,Hofbauer,BP,regulation of actomyosin structure organization,92,42.5,8.41E-05,0.009241629,GO:0110020,0.461956522,4.075243453,583
+First,Hofbauer,BP,regulation of stress fiber assembly,81,37.5,3.71E-04,0.030360406,GO:0051492,0.462962963,3.430588347,584
+First,Hofbauer,BP,regulation of alpha-beta T cell activation,86,39.83333333,1.27E-05,0.001904044,GO:0046634,0.463178295,4.895441691,585
+First,Hofbauer,BP,mast cell activation,56,26,1.00E-04,0.010766189,GO:0045576,0.464285714,3.998564457,586
+First,Hofbauer,BP,T-helper cell differentiation,56,26,2.15E-04,0.019726785,GO:0042093,0.464285714,3.668145293,587
+First,Hofbauer,BP,positive regulation of alpha-beta T cell activation,58,27,2.65E-04,0.023340564,GO:0046635,0.465517241,3.577231257,588
+First,Hofbauer,BP,mast cell activation involved in immune response,45,21,4.51E-04,0.034574333,GO:0002279,0.466666667,3.345452048,589
+First,Hofbauer,BP,"regulation of CD4-positive, alpha-beta T cell differentiation",45,21,4.85E-04,0.035921157,GO:0043370,0.466666667,3.314473618,590
+First,Hofbauer,BP,regulation of actin filament bundle assembly,93,43.5,1.06E-04,0.011111906,GO:0032231,0.467741935,3.976719992,591
+First,Hofbauer,BP,actin cytoskeleton reorganization,98,46,1.84E-04,0.01740652,GO:0031532,0.469387755,3.736039118,592
+First,Hofbauer,BP,regulation of cell shape,144,68,2.66E-06,5.13E-04,GO:0008360,0.472222222,5.574598493,593
+First,Hofbauer,MF,immunoglobulin binding,19,9,4.04E-04,0.031945633,GO:0019865,0.473684211,3.393231514,594
+First,Hofbauer,BP,regulation of antigen receptor-mediated signaling pathway,63,30,1.85E-05,0.002547434,GO:0050854,0.476190476,4.731908055,595
+First,Hofbauer,BP,regulation of phospholipid metabolic process,84,40.5,3.54E-05,0.004421827,GO:1903725,0.482142857,4.451289153,596
+First,Hofbauer,BP,regulation of leukocyte degranulation,43,21,6.24E-04,0.044209071,GO:0043300,0.488372093,3.204945887,597
+First,Hofbauer,BP,positive regulation of actin filament bundle assembly,60,30,1.32E-04,0.01332219,GO:0032233,0.5,3.880204162,598
+First,Hofbauer,BP,adherens junction assembly,88,44.5,5.92E-04,0.042517516,GO:0034333,0.505681818,3.227335168,599
+First,Hofbauer,BP,"positive regulation of CD4-positive, alpha-beta T cell activation",33,17,1.75E-04,0.016693636,GO:2000516,0.515151515,3.757834411,600
+First,Hofbauer,BP,regulation of lipid kinase activity,63,32.5,1.05E-04,0.011092718,GO:0043550,0.515873016,3.979485884,601
+First,Hofbauer,BP,"regulation of CD4-positive, alpha-beta T cell activation",56,29,3.42E-06,6.43E-04,GO:2000514,0.517857143,5.466259524,602
+First,Hofbauer,BP,regulation of phosphatidylinositol 3-kinase activity,54,28.5,1.72E-04,0.016510564,GO:0043551,0.527777778,3.764452047,603
+First,Hofbauer,BP,positive regulation of stress fiber assembly,51,27,1.34E-04,0.013442268,GO:0051496,0.529411765,3.874381314,604
+First,Hofbauer,MF,signaling adaptor activity,74,40,1.15E-05,0.001792042,GO:0035591,0.540540541,4.93926121,605
+First,Hofbauer,BP,Fc receptor mediated stimulatory signaling pathway,81,44,1.92E-06,3.87E-04,GO:0002431,0.543209877,5.715738193,606
+First,Hofbauer,BP,Fc-gamma receptor signaling pathway,78,44,3.18E-07,8.02E-05,GO:0038094,0.564102564,6.498111292,607
+First,Hofbauer,CC,immunological synapse,36,20.5,1.43E-04,0.014309379,GO:0001772,0.569444444,3.84340669,608
+First,Hofbauer,BP,immune response-regulating cell surface receptor signaling pathway involved in phagocytosis,75,43,4.79E-07,1.13E-04,GO:0002433,0.573333333,6.320037573,609
+First,Hofbauer,BP,Fc-gamma receptor signaling pathway involved in phagocytosis,75,43,4.79E-07,1.13E-04,GO:0038096,0.573333333,6.320037573,610
+First,Hofbauer,BP,T-helper 1 cell differentiation,19,11,6.52E-04,0.045935067,GO:0045063,0.578947368,3.185615436,611
+First,Hofbauer,BP,positive regulation of lipid kinase activity,36,21,2.83E-04,0.024727789,GO:0090218,0.583333333,3.547862484,612
+First,Hofbauer,MF,SH3/SH2 adaptor activity,46,27,3.92E-05,0.004851314,GO:0005070,0.586956522,4.406285126,613
+First,Hofbauer,BP,positive regulation of phosphatidylinositol 3-kinase activity,32,19,3.79E-04,0.030778176,GO:0043552,0.59375,3.421561402,614
+First,Hofbauer,BP,positive regulation of phospholipid metabolic process,46,28,3.38E-06,6.41E-04,GO:1903727,0.608695652,5.470911873,615
+First,Hofbauer,BP,B cell receptor signaling pathway,58,38,7.75E-10,4.64E-07,GO:0050853,0.655172414,9.110430186,616
+First,Hofbauer,BP,regulation of B cell receptor signaling pathway,28,19,3.72E-06,6.88E-04,GO:0050855,0.678571429,5.429736372,617
+First,Stromal,CC,cytoplasm,10837,2604.083333,4.75E-07,6.36E-04,GO:0005737,0.240295592,6.322899113,618
+First,Stromal,BP,immune response,1897,459.1666667,8.77E-05,0.029509817,GO:0006955,0.242048849,4.056798171,619
+First,Stromal,CC,cytoplasmic part,9146,2225.5,5.67E-07,6.45E-04,GO:0044444,0.243330418,6.246333408,620
+First,Stromal,BP,regulation of cellular protein metabolic process,2535,653.6666667,1.32E-04,0.039069478,GO:0032268,0.257856673,3.87863398,621
+First,Stromal,BP,phosphate-containing compound metabolic process,3147,831.5833333,5.49E-05,0.021911383,GO:0006796,0.264246372,4.260417667,622
+First,Stromal,BP,phosphorus metabolic process,3172,838.5833333,4.83E-05,0.019633446,GO:0006793,0.264370534,4.315777759,623
+First,Stromal,CC,cytosol,4822,1299.666667,5.30E-11,6.03E-07,GO:0005829,0.26952855,10.27534283,624
+First,Stromal,BP,regulation of signal transduction,3004,815.4166667,8.82E-05,0.029509817,GO:0009966,0.271443631,4.054486881,625
+First,Stromal,BP,intracellular signal transduction,2794,768.5,8.68E-06,0.005065818,GO:0035556,0.275053686,5.061248147,626
+First,Stromal,BP,regulation of catalytic activity,2206,612.6666667,1.19E-05,0.006465385,GO:0050790,0.27772741,4.923118661,627
+First,Stromal,CC,cytoskeleton,2089,586.5833333,1.14E-04,0.035057788,GO:0005856,0.280796234,3.942946075,628
+First,Stromal,BP,negative regulation of signaling,1360,383.3333333,1.50E-04,0.043215762,GO:0023057,0.281862745,3.823693048,629
+First,Stromal,BP,regulation of intracellular signal transduction,1856,524.5,2.26E-06,0.001770691,GO:1902531,0.282596983,5.646421648,630
+First,Stromal,BP,negative regulation of cell communication,1356,383.3333333,1.19E-04,0.036048263,GO:0010648,0.282694199,3.925016701,631
+First,Stromal,BP,negative regulation of signal transduction,1253,358.3333333,5.97E-05,0.023420847,GO:0009968,0.285980314,4.223931714,632
+First,Stromal,BP,cellular response to oxygen-containing compound,1092,313.5833333,1.48E-04,0.043215762,GO:1901701,0.287164225,3.829010552,633
+First,Stromal,BP,regulation of hydrolase activity,1219,352,7.80E-05,0.028148314,GO:0051336,0.28876128,4.10816937,634
+First,Stromal,BP,cell migration,1450,418.8333333,7.41E-05,0.027618266,GO:0016477,0.288850575,4.130436067,635
+First,Stromal,BP,vesicle-mediated transport,1909,552.3333333,4.26E-08,1.38E-04,GO:0016192,0.289331238,7.370935186,636
+First,Stromal,BP,positive regulation of molecular function,1671,492.6666667,9.50E-06,0.005405507,GO:0044093,0.294833433,5.022065902,637
+First,Stromal,BP,regulation of locomotion,1023,303.3333333,9.64E-05,0.031321364,GO:0040012,0.296513522,4.016023597,638
+First,Stromal,BP,regulation of cellular component movement,1035,310.3333333,8.24E-05,0.028865162,GO:0051270,0.299838969,4.08415825,639
+First,Stromal,BP,regulation of cell motility,952,287.3333333,3.66E-05,0.015999131,GO:2000145,0.301820728,4.436862583,640
+First,Stromal,BP,positive regulation of catalytic activity,1343,410.1666667,1.42E-06,0.001242151,GO:0043085,0.305410772,5.847814457,641
+First,Stromal,MF,enzyme binding,2112,647.3333333,1.33E-09,7.58E-06,GO:0019899,0.306502525,8.875379941,642
+First,Stromal,BP,regulation of cell migration,895,274.3333333,2.09E-05,0.010451026,GO:0030334,0.306517691,4.680137767,643
+First,Stromal,BP,positive regulation of cell migration,520,164,1.01E-04,0.032024265,GO:0030335,0.315384615,3.994150648,644
+First,Stromal,BP,cytoskeleton organization,1264,403.5,1.04E-06,9.84E-04,GO:0007010,0.319224684,5.983646249,645
+First,Stromal,BP,regulation of cell adhesion,659,213,8.25E-05,0.028865162,GO:0030155,0.323216995,4.083674954,646
+First,Stromal,BP,cellular response to nitrogen compound,619,201.5833333,4.20E-05,0.018035155,GO:1901699,0.325659666,4.376566564,647
+First,Stromal,BP,positive regulation of hydrolase activity,723,238,1.22E-06,0.001110678,GO:0051345,0.329183956,5.913434212,648
+First,Stromal,BP,supramolecular fiber organization,639,211.5,1.05E-04,0.032657967,GO:0097435,0.330985915,3.979650309,649
+First,Stromal,BP,cellular response to organonitrogen compound,561,193.5833333,1.74E-06,0.001465053,GO:0071417,0.34506833,5.759745349,650
+First,Stromal,MF,cytoskeletal protein binding,934,323,5.08E-07,6.42E-04,GO:0008092,0.345824411,6.294136896,651
+First,Stromal,BP,response to insulin,263,92.58333333,6.12E-05,0.023588022,GO:0032868,0.352027883,4.213418776,652
+First,Stromal,MF,enzyme activator activity,477,168.3333333,3.53E-06,0.002591264,GO:0008047,0.35290007,5.451792389,653
+First,Stromal,BP,regulation of actin cytoskeleton organization,327,117,1.59E-04,0.045180757,GO:0032956,0.357798165,3.798918823,654
+First,Stromal,BP,cellular response to insulin stimulus,211,78,9.84E-05,0.031530852,GO:0032869,0.369668246,4.006968257,655
+First,Stromal,CC,actin cytoskeleton,492,182,3.65E-06,0.002591264,GO:0015629,0.369918699,5.438300635,656
+First,Stromal,CC,cell-substrate adherens junction,394,147,2.37E-05,0.011484502,GO:0005924,0.373096447,4.624752273,657
+First,Stromal,CC,focal adhesion,392,147,1.99E-05,0.010279501,GO:0005925,0.375,4.701537582,658
+First,Stromal,CC,anchoring junction,541,203,2.04E-06,0.001653621,GO:0070161,0.375231054,5.691368301,659
+First,Stromal,CC,cell-substrate junction,397,149,1.54E-05,0.008148022,GO:0030055,0.375314861,4.812441685,660
+First,Stromal,BP,regulation of supramolecular fiber organization,333,125.5,4.58E-06,0.002929127,GO:1902903,0.376876877,5.339470674,661
+First,Stromal,CC,adherens junction,526,200,7.26E-07,7.51E-04,GO:0005912,0.380228137,6.139100756,662
+First,Stromal,BP,protein polymerization,267,102,8.58E-06,0.005065818,GO:0051258,0.382022472,5.066372767,663
+First,Stromal,MF,actin binding,408,157.5,3.31E-05,0.014744294,GO:0003779,0.386029412,4.480768151,664
+First,Stromal,BP,Ras protein signal transduction,417,161,1.78E-07,3.68E-04,GO:0007265,0.386091127,6.749267435,665
+First,Stromal,BP,actin filament-based process,725,280,3.93E-11,6.03E-07,GO:0030029,0.386206897,10.40548436,666
+First,Stromal,BP,regulation of protein polymerization,207,80,7.77E-05,0.028148314,GO:0032271,0.38647343,4.109702926,667
+First,Stromal,BP,regulation of GTPase activity,435,168.5,4.41E-07,6.31E-04,GO:0043087,0.387356322,6.355176576,668
+First,Stromal,MF,GTPase binding,498,194,7.33E-08,1.73E-04,GO:0051020,0.389558233,7.134719518,669
+First,Stromal,MF,molecular adaptor activity,222,86.5,1.81E-04,0.049652301,GO:0060090,0.38963964,3.741944842,670
+First,Stromal,BP,positive regulation of supramolecular fiber organization,197,77,4.62E-05,0.01908943,GO:1902905,0.390862944,4.335806653,671
+First,Stromal,BP,regulation of actin filament organization,247,97,2.11E-05,0.010451026,GO:0110053,0.392712551,4.675045559,672
+First,Stromal,BP,small GTPase mediated signal transduction,532,209,4.89E-09,2.22E-05,GO:0007264,0.392857143,8.310830249,673
+First,Stromal,BP,actin cytoskeleton organization,635,250,1.38E-10,1.04E-06,GO:0030036,0.393700787,9.861376045,674
+First,Stromal,BP,actin filament organization,378,149,2.44E-07,4.63E-04,GO:0007015,0.394179894,6.611752833,675
+First,Stromal,BP,positive regulation of GTPase activity,366,145,3.14E-07,5.49E-04,GO:0043547,0.396174863,6.503391678,676
+First,Stromal,MF,small GTPase binding,404,161,6.95E-07,7.51E-04,GO:0031267,0.398514851,6.158012149,677
+First,Stromal,BP,regulation of cell-substrate adhesion,205,82,1.61E-04,0.045341281,GO:0010810,0.4,3.791983509,678
+First,Stromal,MF,Ras GTPase binding,390,157,4.44E-07,6.31E-04,GO:0017016,0.402564103,6.352869397,679
+First,Stromal,BP,regulation of actin filament polymerization,152,62,9.34E-05,0.030801078,GO:0030833,0.407894737,4.0295473,680
+First,Stromal,BP,actin polymerization or depolymerization,197,80.5,3.11E-05,0.014437851,GO:0008154,0.408629442,4.507263686,681
+First,Stromal,MF,nucleoside-triphosphatase regulator activity,312,129.5,7.60E-08,1.73E-04,GO:0060589,0.415064103,7.119379877,682
+First,Stromal,BP,actin filament polymerization,171,72.5,1.12E-05,0.006217978,GO:0030041,0.423976608,4.950529268,683
+First,Stromal,MF,GTPase regulator activity,272,116.5,3.51E-07,5.70E-04,GO:0030695,0.428308824,6.45514861,684
+First,Stromal,CC,lamellipodium,187,81,8.60E-05,0.029509817,GO:0030027,0.43315508,4.065308564,685
+First,Stromal,MF,GTPase activator activity,242,105,8.29E-07,8.20E-04,GO:0005096,0.433884298,6.081287239,686
+First,Stromal,MF,Rho GTPase binding,160,71,1.24E-04,0.037040917,GO:0017048,0.44375,3.907466988,687
+First,Stromal,BP,actin filament bundle organization,151,67.5,3.19E-05,0.014514859,GO:0061572,0.447019868,4.496179498,688
+First,Stromal,BP,regulation of small GTPase mediated signal transduction,315,141.5,8.97E-09,3.40E-05,GO:0051056,0.449206349,8.047246638,689
+First,Stromal,BP,actin filament bundle assembly,148,66.5,2.85E-05,0.013522619,GO:0051017,0.449324324,4.544660256,690
+First,Stromal,BP,regulation of Ras protein signal transduction,224,102,5.43E-07,6.45E-04,GO:0046578,0.455357143,6.264974568,691
+First,Stromal,BP,regulation of cell-matrix adhesion,114,53,6.37E-05,0.024156078,GO:0001952,0.464912281,4.195784641,692
+First,Stromal,MF,guanyl-nucleotide exchange factor activity,206,97.5,6.66E-08,1.73E-04,GO:0005085,0.473300971,7.176500361,693
+First,Stromal,MF,Ras guanyl-nucleotide exchange factor activity,132,67.5,3.95E-06,0.002720146,GO:0005088,0.511363636,5.403856107,694
+First,Stromal,BP,Fc receptor mediated stimulatory signaling pathway,81,43,5.49E-06,0.003377464,GO:0002431,0.530864198,5.260169911,695
+First,Stromal,BP,Fc-gamma receptor signaling pathway,78,42,2.99E-06,0.002269515,GO:0038094,0.538461538,5.523908049,696
+First,Stromal,BP,immune response-regulating cell surface receptor signaling pathway involved in phagocytosis,75,41,4.64E-06,0.002929127,GO:0002433,0.546666667,5.333921637,697
+First,Stromal,BP,Fc-gamma receptor signaling pathway involved in phagocytosis,75,41,4.64E-06,0.002929127,GO:0038096,0.546666667,5.333921637,698
+First,Stromal,MF,Rho guanyl-nucleotide exchange factor activity,74,42.5,4.30E-05,0.018108655,GO:0005089,0.574324324,4.366682358,699
+First,Stromal,BP,Rac protein signal transduction,33,20,1.70E-04,0.047254777,GO:0016601,0.606060606,3.768702741,700
+Term,Endothelial,CC,nuclear lumen,4243,957.3333333,4.86E-05,0.042532154,GO:0031981,0.225626522,4.313271581,701
+Term,Endothelial,BP,cellular protein metabolic process,4949,1164.416667,4.90E-06,0.008570881,GO:0044267,0.235283222,5.309993482,702
+Term,Endothelial,BP,macromolecule modification,4103,1017.75,3.75E-07,0.001219456,GO:0043412,0.248050207,6.425698033,703
+Term,Endothelial,BP,cellular protein modification process,3903,976.75,1.69E-06,0.003838716,GO:0006464,0.250256213,5.77277635,704
+Term,Endothelial,BP,protein modification process,3903,976.75,1.69E-06,0.003838716,GO:0036211,0.250256213,5.77277635,705
+Term,Endothelial,CC,nucleoplasm,3311,836.6666667,1.83E-07,7.31E-04,GO:0005654,0.252693043,6.737956158,706
+Term,Endothelial,CC,cytosol,4822,1222.333333,2.66E-10,6.06E-06,GO:0005829,0.253490944,9.57480578,707
+Term,Endothelial,BP,cellular response to stress,1962,498.8333333,2.29E-05,0.028986538,GO:0033554,0.254247367,4.639493464,708
+Term,Endothelial,BP,regulation of intracellular signal transduction,1856,491.75,1.43E-05,0.02163724,GO:1902531,0.264951509,4.845669182,709
+Term,Endothelial,BP,intracellular signal transduction,2794,742.75,7.54E-08,5.72E-04,GO:0035556,0.265837509,7.122675257,710
+Term,Endothelial,MF,"catalytic activity, acting on a protein",2029,544.8333333,5.16E-05,0.043473817,GO:0140096,0.268523082,4.287370777,711
+Term,Endothelial,BP,tube development,1068,306.1666667,2.90E-05,0.03303573,GO:0035295,0.286672909,4.536948401,712
+Term,Endothelial,MF,enzyme binding,2112,610.5833333,6.34E-09,7.22E-05,GO:0019899,0.289101957,8.197628914,713
+Term,Endothelial,BP,tube morphogenesis,886,260.9166667,2.08E-05,0.027842785,GO:0035239,0.294488337,4.681800719,714
+Term,Endothelial,BP,cardiovascular system development,769,226.9166667,1.65E-05,0.023462584,GO:0072358,0.295080191,4.782466487,715
+Term,Endothelial,BP,vasculature development,761,224.9166667,1.20E-05,0.01953665,GO:0001944,0.295554095,4.919984171,716
+Term,Endothelial,BP,small GTPase mediated signal transduction,532,188,3.61E-06,0.007466319,GO:0007264,0.353383459,5.442463107,717
+Term,Endothelial,CC,cell-substrate junction,397,141.5,3.32E-05,0.033704091,GO:0030055,0.356423174,4.478675752,718
+Term,Endothelial,CC,cell-substrate adherens junction,394,140.5,3.22E-05,0.033704091,GO:0005924,0.356598985,4.492089079,719
+Term,Endothelial,BP,positive regulation of GTPase activity,366,131,4.63E-05,0.042141075,GO:0043547,0.357923497,4.334316695,720
+Term,Endothelial,CC,focal adhesion,392,140.5,2.74E-05,0.032819367,GO:0005925,0.358418367,4.56207851,721
+Term,Endothelial,CC,anchoring junction,541,198,1.93E-07,7.31E-04,GO:0070161,0.365988909,6.715037201,722
+Term,Endothelial,BP,regulation of GTPase activity,435,160,7.20E-07,0.002046987,GO:0043087,0.367816092,6.142757339,723
+Term,Endothelial,CC,adherens junction,526,195,1.50E-07,7.31E-04,GO:0005912,0.370722433,6.823359067,724
+Term,Endothelial,BP,endothelium development,128,51,4.42E-05,0.041890692,GO:0003158,0.3984375,4.354633531,725
+Term,Endothelial,CC,ruffle,167,74.5,4.86E-06,0.008570881,GO:0001726,0.446107784,5.313022716,726
+Term,Endothelial,BP,protein K48-linked ubiquitination,55,27.83333333,3.41E-05,0.033704091,GO:0070936,0.506060606,4.467551854,727
+Term,Hofbauer,BP,response to stimulus,8475,1962.666667,1.00E-05,0.002419274,GO:0050896,0.231583088,5.000149314,728
+Term,Hofbauer,BP,defense response,1573,372.3333333,6.72E-06,0.001777337,GO:0006952,0.236702691,5.172694047,729
+Term,Hofbauer,BP,cellular response to stimulus,7030,1677.166667,1.33E-07,7.82E-05,GO:0051716,0.238572783,6.876394809,730
+Term,Hofbauer,BP,response to stress,3765,906.8333333,9.31E-06,0.00230181,GO:0006950,0.240858787,5.031105057,731
+Term,Hofbauer,BP,response to bacterium,585,141.5,4.90E-04,0.048260715,GO:0009617,0.241880342,3.309756578,732
+Term,Hofbauer,BP,signal transduction,5647,1373.833333,4.80E-07,2.06E-04,GO:0007165,0.24328552,6.318567508,733
+Term,Hofbauer,BP,signaling,6096,1483.333333,5.07E-06,0.001407923,GO:0023052,0.243328959,5.294569556,734
+Term,Hofbauer,BP,cell communication,6124,1494.833333,8.82E-07,3.46E-04,GO:0007154,0.244094274,6.054610024,735
+Term,Hofbauer,BP,cellular response to chemical stimulus,3113,769.8333333,3.32E-04,0.035459877,GO:0070887,0.247296284,3.478845483,736
+Term,Hofbauer,BP,response to external stimulus,2275,570.5,5.73E-05,0.008932931,GO:0009605,0.250769231,4.241615465,737
+Term,Hofbauer,CC,secretory granule,802,202,4.96E-04,0.048378538,GO:0030141,0.251870324,3.304148753,738
+Term,Hofbauer,BP,cellular response to organic substance,2571,661.1666667,3.62E-05,0.006282929,GO:0071310,0.257163231,4.441528869,739
+Term,Hofbauer,BP,regulation of inflammatory response,400,103.5,3.46E-04,0.036653418,GO:0050727,0.25875,3.460411217,740
+Term,Hofbauer,BP,immune system process,2762,715.5,5.42E-11,2.47E-07,GO:0002376,0.259051412,10.26598077,741
+Term,Hofbauer,BP,regulation of response to stress,1509,391.8333333,2.30E-05,0.004575982,GO:0080134,0.259664237,4.637347929,742
+Term,Hofbauer,CC,intracellular vesicle,2201,575,4.86E-05,0.007960808,GO:0097708,0.261244889,4.312990349,743
+Term,Hofbauer,CC,cytoplasmic vesicle,2198,575,4.25E-05,0.007154246,GO:0031410,0.261601456,4.372064682,744
+Term,Hofbauer,BP,regulation of defense response,798,209,3.24E-06,0.00103879,GO:0031347,0.261904762,5.489176131,745
+Term,Hofbauer,BP,regulation of response to stimulus,4007,1051,3.02E-09,4.91E-06,GO:0048583,0.262290991,8.519448123,746
+Term,Hofbauer,BP,regulation of catalytic activity,2206,582.5,1.29E-04,0.016838376,GO:0050790,0.264052584,3.890112849,747
+Term,Hofbauer,BP,positive regulation of defense response,496,131,2.80E-04,0.031838041,GO:0031349,0.264112903,3.55298598,748
+Term,Hofbauer,BP,regulation of cell communication,3364,889,5.53E-05,0.008789796,GO:0010646,0.264268728,4.257647471,749
+Term,Hofbauer,CC,bounding membrane of organelle,1961,518.3333333,2.18E-04,0.025546853,GO:0098588,0.264320925,3.661823175,750
+Term,Hofbauer,BP,immune response,1897,502.3333333,1.77E-12,4.02E-08,GO:0006955,0.264804077,11.75305944,751
+Term,Hofbauer,BP,regulation of signaling,3411,903.5,3.54E-05,0.006195081,GO:0023051,0.264878335,4.450971946,752
+Term,Hofbauer,CC,cytoplasmic vesicle part,1428,379.6666667,1.57E-04,0.019816101,GO:0044433,0.265873016,3.804671598,753
+Term,Hofbauer,BP,cell surface receptor signaling pathway,2796,743.8333333,2.58E-05,0.005007469,GO:0007166,0.266034812,4.589158146,754
+Term,Hofbauer,BP,regulation of signal transduction,3004,807.5,1.06E-06,4.02E-04,GO:0009966,0.268808256,5.974407945,755
+Term,Hofbauer,BP,secretion,1585,426.5,3.58E-06,0.001114135,GO:0046903,0.269085174,5.446701583,756
+Term,Hofbauer,BP,regulation of response to external stimulus,813,219.1666667,3.51E-05,0.006195081,GO:0032101,0.269577696,4.45430332,757
+Term,Hofbauer,BP,negative regulation of cell communication,1356,365.8333333,4.98E-04,0.048378538,GO:0010648,0.269788594,3.303147126,758
+Term,Hofbauer,BP,positive regulation of response to stimulus,2276,614.1666667,2.12E-08,1.86E-05,GO:0048584,0.269844757,7.672719948,759
+Term,Hofbauer,BP,positive regulation of signaling,1770,478.8333333,9.09E-05,0.012692998,GO:0023056,0.270527307,4.041210483,760
+Term,Hofbauer,BP,positive regulation of cell communication,1763,477.8333333,7.47E-05,0.010825439,GO:0010647,0.271034222,4.126617132,761
+Term,Hofbauer,BP,negative regulation of signal transduction,1253,340.3333333,3.52E-04,0.036884622,GO:0009968,0.271614791,3.453657243,762
+Term,Hofbauer,BP,negative regulation of response to stimulus,1619,440,6.01E-06,0.001627524,GO:0048585,0.271772699,5.221155703,763
+Term,Hofbauer,BP,inflammatory response,748,203.8333333,2.01E-08,1.86E-05,GO:0006954,0.272504456,7.697442672,764
+Term,Hofbauer,BP,movement of cell or subcellular component,2050,562,1.75E-04,0.021700224,GO:0006928,0.274146341,3.758047006,765
+Term,Hofbauer,BP,regulation of cellular component organization,2393,656.5,1.84E-04,0.022421198,GO:0051128,0.27434183,3.734580711,766
+Term,Hofbauer,BP,immune effector process,1113,305.5,6.14E-09,7.76E-06,GO:0002252,0.274483378,8.211607327,767
+Term,Hofbauer,BP,regulation of innate immune response,428,117.5,4.43E-04,0.044821891,GO:0045088,0.27453271,3.35328962,768
+Term,Hofbauer,BP,regulation of hydrolase activity,1219,335.6666667,3.51E-04,0.036884622,GO:0051336,0.275362319,3.454670261,769
+Term,Hofbauer,BP,positive regulation of intracellular signal transduction,1031,284,4.59E-05,0.007626958,GO:1902533,0.275460718,4.337890404,770
+Term,Hofbauer,BP,positive regulation of signal transduction,1609,443.8333333,1.12E-05,0.00260938,GO:0009967,0.27584421,4.949198858,771
+Term,Hofbauer,BP,intracellular signal transduction,2794,773,1.54E-09,3.52E-06,GO:0035556,0.276664281,8.812848739,772
+Term,Hofbauer,BP,adaptive immune response,392,108.5,2.07E-04,0.024511397,GO:0002250,0.276785714,3.684293023,773
+Term,Hofbauer,BP,signal transduction by protein phosphorylation,917,254,4.98E-04,0.048378538,GO:0023014,0.276990185,3.303093714,774
+Term,Hofbauer,BP,MAPK cascade,906,251,4.62E-04,0.046504316,GO:0000165,0.277041943,3.335360607,775
+Term,Hofbauer,BP,leukocyte mediated immunity,739,205,1.40E-07,7.82E-05,GO:0002443,0.277401894,6.852563348,776
+Term,Hofbauer,BP,secretion by cell,1454,404.5,5.70E-08,4.19E-05,GO:0032940,0.278198074,7.243781106,777
+Term,Hofbauer,CC,whole membrane,1581,440,2.31E-05,0.004575982,GO:0098805,0.27830487,4.635780209,778
+Term,Hofbauer,BP,regulation of intracellular signal transduction,1856,519.6666667,3.30E-08,2.78E-05,GO:1902531,0.279992816,7.48159126,779
+Term,Hofbauer,BP,cell motility,1600,448,7.87E-06,0.001968325,GO:0048870,0.28,5.103824197,780
+Term,Hofbauer,BP,localization of cell,1600,448,7.87E-06,0.001968325,GO:0051674,0.28,5.103824197,781
+Term,Hofbauer,CC,lytic vacuole,650,182,4.80E-04,0.047469247,GO:0000323,0.28,3.318822133,782
+Term,Hofbauer,BP,locomotion,1822,510.5,1.24E-05,0.00281556,GO:0040011,0.280186608,4.907397513,783
+Term,Hofbauer,BP,immune system development,944,264.6666667,6.98E-05,0.010581861,GO:0002520,0.280367232,4.156309019,784
+Term,Hofbauer,BP,positive regulation of cytokine production,443,124.5,7.43E-05,0.010825439,GO:0001819,0.281038375,4.129008608,785
+Term,Hofbauer,CC,vacuole,740,208,1.34E-04,0.017324297,GO:0005773,0.281081081,3.873588658,786
+Term,Hofbauer,BP,regulation of immune system process,1472,415,8.47E-12,6.42E-08,GO:0002682,0.281929348,11.07224,787
+Term,Hofbauer,BP,positive regulation of molecular function,1671,472.6666667,2.65E-05,0.005061002,GO:0044093,0.282864552,4.577432812,788
+Term,Hofbauer,BP,vesicle-mediated transport,1909,540.0909091,1.10E-08,1.20E-05,GO:0016192,0.282918234,7.956812026,789
+Term,Hofbauer,BP,hematopoietic or lymphoid organ development,893,252.6666667,7.37E-05,0.010809455,GO:0048534,0.282941396,4.132826818,790
+Term,Hofbauer,BP,cytokine secretion,228,65,3.94E-04,0.040713436,GO:0050663,0.285087719,3.404801874,791
+Term,Hofbauer,MF,enzyme binding,2112,603.8333333,2.03E-06,0.000689136,GO:0019899,0.285905934,5.692582616,792
+Term,Hofbauer,BP,negative regulation of immune system process,443,126.6666667,5.82E-05,0.009009121,GO:0002683,0.28592927,4.234962569,793
+Term,Hofbauer,BP,hemopoiesis,851,243.6666667,3.47E-05,0.006195081,GO:0030097,0.286329808,4.460230216,794
+Term,Hofbauer,BP,regulation of immune response,957,274.8333333,1.87E-09,3.54E-06,GO:0050776,0.287182166,8.728728763,795
+Term,Hofbauer,BP,regulation of immune effector process,379,109,3.49E-05,0.006195081,GO:0002697,0.287598945,4.457615432,796
+Term,Hofbauer,BP,negative regulation of cytokine production,278,80.16666667,1.55E-04,0.019696176,GO:0001818,0.288369305,3.809727355,797
+Term,Hofbauer,BP,regulation of cytokine production,683,197.1666667,6.21E-08,4.41E-05,GO:0001817,0.288677404,7.207163989,798
+Term,Hofbauer,BP,positive regulation of catalytic activity,1343,387.8333333,3.70E-05,0.006374803,GO:0043085,0.288781335,4.431921605,799
+Term,Hofbauer,BP,cell activation,1310,378.5,4.72E-11,2.47E-07,GO:0001775,0.288931298,10.32568533,800
+Term,Hofbauer,CC,vacuolar part,543,157,2.93E-04,0.033041308,GO:0044437,0.289134438,3.533274464,801
+Term,Hofbauer,BP,regulated exocytosis,755,218.5,4.52E-06,0.001285321,GO:0045055,0.289403974,5.344860803,802
+Term,Hofbauer,BP,positive regulation of immune response,754,218.5,1.38E-07,7.82E-05,GO:0050778,0.289787798,6.858814187,803
+Term,Hofbauer,BP,cell migration,1450,421,1.48E-07,8.00E-05,GO:0016477,0.290344828,6.830351915,804
+Term,Hofbauer,BP,positive regulation of cellular component organization,1205,350.3333333,1.35E-04,0.017324297,GO:0051130,0.290733057,3.870333428,805
+Term,Hofbauer,BP,granulocyte activation,484,141,4.05E-06,0.001213759,GO:0036230,0.291322314,5.39201612,806
+Term,Hofbauer,BP,regulation of locomotion,1023,299.1666667,1.25E-05,0.002825191,GO:0040012,0.292440534,4.90159317,807
+Term,Hofbauer,BP,exocytosis,857,251.5,3.11E-07,1.47E-04,GO:0006887,0.293465578,6.507570559,808
+Term,Hofbauer,BP,positive regulation of immune system process,1020,299.5,1.47E-10,5.57E-07,GO:0002684,0.293627451,9.832928153,809
+Term,Hofbauer,BP,neutrophil mediated immunity,480,141,1.95E-06,6.70E-04,GO:0002446,0.29375,5.711075657,810
+Term,Hofbauer,BP,regulation of cellular component movement,1035,304.1666667,1.79E-05,0.003807446,GO:0051270,0.293880837,4.746944736,811
+Term,Hofbauer,BP,leukocyte activation,1161,341.5,6.28E-12,6.42E-08,GO:0045321,0.29414298,11.20177189,812
+Term,Hofbauer,CC,cytoplasmic vesicle membrane,741,218.1666667,2.01E-04,0.024108838,GO:0030659,0.294421952,3.696032437,813
+Term,Hofbauer,BP,neutrophil activation,478,141,1.75E-06,6.31E-04,GO:0042119,0.294979079,5.757273266,814
+Term,Hofbauer,BP,regulation of cell motility,952,281.1666667,9.64E-06,0.00235884,GO:2000145,0.295343137,5.015780886,815
+Term,Hofbauer,BP,cytokine production,751,222.1666667,2.15E-09,3.76E-06,GO:0001816,0.295827785,8.667898509,816
+Term,Hofbauer,BP,leukocyte activation involved in immune response,675,200,4.00E-09,5.36E-06,GO:0002366,0.296296296,8.397688358,817
+Term,Hofbauer,BP,autophagy,476,141.5,2.95E-04,0.033041308,GO:0006914,0.297268908,3.529715673,818
+Term,Hofbauer,BP,process utilizing autophagic mechanism,476,141.5,2.95E-04,0.033041308,GO:0061919,0.297268908,3.529715673,819
+Term,Hofbauer,BP,neutrophil activation involved in immune response,469,140,5.69E-07,2.40E-04,GO:0002283,0.298507463,6.24465908,820
+Term,Hofbauer,BP,myeloid leukocyte mediated immunity,529,158,1.37E-07,7.82E-05,GO:0002444,0.298676749,6.864155084,821
+Term,Hofbauer,CC,vesicle membrane,760,227.1666667,7.96E-05,0.011383129,GO:0012506,0.298903509,4.099303536,822
+Term,Hofbauer,BP,cell activation involved in immune response,679,203,1.84E-09,3.54E-06,GO:0002263,0.298969072,8.734999246,823
+Term,Hofbauer,BP,biological adhesion,1363,408.5,1.88E-06,6.57E-04,GO:0022610,0.29970653,5.726241995,824
+Term,Hofbauer,BP,neutrophil degranulation,466,140,4.25E-07,1.90E-04,GO:0043312,0.300429185,6.371279349,825
+Term,Hofbauer,BP,cell adhesion,1357,408.5,7.93E-07,3.28E-04,GO:0007155,0.301031688,6.100879099,826
+Term,Hofbauer,BP,negative regulation of inflammatory response,161,48.5,2.98E-04,0.033122348,GO:0050728,0.301242236,3.525087331,827
+Term,Hofbauer,BP,negative regulation of intracellular signal transduction,536,161.8333333,2.93E-05,0.005376165,GO:1902532,0.301927861,4.533068021,828
+Term,Hofbauer,BP,positive regulation of locomotion,572,173,5.67E-05,0.00889294,GO:0040017,0.302447552,4.24654897,829
+Term,Hofbauer,BP,leukocyte chemotaxis,212,64.16666667,7.81E-05,0.011247384,GO:0030595,0.302672956,4.107253706,830
+Term,Hofbauer,BP,regulation of hemopoiesis,454,137.5,2.77E-05,0.005216994,GO:1903706,0.302863436,4.556756612,831
+Term,Hofbauer,BP,leukocyte proliferation,279,84.5,2.22E-05,0.004514103,GO:0070661,0.302867384,4.653172781,832
+Term,Hofbauer,BP,cell chemotaxis,284,86.16666667,4.47E-05,0.007481629,GO:0060326,0.303403756,4.34942722,833
+Term,Hofbauer,BP,lymphocyte activation,632,192,9.43E-08,6.13E-05,GO:0046649,0.303797468,7.025547921,834
+Term,Hofbauer,BP,regulation of apoptotic signaling pathway,390,118.5,1.98E-04,0.023818327,GO:2001233,0.303846154,3.704269108,835
+Term,Hofbauer,BP,regulation of cell migration,895,272.1666667,8.27E-07,3.30E-04,GO:0030334,0.304096834,6.082546715,836
+Term,Hofbauer,BP,interleukin-6 production,151,46,2.67E-04,0.030487227,GO:0032635,0.304635762,3.574031931,837
+Term,Hofbauer,CC,vacuolar membrane,396,121,3.65E-04,0.038038567,GO:0005774,0.305555556,3.438281666,838
+Term,Hofbauer,BP,cellular response to nitrogen compound,619,189.5,3.02E-04,0.033371978,GO:1901699,0.306138934,3.519713139,839
+Term,Hofbauer,BP,positive regulation of hydrolase activity,723,221.8333333,7.27E-05,0.01074115,GO:0051345,0.306823421,4.138390817,840
+Term,Hofbauer,BP,import into cell,813,249.5,3.80E-05,0.006506662,GO:0098657,0.306888069,4.419752442,841
+Term,Hofbauer,BP,positive regulation of cellular component movement,559,172,3.23E-05,0.005871809,GO:0051272,0.307692308,4.491280345,842
+Term,Hofbauer,BP,granulocyte migration,130,40,2.05E-04,0.024463987,GO:0097530,0.307692308,3.687401705,843
+Term,Hofbauer,BP,myeloid cell activation involved in immune response,523,161,1.36E-08,1.35E-05,GO:0002275,0.307839388,7.866006463,844
+Term,Hofbauer,BP,mononuclear cell proliferation,255,78.5,2.27E-05,0.004572828,GO:0032943,0.307843137,4.643699031,845
+Term,Hofbauer,BP,leukocyte degranulation,512,158,2.12E-08,1.86E-05,GO:0043299,0.30859375,7.673331349,846
+Term,Hofbauer,BP,activation of immune response,584,180.5,9.25E-08,6.13E-05,GO:0002253,0.309075342,7.03363245,847
+Term,Hofbauer,BP,myeloid leukocyte activation,625,193.5,7.25E-10,2.36E-06,GO:0002274,0.3096,9.139538731,848
+Term,Hofbauer,BP,myeloid leukocyte migration,197,61,5.20E-05,0.008392682,GO:0097529,0.30964467,4.283842429,849
+Term,Hofbauer,BP,positive regulation of cell motility,542,168,1.82E-05,0.003825615,GO:2000147,0.3099631,4.738870491,850
+Term,Hofbauer,BP,lymphocyte proliferation,253,78.5,1.64E-05,0.003588826,GO:0046651,0.31027668,4.784976532,851
+Term,Hofbauer,BP,regulation of leukocyte proliferation,210,65.5,1.10E-04,0.014602734,GO:0070663,0.311904762,3.960333534,852
+Term,Hofbauer,BP,granulocyte chemotaxis,115,36,2.53E-04,0.029359893,GO:0071621,0.313043478,3.596951767,853
+Term,Hofbauer,BP,regulation of autophagy,313,98,4.80E-04,0.047469247,GO:0010506,0.313099042,3.31891367,854
+Term,Hofbauer,BP,endocytosis,693,217.5,1.11E-05,0.00260938,GO:0006897,0.313852814,4.953376986,855
+Term,Hofbauer,BP,taxis,616,193.5,1.20E-04,0.01579682,GO:0042330,0.314123377,3.920346551,856
+Term,Hofbauer,BP,chemotaxis,614,193.5,1.06E-04,0.014333487,GO:0006935,0.31514658,3.975301173,857
+Term,Hofbauer,BP,regulation of interleukin-6 production,142,45,1.03E-04,0.013994168,GO:0032675,0.316901408,3.988298763,858
+Term,Hofbauer,BP,lymphocyte differentiation,337,107.1666667,4.22E-05,0.007154246,GO:0030098,0.318001978,4.374814239,859
+Term,Hofbauer,BP,regulation of cell activation,524,167,1.30E-08,1.34E-05,GO:0050865,0.31870229,7.887225658,860
+Term,Hofbauer,BP,leukocyte migration,419,133.6666667,4.34E-08,3.41E-05,GO:0050900,0.319013524,7.362107214,861
+Term,Hofbauer,BP,positive regulation of cell migration,520,166,3.90E-06,0.001183098,GO:0030335,0.319230769,5.408880246,862
+Term,Hofbauer,BP,regulation of lymphocyte activation,399,127.5,4.20E-07,1.90E-04,GO:0051249,0.319548872,6.377228733,863
+Term,Hofbauer,BP,cellular component morphogenesis,1095,350,4.79E-04,0.047469247,GO:0032989,0.319634703,3.319633024,864
+Term,Hofbauer,MF,enzyme activator activity,477,152.5,4.02E-04,0.041326505,GO:0008047,0.319706499,3.396295126,865
+Term,Hofbauer,BP,cellular response to organonitrogen compound,561,179.5,7.24E-05,0.01074115,GO:0071417,0.319964349,4.140212146,866
+Term,Hofbauer,BP,regulation of mononuclear cell proliferation,197,63.5,7.18E-05,0.01074115,GO:0032944,0.322335025,4.143772562,867
+Term,Hofbauer,BP,regulation of lymphocyte proliferation,196,63.5,6.18E-05,0.009503705,GO:0050670,0.323979592,4.20880766,868
+Term,Hofbauer,BP,leukocyte differentiation,492,159.6666667,1.17E-07,7.41E-05,GO:0002521,0.324525745,6.930884314,869
+Term,Hofbauer,BP,negative regulation of apoptotic signaling pathway,219,71.16666667,1.71E-04,0.021315832,GO:2001234,0.324961948,3.76818864,870
+Term,Hofbauer,BP,regulation of leukocyte activation,482,157,3.54E-09,5.36E-06,GO:0002694,0.325726141,8.450712395,871
+Term,Hofbauer,BP,negative regulation of cell adhesion,273,89,4.69E-04,0.047049012,GO:0007162,0.326007326,3.328385946,872
+Term,Hofbauer,CC,secretory granule membrane,286,93.5,1.78E-05,0.003807446,GO:0030667,0.326923077,4.750637682,873
+Term,Hofbauer,BP,negative regulation of leukocyte activation,165,54,2.20E-04,0.025714534,GO:0002695,0.327272727,3.656749041,874
+Term,Hofbauer,BP,immune response-regulating signaling pathway,540,177.5,1.02E-08,1.20E-05,GO:0002764,0.328703704,7.99024268,875
+Term,Hofbauer,BP,leukocyte cell-cell adhesion,319,105,8.22E-07,3.30E-04,GO:0007159,0.329153605,6.085048662,876
+Term,Hofbauer,BP,T cell activation,443,146,3.94E-08,3.20E-05,GO:0042110,0.329571106,7.404006499,877
+Term,Hofbauer,BP,regulation of cell-cell adhesion,385,127,5.66E-06,0.001552305,GO:0022407,0.32987013,5.246907244,878
+Term,Hofbauer,BP,positive regulation of cell activation,310,102.5,1.79E-06,6.38E-04,GO:0050867,0.330645161,5.746194501,879
+Term,Hofbauer,BP,regulation of leukocyte cell-cell adhesion,287,95,4.29E-06,0.001252012,GO:1903037,0.331010453,5.367259067,880
+Term,Hofbauer,BP,cell morphogenesis,987,328,1.10E-04,0.014602734,GO:0000902,0.332320162,3.959532022,881
+Term,Hofbauer,BP,regulation of interferon-gamma production,93,31,4.37E-04,0.044367288,GO:0032649,0.333333333,3.359651414,882
+Term,Hofbauer,BP,actin filament-based process,725,242.5,2.42E-05,0.004740458,GO:0030029,0.334482759,4.616684005,883
+Term,Hofbauer,BP,positive regulation of leukocyte activation,297,99.5,1.47E-06,5.38E-04,GO:0002696,0.335016835,5.833949217,884
+Term,Hofbauer,BP,immune response-activating signal transduction,508,170.5,3.87E-09,5.36E-06,GO:0002757,0.335629921,8.41212942,885
+Term,Hofbauer,BP,positive regulation of lymphocyte activation,253,85.5,1.92E-05,0.003927227,GO:0051251,0.337944664,4.717553377,886
+Term,Hofbauer,CC,tertiary granule,158,53.5,2.65E-05,0.005061002,GO:0070820,0.338607595,4.577178879,887
+Term,Hofbauer,BP,T cell differentiation,236,80.16666667,8.43E-05,0.011979224,GO:0030217,0.339689266,4.07441366,888
+Term,Hofbauer,BP,immune response-regulating cell surface receptor signaling pathway,380,129.5,4.62E-07,2.02E-04,GO:0002768,0.340789474,6.335400341,889
+Term,Hofbauer,BP,regulation of actin cytoskeleton organization,327,111.5,4.03E-04,0.041326505,GO:0032956,0.340978593,3.394380657,890
+Term,Hofbauer,CC,cell-substrate junction,397,137.5,3.29E-04,0.035265336,GO:0030055,0.346347607,3.483278418,891
+Term,Hofbauer,BP,actin cytoskeleton organization,635,220,6.53E-06,0.001746724,GO:0030036,0.346456693,5.185319177,892
+Term,Hofbauer,BP,regulation of T cell activation,301,104.5,1.41E-07,7.82E-05,GO:0050863,0.34717608,6.850957282,893
+Term,Hofbauer,BP,regulation of cell adhesion,659,229.5,1.55E-09,3.52E-06,GO:0030155,0.348254932,8.81047432,894
+Term,Hofbauer,CC,cell-substrate adherens junction,394,137.5,2.15E-04,0.025328483,GO:0005924,0.348984772,3.667795819,895
+Term,Hofbauer,CC,membrane region,316,110.5,1.18E-04,0.015588217,GO:0098589,0.349683544,3.928637433,896
+Term,Hofbauer,CC,focal adhesion,392,137.5,1.84E-04,0.022421198,GO:0005925,0.350765306,3.735771734,897
+Term,Hofbauer,BP,immune response-activating cell surface receptor signaling pathway,349,122.5,1.61E-07,8.51E-05,GO:0002429,0.351002865,6.793313578,898
+Term,Hofbauer,BP,phagocytosis,258,91,3.42E-05,0.006172411,GO:0006909,0.352713178,4.466136961,899
+Term,Hofbauer,BP,myeloid leukocyte differentiation,196,69.5,1.09E-04,0.014602734,GO:0002573,0.354591837,3.964459743,900
+Term,Hofbauer,BP,antigen receptor-mediated signaling pathway,231,82,1.83E-05,0.003825615,GO:0050851,0.354978355,4.736834506,901
+Term,Hofbauer,CC,membrane microdomain,304,108,8.91E-05,0.012509306,GO:0098857,0.355263158,4.050214071,902
+Term,Hofbauer,BP,Ras protein signal transduction,417,148.1666667,1.91E-05,0.003927227,GO:0007265,0.355315747,4.719637866,903
+Term,Hofbauer,CC,membrane raft,303,108,7.03E-05,0.010598324,GO:0045121,0.356435644,4.15274819,904
+Term,Hofbauer,CC,anchoring junction,541,194,4.75E-06,0.001334834,GO:0070161,0.358595194,5.323050135,905
+Term,Hofbauer,BP,regulation of leukocyte differentiation,261,94,2.29E-07,1.13E-04,GO:1902105,0.360153257,6.64055939,906
+Term,Hofbauer,BP,regulation of GTPase activity,435,157,1.17E-05,0.002683985,GO:0043087,0.36091954,4.932547018,907
+Term,Hofbauer,BP,regulation of actin filament organization,247,89.5,3.11E-04,0.03353147,GO:0110053,0.362348178,3.507227257,908
+Term,Hofbauer,CC,adherens junction,526,191,3.69E-06,0.001133004,GO:0005912,0.363117871,5.433499188,909
+Term,Hofbauer,BP,positive regulation of GTPase activity,366,133.5,2.72E-05,0.005155593,GO:0043547,0.364754098,4.565502447,910
+Term,Hofbauer,BP,small GTPase mediated signal transduction,532,194.1666667,2.37E-07,1.15E-04,GO:0007264,0.364974937,6.62518607,911
+Term,Hofbauer,BP,actin filament organization,378,138,1.28E-05,0.002860718,GO:0007015,0.365079365,4.891887163,912
+Term,Hofbauer,BP,positive regulation of T cell proliferation,89,32.5,2.96E-04,0.033041308,GO:0042102,0.365168539,3.528274911,913
+Term,Hofbauer,MF,cytokine receptor activity,87,32,1.98E-04,0.023818327,GO:0004896,0.367816092,3.703589251,914
+Term,Hofbauer,BP,positive regulation of leukocyte cell-cell adhesion,207,76.5,2.30E-06,7.61E-04,GO:1903039,0.369565217,5.638277135,915
+Term,Hofbauer,BP,positive regulation of T cell activation,193,72,2.31E-06,7.61E-04,GO:0050870,0.373056995,5.636890952,916
+Term,Hofbauer,BP,regulation of lymphocyte differentiation,162,60.5,2.85E-05,0.005279692,GO:0045619,0.37345679,4.544448639,917
+Term,Hofbauer,BP,regulation of cell morphogenesis,459,171.5,7.50E-06,0.001917147,GO:0022604,0.373638344,5.124916969,918
+Term,Hofbauer,BP,positive regulation of cell-cell adhesion,244,91.5,2.18E-07,1.10E-04,GO:0022409,0.375,6.661599947,919
+Term,Hofbauer,BP,negative regulation of immune effector process,114,43,2.85E-05,0.005279692,GO:0002698,0.377192982,4.54516659,920
+Term,Hofbauer,BP,alpha-beta T cell activation,129,49.16666667,1.36E-04,0.017441884,GO:0046631,0.381136951,3.864948905,921
+Term,Hofbauer,BP,positive regulation of cell adhesion,388,148,9.41E-10,2.68E-06,GO:0045785,0.381443299,9.02624689,922
+Term,Hofbauer,MF,GTPase binding,498,191,1.06E-08,1.20E-05,GO:0051020,0.383534137,7.974769923,923
+Term,Hofbauer,BP,Fc receptor signaling pathway,171,66,6.88E-05,0.010499211,GO:0038093,0.385964912,4.162619387,924
+Term,Hofbauer,BP,regulation of T cell differentiation,136,52.5,4.81E-05,0.007932096,GO:0045580,0.386029412,4.317695237,925
+Term,Hofbauer,MF,GTPase activator activity,242,94.5,1.35E-04,0.017324297,GO:0005096,0.390495868,3.871132235,926
+Term,Hofbauer,MF,small GTPase binding,404,158,1.68E-07,8.67E-05,GO:0031267,0.391089109,6.775506469,927
+Term,Hofbauer,MF,Ras GTPase binding,390,155,6.53E-08,4.50E-05,GO:0017016,0.397435897,7.18493938,928
+Term,Hofbauer,BP,negative regulation of interleukin-6 production,50,20,1.02E-04,0.013925775,GO:0032715,0.4,3.993034833,929
+Term,Hofbauer,BP,regulation of small GTPase mediated signal transduction,315,126.6666667,7.21E-06,0.001864965,GO:0051056,0.402116402,5.141808877,930
+Term,Hofbauer,BP,regulation of Ras protein signal transduction,224,90.66666667,1.84E-04,0.022421198,GO:0046578,0.404761905,3.734461886,931
+Term,Hofbauer,CC,cell leading edge,389,158.5,4.86E-08,3.69E-05,GO:0031252,0.407455013,7.312932483,932
+Term,Hofbauer,BP,macrophage activation,91,38,4.38E-06,0.001260049,GO:0042116,0.417582418,5.358947733,933
+Term,Hofbauer,MF,guanyl-nucleotide exchange factor activity,206,87,1.44E-05,0.003173059,GO:0005085,0.422330097,4.842646879,934
+Term,Hofbauer,BP,actin filament bundle organization,151,64,5.66E-05,0.00889294,GO:0061572,0.42384106,4.247072948,935
+Term,Hofbauer,BP,regulation of actomyosin structure organization,92,39,3.46E-04,0.036653418,GO:0110020,0.423913043,3.460409368,936
+Term,Hofbauer,BP,actin filament bundle assembly,148,63,5.28E-05,0.008462317,GO:0051017,0.425675676,4.277184671,937
+Term,Hofbauer,CC,tertiary granule membrane,69,29.5,5.05E-05,0.008211717,GO:0070821,0.427536232,4.296400294,938
+Term,Hofbauer,BP,regulation of actin filament bundle assembly,93,40,4.09E-04,0.041686713,GO:0032231,0.430107527,3.388659796,939
+Term,Hofbauer,CC,ficolin-1-rich granule membrane,59,26,8.83E-05,0.012470963,GO:0101003,0.440677966,4.054236433,940
+Term,Hofbauer,CC,lamellipodium,187,83.5,3.37E-06,0.001064429,GO:0030027,0.446524064,5.472512919,941
+Term,Hofbauer,CC,actin filament,102,46.5,1.79E-04,0.02216858,GO:0005884,0.455882353,3.746406609,942
+Term,Hofbauer,CC,ruffle,167,76.5,1.30E-06,4.84E-04,GO:0001726,0.458083832,5.887233965,943
+Term,Hofbauer,BP,adherens junction organization,140,64.5,1.01E-04,0.013925775,GO:0034332,0.460714286,3.994891331,944
+Term,Hofbauer,MF,Rho GTPase binding,160,74,2.46E-06,8.01E-04,GO:0017048,0.4625,5.60848005,945
+Term,Hofbauer,BP,regulation of cell shape,144,67,9.81E-07,3.78E-04,GO:0008360,0.465277778,6.008479778,946
+Term,Hofbauer,BP,adherens junction assembly,88,43.5,3.88E-04,0.040300987,GO:0034333,0.494318182,3.411202518,947
+Term,Hofbauer,BP,ruffle organization,52,26,1.00E-04,0.013870578,GO:0031529,0.5,4.0000239,948
+Term,Hofbauer,BP,cell-substrate adherens junction assembly,79,40.5,2.67E-04,0.030487227,GO:0007045,0.512658228,3.573991315,949
+Term,Hofbauer,BP,focal adhesion assembly,79,40.5,2.67E-04,0.030487227,GO:0048041,0.512658228,3.573991315,950
+Term,Hofbauer,BP,Fc-gamma receptor signaling pathway,78,40,7.20E-06,0.001864965,GO:0038094,0.512820513,5.142764582,951
+Term,Hofbauer,BP,respiratory burst,29,15,1.69E-04,0.021257144,GO:0045730,0.517241379,3.771778828,952
+Term,Hofbauer,BP,Fc receptor mediated stimulatory signaling pathway,81,42,4.24E-06,0.001252012,GO:0002431,0.518518519,5.372733442,953
+Term,Hofbauer,BP,immune response-regulating cell surface receptor signaling pathway involved in phagocytosis,75,39,1.11E-05,0.00260938,GO:0002433,0.52,4.953372998,954
+Term,Hofbauer,BP,Fc-gamma receptor signaling pathway involved in phagocytosis,75,39,1.11E-05,0.00260938,GO:0038096,0.52,4.953372998,955
+Term,Hofbauer,BP,B cell receptor signaling pathway,58,33,4.04E-07,1.87E-04,GO:0050853,0.568965517,6.393878786,956
+Term,Hofbauer,MF,lipopeptide binding,10,7,1.68E-05,0.003649152,GO:0071723,0.7,4.773581009,957
+Term,Hofbauer,MF,lipid antigen binding,5,4,3.11E-04,0.03353147,GO:0030882,0.8,3.507806043,958
+Term,Hofbauer,MF,endogenous lipid antigen binding,5,4,3.11E-04,0.03353147,GO:0030883,0.8,3.507806043,959
+Term,Hofbauer,MF,exogenous lipid antigen binding,5,4,3.11E-04,0.03353147,GO:0030884,0.8,3.507806043,960
+Term,Hofbauer,BP,"antigen processing and presentation, endogenous lipid antigen via MHC class Ib",5,4,3.11E-04,0.03353147,GO:0048006,0.8,3.507806043,961
+Term,Stromal,CC,extracellular matrix,501,158,4.57E-07,0.003467144,GO:0031012,0.315369261,6.339869188,962
+Term,Stromal,CC,collagen-containing extracellular matrix,385,132,4.90E-08,5.57E-04,GO:0062023,0.342857143,7.310139831,963
+Term,Stromal,BP,actin cytoskeleton organization,635,219,1.80E-06,0.008190646,GO:0030036,0.34488189,5.744674139,964
+Term,Stromal,BP,actin filament-based process,725,253,2.03E-08,4.61E-04,GO:0030029,0.348965517,7.693207054,965
+Term,Stromal,CC,anchoring junction,541,189.6666667,9.13E-06,0.029683306,GO:0070161,0.350585336,5.039352005,966
+Term,Stromal,CC,actin cytoskeleton,492,172.8333333,4.86E-06,0.018438895,GO:0015629,0.351287263,5.313076178,967
+Term,Stromal,MF,collagen binding,67,36.5,8.83E-07,0.005021238,GO:0005518,0.544776119,6.054091477,968

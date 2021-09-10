@@ -1,0 +1,31 @@
+﻿component,r.squared,p.value,adj_p,p_value,testing_variable
+Trophoblasts,0.041486849,0.417556741,0.446271932,0.45,within Third trimester-reported - ga
+Trophoblasts,0.162233509,0.087303596,0.145505994,0.15,within Third trimester-estimated - ga
+Stromal,0.105107777,0.189344325,0.2524591,0.25,within Third trimester-reported - ga
+Stromal,0.20977224,0.048610735,0.124073183,0.12,within Third trimester-estimated - ga
+Hofbauer,0.326070706,0.013317773,0.069765065,0.07,within Third trimester-reported - ga
+Hofbauer,0.303417107,0.014517989,0.069765065,0.07,within Third trimester-estimated - ga
+Endothelial,0.180135516,0.079173427,0.143951686,0.14,within Third trimester-reported - ga
+Endothelial,0.208106316,0.049629273,0.124073183,0.12,within Third trimester-estimated - ga
+Syncytiotrophoblast,0.184313729,0.075411974,0.143951686,0.14,within Third trimester-reported - ga
+Syncytiotrophoblast,0.396410736,0.003868372,0.069765065,0.07,within Third trimester-estimated - ga
+Trophoblasts,0.709150083,0.017441266,0.069765065,0.07,within First trimester-reported - ga
+Trophoblasts,0.296343568,0.206452564,0.258065705,0.26,within First trimester-estimated - ga
+Stromal,0.666672526,0.025029844,0.083432812,0.08,within First trimester-reported - ga
+Stromal,0.457972925,0.094988747,0.146136534,0.15,within First trimester-estimated - ga
+Hofbauer,0.040997506,0.663264634,0.663264634,0.66,within First trimester-reported - ga
+Hofbauer,0.277740291,0.224200334,0.263765099,0.26,within First trimester-estimated - ga
+Endothelial,0.715868442,0.016399819,0.069765065,0.07,within First trimester-reported - ga
+Endothelial,0.537507703,0.060819014,0.135153364,0.14,within First trimester-estimated - ga
+Syncytiotrophoblast,0.131546759,0.423958335,0.446271932,0.45,within First trimester-reported - ga
+Syncytiotrophoblast,0.360438735,0.154059721,0.220085316,0.22,within First trimester-estimated - ga
+Trophoblasts,0.010290361,0.679443233,1,>0.999,Sex
+Stromal,0.055261691,0.332652355,1,>0.999,Sex
+Hofbauer,0.199147966,0.055465607,0.277328035,0.277,Sex
+Endothelial,0.054871154,0.334416284,1,>0.999,Sex
+Syncytiotrophoblast,0.078935819,0.243949596,1,>0.999,Sex
+Trophoblasts,0.05940059,0.345848158,1,>0.999,ancestry
+Stromal,0.008069251,0.731705796,1,>0.999,ancestry
+Hofbauer,9.31E-04,0.907479235,1,>0.999,ancestry
+Endothelial,0.028502743,0.517147951,1,>0.999,ancestry
+Syncytiotrophoblast,0.053125987,0.373454693,1,>0.999,ancestry

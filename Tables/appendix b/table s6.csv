@@ -1,0 +1,60 @@
+﻿Group,Celltype,Description,N,DE,P.DE,FDR,ID,Generatio,neg_log_P,Order
+First,Endothelial,Cytokine-cytokine receptor interaction,268,57.83333333,0.004156952,0.048306645,path:hsa04060,0.21579602,2.381225025,1
+First,Endothelial,Pathways in cancer,507,155.5,0.003583456,0.048306645,path:hsa05200,0.306706114,2.445697916,2
+First,Endothelial,Shigellosis,232,77,2.61E-04,0.014735712,path:hsa05131,0.331896552,3.58332843,3
+First,Endothelial,Natural killer cell mediated cytotoxicity,114,38,0.002943432,0.047235071,path:hsa04650,0.333333333,2.53114603,4
+First,Endothelial,Chemokine signaling pathway,180,62.5,3.50E-04,0.014735712,path:hsa04062,0.347222222,3.456168793,5
+First,Endothelial,Malaria,48,17,0.00432651,0.048601125,path:hsa05144,0.354166667,2.363862321,6
+First,Endothelial,Proteoglycans in cancer,199,70.5,0.004016119,0.048306645,path:hsa05205,0.354271357,2.396193434,7
+First,Endothelial,TGF-beta signaling pathway,94,34.5,0.002552888,0.044177546,path:hsa04350,0.367021277,2.592968215,8
+First,Endothelial,Chagas disease,98,36,0.001093127,0.026313133,path:hsa05142,0.367346939,2.961329307,9
+First,Endothelial,Relaxin signaling pathway,125,46,0.004475971,0.048658139,path:hsa04926,0.368,2.349112709,10
+First,Endothelial,Th17 cell differentiation,102,38,0.004663576,0.049113283,path:hsa04659,0.37254902,2.331280955,11
+First,Endothelial,Osteoclast differentiation,118,44,5.92E-04,0.01662719,path:hsa04380,0.372881356,3.227629798,12
+First,Endothelial,HIF-1 signaling pathway,105,39.5,0.004116589,0.048306645,path:hsa04066,0.376190476,2.385462456,13
+First,Endothelial,Autophagy - animal,130,49,0.00153927,0.032420874,path:hsa04140,0.376923077,2.812685196,14
+First,Endothelial,Rap1 signaling pathway,207,79.5,5.40E-04,0.01655764,path:hsa04015,0.384057971,3.267238782,15
+First,Endothelial,PD-L1 expression and PD-1 checkpoint pathway in cancer,88,34,0.001909444,0.037851922,path:hsa05235,0.386363636,2.719093038,16
+First,Endothelial,Focal adhesion,193,75,0.002116579,0.039627066,path:hsa04510,0.388601036,2.674365473,17
+First,Endothelial,Regulation of actin cytoskeleton,203,80,4.74E-05,0.005329059,path:hsa04810,0.39408867,4.323858109,18
+First,Endothelial,Leukocyte transendothelial migration,107,42.5,2.97E-04,0.014735712,path:hsa04670,0.397196262,3.527328588,19
+First,Endothelial,Phospholipase D signaling pathway,144,57.5,0.003842678,0.048306645,path:hsa04072,0.399305556,2.415366002,20
+First,Endothelial,Inflammatory bowel disease,61,25,4.18E-04,0.015634819,path:hsa05321,0.409836066,3.379294542,21
+First,Endothelial,Platelet activation,123,50.5,3.41E-04,0.014735712,path:hsa04611,0.410569106,3.467110988,22
+First,Endothelial,Fc gamma R-mediated phagocytosis,87,36,0.004115306,0.048306645,path:hsa04666,0.413793103,2.385597909,23
+First,Endothelial,"Parathyroid hormone synthesis, secretion and action",105,43.5,0.003916406,0.048306645,path:hsa04928,0.414285714,2.407112259,24
+First,Endothelial,Cholinergic synapse,112,46.5,0.003456991,0.048306645,path:hsa04725,0.415178571,2.461301709,25
+First,Endothelial,AGE-RAGE signaling pathway in diabetic complications,95,39.5,6.89E-04,0.017864288,path:hsa04933,0.415789474,3.161700832,26
+First,Endothelial,Colorectal cancer,84,35.5,0.001379358,0.030989576,path:hsa05210,0.422619048,2.860323003,27
+First,Endothelial,Fc epsilon RI signaling pathway,66,28,0.002621813,0.044177546,path:hsa04664,0.424242424,2.581398318,28
+First,Endothelial,Yersinia infection,123,55,6.38E-06,0.002148988,path:hsa05135,0.447154472,5.195395881,29
+First,Endothelial,Pancreatic cancer,73,33,5.07E-04,0.01655764,path:hsa05212,0.452054795,3.295420127,30
+First,Endothelial,Acute myeloid leukemia,63,31,1.62E-04,0.013624397,path:hsa05221,0.492063492,3.79125262,31
+First,Endothelial,Adherens junction,70,38.5,1.99E-05,0.003345494,path:hsa04520,0.55,4.702139598,32
+First,Hofbauer,Chemokine signaling pathway,180,64.5,5.35E-04,0.025746638,path:hsa04062,0.358333333,3.27181133,33
+First,Hofbauer,Human T-cell leukemia virus 1 infection,211,76.33333333,0.001440096,0.047866107,path:hsa05166,0.361769352,2.841608669,34
+First,Hofbauer,Osteoclast differentiation,118,45.5,0.00109197,0.040888196,path:hsa04380,0.38559322,2.961789439,35
+First,Hofbauer,Apelin signaling pathway,136,53,0.001562395,0.047866107,path:hsa04371,0.389705882,2.806209109,36
+First,Hofbauer,Yersinia infection,123,53,1.49E-04,0.016768301,path:hsa05135,0.430894309,3.826019583,37
+First,Hofbauer,T cell receptor signaling pathway,99,43,4.13E-04,0.023199493,path:hsa04660,0.434343434,3.384000163,38
+First,Hofbauer,Autophagy - animal,130,56.5,5.55E-05,0.009359943,path:hsa04140,0.434615385,4.255326686,39
+First,Hofbauer,B cell receptor signaling pathway,76,34,3.33E-04,0.022443986,path:hsa04662,0.447368421,3.477559915,40
+First,Hofbauer,Acute myeloid leukemia,63,30,0.001074476,0.040888196,path:hsa05221,0.476190476,2.968803335,41
+First,Hofbauer,Bacterial invasion of epithelial cells,72,35,2.93E-04,0.022443986,path:hsa05100,0.486111111,3.532776663,42
+First,Hofbauer,Fc gamma R-mediated phagocytosis,87,44,2.10E-05,0.007060216,path:hsa04666,0.505747126,4.678811931,43
+First,Stromal,Shigellosis,232,81,1.85E-04,0.017243231,path:hsa05131,0.349137931,3.732213225,44
+First,Stromal,Chemokine signaling pathway,180,64.33333333,4.41E-04,0.029707147,path:hsa04062,0.357407407,3.355798955,45
+First,Stromal,Ras signaling pathway,223,84.33333333,6.99E-04,0.033663765,path:hsa04014,0.378176383,3.155369175,46
+First,Stromal,Endocytosis,238,92.5,6.22E-05,0.010479026,path:hsa04144,0.388655462,4.206278994,47
+First,Stromal,Rap1 signaling pathway,207,84,2.05E-04,0.017243231,path:hsa04015,0.405797101,3.688951256,48
+First,Stromal,Focal adhesion,193,79,0.001267969,0.042730548,path:hsa04510,0.409326425,2.896891441,49
+First,Stromal,AGE-RAGE signaling pathway in diabetic complications,95,40,9.77E-04,0.036575023,path:hsa04933,0.421052632,3.010202779,50
+First,Stromal,Yersinia infection,123,55.5,3.12E-05,0.010479026,path:hsa05135,0.451219512,4.505178382,51
+First,Stromal,Longevity regulating pathway,88,40.5,5.36E-04,0.030084031,path:hsa04211,0.460227273,3.27114263,52
+First,Stromal,EGFR tyrosine kinase inhibitor resistance,77,38,8.95E-04,0.036575023,path:hsa01521,0.493506494,3.047992761,53
+First,Trophoblasts,ECM-receptor interaction,86,42.33333333,1.33E-05,0.004496367,path:hsa04512,0.492248062,4.874768149,54
+Term,Endothelial,Adherens junction,70,37.5,5.15E-05,0.017360402,path:hsa04520,0.535714286,4.288070117,55
+Term,Hofbauer,Cytokine-cytokine receptor interaction,268,64.5,4.40E-04,0.049475035,path:hsa04060,0.240671642,3.356122538,56
+Term,Hofbauer,Apelin signaling pathway,136,54,2.60E-04,0.043764552,path:hsa04371,0.397058824,3.58547742,57
+Term,Hofbauer,Hematopoietic cell lineage,90,36.5,1.58E-05,0.00532377,path:hsa04640,0.405555556,4.801410617,58
+Term,Trophoblasts,Regulation of actin cytoskeleton,203,79,2.78E-05,0.009377399,path:hsa04810,0.389162562,4.555547525,59

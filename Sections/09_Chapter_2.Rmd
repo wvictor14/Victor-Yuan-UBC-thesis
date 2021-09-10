@@ -42,7 +42,7 @@ However, it has not been investigated whether these methods perform well in popu
 
 (ref:ch2tab1m4) PlaNET [@yuan2019]
 
-\captionsetup{width=7in}
+\captionsetup{width=6.5in}
 
 ```{r ch2tab1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(

@@ -269,11 +269,11 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \addcontentsline{toc}{section}{Appendix B}
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
-\renewcommand{\thefigure}{A3.\arabic{figure}}
+\renewcommand{\thefigure}{B3.\arabic{figure}}
 \setcounter{figure}{0}
-\renewcommand{\thetable}{A3.\arabic{table}}
+\renewcommand{\thetable}{B3.\arabic{table}}
 \setcounter{table}{0}
-\renewcommand{\theequation}{A3.\arabic{equation}}
+\renewcommand{\theequation}{B3.\arabic{equation}}
 \setcounter{equation}{0}
 
 
@@ -287,11 +287,11 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
-\renewcommand{\thefigure}{A4.\arabic{figure}}
+\renewcommand{\thefigure}{C4.\arabic{figure}}
 \setcounter{figure}{0}
-\renewcommand{\thetable}{A4.\arabic{table}}
+\renewcommand{\thetable}{C4.\arabic{table}}
 \setcounter{table}{0}
-\renewcommand{\theequation}{A4.\arabic{equation}}
+\renewcommand{\theequation}{C4.\arabic{equation}}
 \setcounter{equation}{0}
 
 

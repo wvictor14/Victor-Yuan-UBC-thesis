@@ -46,7 +46,7 @@ Final sample numbers in all downstream analyses are shown in Table \@ref(tab:ch3
 ```{r ch3tab1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
   readr::read_csv(here::here('Tables', 'ch3', 'table1.csv')) %>%
-    dplyr::rename(` ` = X1),
+    dplyr::rename(` ` = 1),
   booktabs = TRUE,
   caption = 'Number of cell-specific and matched chorionic villi samples from first trimester and term placentas, measured on the Illumina EPIC methylation array. Surface markers for flow cytometry and immunofluorescence staining are shown in brackets.')
 ```
@@ -94,7 +94,7 @@ A number of regions with a high density of DMCs were located in or nearby functi
 ```{r ch3tab2, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
   readr::read_csv(here::here('Tables', 'ch3', 'table2.csv')) %>%
-    dplyr::rename(` ` = X1),
+    dplyr::rename(` ` = 1),
   booktabs = TRUE,
   caption = 'Number of preeclampsia-associated CpGs from Wilson et al. 2018 that are cell-specific DMCs for term samples. Enrichment for preeclampsia-associated CpGs was statistically significant for each term cell-specific set of CpGs at a Bonferroni-adjusted p<0.01') %>%
   kableExtra::kable_styling(full_width = TRUE) 
@@ -242,7 +242,7 @@ Within-trimester gestational age (estimated and reported) was not significantly 
 ```{r ch3tab3, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
   readr::read_csv(here::here('Tables', 'ch3', 'table3.csv')) %>%
-    dplyr::rename(` ` = X1),
+    dplyr::rename(` ` = 1),
   booktabs = TRUE,
   caption = 'Mean of cell composition estimates (\\%) for first trimester and term CV samples using RPC cellular deconvolution. Standard deviation is shown in parentheses') %>%
   kableExtra::kable_styling(full_width = TRUE) 

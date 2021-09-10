@@ -7,9 +7,9 @@ output:
 bibliography: ../References/references.bib
 ---
 
-(ref:CFigS1-cap) Title. Caption.
+(ref:figc1-cap) Title. Caption.
 
-```{r CFigS1, fig.cap="(ref:FigCS1-cap)", eval=FALSE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figc1, fig.cap="(ref:figc1-cap)", eval=FALSE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S1.pdf'))
 ```
 
@@ -17,7 +17,7 @@ knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S1.pdf'))
 
 \captionsetup{width=7in}
 
-```{r CTabS1, eval = FALSE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
+```{r tabc1, eval = FALSE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readxl::read_csv(here::('Tables', 'appendix-c', 'Table S1.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,

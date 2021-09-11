@@ -219,7 +219,7 @@ All cell type-specific gestational-age dependent DMCs were depleted (Bonferroni 
 
 Using placental cell DNAm profiles as a reference, we assessed cellular composition in CV samples using cellular deconvolution.
 To select cell-type discriminating CpGs, the *pickCompProbes* function from the R package *minfi* [@aryee2014] was used, which takes the top 100 most hypo- and hyper-methylated CpGs ranked by F-test statistic for each cell type. Gestational-age specific references were created for first trimester and term. For first trimester samples, reference probes were selected from all first trimester cell samples, but also term nucleated red blood cells (nRBCs) and eSTB samples were used since these cell types are also present in early gestation [@vento-tormo2018]. For nRBC samples, 11 DNAm profiles from umbilical cord blood from public databases were included [@gervin2019].
-Reference CpGs determined from first trimester (Figure \@ref(fig:ch3fig6)a) and term (Figure \@ref(fig:ch3fig6)b) placental samples were highly cell-specific (Table \@ref(tab:tabb9)and \@ref(tab:tabb10) for first trimester and term respectively).
+Reference CpGs determined from first trimester (Figure \@ref(fig:ch3fig6)a) and term (Figure \@ref(fig:ch3fig6)b) placental samples were highly cell-specific.
 
 <!--- Insert Figure 6 --->
 

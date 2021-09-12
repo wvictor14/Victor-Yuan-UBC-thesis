@@ -123,10 +123,10 @@ In this dissertation I aimed to characterize and identify the major sources of v
 I hypothesize that cell composition, genetic ancestry and ethnicity, and maternal DNA contamination can be identified and predicted from placental chorionic villi DNAm data.
 To assess this, I performed:
 
-1.  A study of predicting ethnicity and genetic ancestry from placental DNAm data using multiple placental GEO datasets.
+1.  A study of developing and comparing approaches to predict ethnicity and genetic ancestry from placental DNAm data using multiple placental GEO datasets.
 
-2.  A study of DNAm and placental cell types across gestation.
+2.  A study of characterizing the DNAm of placental cell types across gestation, and developing a reference to estimate cell composition from placental chorionic villi DNAm.
 
-3.  A study of identifying maternal signal from placental DNAm data using multiple placental GEO datasets.
+3.  A study of using bioinformatics to identify maternal signal from placental DNAm data from previously published placental DNAm studies.
 
 These studies contribute to further insights into major contributors of variation in placental DNA methylation, and provide useful bioinformatic approaches for conducting better placental DNA methylation research.

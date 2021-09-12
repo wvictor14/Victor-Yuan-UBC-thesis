@@ -24,7 +24,7 @@ e.g.
 
 (ref:textreference) Figure title that appears in text. Figure caption that appears in text.
 
-```{r codechunktitle, fig.cap="(ref:textreference)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r codechunktitle, fig.cap="(ref:textreference)", fig.scap = "Figure title, to show up in the List of Figures section." eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics('path\to\image')
 ```
 

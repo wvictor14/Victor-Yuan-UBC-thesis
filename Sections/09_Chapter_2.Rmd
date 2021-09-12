@@ -11,11 +11,13 @@ bibliography: ../References/references.bib
 
 Population stratification or confounding effects from variation in genetic ancestry can confound placental EWAS.
 However, methods to estimate population effects either by inferring genetic ancestry [@barfield2014; @rahmani2017] from highly genotype-associated CpG methylation [@rahmani2017] or by predicting ethnicity, may have population- and tissue- specific effectiveness.
-In this study, we developed planet (Placental DNAm Elastic Net Ethnicity Tool), an ethnicity classifier using DNAm and genotyping data measured on the 450k array in multiple cohorts of placentas from North America.
-planet was developed on overlapping sites from 450k and the newer 850k/EPIC array to ensure compatibility with future studies.
-We show that planet out-performs existing methods in predicting ethnicity in placental tissue and can produce accurate measures of genetic ancestry.
-Importantly, our method can be used to classify individuals into discrete ancestral populations (i.e., African, Asian, and Caucasian) or to describe individuals on an ancestral continuum that may more accurately reflect the nature of modern human populations.
-In studies where ethnicity information is unavailable, planet can be applied to predict ethnicity after obtaining DNAm data, and used to investigate population-specific differences or to minimize confounding by population stratification in statistical analyses.
+
+In this study, we developed a placenta-specific approach to predicting ethnicity, which we refer to as planet (Placental DNAm Elastic Net Ethnicity Tool).
+planet uses DNAm and genotyping data measured on the 450k array and was developed using multiple cohorts of placentas from North America.
+To ensure compatibility with future studies, planet was developed on overlapping sites from 450k and the newer 850k/EPIC array.
+We show that planet out-performs existing methods in predicting ethnicity in placental DNAm data and can produce accurate measures of genetic ancestry.
+Our method can be used to classify individuals into discrete ancestral populations based on self-reported ethnicity (i.e., African, Asian, and Caucasian) or to describe individuals on an ancestral continuum that may more accurately reflect the nature of modern human populations.
+In studies where ethnicity information is unavailable, planet can be applied to predict ethnicity after obtaining DNAm data, and used to investigate population-specific differences or to minimize confounding by population stratification in downstream DNA methylation statistical analyses.
 
 ## Results
 

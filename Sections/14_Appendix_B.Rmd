@@ -11,80 +11,79 @@ editor_options:
 
 (ref:figb1-cap) Fluorescence-activated cell-sorting and immune fluorescence staining. **A)** Fluorescence-activated cell-sorting (FACS) workflow schematic. **B-E)** Immunofluorescence staining (IF) of term cell-sorted sample with known characteristic cell type markers that were not selected for in the FACS procedure. Nuclei are shown via DAPI staining (blue). Scale bars: 100µm. **B)** Trophoblasts (KRT7: green, VIM: red). **C)** Hofbauer cells (CD68: green). **D)** Endothelial cells (CD31: green). **E)** Stromal cells (VIM: red).
 
-```{r figb1, fig.cap="(ref:figb1-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb1, fig.cap="(ref:figb1-cap)", fig.scap = "Fluorescence-activated cell-sorting and immune fluorescence staining", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S1.pdf'))
 ```
 
 (ref:figb2-cap) Identifying maternal contamination. **A)** Total intensity over all probes from X and Y chromosomes normalized to total autosomal intensity can be used to determine sex.  **B)** Within-donor sample-sample correlation on SNP probes. **C)** SNP distributions (n = 59 probes). **D)** Theoretical relationship between the average probability SNP is an outlier from the expected distribution, and maternal contamination. **E)** Empirically observed relationship between the average probability a SNP is an outlier, and normalized Y intensity, in male samples. Normalized Y intensity is a quantifiable measure of maternal contamination in male samples. **F)** Training a linear predictor of maternal contamination in male samples, then applying it to female samples. **G)** Estimated maternal contamination (y-axis) across first trimester and term samples. 
 
-```{r figb2, fig.cap="(ref:figb2-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb2, fig.cap="(ref:figb2-cap)", fig.scap = "Identifying maternal contamination", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S2.pdf'))
 ```
 
 (ref:figb3-cap) Principal component (PC) associations with phenotype variables. Principal components were tested for their association with various biological and technical sample variables. Each PC was tested individually in a simple linear model with each sample variable.
 
-```{r figb3, fig.cap="(ref:figb3-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb3, fig.cap="(ref:figb3-cap)", fig.scap = "Principal component associations with phenotype variables", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S3.pdf'))
 ```
 
 (ref:figb4-cap) First trimester differentially methylated CpGs enrichment for genomic location. First trimester differentially methylated CpGs were tested for enrichment at various genomic features (e.g. CpG island, enhancers, gene transcripts, PMDs).
 
-```{r figb4, fig.cap="(ref:figb4-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb4, fig.cap="(ref:figb4-cap)", fig.scap = "First trimester differentially methylated CpGs enrichment for genomic location", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S4.pdf'))
 ```
 
 (ref:figb5-cap) Mean DNAm for each cell type across CpGs in selected functionally-relevant genes. Average term placental cell-specific DNA methylation across select genes. Differentially methylated regions (defined as regions with a high density of differentially methylated CpGs), are highlighted with a grey background.
 
-```{r figb5, fig.cap="(ref:figb5-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb5, fig.cap="(ref:figb5-cap)", fig.scap = "Mean DNAm for each cell type across CpGs in selected functionally-relevant genes", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S5.pdf'))
 ```
 
 (ref:figb6-cap) Mean DNAm for each cell type across CpGs in selected preeclampsia genes. Average term placental cell-specific DNA methylation across select genes. Differentially methylated regions (defined as regions with a high density of differentially methylated CpGs), are highlighted with a grey background.
 
-```{r figb6, fig.cap="(ref:figb6-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb6, fig.cap="(ref:figb6-cap)", fig.scap = "Mean DNAm for each cell type across CpGs in selected preeclampsia genes", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S6.pdf'))
 ```
 
 (ref:figb7-cap) Density graphs of CpGs in imprinted regions. **A)** Density plots (y-axis) of imprinted regions divided into those that are imprinted in more than one tissue (top) and placental-specific (bottom). The percentage of CpGs falling within 25%-75% is labelled in each plot. First trimester samples are shown. **B)** Maternal imprinted regions. Density of DNAm at CpGs in maternally imprinted regions. The total percentage of CpGs that have 25% - 75% DNAm are shown in each plot. **C)** Paternally imprinted regions.
 
-```{r figb7, fig.cap="(ref:figb7-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb7, fig.cap="(ref:figb7-cap)", fig.scap = "Density graphs of CpGs in imprinted regions",  eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S7.pdf'))
 ```
 
 (ref:figb8-cap) DNAm at imprinted regions for specific genes. **A)** Cell-specific DNAm at placental-specific imprinted regions for genes FGF8 and **B)** FGF12.
 
-
-```{r figb8, fig.cap="(ref:figb8-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb8, fig.cap="(ref:figb8-cap)", fig.scap = "DNAm at imprinted regions for FGF8 and FGF12", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S8.pdf'))
 ```
 
 (ref:figb9-cap) DNAm at imprinted regions for specific genes. **A)** Cell-specific DNAm at placental-specific imprinted regions for genes JMJD1C and **B)** FGF14.
 
-```{r figb9, fig.cap="(ref:figb9-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb9, fig.cap="(ref:figb9-cap)", fig.scap = "DNAm at imprinted regions for JMJD1C and FGF14", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S9.pdf'))
 ```
 
 (ref:figb10-cap) DNAm at imprinted regions for specific genes. Cell-specific DNAm at placental-specific imprinted regions for genes RASGRF1.
 
-```{r figb10, fig.cap="(ref:figb10-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb10, fig.cap="(ref:figb10-cap)", fig.scap = "DNAm at imprinted regions for RASGRF1", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S10.pdf'))
 ```
 
 (ref:figb11-cap) DNAm summarized over repetitive elements. **A)** Repetitive element DNA methylation. CpG sites overlapping Alu and Line 1 (L1) elements were determined using the ‘rmsk’ track from UCSC. Mean DNAm over these CpGs was calculated for each sample. **B)** First trimester mean DNAm across repetitive elements and all 850k CpGs. **C)** REMP-predicted repetitive element DNAm in third trimester samples.
 
-```{r figb11, fig.cap="(ref:figb11-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb11, fig.cap="(ref:figb11-cap)", fig.scap = "DNAm summarized over repetitive elements", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S11.pdf'))
 ```
 
 (ref:figb12-cap) Comparison of cell deconvolution algorithms. **A)** Estimated percentage by deconvolution (y-axis) by actual percentage used to construct in silico mixtures (x-axis). Performance metrics are shown for each algorithm and cell type. RMSE, root mean squared error; R2, R squared; MAE, mean absolute error. **B)** Distribution of deviations from deconvolution estimates and actual percentages for in silico mixtures. The mean deviation (estimated minus actual) is labelled in each panel as text, and as the dotted vertical line.
 
-```{r figb12, fig.cap="(ref:figb12-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb12, fig.cap="(ref:figb12-cap)", fig.scap = "Comparison of cell deconvolution algorithms", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S12.pdf'))
 ```
 
 (ref:figb13-cap) Validating cell composition estimates. **A)** Cell deconvolution was applied to n=5 (labelled A-E) cultured trophoblast samples from Yuen et al. 2011 produced trophoblast-dominant samples. Trophoblast samples were treated in varying oxygen levels (1%, 8%, 20%). Half were maintained as CTB (top) and the other half was cultured for 48 hours (bottom), which promotes syncytialization. **B)** Enzymatic treatment to separate chorionic villi samples into inner mesenchyme and outer trophoblast layer samples. Both types of samples are heterogeneous in cell composition but mesenchymal samples are enriched from endothelial and stromal cells, whereas the outer chorionic villi samples are mostly trophoblast. **C)** Chorionic villi was processed to isolate large stem villi, produced samples that resulted in mainly stromal in proportion compared to normally processed villi. CTB: cytotrophoblast; STB: syncytiotrophoblast.
 
-```{r figb13, fig.cap="(ref:figb13-cap)", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+```{r figb13, fig.cap="(ref:figb13-cap)", fig.scap = "Validating cell composition estimates", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-b', 'Figure S13.pdf'))
 ```
 

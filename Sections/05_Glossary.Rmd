@@ -6,13 +6,13 @@ output:
     number_sections: yes
 ---
 
-```{r glossary, eval = T, echo = F}
+```{r glossary, eval = T, echo = F, message = FALSE}
 readr::read_csv(here::here('glossary.csv')) %>% 
    dplyr::arrange(Abr) %>%
    kable("latex",
    booktabs = T,
-   col.names = NULL) %>%
-   kable_styling(full_width = T) %>%
+   col.names = NULL,
+   longtable = TRUE) %>%
    column_spec(1, width = "2cm") %>%  # Size of first column
    column_spec(1, bold = T) # Abbreviation bold
 

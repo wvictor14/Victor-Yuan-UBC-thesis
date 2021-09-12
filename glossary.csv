@@ -1,8 +1,9 @@
 Abr,Meaning
-AFR,African
-ASI,Asian
 450k,Infinium HumanMethylation450 Beadchip
+850k/EPIC,Infinium HumanMethylationEPIC Beadchip
+AFR,African
 AIMs,Ancestry Informative Markers
+ASI,Asian
 BMIQ,Beta-mixture interquantile normalization
 CAU,Caucasian
 CBP,CREB-binding protein

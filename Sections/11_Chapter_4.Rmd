@@ -4,6 +4,7 @@ output:
     toc : no
     keep_tex: no
     number_sections: yes
+bibliography: ../References/references.bib
 ---
 
 ## Introduction

@@ -16,7 +16,9 @@ DMC,Differentially methylated cytosine
 DMR,Differentially methylated region
 DNAm,DNA methylation
 DNMT,DNA methyltransferase
+EA,Epigenetic age
 EC,Endothelial cells
+EGA,Epigenetic gestational age
 EGF,Epidermal growth factor
 EOPE,Early-onset preeclampsia
 EPIC,Infinium HumanMethylation EPIC Beadchip

@@ -22,8 +22,9 @@ Decidua and maternal blood samples from additional dataset GSE74738 were include
 All studies had collected 1-4 sites of chorionic villi from the fetal facing side of the placenta, which is done to avoid contaminating maternal tissue.
 DNAm data was normalized with BMIQ and noob; and filtered for poor quality, cross-hybridizing, and probes with nearby SNPs according to the 2021 June 15th update of the original Zhou 2017 DNAm annotation [@zhou2017].
 
-    ```{r echo=FALSE, results='asis'}
-        options(knitr.kable.NA = '')
+```{r echo=FALSE, results='asis'}
+    options(knitr.kable.NA = '')
+```
 
 \captionsetup{width=6.5in}
 

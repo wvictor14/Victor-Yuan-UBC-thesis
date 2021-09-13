@@ -7,10 +7,23 @@ output:
 bibliography: ../References/references.bib
 ---
 
-(ref:figc1-cap) Title. Caption.
+(ref:figc1-cap) Samples that failed 1 or more 27 Illumina data quality control checks had higher P(outlier) than samples that passed quality control.
 
-```{r figc1, fig.cap="(ref:figc1-cap)", eval=FALSE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+
+```{r figc1, fig.cap="(ref:figc1-cap)", fig.scap = "DNAm data quality and P(outlier)", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
 knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S1.pdf'))
+```
+
+(ref:figc2-cap) Principal component analysis (PCA) using placental and maternal tissue samples.
+
+```{r figc2, fig.cap="(ref:figc2-cap)", fig.scap = "Principal component analysis using placental and maternal tissue samples", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S2.pdf'))
+```
+
+(ref:figc3-cap) Epigenetic age analysis. A) Adult epigenetic age (EA) estimated on placental samples was not associated with reported gestational age. B) Adult EA was associated with P(outlier) in 2 placental datasets. C) Placental epigenetic gestational age estimated in decidua, maternal blood, and chorionic villi samples was compared to reported gestational age.
+
+```{r figc3, fig.cap="(ref:figc3-cap)", fig.scap = "Epigenetic age analysis", eval=T, echo=T, echo=FALSE, fig.align='center', out.extra=''}
+knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S3.pdf'))
 ```
 
 <!----- Tables---->

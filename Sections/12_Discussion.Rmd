@@ -45,6 +45,13 @@ We found that cell composition of chorionic villi between first trimester and te
 
 <!--Chapter 4 -->
 
+In addition to variation in placental cell composition, maternal cells can be found present in placental samples.
+Although effort is often made to avoid maternal tissue contamination during placental tissue processing, it can be difficult especially in earlier gestation samples, where placentas can be much smaller.
+In chapter 4, I assessed whether maternal cells can be detected in placental samples, using DNAm data measured from chorionic villi from 13 different placental datasets on GEO.
+I developed an approach to bioinformatically identify maternal cell contamination from placental DNAm data and found that maternal contamination is frequently found in placental samples from previous studies.
+The approaches I developed rely on existing ideas and tools from Heiss 2018 and Wan 2019[@heiss2018; @wan2019], to create a highly placenta-specific approach that I show to be reliably able to identify maternal contamination from placental DNAm. Applying tissue-specific knowledge to develop bioinformatic tools to infer contamination from DNAm has been previously done for other tissues such as cord blood [@morin2017a].
+This study demonstrates the importance of considering maternal cells in placental tissues in placental DNAm studies, which can arise either from sample processing, or due to biological processes such as inflammation.
+
 ## Strengths and limitations
 
 Throughout this dissertation, I valued accessibility and open data access practices through several concrete actions.

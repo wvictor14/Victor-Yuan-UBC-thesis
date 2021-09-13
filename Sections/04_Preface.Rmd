@@ -14,9 +14,17 @@ Parts of this dissertation have been published and include work performed by col
 
 A version of Chapter 1 has been published as a book chapter. Robinson WP, Peñaherrera MS, Konwar C, Yuan V, Wilson SL. Chapter 13 - Epigenetic Modifications in the Human Placenta. In: Leung PCK, Qiao J, editors. Human Reproductive and Prenatal Genetics. Academic Press; 2019. p. 293–311.
 
-Additional sections of the introduction have been accepted to be published as another book chapter. 
-
 Copyright © 2019 Elsevier Inc.
+
+Parts of the introduction/background sections of the following two articles have been included as part of chapter 1:
+
+A version of chapter 2 has be published in BMC Epigenetics & Chromatin. Yuan, V., Price, E.M., Del Gobbo, G. et al. Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12, 51 (2019).
+© Yuan _et al._ 2019, under the Creative Commons Attribution 4.0 International 
+License (http://creativecommons.org/licenses/by/4.0/).
+
+Yuan, V., Hui, D., Yin, Y. et al. Cell-specific characterization of the placental methylome. BMC Genomics 22, 6 (2021).
+© Yuan _et al._ 2021, under the Creative Commons Attribution 4.0 International 
+License (http://creativecommons.org/licenses/by/4.0/).
 
 **Chapter 2**
 
@@ -39,4 +47,3 @@ License (http://creativecommons.org/licenses/by/4.0/).
 
 **Chapter 4**
 
-**Chapter 5**

@@ -9,45 +9,20 @@ editor_options:
   chunk_output_type: console
 ---
 
+A version of this chapter has been published (see Preface for contribution details):
+
+Yuan, V., Hui, D., Yin, Y.
+*et al.* Cell-specific characterization of the placental methylome.
+*BMC Genomics* **22,** 6 (2021).
+<https://doi.org/10.1186/s12864-020-07186-6>
+
 ## Introduction
 
-A well- functioning placenta is critical for the healthy development of the fetus during pregnancy.
-DNA methylation (DNAm) profiling of the placenta has been increasingly used to characterize underlying processes associated with adverse perinatal outcomes (e.g. maternal preeclampsia, fetal growth restriction and preterm birth) as well as to study the influence of maternal exposures on epigenetic programming.
-DNAm is an epigenetic modification that can regulate or respond to changes in gene expression [@pacis2019; @razin1991].
-However, because heterogeneous tissues, such as the placenta, are made up of several cell types, each with a distinct DNAm signature, whole-tissue measurements are ultimately an average of the DNAm signatures of the constituent cell types, weighted by their respective frequency in the bulk tissue sample.
-Therefore, changes in DNAm measured in complex tissues can often be attributed to variation in cell composition rather than DNAm changes that occur in the constituent cell populations [@holbrook2017].
-This makes interpretation of placental DNAm studies difficult until placental DNAm is characterized at a cell-specific resolution.
+The placenta is composed of several distinct cell populations, each carrying out a specific biological role, that together create a healthy placenta.
+Measurements of DNAm using whole placental chorionic villi, are therefore, an average measurement of the variety of cells that make up a placental sample.
+Grigoriu 2011 found that major placental cell types, cytotrophoblasts and fibroblasts have highly distinct DNAm profiles [@grigoriu2011]. Fogarty 2015 compared epigenetic markers such as 5'hydroxymethylcytosine (5'hmc), H3K9me3, H3K27me3, and others in CTB and STB [@fogarty2015]. They found that STB had lower levels of H3K27me3 and H3K9me3, and higher H4K20me3 and 5'hmc compared to CTB. Because placental cell types are epigenetically distinct, interpretation of DNAm measurements in whole chorionic villi are difficult to interpret without addressing cell composition variability. And without reference DNAm profiles of constituent cell types, bioinformatic approaches to account for cell composition variability, such as reference-based cell deconvolution, cannot be used [@teschendorff2017a].
 
-During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by de novo DNAm in the inner cell mass [@smith2012].
-Deriving from the inner cell mass are fetal tissues and the mesenchymal core component of the placental chorionic villi (CV).
-Within the mesenchymal core, stromal cells (SC) and fetal macrophages called Hofbauer cells (HB) can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells.
-HBs are distinct from decidual macrophages and fetal/maternal monocytes [@kim2012]; they display high phenotypic diversity, promoting angiogenesis early in gestation and later participating in the immune response to pathological processes and infection [@reyes2017; @reyes2018].
-Placental vasculature is critically important for proper functioning of the placenta, and depends on the development of vessels beneath the trophoblast layer.
-These vessels are formed from endothelial cells (EC) that derive from the chorionic mesoderm [@charolidi2019].
-Encompassing the mesenchymal core is a thick trophoblast (TB) epithelial cell layer, which displays a hypomethylated profile [@robinson2015].
-TBs comprise a set of functionally distinct subtypes, each with their own unique function [@novakovic2017; @yuen2013]: Cytotrophoblasts (CTB) are stem-like cells that harbor regenerative abilities and give rise to the two major subtypes of TB, the extravillous trophoblast (EVT) and the syncytiotrophoblast (STB).
-EVT are motile cells that travel to maternal tissue and remodel maternal vasculature, while STB are a multi-nucleated epithelial layer lining the CV that perform critical roles in hormone production and nutrient transfer.
-
-As a consequence of its distinct developmental origin, dramatic differences in DNAm between placenta and somatic tissues have been observed [@robinson2015].
-Globally, the placenta is hypomethylated compared to other tissues, which was originally attributed to reduced methylation of repetitive element DNAm [@cotton2009; @perrin2007], but was later resolved to be primarily due to placental-specific partially methylated domains (PMDs) [@schroeder2013].
-PMDs are long regions of intermediate/low DNAm surrounded by regions of higher DNAm that exist in a highly cell-specific fashion [@salhab2018].
-It is unclear if these PMDs have a distinct function or are footprints of earlier developmental events between embryonic and extraembryonic tissues.
-Parent-of origin specific DNAm, which is associated with genomic imprinting, is also more commonly found in the placenta than other tissues [@renfree2013].
-Almost all known imprinted genes are imprinted in the placenta, and many are exclusively imprinted in the placenta [@hanna2016; @court2014; @hamada2016; @sanchez-delgado2016].
-Interestingly, a number of placental-specific imprinted genes are polymorphically imprinted [@hanna2016].
-It is possible that cellular and genetic heterogeneity can contribute to polymorphic imprinting, as well as variability in DNAm generally.
-Supporting this, a significant role for genetic control of placental DNAm variation was recently characterized [@delahaye2018].
-These studies have contributed to our understanding of the unique epigenetics of the placenta, but it remains unclear if these features are maintained in all constituent placental cell types or are confined to specific ones.
-
-Placental DNAm is often studied in the context of health in relation to disease and environmental exposures.
-A common study design is the epigenome-wide association study (EWAS) [@flanagan2015], where differentially methylated CpGs (DMCs) are identified in a high-throughput manner, usually with microarray or sequencing based approaches.
-However, placental DNAm studies are almost all carried out using whole CV and are therefore subject to challenges of interpretability due to potential cell composition variability [@teschendorff2017].
-Unlike other tissues, such as adult blood and umbilical cord blood, addressing cell composition variability in placenta is difficult due to a lack of reference placental DNAm profiles, which enables bioinformatic estimation of cell composition from cellular deconvolution techniques [@teschendorff2017a].
-These methods operate by modelling the whole tissue measurements as a weighted sum of cell type -specific DNAm signatures, where the weights correspond to the relative proportion of each constituent cell type in the whole tissue sample, and can be determined using least-squares or non-constrained regression approaches [@teschendorff2017a; @houseman2012; @newman2015].
-Without reference DNAm profiles for each cell population, researchers sometimes account for cell composition using reference-free deconvolution methods.
-However, the effectiveness of reference-free deconvolution in capturing cell composition variation has not yet been assessed in placenta.
-
-To address these challenges, in this study we have generated DNAm reference profiles for 4 major human placental cell populations using the 850k Illumina EPIC DNA methylation microarray, which profiles more than 850,000 CpGs.
+To address this, in this study we have generated DNAm reference profiles for 4 major human placental cell populations using the 850k Illumina EPIC DNA methylation microarray, which profiles more than 850,000 CpGs.
 Our study is the first to characterize the DNAm of major placental cell populations with a high-resolution approach, across first trimester and term placentas.
 We show that cell-specific DNAm occurs at thousands of CpG sites, of which a subset can be used to infer cell composition using cellular deconvolution.
 Our study underscores the importance of cell-specific approaches in placental studies, especially when measuring epigenetic features such as DNAm.
@@ -183,7 +158,9 @@ While many imprinted DMRs are maintained in somatic tissues, others are highly s
 We only estimated this in non-placental specific imprinted DMRs, since almost all validated placental-specific imprinted DMRs are maternally methylated.
 
 DNAm at specific imprinted DMRs was examined.
-As described above, TB and CV had intermediate (\>25, \<75%) DNAm at nearly all CpGs located in placental-specific imprinted regions (Figure \@ref(fig:ch3fig4)d). Most of these CpGs, in contrast, are hypomethylated for HB cells, consistent with this cell type having a different developmental origin than other placental components (embryonic versus extraembryonic). However, at the imprinted DMR associated with the placental-specific expressed microRNA cluster C19MC, this pattern is reversed: HB have hypermethylation at this region (Figure \@ref(fig:ch3fig4)e) as is reported for somatic adult/fetal tissues [@hanna2016]. For SC and EC, these cell types generally show lower levels of DNAm than TB/CV at the placental-imprinted DMRs, sometimes matching that in HBs and other times showing levels somewhere between HB and TB/CV. Such patterns are observed for genes such as *DCAF10* (Figure \@ref(fig:ch3fig4)f), fibroblast growth factors *FGF8*, *FGF12* (Figure \@ref(fig:figb8)AB), and at epigenetic regulator *JMJD1C* (Figure \@ref(fig:figb9)A).
+As described above, TB and CV had intermediate (\>25, \<75%) DNAm at nearly all CpGs located in placental-specific imprinted regions (Figure \@ref(fig:ch3fig4)d). Most of these CpGs, in contrast, are hypomethylated for HB cells, consistent with this cell type having a different developmental origin than other placental components (embryonic versus extraembryonic). However, at the imprinted DMR associated with the placental-specific expressed microRNA cluster C19MC, this pattern is reversed: HB have hypermethylation at this region (Figure \@ref(fig:ch3fig4)e) as is reported for somatic adult/fetal tissues [@hanna2016].
+For SC and EC, these cell types generally show lower levels of DNAm than TB/CV at the placental-imprinted DMRs, sometimes matching that in HBs and other times showing levels somewhere between HB and TB/CV.
+Such patterns are observed for genes such as *DCAF10* (Figure \@ref(fig:ch3fig4)f), fibroblast growth factors *FGF8*, *FGF12* (Figure \@ref(fig:figb8)AB), and at epigenetic regulator *JMJD1C* (Figure \@ref(fig:figb9)A).
 However, for a few DMRs, levels of DNAm in SC/EC matched that of TB/CV, such as ones associated with the DNAm maintenance gene *DNMT1* (Figure \@ref(fig:ch3fig2)c) and *FGF14* (Figure \@ref(fig:figb9)B).
 Higher DNAm than TB/CV was only observed for 1 gene (*RASGRF1*, Figure \@ref(fig:figb10)).
 
@@ -378,7 +355,14 @@ An Illumina iScan reader was used to scan the chips and produce raw data files (
 
 ### DNA methylation data processing
 
-To assess various quality metrics, IDAT files were loaded directly into R (v3.6.1) using the *minfi* package (v1.32.0) and *ewastools* [@heiss2018] (v1.6). Poor quality and unreliable probes (detection *p*-value \> 0.01, bead count \<3, cross-hybridizing [@zhou2017], probes with SNPs within 5 bp of the CpG site in the probe direction [@zhou2017]), and probes located on sex chromosomes were removed (*n*=109,410). Analysis was restricted to a final set of 737,050 autosome probes. All samples had high (7500--15,000 average median intensity readings in the methylated and unmethylated channels, and passed manufacturer-determined default thresholds for 17 control probes. The possibility of sample mislabelling was verified comparing reported sex and inferred sex based on X chromosome copy number (*ewastools*) [@heiss2018]. Identical genotypes between matched cell-sorted and whole chorionic villi samples were verified using the EPIC array's 59 SNP probes (*ewastools*) [@heiss2018]. This genotype-check also identified a number of first trimester cell-sorted samples with evidence of maternal contamination, which were removed from further analyses (*n*=12). Upon inspection of global DNAm patterns with PCA, we identified and removed 2 outlier samples that we suspect were contaminated with cells from other genotype-matched samples. After quality control and probe filtering, noob [@triche2013] and BMIQ [@teschendorff2013] normalization was applied to the DNAm data.
+To assess various quality metrics, IDAT files were loaded directly into R (v3.6.1) using the *minfi* package (v1.32.0) and *ewastools* [@heiss2018] (v1.6).
+Poor quality and unreliable probes (detection *p*-value \> 0.01, bead count \<3, cross-hybridizing [@zhou2017], probes with SNPs within 5 bp of the CpG site in the probe direction [@zhou2017]), and probes located on sex chromosomes were removed (*n*=109,410).
+Analysis was restricted to a final set of 737,050 autosome probes.
+All samples had high (7500--15,000 average median intensity readings in the methylated and unmethylated channels, and passed manufacturer-determined default thresholds for 17 control probes. The possibility of sample mislabelling was verified comparing reported sex and inferred sex based on X chromosome copy number (*ewastools*) [@heiss2018].
+Identical genotypes between matched cell-sorted and whole chorionic villi samples were verified using the EPIC array's 59 SNP probes (*ewastools*) [@heiss2018].
+This genotype-check also identified a number of first trimester cell-sorted samples with evidence of maternal contamination, which were removed from further analyses (*n*=12).
+Upon inspection of global DNAm patterns with PCA, we identified and removed 2 outlier samples that we suspect were contaminated with cells from other genotype-matched samples.
+After quality control and probe filtering, noob [@triche2013] and BMIQ [@teschendorff2013] normalization was applied to the DNAm data.
 
 ### Differentially methylated CpGs (DMCs) analysis
 

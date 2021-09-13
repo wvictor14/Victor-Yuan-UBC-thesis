@@ -32,11 +32,33 @@ It is unclear if DNAm-based genetic ancestry and ethnicity is more appropriate t
 
 <!--Chapter 3 -->
 
+Epigenetic modifications such as DNAm have highly cell-specific patterns to regulate cell-specific gene expression.
+To investigate the cell-specificity of placental DNAm, I characterized the methylomes of 5 major placental cell types in first trimester and term placentas.
+This work builds on previous research that investigated epigenetics in placental cell types, which were previously done using either lower resolution profiling technologies [@grigoriu2011], and / or other epigenetic marks [@fogarty2011; @fogarty2015].
+We found highly placental cell-specific DNAm using the 850k Illumina DNAm microarray.
+Cell-specific DNAm often occured at promoters and regulatory elements (i.e. enhancers, CpG Islands) near known placental-specific genes, some of which had DNAm that previously had not been characterized before.
+Interestingly, we found that for many placental-specific DNAm features, such as PMDs, placental-specific imprinting, and repetitive elements, we found were present in trophoblasts, variably or intermediately present in endothelial and stromal cells, and mostly absent in Hofbauer cells.
+Conservation of placental features in trophoblasts is not unsurprising, given that trophoblast make up the bulk of placenta throughout pregnancy.
+However, trophoblast themselves is a heterogenous population, with STB becoming the more predominant subtype in later gestation.
+Lastly, we assessed cell composition in placental chorionic villi samples using the cell-specific methylomes as a reference for cell deconvolution.
+We found that cell composition of chorionic villi between first trimester and term placentas to be highly consistent with previous literature reports from using histology to measure cell composition.
+
 <!--Chapter 4 -->
 
 ## Strengths and limitations
 
+Throughout this dissertation, I valued accessibility and open data access practices through several concrete actions.
+I implemented user friendly R packages and functions to enable the easy usage of the bioinformatic approaches I developed.
+This R package, planet, now includes the placental ethnicity predictor and cell composition reference for deconvolution.
+Additionally, I developed the "Placental cell methylome browser", which is a web application that provides a user-friendly interface to access and explore the DNAm data.
+Lastly, throughout my dissertation, I made each of my studies' DNAm data available on GEO, for reproducibility and data sharing purposes.
+These accessibility practices, I am extremely proud of, and I hope will bring more value to the research I have conducted for my dissertation.
+
 Data integretiy and careful analysis
+
+Open-access data
+
+Collaboration between experts
 
 ## Future directions
 

@@ -29,6 +29,7 @@ Large human population studies of DNAm using microarrays has taken off in popula
 
 Understanding the variation in placental DNAm is important to our understanding of the molecular processes that contribute placental biology, which in turn will lead to a better understanding of the role of the placenta in pregnancy.
 Key to the analysis of tissue-specific DNAm is also the corresponding development and improvement of the bioinformatics.
+In this dissertation, I explored some of the major contributors to placental DNAm, including ethnicity and genetics, cell-specificity and cell composition dynamics across gestation, and maternal cell contamination.
 
 ## DNA methylation
 

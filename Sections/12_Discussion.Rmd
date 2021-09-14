@@ -61,15 +61,59 @@ Additionally, I developed the "Placental cell methylome browser", which is a web
 Lastly, throughout my dissertation, I made each of my studies' DNAm data available on GEO, for reproducibility and data sharing purposes.
 These accessibility practices, I am extremely proud of, and I hope will bring more value to the research I have conducted for my dissertation.
 
-Data integretiy and careful analysis
+Public open-access data practices were essential to my research.
+Specifically, I relied heavily on placental DNAm microarray data deposited on GEO for the bulk of my research data for chapter 2 and 4.
+In chapter 2, I used 5 placental DNAm datasets that were collected across various sites around North America.
+The variety in human populations that my datasets comprised of, was especially useful in chapter 2, since population stratification was a main focus.
+In chapter 4, I used 13 different GEO datasets comprising of various placental tissues to assess maternal contamination from placental DNAm data.
+Because maternal contamination is generally low and can be highly dataset-specific - a result of the variable sample processing protocols that different research groups use, having several different datasets increased my power to detect maternal contamination at level that was more appropriate for my analysis.
+Having access to a variety of placental datasets allowed me to develop the bioinformatics with the necessary sample sizes needed for sufficient power.
 
-Open-access data
+Without public data repositories like GEO, and an open-access data culture that promotes sharing of genomic data, my work would be greatly limited, and my findings less robust and generalizable.
+However, there are still significant improvements to data-sharing practices for genomic data.
+In particular, standardization of data files and types is needed.
+For example, DNAm microarray data should be deposited into repositories like GEO as .IDAT files, which are the most raw form of the data - the data that is downloaded from the microarray scanners.
+Instead, GEO allows researchers to deposit the data as plain text files, which means that some important quality control information is lost, and sometimes SNP probes can be missing.
+Another area in genomic data sharing practices needing significant improvement is the attention towards better quality sample information or study metadata.
+Often, genomic data is deposited without the necessary metadata (e.g. sex, ethnicity, gestational age, health information) to reproduce previous findings, or to conduct meaningful follow-up analyses.
+Part of my thesis addresses this limitation, by using the genomic DNAm data directly to infer such sample variables.
+Still though, DNAm-based inference of sample variables is limited, and having reported sample information has benefits such as cross-checking for misannotation and sample mixups.
+
+The high resolution DNAm microarrays from Illumina was used to assess DNAm in all studies in this thesis.
+Although cost efficient, and ease-of-use, this results in several limitations.
+First, these microarrays are limited in their coverage to 450,000 and 850,000 CpGs (450k/850k arrays respectively), which amount to 1.5 and 3% of all CpGs in the genome.
+These arrays also do not provide uniform coverage; the 450k array focuses on gene elements, such as CpG island promoters [@price2013a], whereas the 850k array improves on the 450k design with the addition of coverage over distal elements such as enhancers [@pidsley2016].
+Although this specific coverage is aimed at including genomic regions with most likelihood of meaningful DNAm variation, improvements in total coverage are an obvious area to improve in future array generations.
+
+The topic of my research was to identify and characterize major sources of variation in placental DNAm.
+One significant limitation of the studies in this dissertation, is that they mainly focus on term placenta, with exception of chapter 2 where first trimester samples were included, albeit at lower sample numbers than term samples (n=7-9 vs 19-20 for term).
+Placental DNAm varies significantly throughout gestation [@lee2019], likely from the dramatic development-related changes that occur within placental cell types and also in placental cell composition throughout pregnancy. From a bionformatics point of view, developing the placental analysis tools in term placenta was ideal because most placental research is conducted in term samples. However, many critical processes occur during gestation at earlier timepoints; for example at 10-12 weeks intervillous blood flow dramatically increases with corresponding increases in oxygen tension [@caniggia2000]. Increased oxygen levels promotes placental extra-trophoblasts to start differentiating and to acquire invasive behaviour [@huppertz2009], which is critical to a healthy pregnancy. For exampe, in preeclampsia, extra-trophoblast invasion is reduced, resulting in lowered blood flow to the baby and hypertension in the mother [@huppertz2020].
+Investigation of the molecular processes, such as DNAm, that occur at early gestation timepoints in the placenta are therefore needed for a comprehensive understanding of placental biology and health.
+
+Early gestation samples, however, are difficult to collect due to the safety risks posed by invasive sampling procedures.
+To this end, advances in non-invasive technologies and in-vitro models will be highly beneficial.
+Cell free DNA, which targets the placental DNA that has been shedded into the maternal blood stream, is a promising new non-invasive genomic technique.
+A key challenge of cell free DNA for measurement of placental DNA, however, is that sensitivity is a function of the proportion of placental DNA to maternal DNA, which increases with gestation itself [@masuzaki2004]. Currently, non-invasive prenatal testing can reliably detect large chromosomal abnormalities [@taglauer2014], but future developments will determine whether high resolution profiling such as sequencing and microarrays can be reliably used as well. Although in utero profiling provides the most accurate information, recent organoid developments promises a more convenient in vitro option that is not weighted with the challenges of non-invasive technologies [@turco2018].
 
 Collaboration between experts
 
 ## Future directions
 
-Incorporating bioinformatic techniques into placental EWAS
+I developed several bioinformatic approaches to help analyze placental DNAm data, and implemented these in user-friendly applications for usage in future placental DNAm studies.
+These approaches return to the researcher useful sample information that can aid analysis, such as cell composition, ethnicity, genetic ancestry, and maternal cell contamination.
+However, given the limitations of these studies and techniques outlined above, there are significant improvements that can be still made.
+
+The placental DNAm ethnicity predictor is useful only in Caucasian, East Asian, and African American populations.
+However, more placental research in additional human populations are needed, and future improvements to the ethnicity predictor can include reference DNAm markers for these additional populations.
+It is also still unclear if a machine learning -based approach is superior to semi-supervised PCA -based approaches for accounting for genetic ancestry in EWAS.
+Much of the existing literature focuses on PCA -based approaches, given their success in accounting for genetic ancestry in GWAS [@royal2010]. However, machine learning approaches in DNAm data, to estimate or types of sample variables such as epigenetic age and cancer subtypes, have been highly robust and useful [@horvath2013a; @lee2019;@capper2018].
+In my study of predicting ethnicity from placental DNAm, I show that using both approaches can be complementary: machine learning to predict discrete categories (ethnicity), and semi-supervised PCA to generate continuous variables (genetic ancestry).
+
+My study characterizing the DNAm in placental cell types from first trimester and term placentas, is the first to do so, and will provide a useful reference for future placental studies.
+Aside from improvements in genomic coverage, as mentioned previously, inclusion of additional cell populations and gestational timepoints are needed.
+In this study, trophoblasts represented by mostly CTB, and STB were collected.
+However, an important additional trophoblast subtype, EVTs, which are responsible for invasion and arterial remodelling in maternal tissue, were not included.
+EVTs play important additional roles to nutrient transport and placental development, and when impaired are associated with various placental-mediated disease phenotypes such as preeclampsia, intrauterine growth restriction, stillbirth, or recurrent abortion [@pollheimer2018]. Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a]. Placental single RNA-seq studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
 
 ## Conclusion
 

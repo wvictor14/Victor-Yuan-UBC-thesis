@@ -98,7 +98,8 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 
 \addcontentsline{toc}{section}{Table of Contents}
-\renewcommand*\contentsname{Table of Contents}
+
+\renewcommand*\contentsname{Table of Contents} <!-- Changes title to "Table of Contents" instead of "Contents" -->
 
 \thispagestyle{empty}
 \begin{singlespace}
@@ -108,10 +109,18 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \clearpage
 
 \addcontentsline{toc}{section}{List of Tables}
+<!-- Increases spacing between figure/table number and caption -->
+\makeatletter
+     \renewcommand*\l@table{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
+<!-- -->
 \listoftables
 \clearpage
 
 \addcontentsline{toc}{section}{List of Figures}
+\makeatletter
+     \renewcommand*\l@figure{\@dottedtocline{1}{1em}{3.2em}}
+\makeatother
 \listoffigures
 \clearpage
 \end{singlespace}

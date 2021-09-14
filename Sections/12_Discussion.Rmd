@@ -117,4 +117,7 @@ EVTs play important additional roles to nutrient transport and placental develop
 
 ## Conclusion
 
-Our understanding of variation in placental DNAm
+Our understanding of variation in placental DNAm is growing at an unprecendented rate, due to advances in genomic profiling technologies, bioinformatics, and placental-specific sampling and modelling technologies.
+This dissertation provides insights into placental DNAm and three contributing factors: ethnicity and genetic ancestry, cell-specific epigenetics and cell composition, and maternal cell contamination.
+These insights into placental DNAm improve our understanding of the molecular dynamics of placental biology, which may lead to future insights into how placental biology contributes to maternal and fetal health.
+Future studies, however, are still needed to further characterize the rich source of biological information, that is the placental methylome.

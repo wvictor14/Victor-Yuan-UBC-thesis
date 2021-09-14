@@ -50,5 +50,5 @@ External Examiner
 
 **Additional Supervisory Committee Members:**
 
-\noindent\underline{\makebox[6in][l]{Dr. Sara Mostafavi, Associate Professor, Paul G. Allen School of Computer Science and Engineering, University of Washington}}  
+\noindent\underline{\makebox[6in][l]{Dr. Sara Mostafavi, Associate Professor, Paul G. Allen School of Computer Science and Engineering, UW}}  
 Supervisory Committee Member

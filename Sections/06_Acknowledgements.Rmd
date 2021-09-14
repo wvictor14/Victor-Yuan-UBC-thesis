@@ -8,33 +8,17 @@ output:
 
 <!-- This section is optional -->
 
-Wendy Robinson
+I would like to start by acknowledging that this dissertation was mainly written in the traditional, ancestral, and unceded territory of the Musqueam People.
 
-Maria Peñaherrera
 
-Magda Price
+Many thanks to my supervisor, Wendy Robinson, for her unwavering guidance and commitment, and support for my research. Thank you for also enriching my graduate experience with many opportunities, and for also nurturing a environment that I felt comfortable exploring and expressing my own ideas and interests. Thank you for your kindness; you have been a great role model. 
 
-Alex Beristain
+I am very grateful to my commitee members - Alex Beristain especially for all the practical help, but also for being a wonderful human being. I have very much enjoyed our meetings and discussions, and appreciate always being available when I needed it. Thank you Sara Mostafavi and Michael Kobor for all the insightful guidance on my research and also my graduate and post-grad experience. I want to also especially thank Vincenzo Coia, for being an amazing mentor, and more importantly a big inspiration for me not only professionally but also personally too. Thank you everyone for supporting me.
 
-Chaini Konwar
+Before starting graduate school, it is not uncommon to hear how difficult and lonely it can be. I have always been independent and felt like this would not be a problem for me. But I found that my graduate experience was not a lonely one at all. Thank you Robinson lab members for making my graduate experience enjoyable. Thank you Maria, for supporting my research, and for pushing me to always take a second look at my data. Thank you Magda, my first mentor, for teaching and inspiring me about placental genomics research. Thank you Sam, Chaini, and Giulia for taking care of me, while I stumbled through the first years of graduate life. Thank you Amy and Iciar, for always making time for my questions and discussions, and for also being great friends. Thank you to my mentees, students that I have had the privelege to mentor and work alongside. Thank you Desmond for helping me with my research, and for being a great friend too. 
 
-Samantha Wilson
+Thank you BCCHR for creating an amazing research environment, and for prioritizing the experience of trainees, through resources, workshops, research days, and other events. Thank you UBC and CIHR for funding and professional and academic support. 
 
-Giulia Del Gobbo
+Lastly, thank you Yvonne for supporting me when I most needed it. Thank you Sandy for being the best dog, I wish you were there for my graduation. Thank you my parents, for of course supporting my education, and inspiring me to choose UBC and graduate life. 
 
-Amy Inkster
-
-Desmond Hui
-
-Other lab members
-
-Michael Kobor
-
-Sara Mostafavi
-
-Parents
-
-Yvonne
-
-CIHR
-BCCHR
+They say PhD is a lonely pursuit, but I disagree. None of this would have been possible without the help of others.

@@ -30,7 +30,9 @@ Mixing of genotypes is indicated by SNP measurements with a high probability for
 ### Cell composition outliers
 
 We hypothesized that chorionic villi samples significantly contaminated with maternal decidua or blood could be identified from DNAm-based estimates of placental cell composition.
-Specifically cell composition inferred from reference-based cell deconvolution [@yuan2021], and PCA clustering with maternal blood and decidua samples, were tested for their association with genotype-based contamination. This latter approach is a variation of the PCA approach described previously from Wan 2019 [@wan2019], where instead of using all CpG sites, in this study we used a specific subset of highly decidua and blood-specific CpG sites that we identified through linear modelling. Decidua and blood-specific CpG sites were determined using the R package limma [@ritchie2015], where decidua samples were compared to villi, and then maternal blood was compared to villi; the top 500 hypo- and hyper- methylated CpGs (total was 2000 cpgs for two tissue-specific comparisons) were used for PCA.
+Specifically cell composition inferred from reference-based cell deconvolution [@yuan2021], and PCA clustering with maternal blood and decidua samples, were tested for their association with genotype-based contamination.
+This latter approach is a variation of the PCA approach described previously from Wan 2019 [@wan2019], where instead of using all CpG sites, in this study we used a specific subset of highly decidua and blood-specific CpG sites that we identified through linear modelling.
+Decidua and blood-specific CpG sites were determined using the R package limma [@ritchie2015], where decidua samples were compared to villi, and then maternal blood was compared to villi; the top 500 hypo- and hyper- methylated CpGs (total was 2000 cpgs for two tissue-specific comparisons) were used for PCA.
 
 ### Epigenetic age
 
@@ -120,10 +122,17 @@ We hypothesized that maternal contamination could be detected in male pregnancie
 We examined XY signal intensity normalized to autosomal signal intensity using ewastools [@heiss2018], and found that 6 datasets had male samples that appear more female-like (trending towards the female cluster) (Figure \@ref(fig:ch4fig3)C).
 Although the number of samples flagged in this analysis was small (17/754 males total), flagged samples had significantly increased P(outlier) (p \< 0.01, mean = 0.24 versus 0.04, Figure \@ref(fig:ch4fig3)D), indicating this approach had high specificity but low sensitivity.
 
-Maternal immune cells infiltration into placental tissues can occur in placental inflammatory conditions, such as chorioamnionitis [@cappelletti2020]. Moreover, a (small) proportion of the normal placental composition consists of maternal macrophages [@thomas2020]. In these cases, identified maternal genotype mixing might from variable amounts of maternal cells is a biological variable, not an unwanted technical artifact. To determine if contamination identified through our approaches were due to biological processes, we tested for the association between our contamination variables and available clinical and placental phenotypes. We were limited to sample variables made available on GEO, but in almost all cases we were able to test for the main phenotypes for each study (preeclampsia, acute chorioamnionitis, neural tube defects, assisted reproductive technologies). We found no statistically significant associations between placental phenotype and any of our measures of genetic and maternal contamination. P(outlier) was only significantly associated with late-onset preeclampsia samples in dataset 2 (p \< 0.05, slope = -0.0084), but not in any of the other 3 preeclampsia datasets. PC1, generated from our tissue-specific approach described above, was associated with early-onset preeclampsia (p\<0.001, slope = -0.0016), which does not necessarily indicate maternal cell presence given the large methylation alterations associated with severe preeclampsia [@wilson2018].
+Maternal immune cells infiltration into placental tissues can occur in placental inflammatory conditions, such as chorioamnionitis [@cappelletti2020].
+Moreover, a (small) proportion of the normal placental composition consists of maternal macrophages [@thomas2020].
+In these cases, identified maternal genotype mixing might from variable amounts of maternal cells is a biological variable, not an unwanted technical artifact.
+To determine if contamination identified through our approaches were due to biological processes, we tested for the association between our contamination variables and available clinical and placental phenotypes.
+We were limited to sample variables made available on GEO, but in almost all cases we were able to test for the main phenotypes for each study (preeclampsia, acute chorioamnionitis, neural tube defects, assisted reproductive technologies).
+We found no statistically significant associations between placental phenotype and any of our measures of genetic and maternal contamination.
+P(outlier) was only significantly associated with late-onset preeclampsia samples in dataset 2 (p \< 0.05, slope = -0.0084), but not in any of the other 3 preeclampsia datasets.
+PC1, generated from our tissue-specific approach described above, was associated with early-onset preeclampsia (p\<0.001, slope = -0.0016), which does not necessarily indicate maternal cell presence given the large methylation alterations associated with severe preeclampsia [@wilson2018].
 Overall, we were unable to robustly detect the presence of maternal cells in placental samples due to biological processes, which might indicate our approaches to have inadequate sensitivity to detect the relatively small number of maternal cells that infiltrate due to inflammation.
 
-# Discussion
+## Discussion
 
 In this study, we determined if maternal cells could be detected in placental DNAm samples from previous studies.
 Although DNAm microarray data was the subject of this study, our findings are relevant to all placental studies where technical contamination from maternal tissue is a challenge, and in studies where maternal cells may be present in placental tissues due to biological processes such as inflammation.
@@ -148,7 +157,8 @@ However, this set of CpG sites can be improved since only a low number (n\<13) o
 Other limitations for the other approaches are also important to consider when identifying contamination.
 P(outlier) as noted previously, is also function of signal noise, and is not specific to maternal contamination but can be also useful in identifying sample-sample contamination which we did not explore in this study.
 Epigenetic age, we found to have little sensitivity to maternal contamination.
-We found that the placental age clock [@lee2019] was not able to robustly discriminate maternal decidua and blood samples from villi, to the degree needed to use this as a measure of maternal contamination. Adult epigenetic age [@horvath2013], was slightly associated with genetic contamination, indicating it has some use in identifying contamination.
+We found that the placental age clock [@lee2019] was not able to robustly discriminate maternal decidua and blood samples from villi, to the degree needed to use this as a measure of maternal contamination.
+Adult epigenetic age [@horvath2013], was slightly associated with genetic contamination, indicating it has some use in identifying contamination.
 XY signal intensity analysis, which Heiss 2018 also explored to assess sample contamination in DNAm data, we found to have a strong association with genetic contamination.
 However, the restriction of XY analysis for identifying maternal contamination is only possible in male placental samples, and therefore we limit this approach for use as a secondary validation analysis after applying other contamination checks.
 Overall, our study highlights the importance of using a variety of bioinformatic approaches to identify and magnify different aspects maternal contamination from placental DNAm microarray data.

@@ -9,7 +9,7 @@ bibliography: ../References/references.bib
 
 <!-- This section is mandatory! -->
 
-Parts of this chapter have been previously published and accepted for publication (see Preface for contribution details):
+Parts of this chapter have been previously published or accepted for publication (see Preface for contribution details):
 
 Robinson WP, Peñaherrera MS, Konwar C, Yuan V, Wilson SL. Chapter 13 - Epigenetic Modifications in the Human Placenta.
 In: Leung PCK, Qiao J, editors.

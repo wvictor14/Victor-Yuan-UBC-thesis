@@ -31,7 +31,7 @@ knitr::include_graphics(here::here('Images', 'appendix-c', 'Figure S3.pdf'))
 \captionsetup{width=7in}
 
 ```{r tabc1, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
-readxl::read_csv(here::here('Tables', 'appendix c', 'Table S1.csv')) %>%
+readr::read_csv(here::here('Tables', 'appendix c', 'Table S1.csv')) %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'Number of samples that failed quality control checks per dataset.')

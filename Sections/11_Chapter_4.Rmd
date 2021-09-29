@@ -159,38 +159,38 @@ Overall, we were unable to robustly detect the presence of maternal cells in pla
 
 ## Discussion
 
-In this study, we determined if maternal cells could be detected in placental DNAm samples from previous studies.
-Although DNAm microarray data was the subject of this study, our findings are relevant to all placental studies where technical contamination from maternal tissue is a challenge, and in studies where maternal cells may be present in placental tissues due to biological processes such as inflammation.
-Furthermore, our research supports that contamination in genomic studies in general is a challenge, but can, to an extent, be addressed through bioinformatic data analysis after data has been generated.
-Our analyses builds upon the decade of bioinformatics development of DNA methylation -specific array data.
-We expect that contamination analyses such as the ones presented in this study, will improve and become more routine as bioinformatics continues to develop, especially with the generation of new genomic technologies (e.g. single-cell).
+We assessed whether the presence of maternal DNA could be detected in Illumina DNAm data derived from placental samples. 
+Although DNAm microarray data was the subject of this study, our findings are relevant to all placental studies where technical of biological contamination from maternal tissue is a concern. 
+While detecting contamination in genomic studies is a challenge, it can, to an extent, be addressed through bioinformatic data analysis after data has been generated. 
+Our analysis builds upon the decade of bioinformatics development of DNA methylation -specific array data.
+We expect that accounting for contamination will improve and become more routine as bioinformatic approaches continue to develop, especially with the generation of new genomic technologies.
+Using this multi-pronged approach, we show that maternal contamination can likely influences a proportion of the 11 placental datasets included in this study. 
+The dataset -specific variation observed in these placental datasets likely reflects variability in sample processing protocols between different research groups. 
+As all data is from previously published studies, our findings represent a conservative estimate of the prevalence of maternal contamination in placental sampling in general, since highly contaminated samples may have been removed through standard QC and data analysis pipelines because of the resulting severely altered DNAm.
 
-Our work heavily builds off of two previous works: Heiss 2018, who assessed general sample-sample contamination in DNAm data on GEO [@heiss2018], and Wan 2019, who assessed maternal-specific contamination in placental DNAm studies [@wan2019].
-This study improves upon Wan 2019's approach, which used altered DNA methylation patterns associated with maternal contamination, by incorporating additional DNAm-based approaches such as epigenetic age, cell composition, and sex probe intensity analysis; and also by including Heiss 2019's genotype-based contamination approach.
-Using this multi-pronged approach, we show that maternal contamination can be reliably identified in a proportion of the 13 placental datasets included in this study.
-The dataset -specific variation observed in these placental datasets was expected due to the variability in sample types and sample processing protocols between different research groups, although overall we found the prevalence of highly maternally contaminated placental samples to be infrequent.
-Because all data has been previously is from previously published studies, our findings represent a conservative estimate of the prevalence of maternal contamination in placental sampling in general, since highly contaminated samples are likely easily identified and removed through standard QC and data analysis pipelines because of the resulting severely altered DNAm.
+The  variety of approaches used in this study have their own individual usefulness in identifying different aspects of maternal contamination in placental DNAm data.
+Although high values of P(outlier) (>0.15) were associated with altered clustering, XY signal intensity, and epigenetic (adult) age, we found that some datasets had high P(outlier) samples with no other evidence of maternal contamination. 
+Because P(outlier) is essentially a measurement of noise and variability of signal intensity, we suspect that dataset-specific variability in background noise will be important to account for when employing this approach, and that dataset-specific considerations are likely important to fine-tune the thresholds of these types of analyses.
 
-We found that the approaches used in this study were variable in their sensitivity, specificity, and therefore their individual usefulness in identifying contamination.
-Although high values of P(outlier) (\>0.15) were associated with altered clustering, XY signal intensity, epigenetic (adult) age, we found that some datasets had high P(outlier) samples with no other evidence of maternal contamination.
-Because P(outlier) is essentially a measurement of noise and variability of signal intensity, we suspect that dataset-specific variability in background noise will be important to account for when employing this approach, and that dataset-specific considerations can likely important to fine-tune the sensitivity and specificity of these types of analyses.
-PCA-based clustering of DNAm samples, like Wan 2019, we found to be useful in identifying chorionic villi samples with more decidua / blood-like DNAm profiles, which, when correlated with genetic contamination, strongly indicates maternal contamination is present.
-But in the absence of genotype contamination, deviations on the PC1 variable can be influenced by many other different biological factors, such as cell composition variability, disease, environment, and genetics.
-Selection of CpG sites that are highly tissue-specific can amplify the maternal signal and minimize these other sources of variation, as demonstrated by the increased discrimination we showed in our study compared to when using PCA with all array CpGs.
-However, this set of CpG sites can be improved since only a low number (n\<13) of maternal decidua and maternal blood samples were used to for CpG selection, making the analysis underpowered.
+The combination of the genetic contamination measure with PCA-based clustering of chorionic villi samples with more decidua / blood-like DNAm profiles, is strongly indicative that maternal contamination is present.
+But in the absence of genotype contamination, deviations on the PC1 variable can be influenced by other biological factors, such as cell composition variability, disease, environment, and genetics. 
+Selection of CpG sites that are highly tissue-specific can amplify the maternal signal and minimize these other sources of variation, as demonstrated by the increased discrimination we showed in our study compared to when using PCA with all array CpGs. 
+However, this set of CpG sites can be improved since only a low number (n<13) of maternal decidua and maternal blood samples were used to for CpG selection, making the analysis underpowered. 
 
-Other limitations for the other approaches are also important to consider when identifying contamination.
-P(outlier) as noted previously, is also function of signal noise, and is not specific to maternal contamination but can be also useful in identifying sample-sample contamination which we did not explore in this study.
+
+Other limitations for the other approaches  are also important to consider when identifying contamination. 
+P(outlier) as noted previously, is also function of signal noise, and is not specific to maternal contamination but can be also useful in identifying sample-sample contamination which we did not explore in this study. 
 Epigenetic age, we found to have little sensitivity to maternal contamination.
-We found that the placental age clock [@lee2019] was not able to robustly discriminate maternal decidua and blood samples from villi, to the degree needed to use this as a measure of maternal contamination.
-Adult epigenetic age [@horvath2013], was slightly associated with genetic contamination, indicating it has some use in identifying contamination.
-XY signal intensity analysis, which Heiss 2018 also explored to assess sample contamination in DNAm data, we found to have a strong association with genetic contamination.
-However, the restriction of XY analysis for identifying maternal contamination is only possible in male placental samples, and therefore we limit this approach for use as a secondary validation analysis after applying other contamination checks.
-Overall, our study highlights the importance of using a variety of bioinformatic approaches to identify and magnify different aspects maternal contamination from placental DNAm microarray data.
+We found that the placental age clock was not able to robustly discriminate maternal decidua and blood samples from villi, to the degree needed to use this as a measure of maternal contamination. 
+Adult epigenetic age [@horvath2013] was slightly associated with genetic contamination, indicating it has some use in identifying contamination. 
+XY signal intensity analysis, which Heiss 2018 also explored to assess sample contamination in DNAm data, we found to have a strong association with genetic contamination. 
+However, the restriction of XY analysis for identifying maternal contamination is only possible in male placental samples, and therefore we limit this approach for use as a secondary validation analysis after applying other contamination checks. 
+Overall, our study highlights the importance of using a variety of bioinformatic approaches to identify and magnify different aspects maternal contamination from placental DNAm microarray data. 
 
-The bioinformatic approaches described in this study to assess different aspects of contamination, although are specific to the Illumina DNAm arrays and to placental tissue, these approaches can be adopted to other genomic data types and to other tissues.
-For example, in this study we used CpG sites that were differentially methylated between villi and decidua or maternal blood; however, in cord blood studies, where maternal contamination is also a challenge, a cord-blood specific set of CpG sites could be used instead.
+The bioinformatic approaches described in this study to assess different aspects of contamination, although are specific to the Illumina DNAm arrays and to placental tissue, these approaches can be adopted to other genomic data types and to other tissues. 
+For example, in this study we used CpG sites that were differentially methylated between villi and decidua or maternal blood; however, in cord blood studies, where maternal contamination is also a challenge, a cord-blood specific set of CpG sites could be used instead. 
 We found that P(outlier) variable based on the 59-65 SNP probes on the 450k/850k methylation arrays to be a fruitful measure of genetic contamination, but this approach could be generalizable to other sets of SNPs such as high-density genotyping arrays, of which many EWAS datasets have available too.
-Although, we interestingly Morin 2017 found that genetic contamination measured from genotyping arrays was not correlated with other DNAm-based measures of contamination [@morin2017].
-Morin 2017 used the amount of genotype "no-calls", which are when a genotype cannot be confidently discerned from the raw signal intensity array data, as their measure of contamination; this approach is more stringent than the P(outlier) measurements used in this study.
+Although, Morin 2017 found that genetic contamination measured from genotyping arrays was not correlated with other DNAm-based measures of contamination [@morin2017].
+Morin 2017 used the amount of genotype “no-calls”, which are when a genotype cannot be confidently discerned from the raw signal intensity array data, as their measure of contamination; this approach is more stringent than the P(outlier) measurements used in this study. 
 Further studies evaluating SNP data their usefulness in estimating contamination are needed.
+

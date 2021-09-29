@@ -51,12 +51,15 @@ Using the R package ewastools [@heiss2018], DNA methylation intensity measuremen
 ```{r ch4tab1, eval = T, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 kableExtra::kbl(
   readr::read_csv(here::here('Tables', 'ch4', 'table1.csv')) %>%
-    rename(` ` = 2,
-           `  ` = 3),
+    rename(` ` = 1,
+           `  ` = 2,
+           `   ` = 3),
   booktabs = TRUE,
   caption = 'Placental datasets and number of samples with evidence of contamination.') %>%
   
-  kableExtra::add_header_above(c(" " = 4, "Contamination measures (n samples)" = 4))%>%
+  kableExtra::add_header_above(c("Placental datasets" = 3,
+                                 "-" = 1,
+                                 "Contamination measures (n samples)" = 4))%>%
   kableExtra::kable_styling(full_width = TRUE)
 ```
 

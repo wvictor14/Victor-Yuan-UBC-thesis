@@ -1,14 +1,12 @@
-﻿Dataset,n,n failed
-1,78,4
-2,97,0
-3,48,0
-4,179,0
-5,6,6
-6,88,32
-7,17,0
-8,335,8
-9,343,8
-10,19,0
-11,411,0
-12,42,1
-13,24,0
+﻿Dataset,n,n failed   ,Some controls that failed
+1,78,4,"Bisulfite Conversion I Green, Bisulfite Conversion II"
+2,97,0,
+3,48,0,
+4,179,0,
+5,88,32,Non-polymorphic Green
+6,17,0,
+7,335,8,Non-polymorphic Green
+8,343,8,Non-polymorphic Red
+9,411,0,
+10,42,1,"Bisulfite Conversion I Red, Bisulfite Conversion II"
+11,24,0,

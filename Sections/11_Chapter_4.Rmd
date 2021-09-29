@@ -99,18 +99,18 @@ kableExtra::kbl(
   caption = 'Number of samples that failed 1 or more of 27 Illumina data quality control checks.')
 ```
 
-To determine what proportion of high P(outlier) placental chorionic villi samples were contaminated with maternal cells, we performed several other analyses based on DNAm variation.
+### PCA assessment of sample contamination
 
-Wan 2019 used a PCA based approach that identified a set of chorionic villi samples that clustered near maternal blood and decidua, indicating that contaminated placental samples show a globally altered methylation profile that was increasingly similar to the contaminating tissues [@wan2019]. 
-In this study, we performed a modified version of PCA, where only highly tissue-specific (maternal blood vs villi, decidua vs villi) CpG sites were used. 
-We found that PCA using the top 500 hypo- and hyper- methylated CpGs between villi and either maternal blood or decidua (2x tissues = 2000 CpGs total) resulted in the first principal component PC1 (94% variance explained) being able to separate placental and maternal samples (Figure \@ref(fig:ch4fig2)A). 
-We found this tissue-specific approach to be more sensitive than using PCA on all CpGs (Figure \@ref(fig:figc2)A). 
-We labelled placental chorionic villi samples based on how many standard deviations (SD) away from the chorionic villi mean on PC1, and towards decidua and maternal blood samples (Figure \@ref(fig:ch4fig2)A, Table \@ref(tab:ch4tab1)). 
-We found that PC1 was positively associated (p\<0.001, reference category: "x \< mean") with high P(outlier) values (Figure \@ref(fig:ch4fig2)B), indicating that more maternal tissue-like DNAm profiles in placental chorionic villi samples had correspondingly higher genotype mixing. Treating PC1 as a continuous variable, a linear model between P(outlier) versus PC1 was statistically significant (p\<0.001, slope = 3.26, Figure \@ref(fig:ch4fig2)C). 
-Interestingly, we observed a concave shape to the nonlinear fit using the "LOESS" regression option in ggplot2). 
-This "increasing and then decreasing" relationship of P(outlier) is consistent with a model of genotype mixing, where after a sample becomes more than 50% contamination, the contaminant becomes the primary component of the sample and P(outlier) will start to decrease. More data is needed, however, as two extreme outliers drive the decreasing side of this relationship (Figure \@ref(fig:ch4fig2)C). 
-These two outlier samples belonged to dataset 11, and displayed a cell composition profile consistent with high blood contamination (increased nucleated red blood cells and Hofbauer cells, Figure \@ref(fig:ch4fig2)D), which was estimated from DNAm-based placental cell deconvolution [@teschendorff2017; @yuan2021; @houseman2012].
-These findings support that tissue-specific clustering based on PCA can be a highly useful approach to identifying tissue-specific contamination.
+To estimate the proportion of placental samples with P(outlier)>0.15 that were likely contaminated with maternal cells, we performed several other analyses based on DNAm variation. 
+Wan 2019 used a PCA based approach that identified a set of placental samples that clustered near maternal blood and decidua, reflecting a globally altered methylation profile that was increasingly similar to the putative contaminating tissues [@wan2019]. 
+To increase the power of this approach, we modified the PCA approach by using only highly tissue-specific (maternal blood vs placenta, decidua vs placenta) CpG sites. PCA using the top 500 hypo- and hyper- methylated CpGs between placenta and either maternal blood or decidua (2x tissues = 2000 CpGs total) resulted in the first principal component PC1 (94% variance explained) being able to separate placental and maternal samples (Figure \@ref(fig:ch4fig2)A). 
+This tissue-specific approach was more sensitive than using PCA on all CpGs (Figure \@ref(fig:figc2)A). 
+Placental samples were labeled based on how many standard deviations (SD) away from the placenta mean on PC1, and towards decidua and maternal blood samples (Figure \@ref(fig:ch4fig2)A, Table \@ref(tab:ch4tab1)).
+PC1 was positively associated (p<0.001, reference category: “x < mean”) with high P(outlier) values (Figure \@ref(fig:ch4fig2)B), indicating that more maternal tissue-like DNAm profiles in placental samples had correspondingly higher genotype mixing.
+Treating PC1 as a continuous variable, a linear model between P(outlier) versus PC1 was statistically significant (p<0.001, slope = 3.26, Figure \@ref(fig:ch4fig2)C). 
+Interestingly, we observed a concave shape to the nonlinear fit using the “LOESS” regression option in ggplot2). 
+This “increasing and then decreasing” relationship of P(outlier) is consistent with a model of genotype mixing, where after a sample becomes more than 50% contamination, the contaminant becomes the primary component of the sample and P(outlier) will start to decrease.
+Two extreme outliers, both from dataset 11, drive the decreasing side of this relationship \@ref(fig:ch4fig2)C) and displayed a cell composition profile consistent with high blood contamination (increased nucleated red blood cells and Hofbauer cells, Figure \@ref(fig:ch4fig2)D)), as estimated from DNAm-based placental cell deconvolution [@teschendorff2017; @yuan2021; @houseman2012].
 
 <!-- INSERT FIGURE 2 -->
 

@@ -171,7 +171,7 @@ Using this multi-pronged approach, we show that maternal contamination can likel
 The dataset -specific variation observed in these placental datasets likely reflects variability in sample processing protocols between different research groups. 
 As all data is from previously published studies, our findings represent a conservative estimate of the prevalence of maternal contamination in placental sampling in general, since highly contaminated samples may have been removed through standard QC and data analysis pipelines because of the resulting severely altered DNAm.
 
-The  variety of approaches used in this study have their own individual usefulness in identifying different aspects of maternal contamination in placental DNAm data.
+The variety of approaches used in this study have their own individual usefulness in identifying different aspects of maternal contamination in placental DNAm data.
 Although high values of P(outlier) (>0.15) were associated with altered clustering, XY signal intensity, and epigenetic (adult) age, we found that some datasets had high P(outlier) samples with no other evidence of maternal contamination. 
 Because P(outlier) is essentially a measurement of noise and variability of signal intensity, we suspect that dataset-specific variability in background noise will be important to account for when employing this approach, and that dataset-specific considerations are likely important to fine-tune the thresholds of these types of analyses.
 

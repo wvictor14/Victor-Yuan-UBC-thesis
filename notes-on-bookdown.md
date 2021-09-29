@@ -135,3 +135,7 @@ The following code makes it so the number and the caption are further apart, suc
 ```
 
 Insert after \addcontentsline
+
+# Writing in markdown
+
+- To get the most out of git diff / tracking, write one sentence per line-  markdown doesn't "see" line breaks, but having one sentence per line will allow each sentence to be git tracked (as opposed to each paragraph).

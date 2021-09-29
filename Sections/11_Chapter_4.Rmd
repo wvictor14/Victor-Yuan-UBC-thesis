@@ -11,8 +11,8 @@ editor_options:
 
 ## Introduction
 
-In this study, we provide a comprehensive assessment of maternal cell contamination in placental DNAm studies.
-Building on some of the existing bioinformatic approaches described above, we designed a multi-faceted placental-specific approach to assess maternal cell contamination in DNAm samples.
+In this study, we provide a comprehensive assessment of maternal cell contamination in placental DNAm studies. 
+Building on some of the existing bioinformatic approaches described above, we designed a multi-faceted placental-specific approach to assess maternal cell contamination in DNAm data. 
 
 ## Methods
 

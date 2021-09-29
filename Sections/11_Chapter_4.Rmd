@@ -11,16 +11,12 @@ editor_options:
 
 ## Introduction
 
-In this study, we provide a comprehensive assessment of maternal cell contamination in placental DNAm studies. 
-Building on some of the existing bioinformatic approaches described above, we designed a multi-faceted placental-specific approach to assess maternal cell contamination in DNAm data. 
+In this study, we provide a comprehensive assessment of maternal cell contamination in placental DNAm studies.
+Building on some of the existing bioinformatic approaches described above, we designed a multi-faceted placental-specific approach to assess maternal cell contamination in DNAm data.
 
 ## Methods
 
-DNAm data was obtained from the data repository GEO for 13 placental studies, 3 of which were from our own lab (Table \@ref(tab:ch4tab1)). 
-These included studies of acute chorioamnionitis (dataset 1), preeclampsia (datasets 2, 3, 12, 13), neural tube defects (dataset 4), recurrent pregnancy loss (dataset 5), assisted reproductive technologies (dataset 6), early gestation (dataset 7, 10), neurobehavior of newborns (dataset 8), arsenic exposure (dataset 9), and extremely early gestation preterm birth (dataset 11). 
-Decidua and maternal blood samples from additional dataset GSE74738 were included for methylome-wide principal components analysis (PCA). 
-All studies had collected 1-4 sites of chorionic villi from the fetal facing side of the placenta, which is done to avoid contaminating maternal tissue. 
-DNAm data was normalized with BMIQ and noob; and filtered for poor quality, cross-hybridizing, and probes with nearby SNPs according to the 2021 June 15th update of the original Zhou 2017 DNAm annotation [@zhou2017].
+DNAm data was obtained from the data repository GEO for 11 placental studies, 3 of which were from our own lab (Table \@ref(tab:ch4tab1)). These included studies of acute chorioamnionitis (dataset 1), preeclampsia (datasets 2, 3, 10, 11), neural tube defects (dataset 4), assisted reproductive technologies (dataset 5), neurobehavior of newborns (dataset 7), arsenic exposure (dataset 8), and extremely early gestation preterm birth (dataset 9). Decidua and maternal blood samples from additional datasets GSE113600 (dataset 12) and GSE74738 (dataset 13) were included for methylome-wide principal components analysis (PCA). All studies reported collecting 1-4 sites of chorionic villi from the fetal facing side of the placenta, which is done to avoid contaminating maternal tissue. DNAm data was normalized with BMIQ and noob; and filtered for poor quality, cross-hybridizing, and probes with nearby SNPs according to the 2021 June 15th update of the original Zhou 2017 DNAm annotation [@zhou2017].
 
 ```{r echo=FALSE, results='asis'}
     options(knitr.kable.NA = '')
@@ -29,25 +25,26 @@ DNAm data was normalized with BMIQ and noob; and filtered for poor quality, cros
 ### Identifying mixing of genetically distinct DNA samples
 
 To quantify the amount of mixing of genetically distinct DNA in each sample, a mixture model was fit to the 59 SNPs on the 450k/EPIC array using the R package ewastools [@heiss2018].
-Mixing of genotypes is indicated by SNP measurements with a high probability for the "outlier" distribution (referred to as the "P(outlier)" value), which corresponds to measurements that deviate from the 3 possible genotypes. 
-P(outlier) values range from 0 to 1, and increases with mixing of distinct genotypes (e.g. fetal and maternal DNA).
+Mixing of genotypes is expected to result in SNP measurements with a high probability for the "outlier" distribution (referred to as the "P(outlier)" value), which corresponds to measurements that deviate from the 3 possible genotypes. P(outlier) values range from 0 to 1, and increases with mixing of distinct genotypes (e.g. fetal and maternal DNA).
 
 ### Cell composition outliers
 
-We hypothesized that chorionic villi samples significantly contaminated with maternal decidua or blood could be identified from DNAm-based estimates of placental cell composition.
-Specifically cell composition inferred from reference-based cell deconvolution [@yuan2021], and PCA clustering with maternal blood and decidua samples, were tested for their association with genotype-based contamination.
-This latter approach is a variation of the PCA approach described previously from Wan 2019 [@wan2019], where instead of using all CpG sites, in this study we used a specific subset of highly decidua and blood-specific CpG sites that we identified through linear modelling.
-Decidua and blood-specific CpG sites were determined using the R package limma [@ritchie2015], where decidua samples were compared to villi, and then maternal blood was compared to villi; the top 500 hypo- and hyper- methylated CpGs (total was 2000 cpgs for two tissue-specific comparisons) were used for PCA.
+We hypothesized that placental samples significantly contaminated with maternal decidua or blood could be identified from DNAm-based estimates of placental cell composition.
+Specifically cell composition inferred from our previously developed placental cell deconvolution approach [@yuan2021], and PCA clustering with maternal blood and decidua samples, were tested for their association with genotype-based contamination.
+This latter approach is a variation of the PCA approach described previously from Wan 2019 [@wan2019], whereby, instead of using all CpG sites, we used a specific subset of highly decidua and blood-specific CpG sites that we identified through linear modelling.
+Decidua and blood-specific CpG sites were determined using the R package limma [@ritchie2015], by comparing the DNAm profile from decudua and maternal blood independently to that for placenta; the top 500 hypo- and hyper- methylated CpGs (total was 2000 cpgs for two tissue-specific comparisons) were used for PCA.
 
 ### Epigenetic age
 
-Because epigenetic age should be highly increased in decidua and maternal blood (i.e. adult tissues) compared to fetal-derived placental tissue, we hypothesized that estimated epigenetic age may significantly differ between maternally contaminated and non-contaminated placental samples.
+Epigenetic age is a measure of biological aging based on aging-associated DNA methylation changes.
+Epigenetic "age clocks" are usually built using supervised machine learning trained to predict chornological age using CpG methylation [@bell2019]. 
+Because epigenetic age should be highly increased in decidua and maternal blood (i.e. adult tissues) compared to fetal-derived placental tissue, we hypothesized that estimated epigenetic age may significantly differ between maternally contaminated and non-contaminated placental samples. 
 To estimate epigenetic age, placental and adult epigenetic age clocks were applied to chorionic villi samples [@horvath2013; @lee2019].
 
 ### Sex chromosome analysis
 
-Placental samples from male fetuses that are contaminated with maternal (female) DNA, should appear more "female-like" when examining sex chromosome DNA methylation.
-Using the R package ewastools [@heiss2018], DNA methylation intensity measurements on X and Y chromosome probes were normalized to autosomal signal, and then outliers on X and Y chromosome plots were identified in a dataset-specific manner (termed "XY outliers").
+Placental samples from male fetuses that are contaminated with maternal (female) DNA, should appear more “female-like” when examining sex chromosome DNA methylation. 
+Using the R package ewastools [@heiss2018], DNA methylation intensity measurements on X and Y chromosome probes were normalized to autosomal signal, and then outliers on X and Y chromosome plots were identified in a dataset-specific manner (termed “XY outliers”).
 
 \captionsetup{width=6.5in}
 

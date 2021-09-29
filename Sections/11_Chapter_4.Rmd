@@ -120,13 +120,13 @@ Two extreme outliers, both from dataset 11, drive the decreasing side of this re
 knitr::include_graphics(here::here('images', 'ch4', 'Figure 2.pdf'))
 ```
 
-We found that P(outlier) and tissue-specific PCA were effective in identifying samples containing maternal cell contamination.
-We additionally explored other DNAm based variables that might be suggestive of contamination, such as epigenetic age and XY signal intensity analysis.
-For epigenetic age, we hypothesized that because of the large difference in epigenetic age between maternal (adult) and placental (fetal) tissue, epigenetic age of maternally contaminated placental samples should display increased epigenetic age estimates.
-We applied both adult and placental epigenetic age clocks on all placental chorionic villi samples [@horvath2013; @lee2019].
-Adult epigenetic age (EA) clock was not effective in accurately separating GA in placental samples (Figure \@ref(fig:figc3)A).
-However, there was a small, but statistically significant association between adult EA and P(outlier) in chorionic villi samples (p \<0.01, slope = 0.0125 P(outlier) / year; Figure \@ref(fig:ch4fig3)A), an effect that was largely driven by two datasets, 1 and 4 (Figure \@ref(fig:figc3)B).
-Placental epigenetic gestational age (EGA), which was highly accurate on chorionic villi samples (mean difference = +1.07 weeks, sd = 0.88), yielded estimates of EGA that was not as high as expected for decidua (mean = 43.0 weeks) and maternal blood (mean = 44.2 weeks) samples, which indicated EGA might have low sensitivity for maternal contamination (Figure \@ref(fig:figc3)C).
+### Evaluating epigenetic age
+
+We hypothesized that because of the large difference in epigenetic age between maternal (adult) and placental (fetal) tissue, maternally contaminated placental samples should display increased epigenetic age estimates. 
+To test this we applied both adult and placental epigenetic age clocks on all placental samples [@horvath2013; @lee2019].
+The adult epigenetic age (EA) clock (which was built on somatic tissues) was not effective in accurately separating GA in placental samples (Figure \@ref(fig:figc3)A).
+However, there was a small, but statistically significant association between adult EA and P(outlier) in placental samples (p \<0.01, slope = 0.0125 P(outlier) / year; Figure 3\@ref(fig:ch4fig3)A)), an effect that was largely driven by two datasets, 1 and 4 (Figure \@ref(fig:figc3)B). 
+Placental epigenetic gestational age (EGA), which was highly accurate on placental samples (mean difference = +1.07 weeks, sd = 0.88), yielded estimates of EGA that was not as high as expected for decidua (mean = 43.0 weeks) and maternal blood (mean = 44.2 weeks), indicating that EGA is likely to have low sensitivity for maternal contamination (Figure \@ref(fig:figc3)C). 
 The difference between EGA and reported was not significantly associated with P(outlier) (Figure \@ref(fig:ch4fig3)B, slope = -0.002, n.s.).
 
 <!-- INSERT FIGURE 3 -->

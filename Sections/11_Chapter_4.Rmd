@@ -60,19 +60,25 @@ kableExtra::kbl(
   kableExtra::kable_styling(full_width = TRUE)
 ```
 
-### 
-
 ### Microsatellite genotyping
 
 ## Results
 
-There was variability in estimated genotype mixing between studies (Figure \@ref(fig:ch4fig1)A), however a proportion of datasets showed a number of chorionic villi samples with a high P(outlier) value (Table \@ref(tab:ch4tab1)). 
-Due to the proximity of maternal tissue during chorionic villi sampling, we hypothesize that much of the observed genotype mixing can be explained by the presence of maternal cells, either from sample processing or from biological processes such as inflammation. 
-We noted the number of samples with P(outlier) values greater than 0.15 for each dataset in Table \@ref(tab:ch4tab1). However, other factors can contribute to high P(outlier) values, such as data quality and non-maternal sample contamination (e.g. unintentional mixing of placental samples). 
-We found that samples that failed 1 or more Illumina data quality control checks were overall generally low (Figure \@ref(fig:ch4fig1)B), which is unsurprising given that most studies perform at minimum some baseline data processing and quality control. 
-However, in 3 out of 13 datasets, samples that failed control checks showed statistically significantly higher P(outlier) values (Figure \@ref(fig:figc1)A), and in two datasets, 5 and 6, the number of samples that failed at least one control check was a large proportion of the dataset -- 6/6 (100%) for dataset 5, and 32/88 (36%) (Table \@ref(tab:ch4tab2)). 
-However, we note that Illumina data quality control checks are fairly specific and each of 27 control checks measures a different aspect of DNAm signal quality; as others have also noted, even if samples fail some Illumina controls, other measures of DNAm data quality can appear fine [@heiss2018].
-However, samples that failed quality control only accounted for a proportion of samples with high P(outlier) values, leaving the possibility that genotype mixing could be occurring in the remainder of the samples.
+### Genotype mixing
+
+The estimated genotype mixing between studies was highly variable (Figure \@ref(fig:ch4fig1)A).
+While some datasets showed no evidence of mixed genotype contributions, other datasets showed a number of placental samples with a high P(outlier) value (Table \@ref(tab:ch4tab1)). 
+Due to the potential  for maternal tissue contamination during placental sampling, we hypothesized that much of the observed genotype mixing can be explained by the presence of maternal cells, either due to sample processing technique (e.g. failure to avoid maternal infarcts or to wash sample well), or biological processes such as inflammation.
+We noted the number of samples with P(outlier) values greater than 0.15 for each dataset in Table \@ref(tab:ch4tab1). 
+As high P(outlier) values may also result from poor data quality or non-maternal sample contamination (e.g. unintentional mixing of placental samples), it is important to follow up flagged samples with additional measures to determine the cause of these results.
+
+### Association with low quality data
+
+We first looked for a relationship between data quality measures and P(outlier values). Relatively few samples failed 1 or more Illumina data quality control checks (Figure \@ref(fig:ch4fig1)B), likely because most studies eliminate poor quality samples after performing baseline data processing and quality control.
+However, in 3 out of 11 datasets, samples that failed control checks showed statistically significantly higher P(outlier) values (Figure \@ref(fig:figc1)A), and in dataset 5, the number of samples that failed at least one control check was a large proportion of the dataset, 32/88 (36%) (Table \@ref(tab:ch4tab2)).
+However each of 27 Illumina data quality control checks measures a different aspect of DNAm signal quality, and even if samples fail some Illumina controls, other measures of DNAm data quality may be normal [@heiss2018].
+A list of the specific controls that failed for each dataset is described in Table \@ref(tab:tabc1).
+Overall, however, poor quality data, as measured by the number of samples that failed these quality control checks, could not fully account for samples with high P(outlier) values, leaving the possibility that genotype mixing could be occurring in the remainder of the samples. 
 
 <!-- INSERT FIGURE 1 -->
 

@@ -1,0 +1,13 @@
+dataset,GEO_accession,n,n failed  ,Restoration,Staining Green,Staining Red,Extension Green,Extension Red,Hybridization High/Medium,Hybridization Medium/Low,Target Removal 1,Target Removal 2,Bisulfite Conversion I Green,Bisulfite Conversion I Red,Bisulfite Conversion II,Specificity I Green,Specificity I Red,Specificity II,Non-polymorphic Green,Non-polymorphic Red
+1,GSE115508,78,4,0,0,0,0,0,0,0,0,0,2,0,1,0,0,0,0,1
+2,GSE100197,97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,GSE98224,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,GSE69502,179,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,GSE120250,88,32,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,31,0
+6,GSE98938,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+7,GSE75248,335,8,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,7,0
+8,GSE71678,343,8,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,4
+9,GSE167885,411,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+10,GSE125605,42,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0
+11,GSE75196,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,GSE113600,6,6,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0

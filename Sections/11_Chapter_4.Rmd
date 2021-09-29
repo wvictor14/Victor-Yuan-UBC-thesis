@@ -137,21 +137,25 @@ The difference between EGA and reported was not significantly associated with P(
 knitr::include_graphics(here::here('images', 'ch4', 'Figure 3.pdf'))
 ```
 
-A common approach to check for sample misannotation in DNAm analysis is to compare samples' recorded sex and overall signal intensity from the X and Y chromosome probes.
-Additionally, samples that deviate from the male and female sample clusters can be indicative of sample-sample contamination when the contaminant is of different sex.
-We hypothesized that maternal contamination could be detected in male pregnancies by XY signal intensity analysis.
-We examined XY signal intensity normalized to autosomal signal intensity using ewastools [@heiss2018], and found that 6 datasets had male samples that appear more female-like (trending towards the female cluster) (Figure \@ref(fig:ch4fig3)C).
-Although the number of samples flagged in this analysis was small (17/754 males total), flagged samples had significantly increased P(outlier) (p \< 0.01, mean = 0.24 versus 0.04, Figure \@ref(fig:ch4fig3)D), indicating this approach had high specificity but low sensitivity.
+### XY signal intensity analysis
 
-Maternal immune cells infiltration into placental tissues can occur in placental inflammatory conditions, such as chorioamnionitis [@cappelletti2020].
-Moreover, a (small) proportion of the normal placental composition consists of maternal macrophages [@thomas2020].
-In these cases, identified maternal genotype mixing might from variable amounts of maternal cells is a biological variable, not an unwanted technical artifact.
-To determine if contamination identified through our approaches were due to biological processes, we tested for the association between our contamination variables and available clinical and placental phenotypes.
-We were limited to sample variables made available on GEO, but in almost all cases we were able to test for the main phenotypes for each study (preeclampsia, acute chorioamnionitis, neural tube defects, assisted reproductive technologies).
-We found no statistically significant associations between placental phenotype and any of our measures of genetic and maternal contamination.
-P(outlier) was only significantly associated with late-onset preeclampsia samples in dataset 2 (p \< 0.05, slope = -0.0084), but not in any of the other 3 preeclampsia datasets.
-PC1, generated from our tissue-specific approach described above, was associated with early-onset preeclampsia (p\<0.001, slope = -0.0016), which does not necessarily indicate maternal cell presence given the large methylation alterations associated with severe preeclampsia [@wilson2018].
-Overall, we were unable to robustly detect the presence of maternal cells in placental samples due to biological processes, which might indicate our approaches to have inadequate sensitivity to detect the relatively small number of maternal cells that infiltrate due to inflammation.
+A common approach to check for sample misannotation in DNAm analysis is to compare samples’ recorded sex and overall signal intensity from the X and Y chromosome probes. 
+Additionally, samples that deviate from the male and female sample clusters can be indicative of contamination with DNA from a different sex, although this can in rare cases also occur for biological reasons (i.e. sex chromosome mosaicism). 
+We hypothesized that maternal contamination in the placenta from male pregnancies would be reflected using XY signal intensity analysis. 
+Based on XY signal intensity normalized to autosomal signal intensity using ewastools [@heiss2018], 6 datasets had male samples that appear more female-like (trending towards the female cluster) (Figure \@ref(fig:ch4fig3)C).
+Although the number of samples flagged by this analysis was small (17/754 males total), flagged samples had significantly increased P(outlier) (p < 0.01, mean = 0.24 versus 0.04, Figure \@ref(fig:ch4fig3)D).
+
+### No association of maternal contamination with pathology
+
+Maternal immune cells infiltration into placental tissues can occur in response to placental inflammatory signals, as can occur in chorioamnionitis [@cappelletti2020].
+Moreover, a very small proportion of the normal placental composition consists of maternal macrophages [@thomas2020].
+Thus, maternal genotype mixing might be from infiltrating maternal cells as part of a biological process, not an unwanted technical artifact. 
+To determine if putative contamination may be due to biological processes, we tested for the association between our contamination variables and available clinical and placental phenotypes. 
+We were limited to sample variables made available on GEO, but in almost all cases we were able to test for the main phenotypes for each study (preeclampsia, acute chorioamnionitis, neural tube defects, assisted reproductive technologies). 
+We found no statistically significant associations between placental phenotype and any of our measures of genetic and maternal contamination. 
+P(outlier) was only significantly associated with late-onset preeclampsia samples in dataset 2 (p < 0.05, slope = -0.0084), but not in any of the other 3 preeclampsia datasets. 
+PC1, generated from our tissue-specific approach described above, was associated with early-onset preeclampsia (p<0.001, slope = -0.0016), which does not necessarily indicate maternal cell presence given the large methylation alterations associated with severe preeclampsia [@wilson2018].
+Overall, we were unable to robustly detect the presence of maternal cells in placental samples due to biological processes, which suggests that these approaches are not sensitive enough to detect the small number of maternal cells that infiltrate due to inflammation.
 
 ## Discussion
 

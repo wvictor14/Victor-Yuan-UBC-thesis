@@ -18,8 +18,8 @@ Isolating placental tissue without contamination from maternal tissue, such as d
 
 In this thesis, I hypothesize that a large proportion of the variation in placental DNAm can attributed to ethnicity, genetic ancestry, cell composition, cell-specific effects, and the presence of maternal cells. 
 Using high density DNAm microarray profiling, and open-access genomic data repositories, I assessed these various factors in a variety of placental samples with various phenotypes. 
-I found that ethnicity and genetic ancestry can significant contribute to placental DNAm variation in samples containing self-reports of ethnicity of Caucasian, East Asian, and African American populations. 
-Further, I found that it is possible to predict ethnicity and genetic  with high accuracy and reliability from placental DNAm. 
+I found that ethnicity and/or genetic ancestry are associated with placental DNAm variation in samples containing self-reports of White/Caucasian, East Asian, and/or Black/African American ethnicity. 
+Further, I found that it is possible to predict ethnicity/genetic ancestry  with high accuracy and reliability from placental DNAm. 
 Another major source of variation is cell-specific DNAm, which I characterized from placental samples of first trimester and term pregnancies. 
 I found that trophoblast and Hofbauer cells are highly epigenetically distinct, and many placental epigenetic features are conserved in trophoblasts but not always in other placental cells. 
 I developed a reference to estimate cell composition from placental chorionic villi DNAm.

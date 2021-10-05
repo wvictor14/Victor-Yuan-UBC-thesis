@@ -8,9 +8,9 @@ output:
 
 <!-- Remember, It can't be longer than 150 words! -->
 
-The placenta is an important organ for a healthy pregnancy. 
-DNA methylation is a molecular mark that helps the placenta control what genes are turned on and off. 
-Past research indicates that DNAm is an important component of placental biology, and that when pregnancy complications occur, corresponding changes in DNAm can occur. 
+The placenta is an essential organ for a healthy pregnancy. 
+DNA methylation (DNAm) is a molecular mark that helps the placenta control what genes are turned on and off. 
+DNAm is an important component of placental biology, and when pregnancy complications occur, corresponding changes in DNAm can occur. 
 However, our understanding of what controls placental DNAm itself is rudimentary. 
 We need to understand what influences placental DNAm under normal, healthy conditions before we can understand it under other contexts like in disease. 
 My thesis aims at understanding some of the major factors that influence placental DNAm.

@@ -7,16 +7,6 @@ output:
 bibliography: ../References/references.bib
 ---
 
-<!-- This section is mandatory! -->
-
-Parts of this chapter have been previously published or accepted for publication (see Preface for contribution details):
-
-Robinson WP, Peñaherrera MS, Konwar C, Yuan V, Wilson SL. Chapter 13 - Epigenetic Modifications in the Human Placenta.
-In: Leung PCK, Qiao J, editors.
-Human Reproductive and Prenatal Genetics.
-Academic Press; 2019.
-p. 293--311.
-
 ## Dissertation context and overview
 
 The placenta is a key component to the healthy development of the fetus during pregnancy.
@@ -149,7 +139,7 @@ The HDAC inhibitor, trichostatin-A, results in increased histone acetylation and
 In contrast, acetylation of histones H2A and H2B by the CREB-binding protein (CBP) acetyltransferases inhibits the epithelial-mesenchyme transition and promotes epithelial characteristics in mouse studies [@abell2011]. 
 A higher-order chromatin structure mediated by histone modifications in combination with a locus repeat structure was demonstrated to play a role in STB-specific expression within the human growth hormone gene cluster [@tsai2014], illustrating that the DNA sequence itself can affect chromatin structure.
 
-Our knowledge of cell-specific epigenetics isconfined primarily to trophoblastic populations.
+Our knowledge of cell-specific epigenetics is confined primarily to trophoblastic populations.
 However, additional placental cell populations are functionally important and may also be implicated in disease.
 Chorionic villus cultures yield the predominant growth of fibroblast cells, which havea DNAm profile that is much more similar to the fetal membranes than to whole placental villi [@robinson2015]. 
 Placental-specific macrophages, Hofbauer cells (HBs), lie in the mesenchymal core of the chorionic villi and in comparison to maternal and fetal macrophages, show hypermethylation of many immune response-related and classical macrophage-activation associated genes, possibly as a result of high expression of DNMT1, DNMT3A, and DNMT3B [@kim2012].

@@ -166,7 +166,7 @@ Because heterogeneous tissues, such as the placenta, are made up of several cell
 Therefore, changes in DNAm measured in complex tissues can often be attributed to variation in cell composition rather than DNAm changes that occur in the constituent cell populations [@holbrook2017].
 This makes interpretation of placental DNAm studies difficult until placental DNAm is characterized at a cell-specific resolution.
 
-During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by de novo DNAm in the inner cell mass [@smith2012].
+During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by _de novo_ DNAm in the inner cell mass [@smith2012].
 Deriving from the inner cell mass are fetal tissues and the mesenchymal core component of the placental chorionic villi.
 Within the mesenchymal core, stromal cells (SC) and fetal macrophages called Hofbauer cells (HB) can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells.
 HBs are distinct from decidual macrophages and fetal/maternal monocytes [@kim2012]; they display high phenotypic diversity, promoting angiogenesis early in gestation and later participating in the immune response to pathological processes and infection [@reyes2017; @reyes2018].
@@ -189,12 +189,12 @@ These studies have contributed to our understanding of the unique epigenetics of
 
 ### Cell deconvolution
 
-Placental DNAm is often studied in the context of health in relation to disease and environmental exposures.
+Placental DNAm is often studied in the context of disease and environmental exposures that may affect health.
 A common study design is the epigenome-wide association study (EWAS) [@flanagan2015], where differentially methylated CpGs (DMCs) are identified in a high-throughput manner, usually with microarray or sequencing based approaches.
 However, placental DNAm studies are almost all carried out using whole CV and are therefore subject to challenges of interpretability due to potential cell composition variability [@teschendorff2017].
 Unlike other tissues, such as adult blood and umbilical cord blood, addressing cell composition variability in placenta is difficult due to a lack of reference placental DNAm profiles, which enables bioinformatic estimation of cell composition from cellular deconvolution techniques [@teschendorff2017a].
 These methods operate by modelling the whole tissue measurements as a weighted sum of cell type -specific DNAm signatures, where the weights correspond to the relative proportion of each constituent cell type in the whole tissue sample, and can be determined using least-squares or non-constrained regression approaches [@teschendorff2017a; @houseman2012; @newman2015].
-Without reference DNAm profiles for each cell population, researchers sometimes account for cell composition using reference-free deconvolution methods.
+Without reference DNAm profiles for each cell population, researchers sometimes account for cell composition using reference-free deconvolution methods [@houseman2016].
 However, the effectiveness of reference-free deconvolution in capturing cell composition variation has not yet been assessed in placenta.
 
 ## Maternal signal in placental DNA methylation data

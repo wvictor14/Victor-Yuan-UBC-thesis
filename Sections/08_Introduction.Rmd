@@ -73,18 +73,18 @@ In contrast to the discrete nature of ethnicity/race categories, genetic ancestr
 
 ### Existing approaches to account for population variation in EWAS
 
-Although the importance of accounting for human population-based variation in EWAS is widely acknowledged, methods for DNAm- specific analysis are underdeveloped.
-Barfield 2014 developed a principal components analysis (PCA) -based approach to summarize genetic variation in PC variables that can be later incorporated into downstream analyses [@barfield2014] (Table \@ref(tab:ch3tab1)). 
-This approach, which is highly similar and likely inspired from genotype -based methods of assessing genetic ancestry that are routinely used GWAS [@price2006a], was effective in a population of North American Caucasian and African American peripheral blood samples. 
-In contrast to genotype -based genetic ancestry, population -specific signal in DNAm data is not nearly as strong; therefore, Barfield 2014 found improvements by using PCA on CpG sites that are nearby (\<50bp) single nucleotide polymorphisms (SNPs), which are where the DNA sequence at a particular genomic position often varies between individuals, and in this case, human populations.
+Although the importance of accounting for human population-based variation in EWAS is widely acknowledged, methods for DNAm-specific analysis are underdeveloped.
+Barfield 2014 developed a principal components analysis (PCA)-based approach to summarize genetic variation in PC variables that can be later incorporated into downstream analyses [@barfield2014] (Table \@ref(tab:ch3tab1)). 
+This approach, which is highly similar and likely inspired from genotype-based methods of assessing genetic ancestry that are routinely used GWAS [@price2006a], was effective in a population of North American Caucasian and African American peripheral blood samples. 
+In contrast to genotype-based genetic ancestry, population-specific signal in DNAm data is not nearly as strong; therefore, Barfield 2014 found improvements by using PCA on CpG sites that are nearby (\<50bp) single nucleotide polymorphisms (SNPs), which are where the DNA sequence at a particular genomic position often varies between individuals, and in this case, human populations.
 Rahmani 2017 developed an approach they refer to as EPISTRUCTURE, which is also a PCA-based approach using a subset of CpGs. 
 In contrast to Barfield 2014's "proximity-based" approach, EPISTRUCTURE uses CpG sites that were directly associated with a nearby SNP. 
-These CpG-SNP associations, which are often referred to as methylation quantitative trait loci (mQTLs), were identified in one of the two cohorts included in Rahmani 2017. 
-Although EPISTRUCTURE was shown to have obvious improvements in isolating population-specific in their DNAm data, a limitation of this type of approach is that a general feature of mQTLs is that many can be highly tissue-specific [@delahaye2018; @bell2011; @fraser2012], and moreover SNPs can also be highly population-specific [@gibbs2015]. 
-Since EPISTRUCTURE was developed in blood and in Caucasians, it remains unclear if EPISTRUCTURE can provide reasonable performance in other tissues and populations. 
+These SNPs that are associated with CpG methylation, referred to as methylation quantitative trait loci (mQTLs), were identified in one of the two cohorts included in Rahmani 2017. 
+Although EPISTRUCTURE had improvements in capturing population-specific genotype-based variation in their DNAm data, a limitation of this type of approach is that many mQTLs are highly tissue-specific [@delahaye2018; @bell2011; @fraser2012], and moreover SNPs can be highly population-specific [@gibbs2015]. 
+Since EPISTRUCTURE was developed in blood and in Europeans, it remains unclear if EPISTRUCTURE can provide reasonable performance in other tissues and populations. 
 In contrast to Barfield 2014 and EPISTRUCTURE, Zhou 2017 developed an entirely genotype-based approach by training a random forest predictor of ethnicity, using the 59-65 SNP probes on the 450k and 850k DNAm microarrays [@zhou2017b].
-They show that for at least 3 broad ethnicities, Caucasians, African (Americans), and Asian (Americans), their SNP predictor performs well.
-However, it these SNP probes were designed for population-specific analyses in mind, and because of the small number of probes, it is unclear how robust and sensitive to additional populations Zhou 2017's SNP predictor.
+They show that their SNP predictor performs well for at least 3 broad ethnicities in USA, that they defined as White, Black or African American, and Asian.
+However, these SNP probes were designed for population-specific analyses in mind, and because of the small number of probes, it is unclear how robust and sensitive to additional populations is Zhou 2017's SNP predictor.
 
 <!--- table on methods to account for population stratification in EWAS -->
 

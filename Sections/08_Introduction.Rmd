@@ -225,7 +225,7 @@ Interestingly, they explored using quality measurements (i.e. "no-calls") from g
 
 ## Research objectives and hypothesis
 
-Previous work in placental DNAm research involves mostly EWAS-type study designs assessing placental phenotypes such as preeclampsia, chorioamnionitis, neural tube defects, and environment.
+Previous work in placental DNAm research involves mostly EWAS-type study designs assessing placental phenotypes such as preeclampsia, fetal growth restriction, chorioamnionitis, neural tube defects, and environment.
 However, these studies are limited to existing bioinformatic tools, which have not been extensively explored for their appropriateness and effectiveness in placental data.
 Moreover, the underlying DNA methylation of the various cell components of the placental chorionic villi has not yet been characterized.
 

@@ -203,7 +203,8 @@ Illumina high-density microarray profiling for DNAm has advanced placental resea
 Critical to these studies is the development of bioinformatic tools to process and analyze DNAm data.
 Recently, sample contamination, which can result in obscured measurements, has been shown to be prevalent in EWAS data [@heiss2018].
 Sex mismatches and, mis-annotation of samples is a problem that has been previously demonstrated in other types of genomic studies [@turco2019].
-Heiss and Just 2018 used two bioinformatic approaches to determine whether samples measured on the Illumina 450k and EPIC DNAm microarrays (450k) are contaminated or misannotated.
+Heiss and Just 2018 used two bioinformatic approaches to determine whether samples measured on the Illumina Infinium HumanMethylation450 BeadChip (450k) and Infinium MethylationEPIC DNAm BeadChip (EPIC) microarrays are contaminated or misannotated.
+
 The first approach estimates the amount of mixing of distinct genotypes in a DNAm array sample, by measuring the amount of outlying signal at 59-65 single-nucleotide polymorphism (SNP) probes, which increases as mixing between genetically distinct individuals occur.
 The second approach identifies samples that have a pattern of signal intensity on the X and Y chromosome probes that is consistent with mixing of samples of different sex.
 This second approach is only sensitive to those cases where the sexes of the mixed samples are distinct Despite most epigenome-wide association studies (EWAS) having some level of data quality control and sample preprocessing.
@@ -212,14 +213,15 @@ Heiss and Just 2018 demonstrate that misannotation and sample contamination is r
 In placental research, where embryo-derived chorionic villi are normally sampled, there is an added challenge of avoiding contamination with maternal tissue, as the placenta is directly attached to the maternal uterine wall and bathed in maternal blood [@turco2019].
 Because maternal cells from decidual tissue are distinct in both function and epigenetic profile than placental (embryo-derived) cells, contamination from maternal tissues can obscure measurements of DNAm and make interpretation difficult [@price2016].
 While small numbers of maternal macrophages are a normal component of placental cell composition throughout gestation [@thomas2020], placental inflammation can sometimes be associated with infiltration of maternal immune cells into the intervillous space and even the villi themselves (e.g. acute chorioamnionitis [@konwar2018]).
-Due to these technical and biological factors that can contribute to maternal DNA presenting in placental samples, it can be difficult to discern whether phenotype-associated DNAm profiles are due to epigenetic reprogramming or if simply the underlying cell composition is changing.
+Due to these technical and biological factors that can contribute to maternal DNA presenting in placental samples, it can be difficult to determine whether DNAm variation reflects phenotype-associated epigenetic reprogramming or if simply the underlying cell composition is changing.
 
 Although careful sample processing can generally avoid most maternal contamination, knowing the degree of maternal DNA contribution for each sample would aid downstream analyses and may be relevant to the biological processes of interest.
 Despite this, the degree that maternal DNA contamination influences placental studies has been minimally explored.
 Wan 2019 describe a set of quality control measures based on clustering DNAm patterns between control placental and maternal tissue samples, and partially methylated domains (PMDs), that were used to infer that early termination pregnancies are especially at risk of contamination during sample processing [@wan2019].
+In particular, they emphasized that samples obtained from early termination pregnancies are especially at risk of contamination during sample processing.
 Maternal contamination can also present a risk to cord blood studies.
-Morin 2017 assessed maternal contamination in cord blood DNAm data using tissue-specific approaches, such as using highly cord blood -specific sites to predict contaminated and non-contaminated samples [@morin2017].
-Interestingly, Morin 2017 explored using quality measurements (i.e. "no-calls") from genotyping data for samples that had also been measured on the Illumina PsychChip (genotyping array) to confirm contamination calls, but in contrast to Heiss 2018, found that the sensitivity of the genotyping data for genotype mixing was poor.
+Morin 2017 used tissue-specific approaches to assess maternal contamination in DNAm data derived from cord blood, such as using highly cord blood -specific sites to predict contaminated and non-contaminated samples [@morin2017].
+Interestingly, they explored using quality measurements (i.e. "no-calls") from genotyping data for samples that had also been measured on the Illumina PsychChip (genotyping array) to confirm contamination calls, but in contrast to Heiss 2018, found that the sensitivity of the genotyping data for genotype mixing was poor.
 
 ## Research objectives and hypothesis
 

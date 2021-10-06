@@ -116,12 +116,14 @@ kableExtra::kbl(
 
 ## Epigenetics and placenta cell types
 
+<!-- Also would be nice to have a figure showing a cross-section of a placenta?-->
+
 In the early blastocyst, the majority of gamete-derived epigenetic marks have been erased.
 The trophectoderm will develop into one of the layers of the chorion as well as the villous trophoblast, which retains this low methylated state.
 Hypomethylation of chorionic villi as a whole reflects that trophoblast is the predominant cell type within this tissue [@grigoriu2011].
 In the mouse, trophoblast hypomethylation is associated with down-regulation ofthe DNA methyltransferases, Dnmt3a, Dnmt3b, and Dnmt1a [@oda2013].
 However, the role of DNMTs in human trophoblast is less clear [@novakovic2010].
-In contrast, the inner cell mass undergoes de novo global DNAm.
+In contrast, the inner cell mass undergoes _de novo_ global DNAm.
 These cells are the origin of the fetal tissues, but also contribute to primitive endoderm, from which placental endothelial cells are derived, and to the extraembryonic mesoderm, from which villus stroma is derived.
 In addition to differences in DNAm, the early trophectoderm shows higher H3K27 methylation as well as lower levels of histone H2A and/or H4 phosphorylation [@nelissen2011].
 Further differentiation processes in both trophoblast and other lineages are associated with additional DNAm changes and histone modifications at specific regulatory loci [@hemberger2007].
@@ -152,7 +154,7 @@ A higher-order chromatin structure mediated by histone modifications in combinat
 
 Our knowledge of cell-specific epigenetics is confined primarily to trophoblastic populations.
 However, additional placental cell populations are functionally important and may also be implicated in disease.
-Chorionic villus cultures yield the predominant growth of fibroblast cells, which havea DNAm profile that is much more similar to the fetal membranes than to whole placental villi [@robinson2015].
+Chorionic villus cultures yield the predominant growth of fibroblast cells, which have a DNAm profile that is much more similar to the fetal membranes than to whole placental villi [@robinson2015].
 Placental-specific macrophages, Hofbauer cells (HBs), lie in the mesenchymal core of the chorionic villi and in comparison to maternal and fetal macrophages, show hypermethylation of many immune response-related and classical macrophage-activation associated genes, possibly as a result of high expression of DNMT1, DNMT3A, and DNMT3B [@kim2012].
 
 Our current understanding of pathological diseases that affect the placenta is contributed predominantly from bulk-tissue profiling studies, which suffer from the limitation that cellular heterogeneity can result in the dilution of cell-specific signals and the creation of spurious ones.

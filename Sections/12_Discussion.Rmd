@@ -118,20 +118,20 @@ I developed several bioinformatic approaches to help analyze placental DNAm data
 These approaches return to the researcher useful sample information that can aid analysis, such as cell composition, ethnicity, genetic ancestry, and maternal cell contamination.
 However, given the limitations of these studies and techniques outlined above, there are significant improvements that can be still made.
 
-It is untested how planet will perform in other continents of diverse populations. 
-However, because planet was developed in diverse human populations from North America, it is possible that planet may generalize well to other populations. 
+It is untested how planet will perform in other continents of diverse populations.
+However, because planet was developed in diverse human populations from North America, it is possible that planet may generalize well to other populations.
 Related to this, more placental research in additional human populations are needed, and future improvements to planet and other population stratification methods can include additional populations.
 It is also still unclear if a machine learning -based approach is superior to semi-supervised PCA -based approaches for accounting for genetic ancestry in EWAS.
 Much of the existing literature focuses on PCA -based approaches, given their success in accounting for genetic ancestry in GWAS [@royal2010].
 However, machine learning approaches in DNAm data, to estimate or types of sample variables such as epigenetic age and cancer subtypes, have been highly robust and useful [@horvath2013a; @lee2019; @capper2018].
 In my study of predicting ethnicity from placental DNAm, I show that using both approaches can be complementary: machine learning to predict discrete categories (ethnicity), and semi-supervised PCA to generate continuous variables (genetic ancestry).
 
-My study characterizing the DNAm in placental cell types from first trimester and term placentas, is the first to do so, and has provided a useful reference for placental studies already .
-Aside from improvements in genomic coverage, as mentioned previously, inclusion of additional cell populations and gestational timepoints are needed.
-In this study, trophoblasts represented by mostly CTB, and STB were collected.
-However, an important additional trophoblast subtype, EVTs, which are responsible for invasion and arterial remodelling in maternal tissue, were not included.
+My study characterizing the DNAm in placental cell types from first trimester and term placentas, is the first to do so, and has provided a useful reference for placental studies already [@dieckmann2021; @andrews2021; @delgobbo2021]. 
+Aside from improvements in genomic coverage, as mentioned previously, inclusion of additional cell populations and gestational timepoints are needed. 
+In this study, trophoblasts represented by mostly CTB, and STB were collected. 
+However, an important additional trophoblast subtype, EVTs, which are responsible for invasion and arterial remodelling in maternal tissue, were not included. 
 EVTs play important additional roles to nutrient transport and placental development, and when impaired are associated with various placental-mediated disease phenotypes such as preeclampsia, intrauterine growth restriction, stillbirth, or recurrent abortion [@pollheimer2018].
-Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a].
+Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a]. 
 Placental single RNA-seq studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
 
 ## Conclusion

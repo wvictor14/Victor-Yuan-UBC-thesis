@@ -13,9 +13,13 @@ editor_options:
 
 The placenta is composed of several distinct cell populations, each carrying out a specific biological role, that together create a healthy placenta.
 Measurements of DNAm using whole placental chorionic villi, are therefore, an average measurement of the variety of cells that make up a placental sample.
-Grigoriu 2011 found that major placental cell types, cytotrophoblasts and fibroblasts have highly distinct DNAm profiles [@grigoriu2011]. Fogarty 2015 compared epigenetic markers such as 5'hydroxymethylcytosine (5'hmc), H3K9me3, H3K27me3, and others in CTB and STB [@fogarty2015]. They found that STB had lower levels of H3K27me3 and H3K9me3, and higher H4K20me3 and 5'hmc compared to CTB. Because placental cell types are epigenetically distinct, interpretation of DNAm measurements in whole chorionic villi are difficult to interpret without addressing cell composition variability. And without reference DNAm profiles of constituent cell types, bioinformatic approaches to account for cell composition variability, such as reference-based cell deconvolution, cannot be used [@teschendorff2017a].
+Grigoriu 2011 found that major placental cell types, cytotrophoblasts and fibroblasts have highly distinct DNAm profiles [@grigoriu2011]. 
+Fogarty 2015 compared epigenetic markers such as 5'hydroxymethylcytosine (5'hmc), H3K9me3, H3K27me3, and others in CTB and STB [@fogarty2015]. 
+They found that STB had lower levels of H3K27me3 and H3K9me3, and higher H4K20me3 and 5'hmc compared to CTB. 
+Because placental cell types are epigenetically distinct, interpretation of DNAm measurements in whole chorionic villi are difficult to interpret without addressing cell composition variability. 
+Without reference DNAm profiles of constituent cell types, bioinformatic approaches to account for cell composition variability, such as reference-based cell deconvolution, cannot be used [@teschendorff2017a].
 
-To address this, in this study we have generated DNAm reference profiles for 4 major human placental cell populations using the 850k Illumina EPIC DNA methylation microarray, which profiles more than 850,000 CpGs.
+To address this, in this study we generated DNAm reference profiles for 4 major human placental cell populations using the  850k DNAm microarray.
 Our study is the first to characterize the DNAm of major placental cell populations with a high-resolution approach, across first trimester and term placentas.
 We show that cell-specific DNAm occurs at thousands of CpG sites, of which a subset can be used to infer cell composition using cellular deconvolution.
 Our study underscores the importance of cell-specific approaches in placental studies, especially when measuring epigenetic features such as DNAm.
@@ -24,7 +28,7 @@ Our study underscores the importance of cell-specific approaches in placental st
 
 ### Major human placental cell types have highly specific methylation patterns
 
-To characterize the dynamics of CpG methylation during human placental development, we performed microarray profiling (Illumina EPIC methylation array, n CpGs=737,050 after removal unreliable probes) in samples of matched CV and 4 fluorescence-activated cell sorted (FACS) cell- types (Figure \@ref(fig:figb1)A ), from 9 first trimester (6.4--13 weeks gestational age) and 19 term (36.4--40.4 weeks) pregnancies (Table \@ref(tab:ch3tab1)). Immunofluorescence staining of flow cytometry sorted cells (Figure \@ref(fig:figb1)B-E) determined high purity for TB (KRT7+, 97%), HB (CD68+, 95%), and EC (CD31+, 88%) and lower purity for SC (VIM+, 73%). Several bioinformatic approaches, such as array-based sex inference [@heiss2018], and genotype clustering, were used to identify contamination with maternal DNA (Figure \@ref(fig:figb2)A-F).
+To characterize the dynamics of CpG methylation during human placental development, we performed DNAm microarray profiling (n CpGs=737,050 after removal unreliable probes) in samples of matched CV and 4 fluorescence-activated cell sorted (FACS) cell- types (Figure \@ref(fig:figb1)A ), from 9 first trimester (6.4--13 weeks gestational age) and 19 term (36.4--40.4 weeks) pregnancies (Table \@ref(tab:ch3tab1)). Immunofluorescence staining of flow cytometry sorted cells (Figure \@ref(fig:figb1)B-E) determined high purity for TB (KRT7+, 97%), HB (CD68+, 95%), and EC (CD31+, 88%) and lower purity for SC (VIM+, 73%). Several bioinformatic approaches, such as array-based sex inference [@heiss2018], and genotype clustering, were used to identify contamination with maternal DNA (Figure \@ref(fig:figb2)A-F).
 We restricted analysis to samples with an estimated maternal cell contamination of less than 35%, with the majority of first trimester samples having less than 20%, and term samples less than 10% (Figure \@ref(fig:figb2)G).
 This resulted in the exclusion of: 6 HB, 1 EC, and 4 TB from first trimester, and 1 HB from term samples.
 Final sample numbers in all downstream analyses are shown in Table \@ref(tab:ch3tab1).
@@ -36,7 +40,7 @@ kableExtra::kbl(
   readr::read_csv(here::here('Tables', 'ch3', 'table1.csv')) %>%
     dplyr::rename(` ` = 1),
   booktabs = TRUE,
-  caption = 'Number of cell-specific and matched chorionic villi samples from first trimester and term placentas, measured on the Illumina EPIC methylation array. Surface markers for flow cytometry and immunofluorescence staining are shown in brackets.')
+  caption = 'Number of cell-specific and matched chorionic villi samples from first trimester and term placentas, measured on the Illumina 850k DNAm microarray. Surface markers for flow cytometry and immunofluorescence staining are shown in brackets.')
 ```
 
 To determine major factors that drive DNAm variation, we first applied principal components analysis (PCA) to all 126 CV and cell samples.
@@ -64,16 +68,16 @@ Trophoblast DMCs were enriched for two KEGG pathways, "ECM-receptor interaction"
 
 <!--- Insert Figure 1 --->
 
-(ref:ch3fig1cap) Genome-wide characterization of placental cell DNA methylation. **a** Principal components analysis (PCA) was applied to all samples and CpGs. Samples are projected onto axes PC1 and PC2 which account for 41% and 23% total variance, respectively. **b** Results from the differential methylation analysis using the R package *limma* are shown here. DMCs, defined as those tests passing a Bonferroni-adjust *p*-value \<0.01, and a difference in group means \>0.25, were divided into less methylated and more methylated compared to all other cell types. **c** Enrichment analysis of term cell-specific DMCs was carried out on genomic elements using a chi-squared test and a Bonferroni-adjusted p-value \<0.01. The expected (background) frequency, which is the percentage of total tested CpGs in each genomic element, is shown as a black line. **d** Average term placental cell-specific DNA methylation across *TFAP2C* transcripts on chromosome 6, and **e** *INHBA* transcripts on chromosome 7. Differentially methylated regions (defined as regions with a high density of differentially methylated CpGs), are highlighted with a grey background. Y axis ranges from 0 to 100% DNA methylation
+(ref:ch3fig1cap) Genome-wide characterization of placental cell DNAm **a** Principal components analysis (PCA) was applied to all samples and CpGs. Samples are projected onto axes PC1 and PC2 which account for 41% and 23% total variance, respectively. **b** Results from the differential methylation analysis using the R package *limma* are shown here. DMCs, defined as those tests passing a Bonferroni-adjust *p*-value \<0.01, and a difference in group means \>0.25, were divided into less methylated and more methylated compared to all other cell types. **c** Enrichment analysis of term cell-specific DMCs was carried out on genomic elements using a chi-squared test and a Bonferroni-adjusted p-value \<0.01. The expected (background) frequency, which is the percentage of total tested CpGs in each genomic element, is shown as a black line. **d** Average term placental cell-specific DNAm  across *TFAP2C* transcripts on chromosome 6, and **e** *INHBA* transcripts on chromosome 7. Differentially methylated regions (defined as regions with a high density of differentially methylated CpGs), are highlighted with a grey background. Y axis ranges from 0 to 100% DNAm
 
-```{r ch3fig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig1cap)",fig.scap = "Genome-wide characterization of placental cell DNA methylation", fig.align='center',  out.extra=''}
+```{r ch3fig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig1cap)",fig.scap = "Genome-wide characterization of placental cell DNAm", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'ch3', 'Figure1.pdf'))
 ```
 
 ### Cell-specific DNAm occurs at highly functionally-relevant genes
 
 A number of regions with a high density of DMCs were located in or nearby functionally- and pathology-relevant genes.
-*TFAP2C*, which encodes a pan-trophoblast marker, were highly methylated in TB compared to other cell types in the promoter and upstream region; whole CV showed a similar profile to TB (Figure \@ref(fig:ch3fig1)d). This region contains several predicted enhancers [@genehanc], which may require DNAm for recruiting transcription factors. Alternatively, other regions more distal to TFAP2C may be responsible for regulation of this gene's transcription. Other trophoblast-specific markers, such as *GCM1*, *MMP2*, *SLC1A5*, and *GATA3*, also had regions of highly cell-specific DNAm localized near their transcription start sites (Figure \@ref(fig:figb5)). We also observed high DMC density regions in genes for which placental DNAm and/or expression differences have been associated with preeclampsia [@wilson2018], including *INHBA* (Figure \@ref(fig:ch3fig1)e), *JUNB, TEAD3*, *NDRG1*, and *CGA* (Figure \@ref(fig:figb6)). Out of 540 preeclampsia-associated CpGs previously identified by Wilson et al. 2018 that were also captured in our processed data, a statistically significant (Bonferroni adjusted *p*\<0.01) fraction ranging from 19.4--27.2% were also identified as exhibiting cell-specific DNAm for term samples (Table \@ref(tab:ch3tab2)) [@wilson2018].
+*TFAP2C*, which encodes a pan-trophoblast marker, were highly methylated in TB compared to other cell types in the promoter and upstream region; whole CV showed a similar profile to TB (Figure \@ref(fig:ch3fig1)d). This region contains several predicted enhancers [@genehanc], which may require DNAm for recruiting transcription factors. Alternatively, other regions more distal to *TFAP2C* may be responsible for regulation of this gene's transcription. Other trophoblast-specific markers, such as *GCM1*, *MMP2*, *SLC1A5*, and *GATA3*, also had regions of highly cell-specific DNAm localized near their transcription start sites (Figure \@ref(fig:figb5)). We also observed high DMC density regions in genes for which placental DNAm and/or expression differences have been associated with preeclampsia [@wilson2018], including *INHBA* (Figure \@ref(fig:ch3fig1)e), *JUNB, TEAD3*, *NDRG1*, and *CGA* (Figure \@ref(fig:figb6)). Out of 540 preeclampsia-associated CpGs previously identified by Wilson et al. 2018 that were also captured in our processed data, a statistically significant (Bonferroni adjusted *p*\<0.01) fraction ranging from 19.4--27.2% were also identified as exhibiting cell-specific DNAm for term samples (Table \@ref(tab:ch3tab2)) [@wilson2018].
 
 <!-- Insert Table 2 -->
 
@@ -93,9 +97,9 @@ In these genes, we found that a high proportion of CpGs in the promoter region (
 However, considering the variable number of CpGs associated with each gene's promoter, these percentages were not significantly greater than genes of similar CpG coverage (Figure \@ref(fig:ch3fig2)ab). Differential methylation within DNAm-regulating genes was highly localized (Figure \@ref(fig:ch3fig2)c). The promoter of DNAm-maintenance gene *DNMT1*, which is known to be specifically imprinted in the placenta [@das2013], shows the expected intermediately methylated (i.e. \~50%) pattern for all cell types except HB, which is completely unmethylated (Figure \@ref(fig:ch3fig2)c).
 This suggests that *DNMT1* is imprinted in TB, SC, and EC, but not in HB.
 
-(ref:ch3fig2cap) Differential methylation at DNA methylation -regulating genes. **a** On a per-gene basis, the number of promoter CpGs that are differentially methylated by at least one cell type, out of the total number of promoter CpGs per gene. The y=x line is shown (blue), where genes with 100% of promoter CpGs are differentially methylated. The green line is a smoothed average. **b** Distribution of the percentage of promoter CpGs per gene that are differentially methylated. The dotted line represents an array-wide average. **c** DNA methylation at CpGs associated with *DNMT1* for term placental samples (top). CpGs in CpG islands, imprinted regions, PMDs, and enhancers are indicated (middle). Associated UCSC transcripts and their genomic elements (promoter, 5′ UTR, exons, introns, 3'UTR) are displayed (bottom)
+(ref:ch3fig2cap) Differential methylation at DNAm -regulating genes. **a** On a per-gene basis, the number of promoter CpGs that are differentially methylated by at least one cell type, out of the total number of promoter CpGs per gene. The y=x line is shown (blue), where genes with 100% of promoter CpGs are differentially methylated. The green line is a smoothed average. **b** Distribution of the percentage of promoter CpGs per gene that are differentially methylated. The dotted line represents an array-wide average. **c** DNAm at CpGs associated with *DNMT1* for term placental samples (top). CpGs in CpG islands, regions of genomic imprinting, PMDs, and enhancers are indicated (middle). Associated UCSC transcripts and their genomic elements (promoter, 5′ UTR, exons, introns, 3'UTR) are displayed (bottom)
 
-```{r ch3fig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig2cap)", fig.scap = "Differential methylation at DNA methylation -regulating genes", fig.align='center',  out.extra=''}
+```{r ch3fig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig2cap)", fig.scap = "Differential methylation at DNAm -regulating genes", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'ch3', 'Figure2.pdf'))
 ```
 
@@ -111,7 +115,7 @@ The direction of DNAm at these CpGs was mostly consistent with expected patterns
 
 <!--- Insert Figure 3 --->
 
-(ref:ch3fig3cap) Characterization of enzymatically-separated syncytiotrophoblast and Hofbauer cell DNAm to closely related cell types. **a** Syncytiotrophoblast samples (*n*=5) were projected onto principal components PC1 and PC2. Original samples used for constructing these PCs (Fig. [1](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07186-6#Fig1)a) are shown (chorionic villi: dark red, trophoblast: yellow, all others: grey). Syncytiotrophoblast (orange) cluster with the chorionic villi and trophoblast samples. **b** Clustering on the top 1000 variable CpGs between chorionic villi, syncytiotrophoblast, and trophoblast samples. Hierarchical clustering with Euclidean distance was used for both CpG-wise (rows) and sample-wise (columns) clustering. DNAm is shown as a range between 0 and 100%. **c** Density plots are shown for select differentially methylated CpGs, which were identified using limma, with a Bonferroni adjust *p*\<0.01, and a mean difference in DNAm \>25%. CpGs are shown along the y-axis with their locational relationship (shown in brackets) to their associated gene (left). DNA methylation is shown on the x-axis. **d** Clustering on the top 1000 variable CpGs between Hofbauer cells and cord blood cell types. Hierarchical clustering with Euclidean distance was used for both CpG-wise and sample-wise clustering. WBC: whole cord blood, nRBC: nucleated red blood cells, NK: natural killer cells, CD4T: CD4+ T cells, CD8T: CD8 T cells, Gran: granulocytes, Bcell: B cells, DNAm: DNA methylation.
+(ref:ch3fig3cap) Characterization of enzymatically-separated syncytiotrophoblast and Hofbauer cell DNAm to closely related cell types. **a** Syncytiotrophoblast samples (*n*=5) were projected onto principal components PC1 and PC2. Original samples used for constructing these PCs (Fig. [1](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-020-07186-6#Fig1)a) are shown (chorionic villi: dark red, trophoblast: yellow, all others: grey). Syncytiotrophoblast (orange) cluster with the chorionic villi and trophoblast samples. **b** Clustering on the top 1000 variable CpGs between chorionic villi, syncytiotrophoblast, and trophoblast samples. Hierarchical clustering with Euclidean distance was used for both CpG-wise (rows) and sample-wise (columns) clustering. DNAm is shown as a range between 0 and 100%. **c** Density plots are shown for select differentially methylated CpGs, which were identified using limma, with a Bonferroni adjust *p*\<0.01, and a mean difference in DNAm \>25%. CpGs are shown along the y-axis with their locational relationship (shown in brackets) to their associated gene (left). DNAm is shown on the x-axis. **d** Clustering on the top 1000 variable CpGs between Hofbauer cells and cord blood cell types. Hierarchical clustering with Euclidean distance was used for both CpG-wise and sample-wise clustering. WBC: whole cord blood, nRBC: nucleated red blood cells, NK: natural killer cells, CD4T: CD4+ T cells, CD8T: CD8 T cells, Gran: granulocytes, Bcell: B cells, DNAm: DNA methylation.
 
 ```{r ch3fig3, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig3cap)", fig.scap = "Characterization of enzymatically-separated syncytiotrophoblast and Hofbauer cell DNAm to closely related cell types", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'ch3', 'Figure3.pdf'))
@@ -135,9 +139,9 @@ In summary, the methylation levels at CpGs in PMD regions were at the expected l
 
 <!--- Insert Figure 4 --->
 
-(ref:ch3fig4cap) DNA methylation at partially methylated domains (PMDs), and imprinted differentially methylated regions (DMRs). **a** The percentage (y-axis) of CpGs in placental PMDs, falling into specific methylation intervals (0--20%, 20--40%, 40--60%, etc.) is shown for each cell type and trimester. **b** DNAm across specific regions on chromosome 21 (B) and 4 (**c**). PMDs are highlighted with a grey background. **d** Density plots (y-axis) of imprinted DMRs in term samples, divided into those that are imprinted in multiple tissues, (i.e. non-placental-specific; 1085 CpGs total; top) and placental-specific (981 CpGs total; bottom). The percentage of CpGs falling within 25%--75% is shown above each plot. **e** Cell-specific DNAm at the C19MC placental-specific imprinted DMR. This placental-specific imprint overlies a CpG island upstream of the miRNA cluster. **f** DNAm at placental-specific imprinted region for DCAF10
+(ref:ch3fig4cap) DNAm at partially methylated domains (PMDs), and imprinted differentially methylated regions (DMRs). **a** The percentage (y-axis) of CpGs in placental PMDs, falling into specific methylation intervals (0--20%, 20--40%, 40--60%, etc.) is shown for each cell type and trimester. **b** DNAm across specific regions on chromosome 21 (B) and 4 (**c**). PMDs are highlighted with a grey background. **d** Density plots (y-axis) of imprinted DMRs in term samples, divided into those that are imprinted in multiple tissues, (i.e. non-placental-specific; 1085 CpGs total; top) and placental-specific (981 CpGs total; bottom). The percentage of CpGs falling within 25%--75% is shown above each plot. **e** Cell-specific DNAm at the C19MC placental-specific imprinted DMR. This placental-specific imprint overlies a CpG island upstream of the miRNA cluster. **f** DNAm at placental-specific imprinted region for DCAF10
 
-```{r ch3fig4, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig4cap)", fig.scap = "DNA methylation at partially methylated domains, and imprinted differentially methylated regions", fig.align='center',  out.extra=''}
+```{r ch3fig4, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig4cap)", fig.scap = "DNAm at partially methylated domains, and imprinted differentially methylated regions", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'ch3', 'Figure4.pdf'))
 ```
 
@@ -146,7 +150,7 @@ TB DNAm levels followed closely the levels measured in CV, supporting that place
 In contrast, DNAm in HB often deviated from the other cell types, typically showing higher levels of methylation within PMDs.
 SC and EC often "followed" CV DNAm levels, but were not nearly as consistent as TB cells in this respect.
 
-We also looked at imprinted differentially methylated regions (DMRs) that are covered by the EPIC array.
+We also looked at imprinted differentially methylated regions (DMRs) that are covered by the 850k array.
 While many imprinted DMRs are maintained in somatic tissues, others are highly specific to the placenta [@hanna2016; @court2014; @hamada2016; @sanchez-delgado2016]. To evaluate whether placental-specific imprinting is maintained in constituent placental cell populations, we first combined the results from four studies [@hanna2016; @court2014; @sanchez-delgado2016; @zink2018] to form a list (\@ref(tab:tabb7)) of placental-specific (n CpGs = 981; n genes = 111) and non-placental specific (i.e. imprinted in other tissues) DMRs (n CpGs = 1085; n genes = 307). To determine if CpGs were intermediately-methylated, as would be expected for an imprinted DMR, we counted the proportion of CpGs with an average DNAm across both alleles that were in a range between 25 and 75% methylation. For CpGs in non-placental specific imprinted DMRs, the mean percentage of CpGs in the intermediate range across each cell type and in CV in term samples was 69% (Figure \@ref(fig:ch3fig4)d). For placental-specific imprinted CpGs, the percentage of CpGs falling into this DNAm range was much more variable. As expected, in the term placental samples, TB and CV had a high percentage (76, 81%, respectively) of CpGs in this DNAm range. SC and EC had a lower, but still a majority, percentage of CpGs in this range (64, 64%, respectively). In contrast, HB cells had almost no CpGs (12%) in this range; almost all CpGs were unmethylated (\<25%). These proportions were similar in first trimester samples, except with EC and SC showing less intermediate methylation and more CpGs with less methylation at placental-specific imprints (Figure \@ref(fig:figb7)A). These results suggest that placental-specific imprinting is maintained primarily in TB, and to a lesser degree EC and SC, and is virtually absent in HB. When considering the parental origin of imprinted DNAm [@hanna2016; @court2014; @hamada2016; @sanchez-delgado2016; @zink2018], paternally- methylated regions had more CpGs falling within 25--75% as compared to maternal ones (Figure \@ref(fig:figb7)BC).
 We only estimated this in non-placental specific imprinted DMRs, since almost all validated placental-specific imprinted DMRs are maternally methylated.
 
@@ -157,7 +161,7 @@ Such patterns are observed for genes such as *DCAF10* (Figure \@ref(fig:ch3fig4)
 However, for a few DMRs, levels of DNAm in SC/EC matched that of TB/CV, such as ones associated with the DNAm maintenance gene *DNMT1* (Figure \@ref(fig:ch3fig2)c) and *FGF14* (Figure \@ref(fig:figb9)B).
 Higher DNAm than TB/CV was only observed for 1 gene (*RASGRF1*, Figure \@ref(fig:figb10)).
 
-DNAm at repetitive elements, such as Alu and LINE1 elements, can be placental-specific and have been hypothesized to often be important regulatory components of placental processes [@reiss2007]. To determine if DNAm at repetitive elements is consistent across placental cell populations, we analyzed the subset of 850k CpGs that map to Alu (*n*=15,289) and LINE1 (22,006) elements. Compared to CV, TB had lower LINE1 DNAm (mean difference in DNAm=−1.5%, *p*=0.04), and HB had much higher DNAm (+9.7%, *p*\<0.001; Figure \@ref(fig:figb11)A). Similar relationships are seen for Alu elements. TB had lower (−1.2%, *p*=0.02), HB had higher (+7.0%, p\<0.001), and EC had higher (+2.1%, *p*\<0.001) DNAm in Alu CpGs, when compared to CV. To explore large-scale DNAm differences, we averaged DNAm across all 850k probes and compared each cell type to CV. We found these relationships to be similar to those with the subset of repetitive elements probes. HB had higher DNAm compared to CV (+5%, p\<0.001), and all other cell types had lower DNAm (Table \@ref(tab:tabb8)). The relationships we found for repetitive elements and global DNAm between cell types and CV were also largely consistent in our first trimester samples (Table \@ref(tab:tabb8), Figure \@ref(fig:figb11)B). To determine genome-wide repetitive element DNAm, we used the random forest -based 'REMP' algorithm [@aryee2014] to predict 438,664 Alu CpGs and 39,136 LINE1 CpGs that are not covered by the EPIC array.
+DNAm at repetitive elements, such as Alu and LINE1 elements, can be placental-specific and have been hypothesized to often be important regulatory components of placental processes [@reiss2007]. To determine if DNAm at repetitive elements is consistent across placental cell populations, we analyzed the subset of 850k CpGs that map to Alu (*n*=15,289) and LINE1 (22,006) elements. Compared to CV, TB had lower LINE1 DNAm (mean difference in DNAm=−1.5%, *p*=0.04), and HB had much higher DNAm (+9.7%, *p*\<0.001; Figure \@ref(fig:figb11)A). Similar relationships are seen for Alu elements. TB had lower (−1.2%, *p*=0.02), HB had higher (+7.0%, p\<0.001), and EC had higher (+2.1%, *p*\<0.001) DNAm in Alu CpGs, when compared to CV. To explore large-scale DNAm differences, we averaged DNAm across all 850k probes and compared each cell type to CV. We found these relationships to be similar to those with the subset of repetitive elements probes. HB had higher DNAm compared to CV (+5%, p\<0.001), and all other cell types had lower DNAm (Table \@ref(tab:tabb8)). The relationships we found for repetitive elements and global DNAm between cell types and CV were also largely consistent in our first trimester samples (Table \@ref(tab:tabb8), Figure \@ref(fig:figb11)B). To determine genome-wide repetitive element DNAm, we used the random forest -based 'REMP' algorithm [@aryee2014] to predict 438,664 Alu CpGs and 39,136 LINE1 CpGs that are not covered by the 850k array.
 Relationships between cell types and CV for predicted and non-predicted repetitive elements were mostly the same, except TB DNAm in predicted Alu and LINE1 CpGs was not significantly different compared to CV (Table \@ref(tab:tabb8), Figure \@ref(fig:figb11)C).
 
 ### Cell-specific DNAm dynamics across gestation
@@ -170,9 +174,9 @@ In contrast, EC DMCs show less DNAm in the term compared to first trimester (77.
 
 <!--- Insert Figure 5 --->
 
-(ref:ch3fig5cap) Gestational-age dependent DNA methylation within each placental cell population. **a** The distribution of the changes in DNA methylation between first and third trimester, within each cell type. Only statistically significant (Bonferroni p\<0.01) and biologically relevant (mean change in DNAm \>5%) differences are shown. Number of gestational age associated DMCs are labelled above each plot. **b** Functional enrichment analysis for GO terms tested with the R package *missMethyl*. **c** Functional enrichment analysis for KEGG pathways tested with the R package *missMethyl.* D) Enrichment for genomic features: CpG island-related elements, enhancers, PMDs, and gene features
+(ref:ch3fig5cap) Gestational-age dependent DNAm within each placental cell population. **a** The distribution of the changes in DNAm between first and third trimester, within each cell type. Only statistically significant (Bonferroni p\<0.01) and biologically relevant (mean change in DNAm \>5%) differences are shown. Number of gestational age associated DMCs are labelled above each plot. **b** Functional enrichment analysis for GO terms tested with the R package *missMethyl*. **c** Functional enrichment analysis for KEGG pathways tested with the R package *missMethyl.* D) Enrichment for genomic features: CpG island-related elements, enhancers, PMDs, and gene features
 
-```{r ch3fig5, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig5cap)", fig.scap = "Gestational-age dependent DNA methylation within each placental cell population", fig.align='center',  out.extra=''}
+```{r ch3fig5, eval = T, echo = T, echo=FALSE, fig.cap="(ref:ch3fig5cap)", fig.scap = "Gestational-age dependent DNAm within each placental cell population", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'ch3', 'Figure5.pdf'))
 ```
 
@@ -183,7 +187,7 @@ No significant pathway or GO terms were found significant for HB gestational-age
 Most gestational-age dependent DMCs were enriched with open sea regions, regardless of direction of methylation (Figure \@ref(fig:ch3fig5)d).
 HB DMCs that increase in methylation with gestational age were the only cell type DMCs that were heavily enriched for enhancers (Bonferroni *p*\<0.001).
 Trophoblast DMCs that increase in methylation with gestational age were enriched for CpG island shores, open seas, and intergenic regions (Bonferroni p\<0.001).
-All cell type-specific gestational-age dependent DMCs were depleted (Bonferroni p\<0.001) for promoter regions, suggesting that genome-wide promoter DNA methylation is mostly stable from first trimester to term.
+All cell type-specific gestational-age dependent DMCs were depleted (Bonferroni p\<0.001) for promoter regions, suggesting that genome-wide promoter DNAm is mostly stable from first trimester to term.
 
 ### Assessing cell composition in chorionic villi
 
@@ -238,17 +242,17 @@ kableExtra::kbl(
 
 ## Discussion
 
-We performed a comprehensive analysis of DNAm for human placental cell types using the Illumina EPIC methylation array.
+We performed a comprehensive analysis of DNAm for human placental cell types using the Illumina 850k methylation array.
 Previous placental cell DNAm studies have focused on a lesser number of cell types [@gamage2018], used lower resolution approaches [@grigoriu2011], or focused on a narrow gestational age range (e.g. only first trimester, or only term).
-Using the EPIC array, which targets CpG sites in gene-rich regions and non-coding regulatory elements, this study describes the DNAm profiles of major human placental cell types from first trimester and term placentas, and identifies cell-specific and gestational age --dependent DNAm.
+Using the 850k array, which targets CpG sites in gene-rich regions and non-coding regulatory elements, this study describes the DNAm profiles of major human placental cell types from first trimester and term placentas, and identifies cell-specific and gestational age --dependent DNAm.
 
-After the wave of de novo DNAm in the inner cell mass and trophectoderm, global differences in DNAm exist between these two blastocyst cell layers and their derivatives.
+After the wave of _de novo_ DNAm in the inner cell mass and trophectoderm, global differences in DNAm exist between these two blastocyst cell layers and their derivatives.
 These differences result in genome-wide patterns with the placenta showing a unique hypomethylated DNAm profile compared to other somatic tissues [@ehrlich1982].
 Earlier studies suggested that the hypomethylated placenta was partly due to lower DNAm at repetitive elements such as LINE1 [@cotton2009; @perrin2007; @reiss2007].
 We show that LINE1 and ALU DNAm is higher in HB compared to other placental cell types, but otherwise displays low cell-specificity.
 Later studies indicated that placental hypomethylation could be largely attributed to long regions of consistently low methylation (PMDs), and that this type of patterning was unique to the placenta [@schroeder2013].
 We found that PMDs are more pronounced in TB, and are absent from HB.
-The impact of PMDs is unclear and may in part reflect that in the blastocyst, the trophectoderm does not undergo de novo DNAm.
+The impact of PMDs is unclear and may in part reflect that in the blastocyst, the trophectoderm does not undergo _de novo_ DNAm.
 Whether PMDs serve a functional role in the placenta is also unclear, but our understanding of their relevance would benefit from characterizing the timing of their development.
 We note that although our study is genome-wide, the number of CpG loci analyzed (*n*=737,050) is only a fraction of the epigenome (\~3%), and is biased towards genomic regions with annotated functionality (e.g. near genes and regulatory elements).
 Therefore, findings of this study should be interpreted with these limitations in mind.
@@ -286,11 +290,11 @@ In this study, we found that chronological (i.e. reported) and biological (i.e. 
 But the sample size supporting these findings was small and future studies with more appropriate power are needed to answer how much these factors play in contributing to placental cell composition variability.
 We also caution that the accuracy of cell composition estimates on first trimester samples relies on the degree of gestational-age dependent variation in term eSTB and nRBC reference CpGs, which could not be assessed in this study.
 
-Another challenge to this study, and others which use a single or few marker genes/proteins to isolate /define cell populations, is addressing heterogeneity within relatively homogenous cell populations.
+Another challenge to this study, and others which use a single or few marker genes/proteins to isolate/define cell populations, is addressing heterogeneity within relatively homogenous cell populations.
 As mentioned previously, TB contains several subtypes, such as CTB, STB and EVTs.
 In this study, our TB is likely mostly CTB but contains some proportion of immature precursors to the other TB subtypes, given that pan-trophoblast markers EGFR+ were used for cell isolation.
 HB (CD14+/CD68+) and SC (VIM+) can also able to be divided into meaningful subtypes [@reyes2017].
-It will be essential to placental epigenetics research to develop DNAm references for other placental cell subtypes.
+It will be essential to placental epigenetics research to develop DNAm references for other placental cell subtypes, such as extravillous trophoblast.
 This will be especially important in studies on placental pathologies (and likely also in many other phenotypes), where certain TB subtypes are more affected than others, such as preeclampsia [@roland2016] and placenta accreta [@bartels2018].
 Associated changes in cell composition with preeclampsia may explain the finding that many CpGs with altered DNAm in preeclampsia [@wilson2018] are also highly cell-specific.
 Cellular heterogeneity will always be a challenge when using techniques that take measurements in samples that consist of a mixed population of cells.
@@ -303,12 +307,12 @@ However, cell deconvolution applied in placental DNAm studies will significantly
 Placental tissues were obtained with approval from the University of British Columbia / Children's and Women's Health Centre of British Columbia Research Ethics Board (H04--70488, H16--02280, H13--00640).
 Women for a scheduled C-section with a healthy term (\>37 weeks) singleton pregnancy were recruited with written informed consent at BC Women's Hospital, Vancouver Canada.
 In addition, first trimester samples from elective terminations were obtained in a deidentified manner.
-A total of 9 first trimester (6.4--13 weeks) and 19 term (36.4--40.4 weeks) placental samples were obtained; all were screened for large chromosome abnormalities using CNV calling on the EPIC array, and found to be normal.
+A total of 9 first trimester (6.4--13 weeks) and 19 term (36.4--40.4 weeks) placental samples were obtained; all were screened for large chromosome abnormalities using CNV calling on the 850k array, and found to be normal.
 No gross pathologies were noted.
 
 ### Tissue processing and cell isolation
 
-Fresh term placenta samples from 3 to 4 sites were taken from the fetal side of the placental disc to avoid maternal contamination and pooled for processing.
+Fresh term placental samples from 3 to 4 sites were taken from the fetal-facing side of the placental disc to avoid maternal contamination and pooled for processing.
 Chorionic villi samples were washed several times in 1X PBS to eliminate all traces of visible blood and physically homogenized using razor blades.
 For term placental samples the tissue was then incubated twice in a denuding/digestion HEPES buffer containing HBSS, Dispase, trypsin and DNase I for 30 min at 37C°, to allow the separation of most of the syncytiotrophoblast layer of the chorionic villi.
 The remaining tissue was then washed in HBSS media with 2% FBS (HF media) and subsequently digested using Collagenase/Hyaluronidase Digestion DMEM Buffer with DNase I, at 37oC for 1h with vortexing every 30 min.
@@ -333,7 +337,7 @@ A final cell solution was made at a concentration of 10 million cells per ml, wh
 Approximately 200,000 cells for term placental samples and 125,000 cells for first trimester were obtained for each cell type using the BCCHR FACS Core equipment.
 DNA was extracted from cell-sorted samples and matched whole villi using Qiagen DNeasy Blood & Tissue kit (Qiagen, 69,504 / 69,506).
 
-Enzymatically isolated Syncytiotrophoblasts (eSTB) were obtained from term villi samples using an enzymatic digestion protocol.
+Enzymatically isolated syncytiotrophoblasts (eSTB) were obtained from term villi samples using an enzymatic digestion protocol.
 Briefly, approximately 0.5 cc of chorionic villi were washed thoroughly several times with 1X PBS to eliminate all visible traces of blood without disrupting the tissue and then incubated for 10 min in 1ml of Collagenase IA 1mg/ml (Sigma).
 The tube was then vortexed for 30s, if cloudy, 3 ml of Hanks Balanced salt solution (HBSS) was added to the digest letting it settle for 2 min.
 The supernatant containing mostly syncytiotrophoblast (STB) and some cytotrophoblast (CTB) was collected in a separate tube, the pellet was centrifugated and washed in 1X PBS before DNA extraction.
@@ -351,8 +355,8 @@ An Illumina iScan reader was used to scan the chips and produce raw data files (
 To assess various quality metrics, IDAT files were loaded directly into R (v3.6.1) using the *minfi* package (v1.32.0) and *ewastools* [@heiss2018] (v1.6).
 Poor quality and unreliable probes (detection *p*-value \> 0.01, bead count \<3, cross-hybridizing [@zhou2017], probes with SNPs within 5 bp of the CpG site in the probe direction [@zhou2017]), and probes located on sex chromosomes were removed (*n*=109,410).
 Analysis was restricted to a final set of 737,050 autosome probes.
-All samples had high (7500--15,000 average median intensity readings in the methylated and unmethylated channels, and passed manufacturer-determined default thresholds for 17 control probes. The possibility of sample mislabelling was verified comparing reported sex and inferred sex based on X chromosome copy number (*ewastools*) [@heiss2018].
-Identical genotypes between matched cell-sorted and whole chorionic villi samples were verified using the EPIC array's 59 SNP probes (*ewastools*) [@heiss2018].
+All samples had high (7500--15,000) average median intensity readings in the methylated and unmethylated channels, and passed manufacturer-determined default thresholds for 17 control probes. The possibility of sample mislabelling was verified comparing reported sex and inferred sex based on X chromosome copy number (*ewastools*) [@heiss2018].
+Identical genotypes between matched cell-sorted and whole chorionic villi samples were verified using the 850k array's 59 SNP probes (*ewastools*) [@heiss2018].
 This genotype-check also identified a number of first trimester cell-sorted samples with evidence of maternal contamination, which were removed from further analyses (*n*=12).
 Upon inspection of global DNAm patterns with PCA, we identified and removed 2 outlier samples that we suspect were contaminated with cells from other genotype-matched samples.
 After quality control and probe filtering, noob [@triche2013] and BMIQ [@teschendorff2013] normalization was applied to the DNAm data.
@@ -392,7 +396,7 @@ Predicted genome-wide DNAm for Alu and LINE1 CpGs was done using the Bioconducto
 
 A curated database of cord blood cell types DNAm data ran on the 450k methylation array was used.
 This data was downloaded from the R package *FlowSorted.CordBloodCombined.450k* and noob normalized [@gervin2019].
-For associated analyses, the common probes from this dataset and our EPIC data were used.
+For associated analyses, the common probes from this dataset and our 850k data were used.
 Heatmaps/clustering was applied using the R package *pheatmap*.
 Where possible, colour-blind friendly palettes were used with the R package *viridis*.
 
@@ -404,7 +408,7 @@ Other algorithms tested were robust partial correlations (RPC) and CIBERSORT (CB
 Default parameters were used for all functions, except "constraint" was set to "equality" for using the CP approach from *EpiDISH*.
 In silico mixtures were generated by the following procedure: 250 proportion samples were drawn from a uniform distribution between 0 and 1.
 These are the first 250 proportions for one cell type.
-Two hundred fifty additional proportions were drawn from a uniform distribution between 0 and the first proportion for the next cell type.
+Two hundred and fifty additional proportions were drawn from a uniform distribution between 0 and the first proportion for the next cell type.
 This was repeated for a total of 6 times for 6 cell types.
 These 5 sets of 250 sampled proportions make up 250 in silico mixtures.
 Because this procedure only ensures that the first set of percentages are uniformly distributed from [0,1] and the remainder are biased towards increasingly smaller values, we repeated this entire procedure for each cell type, each time starting with a different cell type, for a total of 1500 in silico mixtures.

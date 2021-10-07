@@ -203,7 +203,7 @@ Illumina high-density microarray profiling for DNAm has advanced placental resea
 Critical to these studies is the development of bioinformatic tools to process and analyze DNAm data.
 Recently, sample contamination, which can result in obscured measurements, has been shown to be prevalent in EWAS data [@heiss2018].
 Sex mismatches and, mis-annotation of samples is a problem that has been previously demonstrated in other types of genomic studies [@turco2019].
-Heiss and Just 2018 used two bioinformatic approaches to determine whether samples measured on the Illumina Infinium HumanMethylation450 BeadChip (450k) and Infinium MethylationEPIC DNAm BeadChip (EPIC) microarrays are contaminated or misannotated.
+Heiss and Just 2018 used two bioinformatic approaches to determine whether samples measured on the Illumina Infinium HumanMethylation450 BeadChip (450k) and Infinium MethylationEPIC DNAm BeadChip (850k) microarrays are contaminated or misannotated.
 
 The first approach estimates the amount of mixing of distinct genotypes in a DNAm array sample, by measuring the amount of outlying signal at 59-65 single-nucleotide polymorphism (SNP) probes, which increases as mixing between genetically distinct individuals occur.
 The second approach identifies samples that have a pattern of signal intensity on the X and Y chromosome probes that is consistent with mixing of samples of different sex.

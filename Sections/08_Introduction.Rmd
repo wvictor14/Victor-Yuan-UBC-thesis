@@ -67,6 +67,40 @@ Because of their reasonable coverage over element-rich genomic regions (e.g. gen
 Moreover, about 90% of the 450k is also covered by the newer 850k, which means that a significant amount of data is comparable from older studies [@pidsley2016].
 Particularly in at a time when data reproducibility is a high priority, the ability to compare new data and findings to past research is a highly beneficial characteristic of the Illumina DNAm microarrays.
 
+How the array works
+
+The microarray relies on DNA hybridization technology, where DNAm at each CpG is measured by its own 50 base pair probe that is complementary such that the 3' end of the probe ends with the CpG site. 
+To distinguish methylated CpGs to unmethylated ones, bisulfite conversion is used to convert unmethylated Cs into uracils (U) through chemical deamination, and then to thymines (T) through polymerase chain reaction (PCR). 
+Then, bisulfite-converted DNA is hybridized in a specific manner depending on probe type.
+Type I probes consist of a pair of unmethylated and methylated beads, that will hybrize to the unmethylated or unmethylated DNA based on the sequence itself (bisulfite converted "T" vs methyl-protected "C"). 
+Type II probes, in contrast, have only one type of bead, where both the unmethylated and methylated DNA can bind. 
+After binding, a process called single base extension is applied to add one fluorescently-labelled base to the hybridized probe; either a "G" (methylated, complement to C) or "A" (unmethylated, complement to T).
+Different fluorescent dyes (red and green) therefore distinguishes methylated and unmethylated DNA only for type II probes, whereas for Type I probes the methylated and unmethylated intensities is distinguished by whether specific beads have any (red or green) fluorescense signal.
+
+The Type I probes were the primary probe type of earlier generation Illumina DNAm arrays, and perform better in CpG dense regions, which were a higher focus in earlier DNAm studies. 
+Type II probes, however, only require 1 probe design which enables increased coverage.
+
+A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@Pidsley]. 
+This is accounted for using statistical normalization techniques that address the difference in DNAm distributions between the different probe types.
+
+
+separated into methylated and unmethylated signals depending on two probe types that have different 
+
+Because methylated Cs are protected from deamination, bisulfite conversion is used to convert unmethylated Cs into Ts, thereby distinguishing methylated and unmethylated CpGs .
+
+
+Bisulfite conversion is used to convert unmethylated Cs into Ts, and then depending  to distinguish between methylated and unmethylated CpG
+
+
+
+and each probe is attached to an individual bead. These 
+
+Sampe processing
+
+Data processing
+
+EWAS tools
+
 ## Placental DNA methylation variation across human populations
 
 Epigenome-wide association studies (EWAS) have shown that a substantial amount of variation in DNAm exists between human populations [@chu2017; @smith2017; @park2018; @adkins2011; @kwabi-addo2010; @liu2010; @fraser2012].

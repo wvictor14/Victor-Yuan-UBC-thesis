@@ -11,3 +11,19 @@ I think the simplest thing to do is to replace with "Caucasian/White", "African 
 Another suggestion is to define at the beginning and mention reasoning for consistency.
 
 > Overall the intro is on the brief side...which is better than too long, tho maybe could think if somethings lacking...I think maybe add a paragraph about the function of the placenta.  I think you could also add more on the Ilumina array itself since you use this in all your analyses? How it works and the difference between 450K and EPIC.You know alot about it and the data processing....
+
+related 
+
+>Perhaps define the use of the terms 450K and EPIC since official names are Infinium® HumanMethylation450 BeadChip and Infinium MethylationEPIC
+
+> just a comment that you are making the assumption that race and ethnicity can be defined. But I think the problem is that that are in fact not definable as they are entirely social contructs that are continually fluid and changing and are not and never will be defineable categories.
+
+> Also would be nice to have a figure showing a cross-section of a placenta?
+
+> I havent been paying attention but I think you often write out DNA methylation even though you also use DNAm---you might to a search and change to DNAm
+
+> Sorry I only thought of this now but you sometimes say EPIC and sometimes 850K....I think you need to be consitant throughout your these
+
+>Something really improtant from a pathology perspective might be to know the profile of syncytial knots... these are associated with preeclampsia and have a very different epigenetic profile than other nuclei in the STB...
+
+>You know you never cite the placental epigenetic clock in this thesis .... You might somewhere mention it say in the introduction?...You could also say that with the addition of other approaches we can now based on the DNAm profile of a placental sample, predict sex, gestational age, ancestry, cell composition..... while there have been many associations made with environmental exposures or pathology and DNAm, we still cannot predict those ,. However by better adjusting for thoise things we can  now measure more accurately using teh DNAm itlslef, perhaps we can improve upon our ability to detect exposures/pathology....

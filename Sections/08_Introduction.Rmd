@@ -91,8 +91,9 @@ However, unlike genetic markers, epigenetic markers are tissue-specific, and the
 
 In EWAS, confounding from population stratification is most often addressed using self-reported ethnicity/race to stratify study samples across the phenotype of interest.
 But, defining ethnicity/race is a complex task requiring the interpretation of a combination of biological and social factors leading to several complications: (i) inconsistent definition of ethnicity/race categories between individuals/organizations [@sankar2007; @mersha2015]; (ii) self-reporting more than one ethnicity/race [@kaneshiro2011]; and (iii) missing ethnicity information altogether.
-To overcome the limitations of ethnicity/race categories, genetically-defined ancestry can be used [@banda2015] as an alternative measure of population-specific variation.
-In contrast to the discrete nature of ethnicity/race categories, genetic ancestry can be expressed as several continuous variables that reflect ancestry composition [@pritchard1999].
+Ultimately, ethnicity and race are concepts that try to classify humans but are social constructs and are therefore always subject to the viewpoints and sociocultural factors that are constantly changing.
+To overcome the limitations of ethnicity/race categories, genetically-defined ancestry can be used in research contexts [@banda2015] as an alternative measure of population-specific variation.
+In contrast to the discrete nature of ethnicity/race categories, genetic ancestry can be expressed as several continuous variables based on genotype variation that reflect ancestry composition [@pritchard1999].
 
 ### Existing approaches to account for population variation in EWAS
 

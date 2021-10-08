@@ -20,6 +20,9 @@ Added a section about the arrays
 
 > just a comment that you are making the assumption that race and ethnicity can be defined. But I think the problem is that that are in fact not definable as they are entirely social contructs that are continually fluid and changing and are not and never will be defineable categories.
 
+Addressed with addition:
+"Ultimately, ethnicity and race are concepts that try to classify humans but are social constructs and are therefore always subject to the viewpoints and sociocultural factors that are constantly changing."
+
 > Also would be nice to have a figure showing a cross-section of a placenta?
 
 > I havent been paying attention but I think you often write out DNA methylation even though you also use DNAm---you might to a search and change to DNAm

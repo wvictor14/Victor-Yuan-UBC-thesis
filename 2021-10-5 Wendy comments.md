@@ -12,9 +12,11 @@ Another suggestion is to define at the beginning and mention reasoning for consi
 
 > Overall the intro is on the brief side...which is better than too long, tho maybe could think if somethings lacking...I think maybe add a paragraph about the function of the placenta.  I think you could also add more on the Ilumina array itself since you use this in all your analyses? How it works and the difference between 450K and EPIC.You know alot about it and the data processing....
 
-related 
 
 >Perhaps define the use of the terms 450K and EPIC since official names are Infinium® HumanMethylation450 BeadChip and Infinium MethylationEPIC
+
+Added a section about the arrays
+
 
 > just a comment that you are making the assumption that race and ethnicity can be defined. But I think the problem is that that are in fact not definable as they are entirely social contructs that are continually fluid and changing and are not and never will be defineable categories.
 

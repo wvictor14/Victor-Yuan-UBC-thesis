@@ -78,7 +78,8 @@ Different fluorescent dyes (red and green) therefore distinguishes methylated an
 
 The Type I probes were the primary probe type of earlier generation Illumina DNAm arrays, and perform better in CpG dense regions, which were a higher focus in earlier DNAm studies.
 Type II probes, however, only require 1 probe design, which means more probes can be fit per array, which was factor that enabled increased coverage for the recent generations of DNAm microarrays (450k and 850k).
-A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@Pidsley]. This is accounted for using statistical normalization techniques that address the difference in DNAm distributions between the different probe types [@teschendorff2013a; @triche2013a].
+A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@Pidsley]. 
+This is accounted for using statistical normalization techniques that address the difference in DNAm distributions between the different probe types [@teschendorff2013a; @triche2013a].
 Additional types of technical variation is accounted for by these DNAm normalization techniques, such as the differences in methylated and unmethylated channels, green and red fluorescence, and in background signal intensities.
 
 ## Placental DNA methylation variation across human populations

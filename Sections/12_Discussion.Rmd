@@ -129,9 +129,9 @@ In my study of predicting ethnicity from placental DNAm, I show that using both 
 My study characterizing the DNAm in placental cell types from first trimester and term placentas, is the first to do so, and has provided a useful reference for placental studies already [@dieckmann2021; @andrews2021; @delgobbo2021]. 
 Aside from improvements in genomic coverage, as mentioned previously, inclusion of additional cell populations and gestational timepoints are needed. 
 In this study, trophoblasts represented by mostly CTB, and STB were collected. 
-However, an important additional trophoblast subtype, EVTs, which are responsible for invasion and arterial remodelling in maternal tissue, were not included. <!-- Something really improtant from a pathology perspective might be to know the profile of syncytial knots... these are associated with preeclampsia and have a very different epigenetic profile than other nuclei in the STB...
--->
+However, an important additional trophoblast subtype, EVTs, which are responsible for invasion and arterial remodelling in maternal tissue, were not included. 
 EVTs play important additional roles to nutrient transport and placental development, and when impaired are associated with various placental-mediated disease phenotypes such as preeclampsia, intrauterine growth restriction, stillbirth, or recurrent abortion [@pollheimer2018].
+STB were profiled for DNAm, but the nuclei in this cell layer condense of a heterogeneous mixture of gestationally varied nuclei, with a higher proportion of older nuclei condensing into syncytial knots at later gestation [@loukeris2010].
 Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a]. 
 Placental single RNA-seq studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
 

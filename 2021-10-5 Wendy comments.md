@@ -23,12 +23,15 @@ Added a section about the arrays
 Addressed with addition:
 "Ultimately, ethnicity and race are concepts that try to classify humans but are social constructs and are therefore always subject to the viewpoints and sociocultural factors that are constantly changing."
 
+> Something really improtant from a pathology perspective might be to know the profile of syncytial knots... these are associated with preeclampsia and have a very different epigenetic profile than other nuclei in the STB...
+
+STB were profiled for DNAm, but the nuclei in this cell layer condense of a heterogeneous mixture of gestationally varied nuclei, with a higher proportion of older nuclei condensing into syncytial knots at later gestation [@loukeris2010].
+
+
 > Also would be nice to have a figure showing a cross-section of a placenta?
 
 > I havent been paying attention but I think you often write out DNA methylation even though you also use DNAm---you might to a search and change to DNAm
 
 > Sorry I only thought of this now but you sometimes say EPIC and sometimes 850K....I think you need to be consitant throughout your these
-
->Something really improtant from a pathology perspective might be to know the profile of syncytial knots... these are associated with preeclampsia and have a very different epigenetic profile than other nuclei in the STB...
 
 >You know you never cite the placental epigenetic clock in this thesis .... You might somewhere mention it say in the introduction?...You could also say that with the addition of other approaches we can now based on the DNAm profile of a placental sample, predict sex, gestational age, ancestry, cell composition..... while there have been many associations made with environmental exposures or pathology and DNAm, we still cannot predict those ,. However by better adjusting for thoise things we can  now measure more accurately using teh DNAm itlslef, perhaps we can improve upon our ability to detect exposures/pathology....

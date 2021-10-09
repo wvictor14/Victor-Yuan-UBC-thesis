@@ -115,8 +115,9 @@ Although *in utero* profiling provides the most accurate information, recent org
 ## Future directions
 
 I developed several bioinformatic approaches to help analyze placental DNAm data, and implemented these in user-friendly applications for usage in future placental DNAm studies.
-These approaches return to the researcher useful sample information that can aid analysis, such as cell composition, ethnicity, genetic ancestry, and maternal cell contamination.
-However, given the limitations of these studies and techniques outlined above, there are significant improvements that can be still made.
+These approaches allow factors that can significantly contribute to DNAm variability to be predicted, modeled, and accounted for.
+With these predicted variables, measuring placental DNAm provides a multi-facetted picture of each placental sample that can be useful for identifying changes associated with disease and environment.
+However, given the limitations of the studies and techniques outlined above, there are significant improvements that can be still made.
 
 It is untested how planet will perform in other continents of diverse populations.
 However, because planet was developed in diverse human populations from North America, it is possible that planet may generalize well to other populations.
@@ -135,9 +136,6 @@ STB were profiled for DNAm, but the nuclei in this cell layer condense of a hete
 Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a]. 
 Placental single RNA-seq studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
 
-<!--
-You know you never cite the placental epigenetic clock in this thesis .... You might somewhere mention it say in the introduction?...You could also say that with the addition of other approaches we can now based on the DNAm profile of a placental sample, predict sex, gestational age, ancestry, cell composition..... while there have been many associations made with environmental exposures or pathology and DNAm, we still cannot predict those ,. However by better adjusting for thoise things we can  now measure more accurately using teh DNAm itlslef, perhaps we can improve upon our ability to detect exposures/pathology....
--->
 
 ## Conclusion
 

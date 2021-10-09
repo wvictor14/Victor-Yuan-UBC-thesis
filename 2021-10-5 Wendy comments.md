@@ -27,11 +27,12 @@ Addressed with addition:
 
 STB were profiled for DNAm, but the nuclei in this cell layer condense of a heterogeneous mixture of gestationally varied nuclei, with a higher proportion of older nuclei condensing into syncytial knots at later gestation [@loukeris2010].
 
+>You know you never cite the placental epigenetic clock in this thesis .... You might somewhere mention it say in the introduction?...You could also say that with the addition of other approaches we can now based on the DNAm profile of a placental sample, predict sex, gestational age, ancestry, cell composition..... while there have been many associations made with environmental exposures or pathology and DNAm, we still cannot predict those ,. However by better adjusting for thoise things we can  now measure more accurately using teh DNAm itlslef, perhaps we can improve upon our ability to detect exposures/pathology....
+
+Rewrote Discussion -  "Future Directions" section to mention some of this.
 
 > Also would be nice to have a figure showing a cross-section of a placenta?
 
 > I havent been paying attention but I think you often write out DNA methylation even though you also use DNAm---you might to a search and change to DNAm
 
 > Sorry I only thought of this now but you sometimes say EPIC and sometimes 850K....I think you need to be consitant throughout your these
-
->You know you never cite the placental epigenetic clock in this thesis .... You might somewhere mention it say in the introduction?...You could also say that with the addition of other approaches we can now based on the DNAm profile of a placental sample, predict sex, gestational age, ancestry, cell composition..... while there have been many associations made with environmental exposures or pathology and DNAm, we still cannot predict those ,. However by better adjusting for thoise things we can  now measure more accurately using teh DNAm itlslef, perhaps we can improve upon our ability to detect exposures/pathology....

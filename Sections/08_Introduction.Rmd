@@ -13,6 +13,7 @@ Overall the intro is on the brief side...which is better than too long, tho mayb
  - wendy
 -->
 ```
+
 ## Dissertation context and overview
 
 The placenta is a key component to the healthy development of the fetus during pregnancy.
@@ -30,7 +31,7 @@ Understanding the contributors to DNAm variability and how to account for them i
 In this dissertation, I characterized some of the major contributors to placental DNAm, and have developed bioinformatic methods to predict and account for these factors in future placental DNAm research.
 These factors that influence placental DNAm, - the subjects of this dissertation include ethnicity and genotype, cell-specificity and cell composition dynamics across gestation, and maternal cell contamination.
 
-## DNA methylation
+## DNA methylation in the human genome
 
 Despite all cells of the human body being nearly genetically identical, human cell types must coordinate a highly specific gene expression program to fulfill each of their own unique cellular niches.
 To achieve cell-specific gene expression programs, epigenetic processes function as a layer of molecular information that influences DNA interactions to regulate gene expression.
@@ -59,7 +60,7 @@ Lastly, at the blastocyst stage, DNAm is at it's lowest point, and new epigeneti
 knitr::include_graphics(here::here('images', 'introduction', 'intro-fig1.pdf'))
 ```
 
-### DNA methylation microarray profiling
+### Measuring DNA methylation with Illumina microarrays
 
 Although DNAm can be measured at various resolutions and technologies, ranging from targeted gene assays to whole genome bisulfite sequencing, this dissertation exclusively relies on the use of two generations of Illumina DNAm microarrays.
 The Infinium HumanMethylation450 and Infinium MethylationEPIC BeadChip Microarrays, commonly referred to as the 450k and 850k arrays, measure DNAm at \~485,000 and \~850,000 CpGs across the genome.

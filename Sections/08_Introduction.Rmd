@@ -167,7 +167,7 @@ The trophectoderm will develop into one of the layers of the chorion as well as 
 Hypomethylation of chorionic villi as a whole reflects that trophoblast is the predominant cell type within this tissue [@grigoriu2011].
 In the mouse, trophoblast hypomethylation is associated with down-regulation ofthe DNA methyltransferases, Dnmt3a, Dnmt3b, and Dnmt1a [@oda2013].
 However, the role of DNMTs in human trophoblast is less clear [@novakovic2010].
-In contrast, the inner cell mass undergoes _de novo_ global DNAm.
+In contrast, the inner cell mass undergoes *de novo* global DNAm.
 These cells are the origin of the fetal tissues, but also contribute to primitive endoderm, from which placental endothelial cells are derived, and to the extraembryonic mesoderm, from which villus stroma is derived.
 In addition to differences in DNAm, the early trophectoderm shows higher H3K27 methylation as well as lower levels of histone H2A and/or H4 phosphorylation [@nelissen2011].
 Further differentiation processes in both trophoblast and other lineages are associated with additional DNAm changes and histone modifications at specific regulatory loci [@hemberger2007].
@@ -210,7 +210,7 @@ Because heterogeneous tissues, such as the placenta, are made up of several cell
 Therefore, changes in DNAm measured in complex tissues can often be attributed to variation in cell composition rather than DNAm changes that occur in the constituent cell populations [@holbrook2017].
 This makes interpretation of placental DNAm studies difficult until placental DNAm is characterized at a cell-specific resolution.
 
-During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by _de novo_ DNAm in the inner cell mass [@smith2012].
+During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by *de novo* DNAm in the inner cell mass [@smith2012].
 Deriving from the inner cell mass are fetal tissues and the mesenchymal core component of the placental chorionic villi.
 Within the mesenchymal core, stromal cells (SC) and fetal macrophages called Hofbauer cells (HB) can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells.
 HBs are distinct from decidual macrophages and fetal/maternal monocytes [@kim2012]; they display high phenotypic diversity, promoting angiogenesis early in gestation and later participating in the immune response to pathological processes and infection [@reyes2017; @reyes2018].

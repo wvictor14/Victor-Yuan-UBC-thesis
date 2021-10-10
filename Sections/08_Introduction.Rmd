@@ -13,7 +13,6 @@ Overall the intro is on the brief side...which is better than too long, tho mayb
  - wendy
 -->
 ```
-
 ## Dissertation context and overview
 
 The placenta is a key component to the healthy development of the fetus during pregnancy.
@@ -37,14 +36,13 @@ The placenta is an essential organ that develops from the embryo to nurture its 
 Sometimes described as a "vascular organ", the placenta is responsible for the establishment and regulation of maternal-fetal blood flow.
 Maternal blood is flowed from the uterine spiral arteries into the intervillous space of the placenta.
 Chorionic villi, the main structure of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
-Deoxygenated and nutrient-depleted fetal blood travels into the chorionic villi, and oxygenated blood returns to the fetus [@wang2010]. Maternal-fetal blood exchange is essential for the proper growth of the fetus, as imbalances, such as placental insufficiency, a condition where the placenta does not deliver sufficient nutrients and oxygen to the developing fetus, can lead to complications such as fetal growth restriction, preeclampsia, and pre-term birth [@malhotra2019]. The placenta also influences the maternal environment (cardiovascular, immune, and metabolic systems) through hormonal processes to support the proper nutrient and oxygen supply to the growing fetus [@napso2018a]. Placental hormones such as those from the proclactin growth hormone family and steroids, are especially important in promoting maternal physiological adaptations to increase the bioavailability of nutrients to the fetus [@napso2018b].
-
-Protect maternal tolerance
-
-The placenta is the intersection between the fetus and the mother, and is responsible for regulating many pregnancy-related processes, such as placental hormones, gas/waste/nutrient exchange, and cell-cell interactions.
-Because of the dynamic nature of pregnancy and constantly shifting demands of the growing fetus, the placenta undergoes constant structural and molecular changes throughout gestation.
-
-It serves as the interface between the growing fetus and materna
+Deoxygenated and nutrient-depleted fetal blood travels into the chorionic villi, and oxygenated blood returns to the fetus [@wang2010].
+Maternal-fetal blood exchange is essential for the proper growth of the fetus, as imbalances, such as placental insufficiency, a condition where the placenta does not deliver sufficient nutrients and oxygen to the developing fetus, can lead to complications such as fetal growth restriction, preeclampsia, and pre-term birth [@malhotra2019].
+The placenta also influences the maternal environment (cardiovascular, immune, and metabolic systems) through hormonal processes to support the proper nutrient and oxygen supply to the growing fetus [@napso2018a].
+Placental hormones such as those from the proclactin growth hormone family and steroids, are especially important in promoting maternal physiological adaptations to increase the bioavailability of nutrients to the fetus [@napso2018b].
+Fetomaternal tolerance is also an important pregnancy process that is in part regulated by the direct interactions between the placenta and maternal cells in the decidua.
+Trophoblasts, specificaly extravillous populations that travel into the decidua, express nonclassical major histocamptibility complex (MHC) molecules that are recognized by receptors expressed by uterine natural killer cells [@guleria2007].
+Lastly, the placenta acts as a biophysical barrier that protects the fetus against potential pathogenic infections [@hoo2020; @delorme2014].
 
 ## DNA methylation in the human genome
 

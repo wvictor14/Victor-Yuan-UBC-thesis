@@ -75,13 +75,17 @@ Type I probes consists of two probe designs that are attached to two individual 
 Probe hybridization for type I probes depends on the methylation-dependent sequence complementarity that results from bisulfite conversion (bisulfite converted "T" vs methyl-protected "C").
 Type II probes, in contrast, have only one type of bead, where either unmethylated and methylated DNA hybridizes to.
 Methylated and unmethylated CpGs are distinguished instead at the single base extension step, which is when one fluorescently-labelled base is added to the 3' end of the probe; either a "G" for methylated sequences (complement to C), or "A" for unmethylated sequences (complement to T).
-Different fluorescent dyes (red and green) therefore distinguishes methylated and unmethylated DNA only for type II probes, whereas for Type I probes the methylated and unmethylated intensities is distinguished by whether specific beads have any (red or green) fluorescense signal.
-
+Different fluorescent dyes (red and green) therefore distinguishes methylated and unmethylated DNA only for type II probes, whereas for Type I probes the methylated and unmethylated intensities is distinguished by whether specific beads have any (red or green) fluorescense signal. 
 The Type I probes were the primary probe type of earlier generation Illumina DNAm arrays, and perform better in CpG dense regions, which were a higher focus in earlier DNAm studies.
 Type II probes, however, only require 1 probe design, which means more probes can be fit per array, which was factor that enabled increased coverage for the recent generations of DNAm microarrays (450k and 850k).
+
 A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@Pidsley]. 
 This is accounted for using statistical normalization techniques that address the difference in DNAm distributions between the different probe types [@teschendorff2013a; @triche2013a].
 Additional types of technical variation is accounted for by these DNAm normalization techniques, such as the differences in methylated and unmethylated channels, green and red fluorescence, and in background signal intensities.
+A small proportion of the 450k and 850k probes have issues with performance. 
+One set of probes that are commonly referred to as "cross-hybridizing" have a non-trivial amount of sequence homology to multiple parts of the genome, resulting in spurious signal.
+Another set of probes have single nucleotide polymorphisms (SNPs) within the probe body itself, therefore affecting the strength of hybridization directly.
+Efforts have been made to identify cross-hybridizing and probes with SNPs in the probe body for removal from downstream analyses .
 
 ## Placental DNA methylation variation across human populations
 

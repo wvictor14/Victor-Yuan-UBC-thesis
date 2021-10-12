@@ -44,6 +44,14 @@ Fetomaternal tolerance is also an important pregnancy process that is in part re
 Trophoblasts, specificaly extravillous populations that travel into the decidua, express nonclassical major histocamptibility complex (MHC) molecules that are recognized by receptors expressed by uterine natural killer cells [@guleria2007].
 Lastly, the placenta acts as a biophysical barrier that protects the fetus against potential pathogenic infections [@hoo2020; @delorme2014].
 
+<!--- Insert Figure 1 --->
+
+(ref:introfig1-cap) Schematic representation of the organization of the placenta (left), which is embedded in the maternal uterus. It is organized into branched chorionic villi that contain the fetal vasculature that will connect to the fetus via the umbilical vein and arteries. The villi are bathed by maternal blood contained in the intervillous space, delivered by the uterine spiral arteries. Representation of a chorionic villus (right), composed of the outer syncytiotrophoblast and inner cytotrophoblast cell layers, inner mesenchyme, and fetal blood vessels. The villus is anchored to the maternal decidua, and extravillous trophoblast cells migrate and invade the maternal decidua, where they interact with resident maternal immune cells such as the uterine natural killer cells (uNK), and remodel the uterine spiral arteries. From Del Gobbo 2021 [@delgobbo2021], University of British Columbia, Vancouver, Canada. Original image adapted from Del Gobbo 2019 [@delgobbo2019]. Copyright 2019 by Springer-Verlag GmbH Germany, part of Springer Nature. Reprinted with permission.
+
+```{r introfig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig1-cap)", fig.scap = "Structure of the placenta and chorionic villi", fig.align='center',  out.extra=''}
+knitr::include_graphics(here::here('images', 'introduction', 'GDG-placenta-diagram.pdf'))
+```
+
 ## DNA methylation in the human genome
 
 Despite all cells of the human body being nearly genetically identical, human cell types must coordinate a highly specific gene expression program to fulfill each of their own unique cellular niches.
@@ -65,12 +73,12 @@ With the exception of imprinted regions, for which their allele-specificity is p
 In contrast, the maternal DNAm erasure that occurs through mostly replicative-dependent passive dilution [@xu2021].
 Lastly, at the blastocyst stage, DNAm is at it's lowest point, and new epigenetic marks can begin establishing in a highly cell-specific manner, with many cell types and tissues not reaching their final differentiated profiles until later in life.
 
-<!--- Insert Figure 1 --->
+<!--- Insert Figure 2 --->
 
-(ref:introfig1-cap) DNA methylation reprogramming during development. The first major genome-wide DNA methylation erasure occurs in primordial germ cells (PGCs), and includes erasure of prior gametic imprints. DNA methylation is reestablished, but to a greater extent in sperm as compared to oocytes (egg). After fertilization, the asymmetric paternal and maternal epigenomes begin reprogramming. The paternal genome undergoes active demethylation, whereas the maternal genome undergoes demethylation more gradually through passive replication-dependent mechanisms. Gamete-specific differentially methylated regions (i.e. genomic imprints) and most repetitive sequences are protected during post-fertilization epigenetic reprogramming. At the blastocyst stage, there is the first lineage-specification event of inner cell mass (ICM) and trophectoderm (TE). By the blastocyst stage, DNAm is at its lowest point. After implantation, DNA methylation is established in both ICM and TE, but in TE remains lower, a difference that is retained through development.
+(ref:introfig2-cap) DNA methylation reprogramming during development. The first major genome-wide DNA methylation erasure occurs in primordial germ cells (PGCs), and includes erasure of prior gametic imprints. DNA methylation is reestablished, but to a greater extent in sperm as compared to oocytes (egg). After fertilization, the asymmetric paternal and maternal epigenomes begin reprogramming. The paternal genome undergoes active demethylation, whereas the maternal genome undergoes demethylation more gradually through passive replication-dependent mechanisms. Gamete-specific differentially methylated regions (i.e. genomic imprints) and most repetitive sequences are protected during post-fertilization epigenetic reprogramming. At the blastocyst stage, there is the first lineage-specification event of inner cell mass (ICM) and trophectoderm (TE). By the blastocyst stage, DNAm is at its lowest point. After implantation, DNA methylation is established in both ICM and TE, but in TE remains lower, a difference that is retained through development.
 
-```{r introfig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig1-cap)", fig.scap = "DNA methylation reprogramming during development", fig.align='center',  out.extra=''}
-knitr::include_graphics(here::here('images', 'introduction', 'intro-fig1.pdf'))
+```{r introfig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig2-cap)", fig.scap = "DNA methylation reprogramming during development", fig.align='center',  out.extra=''}
+knitr::include_graphics(here::here('images', 'introduction', 'kmichels-book-chapter-epigenetics-in-dev.pdf'))
 ```
 
 ### Measuring DNA methylation with Illumina microarrays

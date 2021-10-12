@@ -32,7 +32,7 @@ These factors that influence placental DNAm, that I have studied in this dissert
 
 ## Placental function
 
-The placenta is an essential organ that develops from the embryo to nurture its development throughout pregnancy.
+The placenta is an essential organ that develops from the embryo to nurture its development throughout pregnancy (Figure \@ref(fig:introfig1)).
 Sometimes described as a "vascular organ", the placenta is responsible for the establishment and regulation of maternal-fetal blood flow.
 Maternal blood is entered from the uterine spiral arteries into the intervillous space of the placenta.
 Chorionic villus, the main structure of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
@@ -43,14 +43,6 @@ Placental hormones such as those from the proclactin growth hormone family and s
 Fetomaternal tolerance is also an important pregnancy process that is in part regulated by the direct interactions between the placenta and maternal cells in the decidua.
 Trophoblasts, specificaly extravillous populations that travel into the decidua, express nonclassical major histocamptibility complex (MHC) molecules that are recognized by receptors expressed by uterine natural killer cells [@guleria2007].
 Lastly, the placenta acts as a biophysical barrier that protects the fetus against potential pathogenic infections [@hoo2020; @delorme2014].
-
-<!--- Insert Figure 1 --->
-
-(ref:introfig1-cap) Schematic representation of the organization of the placenta (left), which is embedded in the maternal uterus. It is organized into branched chorionic villi that contain the fetal vasculature that will connect to the fetus via the umbilical vein and arteries. The villi are bathed by maternal blood contained in the intervillous space, delivered by the uterine spiral arteries. Representation of a chorionic villus (right), composed of the outer syncytiotrophoblast and inner cytotrophoblast cell layers, inner mesenchyme, and fetal blood vessels. The villus is anchored to the maternal decidua, and extravillous trophoblast cells migrate and invade the maternal decidua, where they interact with resident maternal immune cells such as the uterine natural killer cells (uNK), and remodel the uterine spiral arteries. From Del Gobbo 2021 [@delgobbo2021], University of British Columbia, Vancouver, Canada. Original image adapted from Del Gobbo 2019 [@delgobbo2019]. Copyright 2019 by Springer-Verlag GmbH Germany, part of Springer Nature. Reprinted with permission.
-
-```{r introfig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig1-cap)", fig.scap = "Structure of the placenta and chorionic villi", fig.align='center',  out.extra=''}
-knitr::include_graphics(here::here('images', 'introduction', 'GDG-placenta-diagram.pdf'))
-```
 
 ## DNA methylation in the human genome
 
@@ -65,7 +57,15 @@ Methylation of DNA at CpG islands results in the silencing of gene expression, f
 One of the main roles of DNAm is to also silence transposable and viral elements, which make up Approximately 45% of the mammalian genome [@schulz2006].
 DNAm also serves important roles in regulating genomic imprinting [@elhamamsy2017], which is where a gene's expression occurs from one allele (monoallelic) in a parent-of-origin -specific manner, and in X-inactivation, which is the silencing of one X chromosomes in females [@cotton2009a].
 
-Developmentally, DNAm is highly dynamic and serves as an important mark that is reprogrammed for the generation and establishment of new genomes.
+<!--- Insert Figure 1 --->
+
+(ref:introfig1-cap) Schematic representation of the organization of the placenta (left), which is embedded in the maternal uterus. It is organized into branched chorionic villi that contain the fetal vasculature that will connect to the fetus via the umbilical vein and arteries. The villi are bathed by maternal blood contained in the intervillous space, delivered by the uterine spiral arteries. Representation of a chorionic villus (right), composed of the outer syncytiotrophoblast and inner cytotrophoblast cell layers, inner mesenchyme, and fetal blood vessels. The villus is anchored to the maternal decidua, and extravillous trophoblast cells migrate and invade the maternal decidua, where they interact with resident maternal immune cells such as the uterine natural killer cells (uNK), and remodel the uterine spiral arteries. From Del Gobbo 2021 [@delgobbo2021], University of British Columbia, Vancouver, Canada. Original image adapted from Del Gobbo 2019 [@delgobbo2019]. Copyright 2019 by Springer-Verlag GmbH Germany, part of Springer Nature. Reprinted with permission.
+
+```{r introfig1, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig1-cap)", fig.scap = "Structure of the placenta and chorionic villi", fig.align='center',  out.extra=''}
+knitr::include_graphics(here::here('images', 'introduction', 'GDG-placenta-diagram.pdf'))
+```
+
+Developmentally, DNAm is highly dynamic and serves as an important mark that is reprogrammed for the generation and establishment of new genomes (Figure \@ref(fig:introfig2)).
 DNAm is first erased during the maturation of primordial germ cells, owing to actions of TET enzymes that convert 5' methyl-cytosine (5'mc) to 5' hydroxymethyl-cytosine (5'hmc), and also to passive dilution through successive replicative events coupled with the absence of normal DNAm maintenance activity [@hackett2013; @hargan-calvopina2016].
 During gametogenesis, maturation of sperm and egg cells, DNAm and other epigenetic marks are re-established in a highly cell-specific manner.
 But, after fertilization, the asymmetric epigenetic marks acquired in the sperm and egg genomes must become equalized, and thus go through another round of reprogramming [@fraser2016].
@@ -100,7 +100,7 @@ Different fluorescent dyes (red and green) therefore distinguishes methylated an
 The Type I probes were the primary probe type of earlier generation Illumina DNAm arrays, and perform better in CpG dense regions, which were a higher focus in earlier DNAm studies.
 Type II probes, however, only require 1 probe design, which means more probes can be fit per array, which was factor that enabled increased coverage for the recent generations of DNAm microarrays (450k and 850k).
 
-A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@Pidsley]. 
+A challenge introduced by having two probe types is that technical differences exist in the resulting DNAm measurements, which must be accounted for when comparing CpGs measured by different probe types [@pidsley2016]. 
 This is accounted for using statistical normalization techniques that address the difference in DNAm distributions between the different probe types [@teschendorff2013a; @triche2013a].
 Additional types of technical variation is accounted for by these DNAm normalization techniques, such as the differences in methylated and unmethylated channels, green and red fluorescence, and in background signal intensities.
 A small proportion of the 450k and 850k probes have issues with performance. 

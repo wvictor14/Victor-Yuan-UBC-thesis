@@ -27,16 +27,16 @@ Large human population studies of DNAm using microarrays has taken off in popula
 Understanding the variation in placental DNAm is important to our understanding of the molecular processes that contribute placental biology, which in turn will lead to a better understanding of the role of the placenta in pregnancy.
 Although there is great interest in studying DNAm, there are significant technical and biological challenges that can lead to spurious results.
 Understanding the contributors to DNAm variability and how to account for them in our analyses will be a key step in moving DNAm research forward.
-In this dissertation, I characterized some of the major contributors to placental DNAm, and have developed bioinformatic methods to predict and account for these factors in future placental DNAm research.
-These factors that influence placental DNAm, - the subjects of this dissertation include ethnicity and genotype, cell-specificity and cell composition dynamics across gestation, and maternal cell contamination.
+In this dissertation, I characterized some of the major contributors to variotion in placental DNAm, and have developed bioinformatic methods to predict and account for these factors in future placental DNAm research.
+These factors that influence placental DNAm, that I have studied in this dissertation, include ethnicity and genotype, cell-specificity and cell composition dynamics across gestation, and maternal cell contamination.
 
 ## Placental function
 
 The placenta is an essential organ that develops from the embryo to nurture its development throughout pregnancy.
 Sometimes described as a "vascular organ", the placenta is responsible for the establishment and regulation of maternal-fetal blood flow.
-Maternal blood is flowed from the uterine spiral arteries into the intervillous space of the placenta.
-Chorionic villi, the main structure of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
-Deoxygenated and nutrient-depleted fetal blood travels into the chorionic villi, and oxygenated blood returns to the fetus [@wang2010].
+Maternal blood is entered from the uterine spiral arteries into the intervillous space of the placenta.
+Chorionic villus, the main structure of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
+Deoxygenated and nutrient-depleted fetal blood travels through veins into the chorionic villi, and oxygenated blood returns arterially to the fetus [@wang2010].
 Maternal-fetal blood exchange is essential for the proper growth of the fetus, as imbalances, such as placental insufficiency, a condition where the placenta does not deliver sufficient nutrients and oxygen to the developing fetus, can lead to complications such as fetal growth restriction, preeclampsia, and pre-term birth [@malhotra2019].
 The placenta also influences the maternal environment (cardiovascular, immune, and metabolic systems) through hormonal processes to support the proper nutrient and oxygen supply to the growing fetus [@napso2018a].
 Placental hormones such as those from the proclactin growth hormone family and steroids, are especially important in promoting maternal physiological adaptations to increase the bioavailability of nutrients to the fetus [@napso2018b].
@@ -62,11 +62,11 @@ DNAm is the most widely studied epigenetic mark, owing to its relative stability
 DNAm at gene promoters is highly anti-correlated with gene expression.
 CpG islands, which are genomic regions (\~1000bp long) with high CpG density often found near gene promoters, are often devoid of DNAm [@bird1985].
 Methylation of DNA at CpG islands results in the silencing of gene expression, for example through the recruitment of repressive methyl-binding proteins, or by impairing transcription factor binding [@moore2013].
-One of the main roles of DNA methylation is to also silence transposable and viral elements, which make up Approximately 45% of the mammalian genome [@schulz2006].
+One of the main roles of DNAm is to also silence transposable and viral elements, which make up Approximately 45% of the mammalian genome [@schulz2006].
 DNAm also serves important roles in regulating genomic imprinting [@elhamamsy2017], which is where a gene's expression occurs from one allele (monoallelic) in a parent-of-origin -specific manner, and in X-inactivation, which is the silencing of one X chromosomes in females [@cotton2009a].
 
 Developmentally, DNAm is highly dynamic and serves as an important mark that is reprogrammed for the generation and establishment of new genomes.
-DNA methylation is first erased during the maturation of primordial germ cells, owing to actions of TET enzymes that convert 5' methyl-cytosine (5'mc) to 5' hydroxymethyl-cytosine (5'hmc), and also to passive dilution through successive replicative events coupled with the absence of normal DNAm maintenance activity [@hackett2013; @hargan-calvopina2016].
+DNAm is first erased during the maturation of primordial germ cells, owing to actions of TET enzymes that convert 5' methyl-cytosine (5'mc) to 5' hydroxymethyl-cytosine (5'hmc), and also to passive dilution through successive replicative events coupled with the absence of normal DNAm maintenance activity [@hackett2013; @hargan-calvopina2016].
 During gametogenesis, maturation of sperm and egg cells, DNAm and other epigenetic marks are re-established in a highly cell-specific manner.
 But, after fertilization, the asymmetric epigenetic marks acquired in the sperm and egg genomes must become equalized, and thus go through another round of reprogramming [@fraser2016].
 With the exception of imprinted regions, for which their allele-specificity is protected from this erasure, DNAm is erased in the paternal genome through primarily active processes governed by the TET family of enzymes.
@@ -75,9 +75,9 @@ Lastly, at the blastocyst stage, DNAm is at it's lowest point, and new epigeneti
 
 <!--- Insert Figure 2 --->
 
-(ref:introfig2-cap) DNA methylation reprogramming during development. The first major genome-wide DNA methylation erasure occurs in primordial germ cells (PGCs), and includes erasure of prior gametic imprints. DNA methylation is reestablished, but to a greater extent in sperm as compared to oocytes (egg). After fertilization, the asymmetric paternal and maternal epigenomes begin reprogramming. The paternal genome undergoes active demethylation, whereas the maternal genome undergoes demethylation more gradually through passive replication-dependent mechanisms. Gamete-specific differentially methylated regions (i.e. genomic imprints) and most repetitive sequences are protected during post-fertilization epigenetic reprogramming. At the blastocyst stage, there is the first lineage-specification event of inner cell mass (ICM) and trophectoderm (TE). By the blastocyst stage, DNAm is at its lowest point. After implantation, DNA methylation is established in both ICM and TE, but in TE remains lower, a difference that is retained through development.
+(ref:introfig2-cap) DNA methylation (DNAm) reprogramming during development. The first major genome-wide DNAm erasure occurs in primordial germ cells (PGCs), and includes erasure of prior gametic imprints. DNAm is reestablished, but to a greater extent in sperm as compared to oocytes (egg). After fertilization, the asymmetric paternal and maternal epigenomes begin reprogramming. The paternal genome undergoes active demethylation, whereas the maternal genome undergoes demethylation more gradually through passive replication-dependent mechanisms. Gamete-specific differentially methylated regions (i.e. genomic imprints) and most repetitive sequences are protected during post-fertilization epigenetic reprogramming. At the blastocyst stage, there is the first lineage-specification event of inner cell mass (ICM) and trophectoderm (TE). By the blastocyst stage, DNAm is at its lowest point. After implantation, DNAm is established in both ICM and TE, but in TE remains lower, a difference that is retained through development.
 
-```{r introfig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig2-cap)", fig.scap = "DNA methylation reprogramming during development", fig.align='center',  out.extra=''}
+```{r introfig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig2-cap)", fig.scap = "DNA methylation (DNAm) reprogramming during development", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'introduction', 'kmichels-book-chapter-epigenetics-in-dev.pdf'))
 ```
 
@@ -193,7 +193,7 @@ However, there is also an enrichment of H4K20me3, a repressive chromatin mark, t
 
 CTBs can also differentiate into extravillous trophoblasts (EVTs), which exhibit strikingly different transcriptional, epigenetic, and morphological characteristics compared to STBs.
 During this process, expression of cell adhesion molecules and polarity are lost and expression of mesenchymal markers, migratory, and invasive properties are gained [@davies2016].
-Similar to cancer cells, EVTs down-regulate E-cadherin by DNA methylation and up-regulate many proteases (e.g., *MMP9*), phosphatidylinositol 30-kinase (*PI3K*), and several autocrine or paracrine loops (e.g., involving *EGF* and *VEGF*) [@ferretti2007] as they transition into a highly invasive phenotype.
+Similar to cancer cells, EVTs down-regulate E-cadherin by DNAm and up-regulate many proteases (e.g., *MMP9*), phosphatidylinositol 30-kinase (*PI3K*), and several autocrine or paracrine loops (e.g., involving *EGF* and *VEGF*) [@ferretti2007] as they transition into a highly invasive phenotype.
 Disruption of DNAm by *DNMT* inhibitor 5-aza-dC results in loss of invasive and migratory properties in EVT cells; up-regulation of epithelial markers, such as E-Cadherin, beta-Catenin, and Cadherin18; and down-regulation of mesenchymal genes, such as *VIM* and *CDH2* [@chen2013].
 Transcription factors essential to the initiation of this transition process, *SNAIL* and *SLUG*, are also differentially methylated between CTBs and EVTs [@chen2013a].
 
@@ -277,7 +277,7 @@ Interestingly, they explored using quality measurements (i.e. "no-calls") from g
 
 Previous work in placental DNAm research involves mostly EWAS-type study designs assessing placental phenotypes such as preeclampsia, fetal growth restriction, chorioamnionitis, neural tube defects, and environment.
 However, these studies are limited to existing bioinformatic tools, which have not been extensively explored for their appropriateness and effectiveness in placental data.
-Moreover, the underlying DNA methylation of the various cell components of the placental chorionic villi has not yet been characterized.
+Moreover, the underlying DNAm of the various cell components of the placental chorionic villi has not yet been characterized.
 
 In this dissertation I aimed to characterize and identify the major sources of variation in placental DNAm, and develop bioinformatic approaches to infer, model, and characterize these variables from placental DNAm data directly.
 I hypothesize that cell composition, genetic ancestry and ethnicity, and maternal DNA contamination can be identified and predicted from placental chorionic villi DNAm data.
@@ -289,4 +289,4 @@ To assess this, I performed:
 
 3.  A study of using bioinformatics to identify maternal signal from placental DNAm data from previously published placental DNAm studies.
 
-These studies contribute to further insights into major contributors of variation in placental DNA methylation, and provide useful bioinformatic approaches for conducting better placental DNA methylation research.
+These studies contribute to further insights into major contributors of variation in placental DNAm, and provide useful bioinformatic approaches for conducting better placental DNAm research.

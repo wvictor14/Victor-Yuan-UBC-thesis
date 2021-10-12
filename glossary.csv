@@ -44,6 +44,7 @@ LINE-1,Long interspersed nuclear element-1
 LODOCV,Leave-one-dataset-out cross validation
 LOPE,Late-onset preeclampsia
 MAE,Mean absolute error
+MHC,Major histocompatibility complex
 mQTL,Methylation quantative trait loci
 noob,Normal exponential out-of-band normalization
 nRBC,Nucleated red blood cells

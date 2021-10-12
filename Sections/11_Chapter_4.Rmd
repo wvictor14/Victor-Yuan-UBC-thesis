@@ -36,15 +36,15 @@ Decidua and blood-specific CpG sites were determined using the R package limma [
 
 ### Epigenetic age
 
-Epigenetic age is a measure of biological aging based on aging-associated DNA methylation changes.
+Epigenetic age is a measure of biological aging based on aging-associated DNAm changes.
 Epigenetic "age clocks" are usually built using supervised machine learning trained to predict chornological age using CpG methylation [@bell2019]. 
 Because epigenetic age should be highly increased in decidua and maternal blood (i.e. adult tissues) compared to fetal-derived placental tissue, we hypothesized that estimated epigenetic age may significantly differ between maternally contaminated and non-contaminated placental samples. 
 To estimate epigenetic age, placental and adult epigenetic age clocks were applied to chorionic villi samples [@horvath2013; @lee2019].
 
 ### Sex chromosome analysis
 
-Placental samples from male fetuses that are contaminated with maternal (female) DNA, should appear more “female-like” when examining sex chromosome DNA methylation. 
-Using the R package ewastools [@heiss2018], DNA methylation intensity measurements on X and Y chromosome probes were normalized to autosomal signal, and then outliers on X and Y chromosome plots were identified in a dataset-specific manner (termed “XY outliers”).
+Placental samples from male fetuses that are contaminated with maternal (female) DNA, should appear more “female-like” when examining sex chromosome DNAm. 
+Using the R package ewastools [@heiss2018], DNAm intensity measurements on X and Y chromosome probes were normalized to autosomal signal, and then outliers on X and Y chromosome plots were identified in a dataset-specific manner (termed “XY outliers”).
 
 \captionsetup{width=6.5in}
 
@@ -165,7 +165,7 @@ Overall, we were unable to robustly detect the presence of maternal cells in pla
 We assessed whether the presence of maternal DNA could be detected in Illumina DNAm data derived from placental samples. 
 Although DNAm microarray data was the subject of this study, our findings are relevant to all placental studies where technical of biological contamination from maternal tissue is a concern. 
 While detecting contamination in genomic studies is a challenge, it can, to an extent, be addressed through bioinformatic data analysis after data has been generated. 
-Our analysis builds upon the decade of bioinformatics development of DNA methylation -specific array data.
+Our analysis builds upon the decade of bioinformatics development of DNAm-specific array data.
 We expect that accounting for contamination will improve and become more routine as bioinformatic approaches continue to develop, especially with the generation of new genomic technologies.
 Using this multi-pronged approach, we show that maternal contamination can likely influences a proportion of the 11 placental datasets included in this study. 
 The dataset -specific variation observed in these placental datasets likely reflects variability in sample processing protocols between different research groups. 

@@ -17,8 +17,8 @@ Planet uses DNAm and genotyping data measured on the 450k array and was develope
 To ensure compatibility with future studies, planet was developed on overlapping sites from 450k and the newer 850k array.
 We show that planet out-performs existing methods in predicting ethnicity in placental DNAm data and can produce accurate measures of genetic ancestry.
 Our method can be used to classify individuals into discrete groups based on self-reported race/ethnicity or to describe individuals on an ancestral continuum that more accurately reflect the nature of human populations. 
-In this study, self-reported ethnicity and race categories differed between cohorts.
-Therefore, ethnicity defined here is a collection of self-reported information that was recoded such that populations were grouped into 3 populations with high cultural similarity and common genetic ancestral origin ("African" = African, African American, and Black; "Caucasian" = Caucasian and Non-hispanic White; "Asian" = East Asian, Asian, and Asian).
+In this study, self-reported ethnicity/race categories sometimes differed between cohorts.
+Ethnicity defined in this study is a collection of self-reported ethnicity and/or race information that was recoded such that populations were grouped into 3 populations with high cultural similarity and common ancestral origin (recoding: "African" = African / African American / Black; "Caucasian" = Caucasian / Non-hispanic White; "Asian" = East Asian / Asian).
 
 In studies where ethnicity information is unavailable, planet can be applied to predict ethnicity after obtaining DNAm data, and used to investigate population-specific differences or to minimize confounding by population stratification in downstream DNAm statistical analyses.
 

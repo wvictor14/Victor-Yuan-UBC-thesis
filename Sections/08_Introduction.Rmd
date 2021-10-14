@@ -35,7 +35,7 @@ These factors that influence placental DNAm, that I have studied in this dissert
 The placenta is an essential organ that develops from the embryo to nurture its development throughout pregnancy (Figure \@ref(fig:introfig1)).
 Sometimes described as a "vascular organ", the placenta is responsible for the establishment and regulation of maternal-fetal blood flow.
 Maternal blood is entered from the uterine spiral arteries into the intervillous space of the placenta.
-Chorionic villus, the main structure of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
+Chorionic villi, the main structural unit of the placenta, are tree-like structures populating the intervillous space that connect to the umbilical cord.
 Deoxygenated and nutrient-depleted fetal blood travels through veins into the chorionic villi, and oxygenated blood returns arterially to the fetus [@wang2010].
 Maternal-fetal blood exchange is essential for the proper growth of the fetus, as imbalances, such as placental insufficiency, a condition where the placenta does not deliver sufficient nutrients and oxygen to the developing fetus, can lead to complications such as fetal growth restriction, preeclampsia, and pre-term birth [@malhotra2019].
 The placenta also influences the maternal environment (cardiovascular, immune, and metabolic systems) through hormonal processes to support the proper nutrient and oxygen supply to the growing fetus [@napso2018a].
@@ -90,7 +90,7 @@ Moreover, about 90% of the 450k is also covered by the newer 850k, which means t
 Particularly in at a time when data reproducibility is a high priority, the ability to compare new data and findings to past research is a highly beneficial characteristic of the Illumina DNAm microarrays.
 
 The microarray relies on DNA hybridization technology, where DNAm at each CpG is measured by its own 50 base pair probe that is complementary such that the 3' end of the probe ends with the CpG site.
-To distinguish methylated CpGs to unmethylated ones, bisulfite conversion is used to convert unmethylated Cs into uracils (U) through chemical examination, and then to thymine (T) through polymers chain reaction (PCR).
+To distinguish methylated CpGs from unmethylated ones, bisulfite conversion is used to convert unmethylated Cs into uracils (U) through chemical examination, and then to thymine (T) through polymers chain reaction (PCR).
 Then, bisulfite-converted DNA is hybridized in a specific manner depending on two probe types that have different underlying mechanisms to separate methylated and unmethylated -associated signal.
 Type I probes consists of two probe designs that are attached to two individual beads: unmethylated and methylated.
 Probe hybridization for type I probes depends on the methylation-dependent sequence complementarity that results from bisulfite conversion (bisulfite converted "T" vs methyl-protected "C").
@@ -202,7 +202,7 @@ The HDAC inhibitor, trichostatin-A, results in increased histone acetylation and
 In contrast, acetylation of histones H2A and H2B by the CREB-binding protein (CBP) acetyltransferases inhibits the epithelial-mesenchyme transition and promotes epithelial characteristics in mouse studies [@abell2011].
 A higher-order chromatin structure mediated by histone modifications in combination with a locus repeat structure was demonstrated to play a role in STB-specific expression within the human growth hormone gene cluster [@tsai2014], illustrating that the DNA sequence itself can affect chromatin structure.
 
-Our knowledge of cell-specific epigenetics is confined primarily to trophoblastic populations.
+Our knowledge of cell-specific epigenetics is confined primarily to trophoblast populations.
 However, additional placental cell populations are functionally important and may also be implicated in disease.
 Chorionic villus cultures yield the predominant growth of fibroblast cells, which have a DNAm profile that is much more similar to the fetal membranes than to whole placental villi [@robinson2015].
 Placental-specific macrophages, Hofbauer cells (HBs), lie in the mesenchymal core of the chorionic villi and in comparison to maternal and fetal macrophages, show hypermethylation of many immune response-related and classical macrophage-activation associated genes, possibly as a result of high expression of DNMT1, DNMT3A, and DNMT3B [@kim2012].
@@ -212,7 +212,7 @@ More targeted studies investigating cell-specific signatures will contribute to 
 
 ### Cell-specific placental DNA methylation
 
-Because heterogeneous tissues, such as the placenta, are made up of several cell types, each with a distinct DNAm signature, whole-tissue measurements are ultimately an average of the DNAm signatures of the constituent cell types, weighted by their respective frequency in the bulk tissue sample.
+Because heterogeneous tissues, such as the placenta, are made up of several cell types (Figure \@ref(fig:introfig1)), each with a distinct DNAm signature, whole-tissue measurements are ultimately an average of the DNAm signatures of the constituent cell types, weighted by their respective frequency in the bulk tissue sample.
 Therefore, changes in DNAm measured in complex tissues can often be attributed to variation in cell composition rather than DNAm changes that occur in the constituent cell populations [@holbrook2017].
 This makes interpretation of placental DNAm studies difficult until placental DNAm is characterized at a cell-specific resolution.
 

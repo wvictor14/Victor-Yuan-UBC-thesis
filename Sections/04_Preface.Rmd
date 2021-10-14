@@ -10,31 +10,51 @@ Parts of this dissertation have been published and include work performed by col
 
 **Chapter 1**
 
-1.  Figure 1 "Structure of the placenta and chorionic villi" is from Del Gobbo 2021, which is an image that was adapted from Del Gobbo 2019. This figure has been reprinted with permission from the authors and copyright holder, Springer-Verlag GmbH Germany, part of Springer Nature. Del Gobbo GF created the original and modified image.
+1.  Figure 1 "Structure of the placenta and chorionic villi" is from Del Gobbo 2021, which is an image that was adapted from Del Gobbo 2019.
+    This figure has been reprinted with permission from the authors and copyright holder, Springer-Verlag GmbH Germany, part of Springer Nature.
+    Del Gobbo GF created the original and modified image.
 
     *Del Gobbo GF (2021) Genomic profiling in the placenta: toward a greater understanding of genetic variation contributing to placental insufficiency and fetal growth restriction. University of British Columbia*
 
     *Del Gobbo GF, Konwar C, Robinson WP (2019) The significance of the placental genome and methylome in fetal and maternal health. Hum Genet. <https://doi.org/10.1007/s00439-019-02058-w>*
 
-2.  Parts of Chapter 1 subsection "DNA methylation" has been submitted to be published as a book chapter by V Yuan and WP Robinson (2022). I wrote all parts (general features of DNA methylation, DNA methylation in development) that were included in this dissertation. All authors provided critical revisions of the final manuscript.
+2.  Parts of Chapter 1 subsection "DNA methylation" has been submitted to be published as a book chapter by V Yuan and WP Robinson (2022).
+    I wrote all parts (general features of DNA methylation, DNA methylation in development) that were included in this dissertation.
+    All authors provided critical revisions of the final manuscript.
 
 3.  Parts of Chapter 1 subsection "Epigenetics and placenta cell types" have been published as a book chapter in *Human Reproductive and Prenatal Genetics*.
 
     *Robinson WP, Peñaherrera MS, Konwar C, Yuan V, Wilson SL (2019) Chapter 13 - Epigenetic Modifications in the Human Placenta. In: Leung PCK, Qiao J (eds) Human Reproductive and Prenatal Genetics. Academic Press, pp 293--311*
 
-    Copyright © 2019 Elsevier Inc.I wrote the section on titled "The epigenetic profiles of placental cell types". WP Robinson wrote the Overview and introduction sections. MS Peñaherrera wrote the "Monoallelic gene inactivation" section. SL Wilson and C Konwar wrote the Placental Pathology and "Clinical applications" section. All authors reviewed and edited the final manuscript.
+    Copyright © 2019 Elsevier Inc.I wrote the section on titled "The epigenetic profiles of placental cell types".
+    WP Robinson wrote the Overview and introduction sections.
+    MS Peñaherrera wrote the "Monoallelic gene inactivation" section.
+    SL Wilson and C Konwar wrote the Placental Pathology and "Clinical applications" section.
+    All authors reviewed and edited the final manuscript.
 
-4.  A version of Chapter 1 subsection "Placental DNA methylation variation across human populations" has been published en *BMC Epigenetics & Chromatin*.
+4.  A version of Chapter 1 subsection "Placental DNA methylation variation across human populations" has been published in *BMC Epigenetics & Chromatin*.
 
     *Yuan V, Price EM, Del Gobbo G, Mostafavi S, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP (2019) Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12:51. <https://doi.org/10.1186/s13072-019-0296-3>*
 
-    © Yuan *et al.* 2019, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>). V Yuan, EM Price, G Del Gobbo, S Mostafavi, and WP Robinson contributed to the design of the study. V Yuan, EM Price, and G Del Gobbo performed all data analysis. EM Price, G Del Gobbo, S Mostafavi, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP helped generate and contribute the data. EMP and WR conceived of the study. All authors approved and contributed to the writing of the final manuscript. All authors read and approved the final manuscript.
+    © Yuan *et al.* 2019, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>).
+    V Yuan, EM Price, G Del Gobbo, S Mostafavi, and WP Robinson contributed to the design of the study.
+    V Yuan, EM Price, and G Del Gobbo performed all data analysis.
+    EM Price, G Del Gobbo, S Mostafavi, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP helped generate and contribute the data.
+    EMP and WR conceived of the study.
+    All authors approved and contributed to the writing of the final manuscript.
+    All authors read and approved the final manuscript.
 
-5.  A version of Chapter 1 subsection "Epigenetics and placenta cell types" has been published en *BMC Genomics*.
+5.  A version of Chapter 1 subsection "Epigenetics and placenta cell types" has been published in *BMC Genomics*.
 
     *Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP (2021) Cell-specific characterization of the placental methylome. BMC Genomics 22:6. <https://doi.org/10.1186/s12864-020-07186-6>*
 
-    © Yuan *et al.* 2021, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>). WP Robinson, AG Beristain, and MS Peñaherrera contributed to project design. V Yuan performed analysis of data, and wrote manuscript. D Hui standardized and performed tissue and cell collection supported by AGB, MSP and VY. D Hui, MS Peñaherrera, V Yuan, ran methylation arrays. Y Yin helped V Yuan developed interactive data exploration app. All authors read, edited, and approved the final manuscript.
+    © Yuan *et al.* 2021, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>).
+    WP Robinson, AG Beristain, and MS Peñaherrera contributed to project design.
+    V Yuan performed analysis of data, and wrote manuscript.
+    D Hui standardized and performed tissue and cell collection supported by AGB, MSP and VY.
+    D Hui, MS Peñaherrera, V Yuan, ran methylation arrays.
+    Y Yin helped V Yuan developed interactive data exploration app.
+    All authors read, edited, and approved the final manuscript.
 
 **Chapter 2**
 
@@ -42,7 +62,14 @@ Parts of this dissertation have been published and include work performed by col
 
     *Yuan V, Price EM, Del Gobbo G, Mostafavi S, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP (2019) Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12:51. <https://doi.org/10.1186/s13072-019-0296-3>*
 
-    © Yuan *et al.* 2019, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>). V Yuan, EM Price, G Del Gobbo, S Mostafavi, and WP Robinson contributed to the design of the study. V Yuan, EM Price, and G Del Gobbo performed all data analysis. EM Price, G Del Gobbo, S Mostafavi, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP helped generate and contribute the data. EMP and WR conceived of the study. All authors approved and contributed to the writing of the final manuscript. All authors read and approved the final manuscript. Data, text, figures and tables published in this article are contained in Chapter 2.
+    © Yuan *et al.* 2019, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>).
+    V Yuan, EM Price, G Del Gobbo, S Mostafavi, and WP Robinson contributed to the design of the study.
+    V Yuan, EM Price, and G Del Gobbo performed all data analysis.
+    EM Price, G Del Gobbo, S Mostafavi, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP helped generate and contribute the data.
+    EMP and WR conceived of the study.
+    All authors approved and contributed to the writing of the final manuscript.
+    All authors read and approved the final manuscript.
+    Data, text, figures and tables published in this article are contained in Chapter 2.
 
 **Chapter 3**
 
@@ -50,4 +77,11 @@ Parts of this dissertation have been published and include work performed by col
 
     *Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP (2021) Cell-specific characterization of the placental methylome. BMC Genomics 22:6. <https://doi.org/10.1186/s12864-020-07186-6>*
 
-    © Yuan *et al.* 2021, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>). WP Robinson, AG Beristain, and MS Peñaherrera contributed to project design. V Yuan performed analysis of data, and wrote manuscript. D Hui standardized and performed tissue and cell collection supported by AGB, MSP and VY. D Hui, MS Peñaherrera, V Yuan, ran methylation arrays. Y Yin helped V Yuan developed interactive data exploration app. All authors read, edited, and approved the final manuscript. The data, text, figures, and tables published in this article are included in Chapter 3.
+    © Yuan *et al.* 2021, under the Creative Commons Attribution 4.0 International License (<http://creativecommons.org/licenses/by/4.0/>).
+    WP Robinson, AG Beristain, and MS Peñaherrera contributed to project design.
+    V Yuan performed analysis of data, and wrote manuscript.
+    D Hui standardized and performed tissue and cell collection supported by AGB, MSP and VY.
+    D Hui, MS Peñaherrera, V Yuan, ran methylation arrays.
+    Y Yin helped V Yuan developed interactive data exploration app.
+    All authors read, edited, and approved the final manuscript.
+    The data, text, figures, and tables published in this article are included in Chapter 3.

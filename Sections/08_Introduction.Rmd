@@ -35,7 +35,7 @@ Maternal-fetal blood exchange is essential for the proper growth of the fetus, a
 The placenta also influences the maternal environment (cardiovascular, immune, and metabolic systems) through hormonal processes to support the proper nutrient and oxygen supply to the growing fetus [@napso2018a].
 Placental hormones such as those from the proclactin growth hormone family and steroids, are especially important in promoting maternal physiological adaptations to increase the bioavailability of nutrients to the fetus [@napso2018b].
 Fetomaternal tolerance is also an important pregnancy process that is in part regulated by the direct interactions between the placenta and maternal cells in the decidua.
-Trophoblasts, specificaly extravillous populations that travel into the decidua, express nonclassical major histocamptibility complex (MHC) molecules that are recognized by receptors expressed by uterine natural killer cells [@guleria2007].
+Trophoblasts, specificaly extravillous populations that travel into the decidua, express nonclassical major histocamptibility complex (MHC) molecules that modulates various populations of uterine immune cells to promote tolerogenicity of the placenta/fetus, in addition to promoting placental growth and invasion [@guleria2007; @wang2020].
 Lastly, the placenta acts as a biophysical barrier that protects the fetus against potential pathogenic infections [@hoo2020; @delorme2014].
 
 ## DNA methylation in the human genome

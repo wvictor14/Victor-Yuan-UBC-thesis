@@ -7,12 +7,6 @@ output:
 bibliography: ../References/references.bib
 ---
 
-```{=html}
-<!--
-Overall the intro is on the brief side...which is better than too long, tho maybe could think if somethings lacking...I think maybe add a paragraph about the function of the placenta.  I think you could also add more on the Ilumina array itself since you use this in all your analyses? How it works and the difference between 450K and EPIC.You know alot about it and the data processing....
- - wendy
--->
-```
 ## Dissertation context and overview
 
 The placenta is a key component to the healthy development of the fetus during pregnancy.

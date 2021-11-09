@@ -190,7 +190,7 @@ During this process, expression of cell adhesion molecules and polarity are lost
 Key to EVT differentiation is hypoxia-inducible factor (HIF) and Notch1 signalling, which both can be triggered by the low oxygen environment of the early gestation placenta [@haider2016; @rodesch1992; @wakeland2017]. 
 Transcription factors essential to the initiation of this transition process, *SNAIL* and *SLUG*, are also differentially methylated between CTBs and EVTs [@chen2013a].
 
-Histone acetylation is also essential for trophoblast differentiation, and is thought to be controlled by placental-utero oxygen content through the activity of hypoxia-inducible factor 1 (HIF-1) and HDACs [@maltepe2005].
+Histone acetylation is also essential for trophoblast differentiation, and is thought to be controlled by placental-utero oxygen content through the activity of HIF-1 and HDACs [@maltepe2005].
 The HDAC inhibitor, trichostatin-A, results in increased histone acetylation and over-expression of tumor suppressor gene *SERPINB5*, leading to reduced EVT motility and invasion [@dokras2002].
 In contrast, acetylation of histones H2A and H2B by the CREB-binding protein (CBP) acetyltransferases inhibits the epithelial-mesenchyme transition and promotes epithelial characteristics in mouse studies [@abell2011].
 A higher-order chromatin structure mediated by histone modifications in combination with a locus repeat structure was demonstrated to play a role in STB-specific expression within the human growth hormone gene cluster [@tsai2014], illustrating that the DNA sequence itself can affect chromatin structure.
@@ -211,12 +211,12 @@ This makes interpretation of placental DNAm studies difficult until placental DN
 
 During the first few cell divisions after fertilization, there is a wave of genome-wide erasure of DNAm, followed by *de novo* DNAm in the inner cell mass [@smith2012].
 Deriving from the inner cell mass are fetal tissues and the mesenchymal core component of the placental chorionic villi.
-Within the mesenchymal core, stromal cells (SC) and fetal macrophages called Hofbauer cells (HB) can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells.
+Within the mesenchymal core, stromal cells (SC) and HBs can be seen in the placental stroma as early as 18 days post conception [@benirschke1973], which are thought to derive from mesenchymal stem cells.
 HBs are distinct from decidual macrophages and fetal/maternal monocytes [@kim2012]; they display high phenotypic diversity, promoting angiogenesis early in gestation and later participating in the immune response to pathological processes and infection [@reyes2017; @reyes2018].
 Placental vasculature is critically important for proper functioning of the placenta, and depends on the development of vessels beneath the trophoblast layer.
 These vessels are formed from endothelial cells (EC) that derive from the chorionic mesoderm [@charolidi2019].
-Encompassing the mesenchymal core is a thick trophoblast (TB) epithelial cell layer, which displays a hypomethylated profile [@robinson2015].
-TBs comprise a set of functionally distinct subtypes, each with their own unique function [@novakovic2017; @yuen2013]: Cytotrophoblasts (CTB) are stem-like cells that harbor regenerative abilities and give rise to the two major subtypes of TB, the extravillous trophoblast (EVT) and the syncytiotrophoblast (STB).
+Encompassing the mesenchymal core is a thick trophoblast TB epithelial cell layer, which displays a hypomethylated profile [@robinson2015].
+TBs comprise a set of functionally distinct subtypes, each with their own unique function [@novakovic2017; @yuen2013]: CTBs are stem-like cells that harbor regenerative abilities and give rise to the two major trophobalst subtypes, EVTs and STBs.
 EVT are motile cells that travel to maternal tissue and remodel maternal vasculature, while STB are a multi-nucleated epithelial layer lining the chorionic villi that perform critical roles in hormone production and nutrient transfer.
 
 As a consequence of its distinct developmental origin, dramatic differences in DNAm between placenta and somatic tissues have been observed [@robinson2015].
@@ -233,7 +233,7 @@ These studies have contributed to our understanding of the unique epigenetics of
 ### Cell deconvolution
 
 Placental DNAm is often studied in the context of disease and environmental exposures that may affect health.
-A common study design is the epigenome-wide association study (EWAS) [@flanagan2015], where differentially methylated CpGs (DMCs) are identified in a high-throughput manner, usually with microarray or sequencing based approaches.
+A common study design is the EWAS [@flanagan2015], where differentially methylated CpGs (DMCs) are identified in a high-throughput manner, usually with microarray or sequencing based approaches.
 However, placental DNAm studies are almost all carried out using whole CV and are therefore subject to challenges of interpretability due to potential cell composition variability [@teschendorff2017].
 Unlike other tissues, such as adult blood and umbilical cord blood, addressing cell composition variability in placenta is difficult due to a lack of reference placental DNAm profiles, which enables bioinformatic estimation of cell composition from cellular deconvolution techniques [@teschendorff2017a].
 These methods operate by modelling the whole tissue measurements as a weighted sum of cell type -specific DNAm signatures, where the weights correspond to the relative proportion of each constituent cell type in the whole tissue sample, and can be determined using least-squares or non-constrained regression approaches [@teschendorff2017a; @houseman2012; @newman2015].
@@ -250,7 +250,7 @@ Heiss and Just 2018 used two bioinformatic approaches to determine whether sampl
 
 The first approach estimates the amount of mixing of distinct genotypes in a DNAm array sample, by measuring the amount of outlying signal at 59-65 single-nucleotide polymorphism (SNP) probes, which increases as mixing between genetically distinct individuals occur.
 The second approach identifies samples that have a pattern of signal intensity on the X and Y chromosome probes that is consistent with mixing of samples of different sex.
-This second approach is only sensitive to those cases where the sexes of the mixed samples are distinct Despite most epigenome-wide association studies (EWAS) having some level of data quality control and sample preprocessing.
+This second approach is only sensitive to those cases where the sexes of the mixed samples are distinct, Despite most epigenome-wide association studies (EWAS) having some level of data quality control and sample preprocessing.
 Heiss and Just 2018 demonstrate that misannotation and sample contamination is relatively common in DNAm studies, but also importantly note that contamination is identifiable by their approaches and therefore addressable in downstream analysis.
 
 In placental research, where embryo-derived chorionic villi are normally sampled, there is an added challenge of avoiding contamination with maternal tissue, as the placenta is directly attached to the maternal uterine wall and bathed in maternal blood [@turco2019].

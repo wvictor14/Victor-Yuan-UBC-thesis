@@ -221,7 +221,6 @@ EVT are motile cells that travel to maternal tissue and remodel maternal vascula
 
 As a consequence of its distinct developmental origin, dramatic differences in DNAm between placenta and somatic tissues have been observed [@robinson2015].
 Globally, the placenta is hypomethylated compared to other tissues, which was originally attributed to reduced methylation of repetitive element DNAm [@cotton2009; @perrin2007], but was later resolved to be primarily due to placental-specific PMDs [@schroeder2013].
-PMDs are long regions of intermediate/low DNAm surrounded by regions of higher DNAm that exist in a highly cell-specific fashion [@salhab2018].
 It is unclear if these PMDs have a distinct function or are footprints of earlier developmental events between embryonic and extraembryonic tissues.
 Parent-of origin specific DNAm, which is associated with genomic imprinting, is also more commonly found in the placenta than other tissues [@renfree2013].
 Almost all known imprinted genes are imprinted in the placenta, and many are exclusively imprinted in the placenta [@hanna2016; @court2014; @hamada2016; @sanchez-delgado2016].
@@ -261,6 +260,7 @@ Due to these technical and biological factors that can contribute to maternal DN
 Although careful sample processing can generally avoid most maternal contamination, knowing the degree of maternal DNA contribution for each sample would aid downstream analyses and may be relevant to the biological processes of interest.
 Despite this, the degree that maternal DNA contamination influences placental studies has been minimally explored.
 Wan 2019 describe a set of quality control measures based on clustering DNAm patterns between control placental and maternal tissue samples, and partially methylated domains (PMDs), that were used to infer that early termination pregnancies are especially at risk of contamination during sample processing [@wan2019].
+PMDs are long regions of intermediate/low DNAm surrounded by regions of higher DNAm that exist in a highly cell-specific fashion [@salhab2018].
 In particular, they emphasized that samples obtained from early termination pregnancies are especially at risk of contamination during sample processing.
 Maternal contamination can also present a risk to cord blood studies.
 Morin 2017 used tissue-specific approaches to assess maternal contamination in DNAm data derived from cord blood, such as using highly cord blood -specific sites to predict contaminated and non-contaminated samples [@morin2017].

@@ -218,7 +218,7 @@ Thus, planet will be useful in assessing population stratification in future pla
 
 We demonstrated that ethnicity and genetic ancestry can be accurately predicted using placental HM40K DNAm microarray data with respect to three major ethnicity/ancestral populations.
 Although samples that were used to develop planet were reported to come from single ethnic populations, our classifier was able to capture mixed ancestry, and outperformed existing prediction methods.
-planet will be valuable in assessing and accounting for population stratification, which can confound associations between DNAm with disease or environment, in future studies using 450k or 850k arrays.
+Planet will be valuable in assessing and accounting for population stratification, which can confound associations between DNAm with disease or environment, in future studies using 450k or 850k arrays.
 The machine-learning approach used to develop planet can easily be applied for other tissues and populations for use in future DNAm studies.
 
 ## Methods

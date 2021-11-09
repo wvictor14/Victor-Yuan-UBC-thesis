@@ -84,7 +84,7 @@ Moreover, about 90% of the 450k is also covered by the newer 850k, which means t
 Particularly in at a time when data reproducibility is a high priority, the ability to compare new data and findings to past research is a highly beneficial characteristic of the Illumina DNAm microarrays.
 
 The microarray relies on DNA hybridization technology, where DNAm at each CpG is measured by its own 50 base pair probe that is complementary such that the 3' end of the probe ends with the CpG site.
-To distinguish methylated CpGs from unmethylated ones, bisulfite conversion is used to convert unmethylated Cs into uracils (U) through chemical examination, and then to thymine (T) through polymers chain reaction (PCR).
+To distinguish methylated CpGs from unmethylated ones, bisulfite conversion is used to convert unmethylated Cs into uracils (U) through chemical examination, and then to thymine (T) through polymerase chain reaction (PCR).
 Then, bisulfite-converted DNA is hybridized in a specific manner depending on two probe types that have different underlying mechanisms to separate methylated and unmethylated -associated signal.
 Type I probes consists of two probe designs that are attached to two individual beads: unmethylated and methylated.
 Probe hybridization for type I probes depends on the methylation-dependent sequence complementarity that results from bisulfite conversion (bisulfite converted "T" vs methyl-protected "C").

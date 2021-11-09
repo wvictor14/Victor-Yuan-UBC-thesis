@@ -187,8 +187,7 @@ However, there is also an enrichment of H4K20me3, a repressive chromatin mark, t
 
 CTBs can also differentiate into extravillous trophoblasts (EVTs), which exhibit strikingly different transcriptional, epigenetic, and morphological characteristics compared to STBs.
 During this process, expression of cell adhesion molecules and polarity are lost and expression of mesenchymal markers, migratory, and invasive properties are gained [@davies2016].
-Similar to cancer cells, EVTs down-regulate E-cadherin by DNAm and up-regulate many proteases (e.g., *MMP9*), phosphatidylinositol 30-kinase (*PI3K*), and several autocrine or paracrine loops (e.g., involving *EGF* and *VEGF*) [@ferretti2007] as they transition into a highly invasive phenotype.
-Disruption of DNAm by *DNMT* inhibitor 5-aza-dC results in loss of invasive and migratory properties in EVT cells; up-regulation of epithelial markers, such as E-Cadherin, beta-Catenin, and Cadherin18; and down-regulation of mesenchymal genes, such as *VIM* and *CDH2* [@chen2013].
+Key to EVT differentiation is hypoxia-inducible factor (HIF) and Notch1 signalling, which both can be triggered by the low oxygen environment of the early gestation placenta [@haider2016; @rodesch1992; @wakeland2017]. 
 Transcription factors essential to the initiation of this transition process, *SNAIL* and *SLUG*, are also differentially methylated between CTBs and EVTs [@chen2013a].
 
 Histone acetylation is also essential for trophoblast differentiation, and is thought to be controlled by placental-utero oxygen content through the activity of hypoxia-inducible factor 1 (HIF-1) and HDACs [@maltepe2005].

@@ -63,7 +63,7 @@ kableExtra::kbl(
   kableExtra::kable_styling(full_width = TRUE)
 ```
 
-### Microsatellite genotyping
+<!-- ### Microsatellite genotyping --->
 
 ## Results
 

@@ -64,7 +64,7 @@ DNAm is first erased during the maturation of primordial germ cells, owing to ac
 During gametogenesis, maturation of sperm and egg cells, DNAm and other epigenetic marks are re-established in a highly cell-specific manner.
 But, after fertilization, the asymmetric epigenetic marks acquired in the sperm and egg genomes must become equalized, and thus go through another round of reprogramming [@fraser2016].
 With the exception of imprinted regions, for which their allele-specificity is protected from this erasure, DNAm is erased in the paternal genome through primarily active processes governed by the TET family of enzymes.
-In contrast, the maternal DNAm erasure that occurs through mostly replicative-dependent passive dilution [@xu2021].
+This is in contrast to the maternal genome, which undergoes DNAm erasure through a primarily replicative-dependent passive dilution mechanism [@xu2021].
 Lastly, at the blastocyst stage, DNAm is at it's lowest point, and new epigenetic marks can begin establishing in a highly cell-specific manner, with many cell types and tissues not reaching their final differentiated profiles until later in life.
 
 <!--- Insert Figure 2 --->

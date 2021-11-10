@@ -45,6 +45,15 @@ Conservation of placental features in trophoblasts is not unsurprising, given th
 However, trophoblast is itself a heterogenous population, with STB becoming the more predominant subtype in later gestation.
 Lastly, I assessed cell composition in placental chorionic villi samples using the cell-specific methylomes as a reference for cell deconvolution.
 I found that cell composition of chorionic villi between first trimester and term placentas to be highly consistent with previous literature reports from using histology to measure cell composition.
+First trimester chorionic villi had little STB, and was instead mostly CTB, but at term, the bulk of chorionic villi becomes STB. 
+This is consistent with our understanding of STB dynamics throughout gestation.
+STB undergoes little apoptosis but instead accrues inactive nuclei throughout gestation, while concurrently growing from constant fusion of the underlying CTB layer [@fogarty2011; mayhew2001].   
+Since its introduction, DNAm-based cell deconvolution has been useful in producing insights into the cellular dynamics of tissues such as blood [@houseman2012].
+The usefulness of reference-based cell deconvolution continues to lead to clinically and biologically relevant insights, through continued improvements both the reference data and analysis of the deconvolution estimates.
+The quantity and quality of reference data has increased, allowing for selection of better quality reference CpGs, and accounting for other sources of variation, such as age (i.e. fetal versus adult) [@gervin2019; @bakulski2016; @degoede2017; @gervin2016; @lin2018].
+DNAm-based cell deconvolution has also been explored as a biomarker, such predicting all-stage mortality, and cancer survival [@koestler2017].
+The placenal reference I generated will be similarly useful in understanding placental DNA methylation and biology, and will see improvements such as adding more reference data to cover more specific cell populations.
+
 
 <!--Chapter 4 -->
 

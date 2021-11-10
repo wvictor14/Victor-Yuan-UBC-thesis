@@ -49,14 +49,16 @@ I found that cell composition of chorionic villi between first trimester and ter
 First trimester chorionic villi had little STB, and was instead mostly CTB, but at term, the bulk of chorionic villi becomes STB. 
 This is consistent with our understanding of STB dynamics throughout gestation.
 STB undergoes little apoptosis but instead accrues inactive nuclei throughout gestation, while concurrently growing from constant fusion of the underlying CTB layer [@fogarty2011; @mayhew2001].
+Dieckmann 2021 also found similar cell composition patterns, estimated with our reference data, in chorionic villi samples from 3 cohorts, which included samples collected at term (n = 470, n = 139, n = 137) and from first trimester (n = 264) [@dieckmann2021].
+Overall, Dieckmann 2021 found cell composition patterns that were largely consistent with ours, although there was significant variability between their cohorts, which may be in part attributed to the differing methods of placental sampling, as well as variation in factors such as environmental exposures and genetics [@dieckmann2021].
 
-It will be interesting to investigate whether cell composition changes can be detected using placental DNAm cell deconvolution, since placental-associated phenotypes are often correlated with cell-specific and structural changes in the placenta.
+It will be interesting to investigate whether cell composition changes associated with placental phenotype can be detected using placental DNAm cell deconvolution, since placental-mediated health conditions are often correlated with cell-specific and structural changes in the placenta.
 For example, fetal growth is associated with gross placental morphological changes, such as placental diameter and thickness, and placental weight relative to birth weight [@salavati2019]. 
-However, it is unclear if cell composition also increases proportionally or if the relative proportion of specific cell populations becomes altered. 
-Successes in other tissues, such as blood, indicate that DNAm-based cell deconvolution can be highly useful in uncovering insights into human variation. 
+However, it is unclear if cell composition also increases proportionally or if the relative proportion of specific cell populations becomes altered.
+Successes in applying cell deconvolution to other tissues, such as blood, promises that the future will contain exciting insights for placental DNAm research.
 DNAm-based cell deconvolution has been demonstrated to be a predictor of disease, treatment response, and cancer survival [@kong2019, @filipski2021, @koestler2017].
-Moreover, blood-based cell deconvolution has seen regular improvements to reference datasets and bioinformatic applications, allowing for selection of better quality reference CpGs, and accounting for other sources of variation, such as age (i.e. fetal versus adult) [@gervin2019; @bakulski2016; @degoede2017; @gervin2016; @lin2018].
-I helped generate the first placental reference for DNAm-based cell deconvolution, which will see continued improvements in reference data quality that will lead to a better understanding of the cellular variation associated with placental-mediated phenotypes. 
+Moreover, regular improvements have been made to reference datasets and bioinformatic applications, allowing for selection of better quality reference CpGs, and accounting for other sources of variation, such as age (i.e. fetal versus adult) [@gervin2019; @bakulski2016; @degoede2017; @gervin2016; @lin2018].
+Therefore, it is expected that similar improvements to placental reference data,  and increased usage of DNAm-based cell deconvolution in varying types of placental data will occur, and in turn lead to a better understanding of the cellular variation associated with placental phenotypes. 
 
 <!--Chapter 4 -->
 
@@ -146,8 +148,12 @@ However, an important additional trophoblast subtype, EVTs, which are responsibl
 EVTs play important additional roles to nutrient transport and placental development, and when impaired are associated with various placental-mediated disease phenotypes such as preeclampsia, intrauterine growth restriction, stillbirth, or recurrent abortion [@pollheimer2018].
 STB were profiled for DNAm, but the nuclei in this cell layer condense of a heterogeneous mixture of gestationally varied nuclei, with a higher proportion of older nuclei condensing into syncytial knots at later gestation [@loukeris2010].
 Placental-associated maternal macrophages are also present in the placenta that adhere to and aid repair of the placental surface [@thomas2020a]. 
-Placental single RNA-seq studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
-
+Placental single cell RNA-seq (scRNAseq) studies have also demonstrated significant cell-type heterogeneity defined by gene expression clustering [@vento-tormo2018b; @tsang2017], which suggests that there there may be significant cell type heterogeneity in placental DNAm to be explored.
+To this end, single cell whole genome bisulfite sequencing (scWGBS) is an obvious next step for the unbiased characterization of DNAm in placental cell types [@smallwood2014].
+Novel cell types can be discovered using scWGBS, that can be missed when using other technologies like scRNAseq. 
+For example, using scWGBS, Luo 2017 discoverd novel cell subtypes in brain cortex that were missed in past scRNAseq analysis [@luo2017].
+Additionally, because DNAm reflects developmental lineages and cell function, scWGBS is particularly well-suited for the study of cell lineage, which can help resolve some areas of placental development, for example trophoblast differentiation [@pollheimer2018].
+Therefore, placental scWGBS can clarify the relationships of various trophoblast subtypes, and additionally lead to insights into the epigenetic regulation of specific gene programs underlying placental development.
 
 ## Conclusion
 

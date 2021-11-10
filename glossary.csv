@@ -58,6 +58,8 @@ PTB,Preterm birth
 RMSE,Root mean squared error
 RPC,Robust partial correlations
 SC,Stromal cells
+scRNAseq,Single-cell RNA sequencing
+scWGBS,Single-cell whole genome bisulfite sequencing
 SNP,Single nucleotide polymorphism
 STB,Syncytiotrophoblast
 SVM,Support vector machines

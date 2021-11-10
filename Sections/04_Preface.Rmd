@@ -10,7 +10,7 @@ Parts of this dissertation have been published and include work performed by col
 
 **Chapter 1**
 
-1.  Figure 1 "Structure of the placenta and chorionic villi" is from Del Gobbo 2021, which is an image that was adapted from Del Gobbo 2019.
+Figure 1 "Structure of the placenta and chorionic villi" is from Del Gobbo 2021, which is an image that was adapted from Del Gobbo 2019.
     This figure has been reprinted with permission from the authors and copyright holder, Springer-Verlag GmbH Germany, part of Springer Nature.
     Del Gobbo GF created the original and modified image.
 
@@ -18,11 +18,11 @@ Parts of this dissertation have been published and include work performed by col
 
     *Del Gobbo GF, Konwar C, Robinson WP (2019) The significance of the placental genome and methylome in fetal and maternal health. Hum Genet. <https://doi.org/10.1007/s00439-019-02058-w>*
 
-2.  Parts of Chapter 1 subsection "DNA methylation" has been submitted to be published as a book chapter by V Yuan and WP Robinson (2022).
+Parts of Chapter 1 subsection "DNA methylation" has been submitted to be published as a book chapter by V Yuan and WP Robinson (2022).
     I wrote all parts (general features of DNA methylation, DNA methylation in development) that were included in this dissertation.
     All authors provided critical revisions of the final manuscript.
 
-3.  Parts of Chapter 1 subsection "Epigenetics and placenta cell types" have been published as a book chapter in *Human Reproductive and Prenatal Genetics*.
+Parts of Chapter 1 subsection "Epigenetics and placenta cell types" have been published as a book chapter in *Human Reproductive and Prenatal Genetics*.
 
     *Robinson WP, Peñaherrera MS, Konwar C, Yuan V, Wilson SL (2019) Chapter 13 - Epigenetic Modifications in the Human Placenta. In: Leung PCK, Qiao J (eds) Human Reproductive and Prenatal Genetics. Academic Press, pp 293--311*
 
@@ -32,7 +32,7 @@ Parts of this dissertation have been published and include work performed by col
     SL Wilson and C Konwar wrote the Placental Pathology and "Clinical applications" section.
     All authors reviewed and edited the final manuscript.
 
-4.  A version of Chapter 1 subsection "Placental DNA methylation variation across human populations" has been published in *BMC Epigenetics & Chromatin*.
+A version of Chapter 1 subsection "Placental DNA methylation variation across human populations" has been published in *BMC Epigenetics & Chromatin*.
 
     *Yuan V, Price EM, Del Gobbo G, Mostafavi S, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP (2019) Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12:51. <https://doi.org/10.1186/s13072-019-0296-3>*
 
@@ -44,7 +44,7 @@ Parts of this dissertation have been published and include work performed by col
     All authors approved and contributed to the writing of the final manuscript.
     All authors read and approved the final manuscript.
 
-5.  A version of Chapter 1 subsection "Epigenetics and placenta cell types" has been published in *BMC Genomics*.
+A version of Chapter 1 subsection "Epigenetics and placenta cell types" has been published in *BMC Genomics*.
 
     *Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP (2021) Cell-specific characterization of the placental methylome. BMC Genomics 22:6. <https://doi.org/10.1186/s12864-020-07186-6>*
 
@@ -58,7 +58,7 @@ Parts of this dissertation have been published and include work performed by col
 
 **Chapter 2**
 
-6.  A version of chapter 2 has be published in BMC Epigenetics & Chromatin.
+A version of chapter 2 has be published in BMC Epigenetics & Chromatin.
 
     *Yuan V, Price EM, Del Gobbo G, Mostafavi S, Cox B, Binder AM, Michels KB, Marsit C, Robinson WP (2019) Accurate ethnicity prediction from placental DNA methylation data. Epigenetics & Chromatin 12:51. <https://doi.org/10.1186/s13072-019-0296-3>*
 
@@ -73,7 +73,7 @@ Parts of this dissertation have been published and include work performed by col
 
 **Chapter 3**
 
-8.  A version of chapter 3 has be published in BMC Genomics.
+A version of chapter 3 has be published in BMC Genomics.
 
     *Yuan V, Hui D, Yin Y, Peñaherrera MS, Beristain AG, Robinson WP (2021) Cell-specific characterization of the placental methylome. BMC Genomics 22:6. <https://doi.org/10.1186/s12864-020-07186-6>*
 
@@ -86,4 +86,10 @@ Parts of this dissertation have been published and include work performed by col
     All authors read, edited, and approved the final manuscript.
     The data, text, figures, and tables published in this article are included in Chapter 3.
 
+**Chapter 4**
+
+    V Yuan and WP Robinson contributed equally to project design.
+    V Yuan obtained the data, performed all analyses, and wrote the text.
+    V Yuan and WP Robinson read, edited, and approved the final text.
+    
 The work presented herein was approved by the University of British Columbia and the Children’s and Women’s Hospital Research Ethics board in Vancouver, BC, Canada; certificates H04–70488, H16–02280, H13–00640).

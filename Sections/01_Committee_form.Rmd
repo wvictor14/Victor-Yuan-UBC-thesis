@@ -29,7 +29,7 @@ in \noindent\underline{\makebox[5.8in][l]{Genome Science and Technology}}
 
 **Examining Committee:**
 
-\noindent\underline{\makebox[6in][l]{Dr. Wendy P. Robinson, Professor, Medical Genetics, UBC}}  Research Supervisor
+\noindent\underline{\makebox[6in][l]{Dr. Wendy P. Robinson, Professor, Medical Genetics, UBC}}  Supervisor
 
 \noindent\underline{\makebox[6in][l]{Dr. Alex G. Beristain, Associate Professor, Obstetrics and Gynaecology, UBC}}  
 Supervisory Committee Member
@@ -37,6 +37,7 @@ Supervisory Committee Member
 \noindent\underline{\makebox[6in][l]{Dr. Michael Kobor, Professor, Medical Genetics, UBC}}  
 Supervisory Committee Member
 
+<!-- fill in uni exa and ext exa later-->
 \noindent\underline{\makebox[6in][l]{Name of University Examiner}}  
 University Examiner
 

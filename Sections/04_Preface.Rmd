@@ -85,3 +85,5 @@ Parts of this dissertation have been published and include work performed by col
     Y Yin helped V Yuan developed interactive data exploration app.
     All authors read, edited, and approved the final manuscript.
     The data, text, figures, and tables published in this article are included in Chapter 3.
+
+The work presented herein was approved by the University of British Columbia and the Children’s and Women’s Hospital Research Ethics board in Vancouver, BC, Canada; certificates H04–70488, H16–02280, H13–00640).

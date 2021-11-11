@@ -6,9 +6,7 @@ output:
     number_sections: yes
 ---
 
-<!-- This section is optional -->
-
-I would like to start by acknowledging that this dissertation was mainly written on the traditional, ancestral, and unceded territory of the Coast Salish People, which include the Musqueam, Squamish, and Tsleil-Waututh nations.
+I acknowledge that this dissertation was mainly written on the traditional, ancestral, and unceded territory of the Coast Salish People, which include the Musqueam, Squamish, and Tsleil-Waututh nations.
 
 Many thanks to my supervisor, Wendy Robinson, for her unwavering guidance and commitment, and support for my research. 
 Thank you for also enriching my graduate experience with many opportunities, and for also nurturing a environment that I felt comfortable exploring and expressing my own ideas and interests. 

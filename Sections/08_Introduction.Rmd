@@ -71,7 +71,7 @@ Lastly, at the blastocyst stage, DNAm is at it's lowest point, and new epigeneti
 
 (ref:introfig2-cap) DNA methylation (DNAm) reprogramming during development. The first major genome-wide DNAm erasure occurs in primordial germ cells (PGCs), and includes erasure of prior gametic imprints. DNAm is reestablished, but to a greater extent in sperm as compared to oocytes (egg). After fertilization, the asymmetric paternal and maternal epigenomes begin reprogramming. The paternal genome undergoes active demethylation, whereas the maternal genome undergoes demethylation more gradually through passive replication-dependent mechanisms. Gamete-specific differentially methylated regions (i.e. genomic imprints) and most repetitive sequences are protected during post-fertilization epigenetic reprogramming. At the blastocyst stage, there is the first lineage-specification event of inner cell mass (ICM) and trophectoderm (TE). By the blastocyst stage, DNAm is at its lowest point. After implantation, DNAm is established in both ICM and TE, but in TE remains lower, a difference that is retained through development.
 
-```{r introfig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig2-cap)", fig.scap = "DNA methylation (DNAm) reprogramming during development", fig.align='center',  out.extra=''}
+```{r introfig2, eval = T, echo = T, echo=FALSE, fig.cap="(ref:introfig2-cap)", fig.scap = "DNA methylation reprogramming during development", fig.align='center',  out.extra=''}
 knitr::include_graphics(here::here('images', 'introduction', 'kmichels-book-chapter-epigenetics-in-dev.pdf'))
 ```
 

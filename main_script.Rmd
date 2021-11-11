@@ -21,7 +21,7 @@ header-includes:
 bibliography: ./References/references.bib
 csl: ./References/reference_format.csl
 link-citations: yes
-linkcolor: blue
+linkcolor: black
 ---
 
 

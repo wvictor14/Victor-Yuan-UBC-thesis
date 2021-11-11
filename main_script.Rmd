@@ -267,14 +267,14 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \setcounter{secnumdepth}{0} <!-- remove numbering for appendices -->
 
 <!-- ## Appendix A -->
-## Appendix A - Supplementary information for Chapter Two, "Accurate ethnicity prediction from placental DNA methylation data
+## Appendix A - Supplementary information for Chapter 2
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
-\renewcommand{\thefigure}{A2.\arabic{figure}}
+\renewcommand{\thefigure}{A.\arabic{figure}}
 \setcounter{figure}{0}
-\renewcommand{\thetable}{A2.\arabic{table}}
+\renewcommand{\thetable}{A.\arabic{table}}
 \setcounter{table}{0}
-\renewcommand{\theequation}{A2.\arabic{equation}}
+\renewcommand{\theequation}{A.\arabic{equation}}
 \setcounter{equation}{0}
 
 
@@ -284,14 +284,14 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix B  -->
 
-## Appendix B - Supplementary information for Chapter Three, "Cell-specific characterization of the placental methylome"
+## Appendix B - Supplementary information for Chapter 3
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
-\renewcommand{\thefigure}{B3.\arabic{figure}}
+\renewcommand{\thefigure}{B.\arabic{figure}}
 \setcounter{figure}{0}
-\renewcommand{\thetable}{B3.\arabic{table}}
+\renewcommand{\thetable}{B.\arabic{table}}
 \setcounter{table}{0}
-\renewcommand{\theequation}{B3.\arabic{equation}}
+\renewcommand{\theequation}{B.\arabic{equation}}
 \setcounter{equation}{0}
 
 
@@ -300,14 +300,14 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix C -->
 
-## Appendix C - Supplementary information for Chapter Four, "Maternal contamination in placental DNA methylation studies"
+## Appendix C - Supplementary information for Chapter 4
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
-\renewcommand{\thefigure}{C4.\arabic{figure}}
+\renewcommand{\thefigure}{C.\arabic{figure}}
 \setcounter{figure}{0}
-\renewcommand{\thetable}{C4.\arabic{table}}
+\renewcommand{\thetable}{C.\arabic{table}}
 \setcounter{table}{0}
-\renewcommand{\theequation}{C4.\arabic{equation}}
+\renewcommand{\theequation}{C.\arabic{equation}}
 \setcounter{equation}{0}
 
 

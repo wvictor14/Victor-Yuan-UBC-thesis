@@ -260,15 +260,13 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 \linespread{1}
 \doublespacing
 
-
 <!-- # Appendices -->
 \section*{Appendices}
 \addcontentsline{toc}{section}{Appendices} 
+\setcounter{secnumdepth}{0} <!-- remove numbering for appendices -->
 
 <!-- ## Appendix A -->
-
-\section*{Appendix A - Supplementary information for "Name of Chapter Two"}
-\addcontentsline{toc}{section}{Appendix A}
+## Appendix A - Supplementary information for Chapter Two, "Accurate ethnicity prediction from placental DNA methylation data
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
 \renewcommand{\thefigure}{A2.\arabic{figure}}
@@ -285,8 +283,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix B  -->
 
-\section*{Appendix B - Supplementary information for "Name of Chapter Three"}
-\addcontentsline{toc}{section}{Appendix B}
+## Appendix B - Supplementary information for Chapter Three, "Cell-specific characterization of the placental methylome"
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
 \renewcommand{\thefigure}{B3.\arabic{figure}}
@@ -302,9 +299,7 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 <!-- ## Appendix C -->
 
-\section*{Appendix C - Supplementary information for "Name of Chapter Four"}
-\addcontentsline{toc}{section}{Appendix C}
-
+## Appendix C - Supplementary information for Chapter Four, "Maternal contamination in placental DNA methylation studies"
 
 <!-- Set Figure, table and equations numbering according to the chapter -->
 \renewcommand{\thefigure}{C4.\arabic{figure}}

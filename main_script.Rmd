@@ -39,6 +39,7 @@ library("dplyr")
 library("tibble")
 library("readr")
 library(readxl)
+library(tidyr)
 ```
 
 <!-- Title page -->

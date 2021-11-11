@@ -9,6 +9,10 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r echo=FALSE, results='asis'}
+    options(knitr.kable.NA = '')
+```
+
 (ref:figb1-cap) Fluorescence-activated cell-sorting and immune fluorescence staining. **A)** Fluorescence-activated cell-sorting (FACS) workflow schematic. **B-E)** Immunofluorescence staining (IF) of term cell-sorted sample with known characteristic cell type markers that were not selected for in the FACS procedure. Nuclei are shown via DAPI staining (blue). Scale bars: 100µm. **B)** Trophoblasts (KRT7: green, VIM: red). **C)** Hofbauer cells (CD68: green). **D)** Endothelial cells (CD31: green). **E)** Stromal cells (VIM: red).
 
 ```{r figb1, fig.cap="(ref:figb1-cap)", fig.scap = "Fluorescence-activated cell-sorting and immune fluorescence staining", eval=TRUE, echo=T, echo=FALSE, fig.align='center', out.extra=''}
@@ -149,33 +153,57 @@ readr::read_csv(here::here('Tables', 'appendix b', 'table s4.csv'))  %>%
 ```{r tabb5, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix b', 'table s5.csv')) %>%
   group_by(Group, Celltype) %>%
-  slice_min(order_by = P.DE , n = 50) %>%
+  slice_min(order_by = P.DE , n = 10) %>%
+  select(-ONTOLOGY, -N, -DE, -ID, -neg_log_P, -Order) %>%
   kableExtra::kbl(
   booktabs = TRUE,
-  caption = 'Top 50 GO enrichment for cell DMCs.',
-  longtable = TRUE)
+  caption = 'Top 10 GO enrichment for cell DMCs.',
+  longtable = TRUE) 
 ```
 
 \captionsetup{width=6.5in}
 
 ```{r tabb6, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix b', 'table s6.csv')) %>%
+  select(Group, Celltype, Description, P.DE, FDR) %>%
   kableExtra::kbl(
   booktabs = TRUE,
-  caption = 'KEGG enrichment for cell DMCs.') %>%
-  kableExtra::kable_styling(latex_options = "scale_down")
+  caption = 'KEGG enrichment for cell DMCs.',
+  longtable = TRUE)
 ```
 
+\clearpage
 \captionsetup{width=6.5in}
 
 ```{r tabb7, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
 readr::read_csv(here::here('Tables', 'appendix b', 'table s7.csv')) %>%
+  dplyr::rename(`Methylated allele` = methylated_allele,
+                `Tissue` = tissue_specificity,
+                `Gene` = associated_gene,
+                `sanchez delgado` = sanchez_delgado) %>%
+  mutate(position = paste0(chr, ':', start, '-', end)) %>%
+  select(position, everything(), -chr, -start, -end, -note) %>%
+  pivot_longer(cols = court:hamada,
+               names_to = 'author',
+               values_to = 'covered'
+  ) %>%
+  filter(covered) %>%
+  group_by(position) %>%
+  mutate(publication = paste0(author, collapse = ', ')) %>%
+  select(-author, -covered) %>%
+  ungroup() %>%
+  distinct() %>%
   kableExtra::kbl(
   booktabs = TRUE,
   caption = 'List of imprinted genes and regions from multiple studies.',
-  longtable = TRUE)
+  longtable = TRUE) %>%
+  kableExtra::column_spec(column = 4, width = '15em') %>%
+  kableExtra::column_spec(column = 2, width = '5em') %>%
+  kableExtra::column_spec(column = 5, width = '15em') %>%
+  kableExtra::landscape()
 ```
 
+\clearpage
 \captionsetup{width=6.5in}
 
 ```{r tabb8, eval = TRUE, echo = T, echo=FALSE, warning = FALSE, message=FALSE,  out.extra=''}
@@ -222,3 +250,5 @@ readr::read_csv(here::here('Tables', 'appendix b', 'table s12.csv')) %>%
   booktabs = TRUE,
   caption = 'Statistical testing results for cell composition versus sex, ethnicity, and gestational age. Each cell type proportion was tested against each sample variable.')
 ```
+
+\clearpage

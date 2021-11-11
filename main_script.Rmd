@@ -88,9 +88,15 @@ NOTE: Remove normal markdown chapters before rendering to PDF  -->
 
 \section*{Preface}
 \addcontentsline{toc}{section}{Preface}
+<!-- remove paragraph indents  -->
+
+\setlength{\parindent}{0em} 
 
 ```{r Preface, child = './Sections/04_Preface.Rmd', eval = T}
 ```
+
+<!-- Go back to original page config. -->
+\setlength{\parindent}{4em} 
 
 \clearpage
 

@@ -13,6 +13,9 @@ e.g.
 
 - [Overleaf](https://www.overleaf.com/learn) has a lot of good documentation that helped me figure stuff out
 
+- \noindent on line before paragraph to remove auto indent
+
+
 # Figures
 
 - You can load figures as vector graphics (e.g. pdf) or as raster (e.g. png jpeg). I have all my figures as powerpoints and pdfs. Don't git track pptx files though (gitignore *.pptx)
@@ -69,7 +72,6 @@ Put this at the top of your script:
 
 ```{r echo=FALSE, results='asis'}
     options(knitr.kable.NA = '')
-    knitr::kable(lowerTri, digits=2)
 ```
 
 ### Citations in tables
@@ -80,7 +82,7 @@ Put this at the top of your script:
 
 ### Table width and length
 
-- Figure caption titles are by default not full-width. To make figure captions full-width, add to the YAML of man_script.Rmd:
+- Figure caption titles are by default not full-width. To make figure captions full-width, add to the YAML of main_script.Rmd:
 
 ```
 header-includes:
@@ -88,6 +90,8 @@ header-includes:
 ```
 
 and then write "\captionsetup{width=6.5in}" on the line before the table code chunk. See table 2.1 as an example
+
+- In most cases I try to reduce the size of my tables such that they fit into the page. But you can also save a lot of space with the following table formatting options:
 
 - To automatically wrap columns, use `kableExtra::kable_styling(full_width = TRUE)`
 
@@ -97,6 +101,9 @@ This is usually sufficient / reasonable, but alternatively you can try using thi
 
 - If your table is long, and needs to be split into multiple pages, set 
 `longtable = TRUE` in the `kable(...)` call. See 13_appendix_A.Rmd for examples
+
+- `kableExtra::landscape()` works well for wide tables
+- `kableExtra::column_spec()` look into this for line-wrapping / adjusting specific columns
 
 # References
 
